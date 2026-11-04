@@ -1,4 +1,8 @@
-"""Streamlit launcher for India's Culinary Memory Archive homepage."""
+"""Streamlit launcher for India's Culinary Memory Archive homepage.
+
+The HTML page is embedded with content-based sizing so the Streamlit page ends
+at the illustrated footer instead of leaving a fixed-height blank area below it.
+"""
 
 from __future__ import annotations
 
@@ -8,7 +12,6 @@ from io import BytesIO
 from pathlib import Path
 
 import streamlit as st
-import streamlit.components.v1 as components
 from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parent
@@ -27,17 +30,17 @@ def image_data_uri(path: Path) -> str:
     """Resize and optimize an image, then return it as an embeddable data URI."""
     with Image.open(path) as source:
         image = ImageOps.exif_transpose(source)
-        image.thumbnail((1800, 1400), Image.Resampling.LANCZOS)
+        image.thumbnail((2200, 1500), Image.Resampling.LANCZOS)
 
         output = BytesIO()
         if image.mode in {"RGBA", "LA"}:
-            image.save(output, format="WEBP", quality=86, method=6)
+            image.save(output, format="WEBP", quality=88, method=6)
             mime_type = "image/webp"
         else:
             image.convert("RGB").save(
                 output,
                 format="JPEG",
-                quality=88,
+                quality=90,
                 optimize=True,
                 progressive=True,
             )
@@ -84,18 +87,68 @@ for marker, asset_path in required_assets.items():
 html = html.replace("{{STORY_IMAGES}}", json.dumps(image_folder_map(ASSETS / "stories")))
 html = html.replace("{{STATE_IMAGES}}", json.dumps(image_folder_map(ASSETS / "states")))
 
-# Hide Streamlit's surrounding chrome so the archive itself is the visible page.
+# The archive HTML owns its complete visual layout. Remove Streamlit's chrome
+# and container padding so the archive begins flush with the top of the page.
 st.markdown(
     """
     <style>
-      #MainMenu, header, footer {visibility: hidden; height: 0;}
-      .stApp {background: #f4e7ce;}
-      .block-container {padding: 0 !important; max-width: 100% !important;}
-      iframe {border: 0;}
-      [data-testid="stToolbar"] {display: none;}
+      html, body, .stApp {
+          margin: 0 !important;
+          padding: 0 !important;
+      }
+
+      [data-testid="stHeader"],
+      [data-testid="stToolbar"],
+      [data-testid="stDecoration"],
+      #MainMenu,
+      header,
+      footer {
+          display: none !important;
+          height: 0 !important;
+          min-height: 0 !important;
+          visibility: hidden !important;
+      }
+
+      [data-testid="stAppViewContainer"],
+      [data-testid="stMain"],
+      section.main,
+      section.main > div {
+          margin: 0 !important;
+          padding: 0 !important;
+      }
+
+      [data-testid="stMainBlockContainer"],
+      [data-testid="stAppViewBlockContainer"],
+      .block-container {
+          width: 100% !important;
+          max-width: 100% !important;
+          margin: 0 !important;
+          padding: 0 !important;
+      }
+
+      [data-testid="stVerticalBlock"],
+      [data-testid="stHorizontalBlock"] {
+          gap: 0 !important;
+      }
+
+      iframe {
+          display: block !important;
+          width: 100% !important;
+          border: 0 !important;
+          margin: 0 !important;
+          padding: 0 !important;
+      }
     </style>
     """,
     unsafe_allow_html=True,
 )
 
-components.html(html, height=1840, scrolling=True)
+# IMPORTANT: content sizing replaces the old fixed 2100px iframe height.
+# This prevents a blank strip after the footer and lets the embed resize to
+# the actual HTML content height, including the expanded state-card grid.
+st.iframe(
+    html,
+    width="stretch",
+    height="content",
+    alt="India's Culinary Memory Archive homepage",
+)
