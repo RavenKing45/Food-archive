@@ -150,17 +150,17 @@ STATE_PAGE_EXTENSION = r"""
     position:fixed; top:14px; left:14px; z-index:2147483000;
     display:inline-flex; align-items:center; justify-content:center; gap:10px;
     min-width:220px; min-height:54px; max-width:calc(100vw - 28px);
-    padding:12px 19px; border:1px solid rgba(237,211,167,.92); border-radius:30px;
-    color:#fff1d8; background:linear-gradient(110deg,#35100f,#54201b 58%,#2c0c0b);
-    box-shadow:0 5px 18px rgba(28,9,7,.38), inset 0 1px 0 rgba(255,245,220,.12);
+    padding:12px 19px; border:1.5px solid #3d1714; border-radius:30px;
+    color:#3d1714; background:linear-gradient(180deg,#fff5e2 0%,#f0d9b7 100%);
+    box-shadow:0 5px 17px rgba(28,9,7,.23), inset 0 1px 0 rgba(255,255,255,.78);
     font:700 19px/1 "Cormorant Garamond",Georgia,serif; letter-spacing:.1px;
     cursor:pointer; white-space:nowrap; transition:transform .18s ease,background .18s ease,box-shadow .18s ease;
   }
   .archive-floating-back:hover {
-    background:linear-gradient(110deg,#4b1916,#6a2c25 58%,#3b1110);
-    box-shadow:0 7px 20px rgba(28,9,7,.42); transform:translateY(-1px);
+    color:#2e100e; background:linear-gradient(180deg,#fff9ec 0%,#f7e8d0 100%);
+    box-shadow:0 7px 20px rgba(28,9,7,.28), inset 0 1px 0 rgba(255,255,255,.9); transform:translateY(-1px);
   }
-  .archive-floating-back .back-arrow { color:#e7c58f; font:700 24px/1 Georgia,serif; }
+  .archive-floating-back .back-arrow { color:#6a2921; font:700 24px/1 Georgia,serif; }
   .archive-floating-back:focus-visible { outline:3px solid #e7c58f; outline-offset:3px; }
   .state-masthead {
     min-height:220px; padding:34px clamp(24px, 6vw, 88px);

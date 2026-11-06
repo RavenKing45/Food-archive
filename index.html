@@ -160,23 +160,33 @@
       max-width: 480px;
       margin: 0;
     }
-    .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 20px; }
-    .button-primary, .button-outline {
-      min-height: 43px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 11px;
-      border-radius: 8px;
-      padding: 10px 20px;
-      font-family: var(--serif);
-      font-size: 18px;
-      font-weight: 700;
-      transition: transform .18s ease, background .18s ease;
+    .hero-actions {
+      display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+      margin-top: 22px;
     }
-    .button-primary { background: #f1d8ae; color: #351713; border: 1px solid #f7e4c4; }
-    .button-primary:hover { transform: translateY(-2px); }
-    .button-primary:hover { background: #ffe8c1; }
+    .hero-actions a {
+      min-width: 178px; min-height: 46px; box-sizing: border-box;
+      display: inline-flex; align-items: center; justify-content: center; gap: 12px;
+      border-radius: 7px; padding: 11px 20px;
+      font-family: var(--serif); font-size: 18px; font-weight: 700;
+      text-decoration: none; letter-spacing: .05px;
+      box-shadow: 0 4px 13px rgba(18,7,5,.16);
+      transition: transform .18s ease, background .18s ease, border-color .18s ease, box-shadow .18s ease;
+    }
+    .button-primary {
+      background: #f1d8ae; color: #351713; border: 1px solid #f7e4c4;
+      box-shadow: 0 4px 13px rgba(18,7,5,.18), inset 0 1px 0 rgba(255,255,255,.38);
+    }
+    .button-outline {
+      background: rgba(43,15,12,.34); color: #fff0d4;
+      border: 1px solid rgba(241,216,174,.88);
+      box-shadow: 0 4px 13px rgba(18,7,5,.12), inset 0 1px 0 rgba(255,245,225,.08);
+    }
+    .hero-actions a:hover { transform: translateY(-2px); }
+    .button-primary:hover { background: #ffe8c1; box-shadow: 0 7px 17px rgba(18,7,5,.22); }
+    .button-outline:hover { background: rgba(241,216,174,.14); border-color: #ffe8c1; box-shadow: 0 7px 17px rgba(18,7,5,.2); }
+    .hero-actions a:focus-visible { outline: 3px solid #f1d8ae; outline-offset: 3px; }
+    .cta-arrow { font-family: Georgia, serif; font-size: 20px; line-height: 1; }
 .section-wrap { max-width: var(--page-width); margin: 0 auto; padding-left: clamp(20px, 3.2vw, 48px); padding-right: clamp(20px, 3.2vw, 48px); }
     .stories-section { padding-top: 27px; padding-bottom: 29px; border-bottom: 1px solid rgba(105,65,41,.17); scroll-margin-top: 18px; }
     .section-heading-row {
@@ -407,7 +417,7 @@
       .hero-tagline { font-size: 20px; }
       .hero-description { font-size: 11px; max-width: 370px; }
       .hero-actions { margin-top: 17px; gap: 9px; }
-      .button-primary { min-height: 39px; padding: 8px 13px; font-size: 16px; }
+      .hero-actions a { min-width: 0; min-height: 42px; flex: 1 1 145px; padding: 9px 12px; font-size: 16px; gap: 8px; }
       .shortcut:first-child, .shortcut:last-child { padding-left: 8px; padding-right: 8px; }
       .stories-section, .states-section { padding-top: 23px; padding-bottom: 23px; }
       .section-heading-row { align-items: flex-start; }
@@ -460,8 +470,9 @@
         <h1 id="hero-title">India's<br>Culinary Memory Archive</h1>
         <p class="hero-tagline">A digital archive of India's food, people and traditions</p>
         <p class="hero-description">Documenting regional cuisines through recipes, histories,<br class="desktop-break"> oral narratives and cultural records.</p>
-        <div class="hero-actions">
-          <a class="button-primary" href="#states">Explore the Archive <span aria-hidden="true">→</span></a>
+        <div class="hero-actions" aria-label="Explore the archive">
+          <a class="button-primary" href="#states">Explore States <span class="cta-arrow" aria-hidden="true">→</span></a>
+          <a class="button-outline" href="#stories">Explore Stories <span class="cta-arrow" aria-hidden="true">→</span></a>
         </div>
       </div>
     </section>
@@ -610,7 +621,7 @@
     renderStates();
 
     // Keep the top navigation tied to the two actual archive sections.
-    document.querySelectorAll('.main-nav a[href="#states"], .main-nav a[href="#stories"]').forEach(link => {
+    document.querySelectorAll('.main-nav a[href="#states"], .main-nav a[href="#stories"], .hero-actions a[href="#states"], .hero-actions a[href="#stories"]').forEach(link => {
       link.addEventListener("click", event => {
         const target = document.querySelector(link.getAttribute("href"));
         if (!target) return;
