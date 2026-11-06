@@ -139,19 +139,29 @@ STATE_PAGE_EXTENSION = r"""
   .state-page-root button, .state-page-root a { font: inherit; }
   .state-page-root a { color: inherit; }
   .state-page-topbar {
-    min-height: 66px; padding: 10px clamp(18px, 4vw, 58px);
-    display: flex; align-items: center; justify-content: space-between; gap: 18px;
+    min-height: 76px; padding: 10px 30px 10px 260px;
+    display: flex; align-items: center; justify-content: flex-start; gap: 18px;
     color: #fff1d8; background: linear-gradient(100deg,#35100f,#421613 58%,#2c0c0b);
     border-bottom: 1px solid rgba(221,187,129,.55);
   }
   .state-page-brand { display:flex; align-items:center; gap:11px; font:700 22px/.9 "Cormorant Garamond",Georgia,serif; }
   .state-page-brand-mark { width:39px; height:39px; color:#d6b77f; }
-  .state-page-back {
-    border:1px solid rgba(255,239,210,.72); border-radius:22px; padding:9px 17px;
-    background:rgba(35,10,8,.28); color:#fff1d7; cursor:pointer;
-    font:600 17px "Cormorant Garamond",Georgia,serif;
+  .archive-floating-back {
+    position:fixed; top:14px; left:14px; z-index:2147483000;
+    display:inline-flex; align-items:center; justify-content:center; gap:10px;
+    min-width:220px; min-height:54px; max-width:calc(100vw - 28px);
+    padding:12px 19px; border:1px solid rgba(237,211,167,.92); border-radius:30px;
+    color:#fff1d8; background:linear-gradient(110deg,#35100f,#54201b 58%,#2c0c0b);
+    box-shadow:0 5px 18px rgba(28,9,7,.38), inset 0 1px 0 rgba(255,245,220,.12);
+    font:700 19px/1 "Cormorant Garamond",Georgia,serif; letter-spacing:.1px;
+    cursor:pointer; white-space:nowrap; transition:transform .18s ease,background .18s ease,box-shadow .18s ease;
   }
-  .state-page-back:hover { background:rgba(255,240,213,.12); }
+  .archive-floating-back:hover {
+    background:linear-gradient(110deg,#4b1916,#6a2c25 58%,#3b1110);
+    box-shadow:0 7px 20px rgba(28,9,7,.42); transform:translateY(-1px);
+  }
+  .archive-floating-back .back-arrow { color:#e7c58f; font:700 24px/1 Georgia,serif; }
+  .archive-floating-back:focus-visible { outline:3px solid #e7c58f; outline-offset:3px; }
   .state-masthead {
     min-height:220px; padding:34px clamp(24px, 6vw, 88px);
     position:relative; isolation:isolate; display:flex; flex-direction:column; justify-content:center;
@@ -168,7 +178,7 @@ STATE_PAGE_EXTENSION = r"""
   }
   .state-masthead p { max-width:650px; margin:12px 0 0; color:#f4dfbd; font:italic 23px/1.25 "Cormorant Garamond",Georgia,serif; }
   .state-spread {
-    width:min(1500px,100%); margin:0 auto; padding:0 clamp(12px,2vw,28px) 28px;
+    width:min(1500px,100%); margin:24px auto 0; padding:0 clamp(12px,2vw,28px) 28px;
   }
   .state-spread-heading {
     display:flex; align-items:center; justify-content:space-between; gap:16px;
@@ -177,7 +187,7 @@ STATE_PAGE_EXTENSION = r"""
   }
   .state-book {
     display:grid; grid-template-columns:minmax(250px,.78fr) minmax(0,1.7fr);
-    border:1px solid rgba(105,65,41,.25); border-top:0;
+    border:1px solid rgba(105,65,41,.25); border-top:1px solid rgba(105,65,41,.25);
     background:rgba(255,249,236,.36); box-shadow:0 8px 24px rgba(69,37,24,.09);
   }
   .state-context {
@@ -288,9 +298,9 @@ STATE_PAGE_EXTENSION = r"""
     .dish-photo { min-height:145px; }
   }
   @media(max-width:760px) {
-    .state-page-topbar { align-items:flex-start; }
+    .state-page-topbar { min-height:128px; padding:78px 18px 14px; align-items:flex-end; justify-content:flex-start; }
     .state-page-brand { font-size:19px; }
-    .state-page-back { font-size:15px; padding:8px 12px; }
+    .archive-floating-back { top:10px; left:10px; min-width:205px; min-height:52px; padding:11px 16px; font-size:18px; }
     .state-masthead { min-height:190px; padding:28px 22px; }
     .state-masthead p { font-size:19px; }
     .state-spread { padding-left:10px; padding-right:10px; }
@@ -311,7 +321,7 @@ STATE_PAGE_EXTENSION = r"""
   /* Single-dish chapter view: choose one dish from the state list at a time. */
   .state-book {
     display:grid; grid-template-columns:minmax(245px,.72fr) minmax(0,1.95fr);
-    border:1px solid rgba(105,65,41,.25); border-top:0;
+    border:1px solid rgba(105,65,41,.25); border-top:1px solid rgba(105,65,41,.25);
     background:rgba(255,249,236,.36); box-shadow:0 8px 24px rgba(69,37,24,.09);
   }
   .state-context { padding:27px 22px 30px; }
@@ -459,6 +469,28 @@ STATE_PAGE_EXTENSION = r"""
   function slugifyState(value) {
     return String(value).toLowerCase().replace(/&/g,"and").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
   }
+  const unionTerritorySlugs = new Set([
+    "andaman-and-nicobar-islands", "chandigarh",
+    "dadra-and-nagar-haveli-and-daman-and-diu", "delhi",
+    "jammu-and-kashmir", "ladakh", "lakshadweep", "puducherry"
+  ]);
+  function scrollArchiveViewToTop() {
+    try { window.scrollTo(0, 0); } catch (_) {}
+    try { document.documentElement.scrollTop = 0; } catch (_) {}
+    try { document.body.scrollTop = 0; } catch (_) {}
+    try { if (window.frameElement) window.frameElement.scrollIntoView({ block: "start", behavior: "auto" }); } catch (_) {}
+    try { if (window.parent && window.parent !== window) window.parent.scrollTo(0, 0); } catch (_) {}
+    try { if (window.top && window.top !== window) window.top.scrollTo(0, 0); } catch (_) {}
+  }
+  function scheduleArchiveTopReset() {
+    scrollArchiveViewToTop();
+    requestAnimationFrame(function () {
+      scrollArchiveViewToTop();
+      requestAnimationFrame(scrollArchiveViewToTop);
+    });
+    window.setTimeout(scrollArchiveViewToTop, 120);
+    window.setTimeout(scrollArchiveViewToTop, 300);
+  }
   function linkList(sources) {
     return (sources || []).map(function (source) {
       return '<li><a href="' + escapeArchiveText(source.url) + '" target="_blank" rel="noopener noreferrer">' +
@@ -496,10 +528,8 @@ STATE_PAGE_EXTENSION = r"""
     return (
       '<article class="dish-record">' +
         '<header class="dish-record-head">' +
-          '<span class="dish-record-number">Dish ' + String(index + 1).padStart(2,"0") + ' / Culinary record</span>' +
           '<h2>' + escapeArchiveText(dish.name) + '</h2>' +
           '<p class="dish-descriptor">' + escapeArchiveText(dish.descriptor || "") + '</p>' +
-          '<div class="dish-meta-line"><span>⌖ ' + escapeArchiveText(state.name) + '</span><span>✧ Regional cuisine</span><span>⌁ Food heritage</span></div>' +
         '</header>' +
         '<div class="dish-main-layout">' +
           '<div class="dish-photo" ' + (image ? 'style="background-image:url(' + image + ')"' : '') + '>' +
@@ -528,6 +558,7 @@ STATE_PAGE_EXTENSION = r"""
   function renderState(slug) {
     const state = archiveStatePages[slug];
     if (!state) return false;
+    const regionType = unionTerritorySlugs.has(slug) ? "Union Territory" : "State";
     const stateImage = archiveStateCardImages[slug] || "";
     const bannerStyle = stateImage ? 'style="background-image:url(' + stateImage + ')"' : "";
     const stateDishes = Array.isArray(state.dishes) ? state.dishes : [];
@@ -539,37 +570,33 @@ STATE_PAGE_EXTENSION = r"""
     }).join("");
 
     root.innerHTML =
+      '<button type="button" class="archive-floating-back" data-back-to-home aria-label="Back to regional catalogue" title="Back to regional catalogue"><span class="back-arrow" aria-hidden="true">←</span><span>Back to regions</span></button>' +
       '<div class="state-page-topbar">' +
         '<div class="state-page-brand"><svg class="state-page-brand-mark" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="32" cy="32" r="27"/><circle cx="32" cy="32" r="19"/><circle cx="32" cy="32" r="7"/><path d="M32 3v11M32 50v11M3 32h11M50 32h11M11 11l8 8m26 26 8 8M53 11l-8 8M19 45l-8 8"/></svg><span>India’s<br>Culinary Memory Archive</span></div>' +
-        '<button type="button" class="state-page-back" data-back-to-home>← Back to state catalogue</button>' +
       '</div>' +
       '<header class="state-masthead" ' + bannerStyle + '>' +
-        '<span class="state-masthead-kicker">State chapter · ' + escapeArchiveText(state.region || "India") + '</span>' +
+        '<span class="state-masthead-kicker">' + escapeArchiveText(regionType) + ' chapter · ' + escapeArchiveText(state.region || "India") + '</span>' +
         '<h1>' + escapeArchiveText(state.name) + '</h1>' +
         '<p>' + escapeArchiveText(state.tagline) + '</p>' +
       '</header>' +
       '<div class="state-spread">' +
-        '<div class="state-spread-heading"><span>India’s Culinary Memory Archive · Regional chapter</span><span>Select a dish to explore its story</span></div>' +
         '<div class="state-book">' +
           '<aside class="state-context">' +
-            '<span class="state-context-label">The state & its food culture</span>' +
+            '<span class="state-context-label">Regional food culture</span>' +
             '<h2>' + escapeArchiveText(state.name) + ' Archive</h2>' +
-            '<p class="dish-choice-heading">Select a culinary record</p>' +
             '<div class="dish-choice-list" role="tablist" aria-label="Dishes from ' + escapeArchiveText(state.name) + '">' + dishButtons + '</div>' +
             '<h3>Geography & influence</h3>' +
             '<p>' + escapeArchiveText(state.geography) + '</p>' +
             '<div class="state-context-ornament"></div>' +
             '<h3>Culinary landscape</h3>' +
             '<p>' + escapeArchiveText(state.culinaryLandscape) + '</p>' +
-            '<div class="state-context-note">Food is shaped by place, season, memory and the knowledge carried between generations.</div>' +
           '</aside>' +
           '<section class="dish-spread">' +
-            '<div class="dish-spread-top"><h2>Selected food story</h2><span>Ingredients · history · preparation</span></div>' +
             '<div class="dish-content" id="active-dish-content" role="tabpanel"></div>' +
           '</section>' +
         '</div>' +
       '</div>' +
-      '<footer class="state-page-end"><span>A living record of ' + escapeArchiveText(state.name) + ' food heritage</span><button type="button" data-back-to-home>Return to all states ↑</button></footer>';
+      '<footer class="state-page-end"><span>A living record of ' + escapeArchiveText(state.name) + ' food heritage</span></footer>';
 
     const dishContent = root.querySelector("#active-dish-content");
     function activateDish(index) {
@@ -587,16 +614,14 @@ STATE_PAGE_EXTENSION = r"""
 
     originalSections.forEach(function (section) { section.style.display = "none"; });
     root.style.display = "block";
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    scheduleArchiveTopReset();
     return true;
   }
   function closeStatePage() {
     root.style.display = "none";
     root.innerHTML = "";
     originalSections.forEach(function (section) { section.style.display = ""; });
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    scheduleArchiveTopReset();
   }
 
   stateGrid.addEventListener("click", function (event) {
@@ -693,12 +718,16 @@ if "</body>" not in html:
     st.stop()
 html = html.replace("</body>", extension + "\n</body>")
 
-# Hide Streamlit chrome and remove container padding. The iframe is content-sized
-# so the Streamlit page ends at the real page footer rather than a fixed height.
+# Hide Streamlit chrome and make the embedded archive fill the browser viewport.
+# Scrolling stays inside the iframe so the chapter back control remains fixed on screen.
 st.markdown(
     """
     <style>
-      html, body, .stApp { margin: 0 !important; padding: 0 !important; }
+      html, body, .stApp {
+          margin: 0 !important; padding: 0 !important;
+          height: 100vh !important; max-height: 100vh !important;
+          overflow: hidden !important;
+      }
       [data-testid="stHeader"], [data-testid="stToolbar"],
       [data-testid="stDecoration"], #MainMenu, header, footer {
           display: none !important; height: 0 !important;
@@ -707,6 +736,8 @@ st.markdown(
       [data-testid="stAppViewContainer"], [data-testid="stMain"],
       section.main, section.main > div {
           margin: 0 !important; padding: 0 !important;
+          height: 100vh !important; max-height: 100vh !important;
+          overflow: hidden !important;
       }
       [data-testid="stMainBlockContainer"], [data-testid="stAppViewBlockContainer"],
       .block-container {
@@ -715,7 +746,9 @@ st.markdown(
       }
       [data-testid="stVerticalBlock"], [data-testid="stHorizontalBlock"] { gap: 0 !important; }
       iframe {
-          display: block !important; width: 100% !important; border: 0 !important;
+          display: block !important; width: 100% !important;
+          height: 100vh !important; min-height: 100vh !important;
+          max-height: 100vh !important; border: 0 !important;
           margin: 0 !important; padding: 0 !important;
       }
     </style>
@@ -726,6 +759,6 @@ st.markdown(
 st.iframe(
     html,
     width="stretch",
-    height="content",
-    alt="India's Culinary Memory Archive homepage and state chapters",
+    height=900,
+    alt="India's Culinary Memory Archive homepage and regional chapters",
 )

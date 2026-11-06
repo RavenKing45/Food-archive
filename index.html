@@ -175,42 +175,10 @@
       transition: transform .18s ease, background .18s ease;
     }
     .button-primary { background: #f1d8ae; color: #351713; border: 1px solid #f7e4c4; }
-    .button-outline { color: #fff1d7; border: 1px solid rgba(255,239,210,.78); background: rgba(35,10,8,.34); }
-    .button-primary:hover, .button-outline:hover { transform: translateY(-2px); }
+    .button-primary:hover { transform: translateY(-2px); }
     .button-primary:hover { background: #ffe8c1; }
-    .button-outline:hover { background: rgba(255,240,213,.12); }
-
-    .archive-shortcuts {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0,1fr));
-      padding: 20px clamp(22px, 4vw, 56px);
-      background: rgba(252,244,226,.72);
-      border-bottom: 1px solid var(--line);
-      box-shadow: 0 2px 7px rgba(87,48,30,.045);
-    }
-    .shortcut {
-      display: flex;
-      align-items: center;
-      gap: 17px;
-      min-height: 66px;
-      padding: 4px clamp(12px, 2.2vw, 31px);
-      border-right: 1px solid rgba(112,66,44,.26);
-    }
-    .shortcut:first-child { padding-left: 4px; }
-    .shortcut:last-child { border-right: 0; padding-right: 4px; }
-    .shortcut-icon { width: 44px; height: 44px; flex: 0 0 auto; color: #642a24; }
-    .shortcut h2 {
-      font-family: var(--serif);
-      font-size: 21px;
-      font-weight: 700;
-      line-height: 1;
-      margin: 0 0 5px;
-      color: #4b1b18;
-    }
-    .shortcut p { margin: 0; font-size: 10px; line-height: 1.5; color: #573b31; }
-
-    .section-wrap { max-width: var(--page-width); margin: 0 auto; padding-left: clamp(20px, 3.2vw, 48px); padding-right: clamp(20px, 3.2vw, 48px); }
-    .stories-section { padding-top: 27px; padding-bottom: 29px; border-bottom: 1px solid rgba(105,65,41,.17); }
+.section-wrap { max-width: var(--page-width); margin: 0 auto; padding-left: clamp(20px, 3.2vw, 48px); padding-right: clamp(20px, 3.2vw, 48px); }
+    .stories-section { padding-top: 27px; padding-bottom: 29px; border-bottom: 1px solid rgba(105,65,41,.17); scroll-margin-top: 18px; }
     .section-heading-row {
       display: flex;
       align-items: flex-end;
@@ -303,7 +271,7 @@
     .story-copy p { margin: 0; font-size: 9px; line-height: 1.45; color: #ead6b9; }
     @keyframes story-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
-    .states-section { padding-top: 27px; padding-bottom: 31px; border-bottom: 1px solid rgba(105,65,41,.17); }
+    .states-section { padding-top: 27px; padding-bottom: 31px; border-bottom: 1px solid rgba(105,65,41,.17); scroll-margin-top: 18px; }
     .state-heading-row { align-items: center; margin-bottom: 17px; }
     .state-search-wrap { position: relative; width: min(330px, 42vw); }
     .search-icon { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); width: 19px; height: 19px; color: #5b2923; pointer-events: none; }
@@ -425,11 +393,6 @@
       .brand-name { font-size: 21px; }
       .main-nav { gap: 24px; font-size: 18px; }
       .hero { min-height: 305px; }
-      .archive-shortcuts { padding-left: 22px; padding-right: 22px; }
-      .shortcut { gap: 11px; padding-left: 12px; padding-right: 12px; }
-      .shortcut-icon { width: 37px; height: 37px; }
-      .shortcut h2 { font-size: 18px; }
-      .shortcut p { font-size: 9px; }
       .state-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
     }
     @media (max-width: 640px) {
@@ -444,15 +407,8 @@
       .hero-tagline { font-size: 20px; }
       .hero-description { font-size: 11px; max-width: 370px; }
       .hero-actions { margin-top: 17px; gap: 9px; }
-      .button-primary, .button-outline { min-height: 39px; padding: 8px 13px; font-size: 16px; }
-      .archive-shortcuts { grid-template-columns: repeat(2, minmax(0,1fr)); padding: 10px 15px; }
-      .shortcut { min-height: 67px; border-right: 0; padding: 7px 8px; gap: 10px; }
-      .shortcut:nth-child(odd) { border-right: 1px solid rgba(112,66,44,.22); }
-      .shortcut:nth-child(-n+2) { border-bottom: 1px solid rgba(112,66,44,.22); }
+      .button-primary { min-height: 39px; padding: 8px 13px; font-size: 16px; }
       .shortcut:first-child, .shortcut:last-child { padding-left: 8px; padding-right: 8px; }
-      .shortcut-icon { width: 34px; height: 34px; }
-      .shortcut h2 { font-size: 17px; }
-      .shortcut p { font-size: 8px; }
       .stories-section, .states-section { padding-top: 23px; padding-bottom: 23px; }
       .section-heading-row { align-items: flex-start; }
       .section-title { font-size: 33px; }
@@ -492,7 +448,7 @@
     </a>
     <nav class="main-nav" aria-label="Main navigation">
       <a class="active" href="#top">Home</a>
-      <a href="#states">Explore by State</a>
+      <a href="#states">Explore by Region</a>
       <a href="#stories">Food Stories</a>
     </nav>
   </header>
@@ -506,31 +462,11 @@
         <p class="hero-description">Documenting regional cuisines through recipes, histories,<br class="desktop-break"> oral narratives and cultural records.</p>
         <div class="hero-actions">
           <a class="button-primary" href="#states">Explore the Archive <span aria-hidden="true">→</span></a>
-          <a class="button-outline" href="#about">About the Project</a>
         </div>
       </div>
     </section>
 
-    <section class="archive-shortcuts" aria-label="Archive categories">
-      <a class="shortcut" href="#stories">
-        <svg class="shortcut-icon" viewBox="0 0 52 52" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7l26 26M13 3l-5 5 4 8 8-4-7-9ZM31 29l-6 6 5 5 6-6M35 20l10-10c2-2 5 1 3 3L38 23M29 26l-3-3 12-12 3 3-12 12ZM7 46l13-13 6 6L13 52H7v-6Z"/></svg>
-        <span><h2>Food Stories</h2><p>Culinary tales, people and<br>traditions from across India</p></span>
-      </a>
-      <a class="shortcut" href="#references">
-        <svg class="shortcut-icon" viewBox="0 0 52 52" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8c8-3 15-2 20 2v35c-5-4-12-5-20-2V8ZM46 8c-8-3-15-2-20 2v35c5-4 12-5 20-2V8ZM12 15c4-1 7 0 10 2M12 22c4-1 7 0 10 2M32 17c3-2 6-3 9-2M32 24c3-2 6-3 9-2"/></svg>
-        <span><h2>Historical Records</h2><p>Old recipes, manuscripts<br>and literary references</p></span>
-      </a>
-      <a class="shortcut" href="#references">
-        <svg class="shortcut-icon" viewBox="0 0 52 52" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="20" y="4" width="12" height="31" rx="6"/><path d="M14 25v3a12 12 0 0 0 24 0v-3M26 40v8m-8 0h16M24 11v4m4-4v4m-4 5v4m4-4v4"/></svg>
-        <span><h2>Oral Histories</h2><p>Voices, memories and<br>family food traditions</p></span>
-      </a>
-      <a class="shortcut" href="#references">
-        <svg class="shortcut-icon" viewBox="0 0 52 52" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="6" width="44" height="40" rx="3"/><circle cx="17" cy="18" r="4"/><path d="m7 40 13-12 8 7 7-8 10 13"/></svg>
-        <span><h2>Visual Archive</h2><p>Photographs, utensils and<br>cultural artefacts</p></span>
-      </a>
-    </section>
-
-    <section class="stories-section section-wrap" id="stories" aria-labelledby="stories-title">
+<section class="stories-section section-wrap" id="stories" aria-labelledby="stories-title">
       <div class="section-heading-row">
         <div>
           <h2 class="section-title" id="stories-title">Food Stories</h2>
@@ -549,18 +485,18 @@
     <section class="states-section section-wrap" id="states" aria-labelledby="states-title">
       <div class="section-heading-row state-heading-row">
         <div>
-          <h2 class="section-title" id="states-title">Explore by State</h2>
+          <h2 class="section-title" id="states-title">Explore by Region</h2>
           <p class="section-intro">Browse the archive through India's regional food traditions.</p>
         </div>
         <label class="state-search-wrap">
           <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>
-          <input class="state-search" id="state-search" type="search" placeholder="Search a state..." autocomplete="off" aria-label="Search state archives">
+          <input class="state-search" id="state-search" type="search" placeholder="Search a state or UT..." autocomplete="off" aria-label="Search state and Union Territory archives">
         </label>
       </div>
       <div class="state-grid" id="state-grid" aria-live="polite"></div>
-      <div class="states-empty" id="states-empty">No state archive matches that search.</div>
+      <div class="states-empty" id="states-empty">No regional archive matches that search.</div>
       <div class="see-more-row">
-        <button class="see-more" id="see-more" type="button">See More States&nbsp; →</button>
+        <button class="see-more" id="see-more" type="button">See More Regions&nbsp; →</button>
       </div>
     </section>
   </main>
@@ -605,6 +541,11 @@
       "Chandigarh", "Dadra and Nagar Haveli and Daman and Diu", "Delhi", "Jammu and Kashmir", "Ladakh",
       "Lakshadweep", "Puducherry"
     ];
+    const unionTerritories = new Set([
+      "Andaman and Nicobar Islands", "Chandigarh",
+      "Dadra and Nagar Haveli and Daman and Diu", "Delhi",
+      "Jammu and Kashmir", "Ladakh", "Lakshadweep", "Puducherry"
+    ]);
     const tones = ["sand", "rose", "olive", "ochre", "slate"];
 
     function escapeHtml(value) {
@@ -644,20 +585,21 @@
         const slug = name.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
         const image = STATE_IMAGES[slug];
         const tone = tones[index % tones.length];
+        const archiveLabel = unionTerritories.has(name) ? "Union Territory archive" : "State archive";
         const visualStyle = image
           ? `background-image: linear-gradient(180deg, rgba(37,13,10,.02), rgba(37,13,10,.66)), url('${image}')`
           : "";
-        return `<article class="state-card" aria-label="${escapeHtml(name)} state archive">
+        return `<article class="state-card" aria-label="${escapeHtml(name)} ${archiveLabel.toLowerCase()}">
           <div class="state-visual ${image ? "has-image" : "tone-" + tone}" style="${visualStyle}">
             ${image ? "" : `<span class="state-placeholder-mark" aria-hidden="true">✧</span><span class="state-image-note">Image to be added</span>`}
           </div>
-          <div class="state-copy"><span class="state-label">State archive</span><strong>${escapeHtml(name)}</strong></div>
+          <div class="state-copy"><span class="state-label">${archiveLabel}</span><strong>${escapeHtml(name)}</strong></div>
         </article>`;
       }).join("");
 
       emptyMessage.classList.toggle("visible", normalizedQuery.length > 0 && matches.length === 0);
       seeMoreButton.style.display = normalizedQuery ? "none" : (allStates.length > featuredStates.length ? "inline-flex" : "none");
-      seeMoreButton.textContent = expanded ? "Show Fewer States  ↑" : "See More States  →";
+      seeMoreButton.textContent = expanded ? "Show Fewer Regions  ↑" : "See More Regions  →";
     }
 
     searchInput.addEventListener("input", () => renderStates(searchInput.value));
@@ -666,6 +608,16 @@
       renderStates(searchInput.value);
     });
     renderStates();
+
+    // Keep the top navigation tied to the two actual archive sections.
+    document.querySelectorAll('.main-nav a[href="#states"], .main-nav a[href="#stories"]').forEach(link => {
+      link.addEventListener("click", event => {
+        const target = document.querySelector(link.getAttribute("href"));
+        if (!target) return;
+        event.preventDefault();
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
   </script>
 </body>
 </html>
