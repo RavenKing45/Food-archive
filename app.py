@@ -253,7 +253,7 @@ STATE_PAGE_EXTENSION = r"""
   .historical-slot-title {
     color:#6e3c2c; font:700 19px/1 "Cormorant Garamond",Georgia,serif; margin:0 0 5px;
   }
-  .historical-slot p { margin:0 0 8px; color:#725344; font:9px/1.6 "Libre Baskerville",Georgia,serif; }
+  .historical-slot p { margin:0 0 9px; color:#725344; font:11.5px/1.62 "Libre Baskerville",Georgia,serif; }
   .historical-slot a,.dish-sources a,.oral-source a {
     color:#78352a; text-decoration:underline; text-decoration-color:rgba(120,53,42,.45);
     text-underline-offset:2px;
@@ -268,10 +268,10 @@ STATE_PAGE_EXTENSION = r"""
     border-left:3px solid #8b4b35; border-radius:0 5px 5px 0;
   }
   .oral-narrative h4 { color:#56211b; font:700 20px/1 "Cormorant Garamond",Georgia,serif; margin:0 0 7px; }
-  .oral-narrative .oral-person { color:#4f261e; font:700 13px "Cormorant Garamond",Georgia,serif; margin:0 0 2px; }
-  .oral-narrative .oral-role { color:#86614a; font:italic 10px/1.5 "Libre Baskerville",Georgia,serif; margin:0 0 7px; }
-  .oral-narrative p { color:#4b332a; font:10px/1.65 "Libre Baskerville",Georgia,serif; margin:0 0 7px; }
-  .oral-source { padding-top:6px; border-top:1px solid rgba(105,65,41,.18); color:#765444; font:9px/1.6 "Libre Baskerville",Georgia,serif; }
+  .oral-narrative .oral-person { color:#4f261e; font:700 15px "Cormorant Garamond",Georgia,serif; margin:0 0 3px; }
+  .oral-narrative .oral-role { color:#86614a; font:italic 11px/1.5 "Libre Baskerville",Georgia,serif; margin:0 0 8px; }
+  .oral-narrative p { color:#4b332a; font:11.5px/1.65 "Libre Baskerville",Georgia,serif; margin:0 0 8px; }
+  .oral-source { padding-top:7px; border-top:1px solid rgba(105,65,41,.18); color:#765444; font:10.5px/1.58 "Libre Baskerville",Georgia,serif; }
   .state-page-end {
     display:flex; justify-content:space-between; gap:14px; align-items:center;
     padding:17px clamp(20px,4vw,58px); color:#f6e6c9;
@@ -335,8 +335,8 @@ STATE_PAGE_EXTENSION = r"""
     box-shadow:inset 3px 0 #85442f,0 2px 7px rgba(90,47,30,.06);
   }
   .dish-choice-index { flex:0 0 25px; color:#9a6b49; font:700 13px "Libre Baskerville",Georgia,serif; }
-  .state-context h3 { font-size:22px; }
-  .state-context p { font-size:11px; line-height:1.75; }
+  .state-context h3 { font-size:24px; }
+  .state-context p { font-size:12.5px; line-height:1.68; }
   .dish-spread { padding:22px clamp(13px,1.8vw,27px) 30px; min-width:0; }
   .dish-spread-top { margin:0 3px 14px; padding-bottom:10px; }
   .dish-spread-top h2 { font-size:28px; }
@@ -344,12 +344,12 @@ STATE_PAGE_EXTENSION = r"""
   .dish-content { min-width:0; }
   .dish-record { border:0; padding:0; }
   .dish-record-head { margin:0 3px 14px; }
-  .dish-record-number { display:block; color:#926242; font-size:9px; letter-spacing:1.5px; text-transform:uppercase; }
+  .dish-record-number { display:block; color:#926242; font-size:10px; letter-spacing:1.4px; text-transform:uppercase; }
   .dish-record-head h2 {
-    color:#4b1715; font:700 clamp(34px,3.8vw,49px)/.94 "Cormorant Garamond",Georgia,serif;
-    margin:5px 0 6px;
+    color:#4b1715; font:700 clamp(32px,3.2vw,44px)/.98 "Cormorant Garamond",Georgia,serif;
+    margin:5px 0 7px;
   }
-  .dish-descriptor { margin:0; font-size:18px; }
+  .dish-descriptor { margin:0; font-size:19px; line-height:1.2; }
   .dish-meta-line {
     display:flex; flex-wrap:wrap; gap:8px 17px; margin-top:10px;
     color:#6f5141; font:11px "Libre Baskerville",Georgia,serif;
@@ -363,18 +363,18 @@ STATE_PAGE_EXTENSION = r"""
     min-height:330px; margin:0; border-radius:8px;
     background:linear-gradient(145deg,#dbc39d,#97704e 72%,#49241b);
   }
-  .dish-photo-placeholder strong { font-size:24px; }
-  .dish-photo-placeholder span { font-size:8px; line-height:1.6; }
-  .dish-highlight-stack { display:flex; flex-direction:column; gap:14px; }
+  .dish-photo-placeholder strong { font-size:25px; }
+  .dish-photo-placeholder span { font-size:9px; line-height:1.6; }
+  .dish-highlight-stack { display:flex; flex-direction:column; gap:17px; }
   .dish-highlight {
     position:relative; padding:2px 0 13px 15px;
     border-bottom:1px solid rgba(105,65,41,.2);
   }
   .dish-highlight:last-child { border-bottom:0; }
   .dish-highlight h3 {
-    margin:0 0 5px; color:#56211b; font:700 23px/1 "Cormorant Garamond",Georgia,serif;
+    margin:0 0 6px; color:#56211b; font:700 24px/1 "Cormorant Garamond",Georgia,serif;
   }
-  .dish-highlight p { margin:0; color:#432c24; font:10px/1.75 "Libre Baskerville",Georgia,serif; }
+  .dish-highlight p { margin:0; color:#432c24; font:12px/1.68 "Libre Baskerville",Georgia,serif; }
   .dish-highlight::before {
     content:"✧"; position:absolute; left:0; top:2px; color:#8d4c34; font-size:12px;
   }
@@ -392,10 +392,10 @@ STATE_PAGE_EXTENSION = r"""
     font:700 23px/1 "Cormorant Garamond",Georgia,serif;
   }
   .dish-info-card ul,.dish-info-card ol {
-    margin:0; padding-left:18px; color:#432c24;
-    font:10px/1.75 "Libre Baskerville",Georgia,serif;
+    margin:0; padding-left:19px; color:#432c24;
+    font:12px/1.62 "Libre Baskerville",Georgia,serif;
   }
-  .dish-info-card li { padding-left:2px; margin:0 0 4px; }
+  .dish-info-card li { padding-left:2px; margin:0 0 5px; }
   .dish-support-grid {
     display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:15px;
     margin-top:16px; align-items:start;
@@ -403,8 +403,8 @@ STATE_PAGE_EXTENSION = r"""
   .dish-support-grid .historical-slot { margin:0; min-height:100%; }
   .dish-support-grid .oral-narrative { margin:0; }
   .dish-sources { margin-top:16px; padding:11px 13px 0; }
-  .dish-sources h4 { font-size:20px; }
-  .dish-sources ol { font-size:9px; line-height:1.7; }
+  .dish-sources h4 { font-size:21px; }
+  .dish-sources ol { font-size:10.5px; line-height:1.62; }
   @media(max-width:1050px) {
     .state-book { grid-template-columns:minmax(225px,.7fr) minmax(0,1.8fr); }
     .dish-main-layout { grid-template-columns:minmax(0,1fr) minmax(220px,.9fr); gap:13px; }
@@ -508,7 +508,6 @@ STATE_PAGE_EXTENSION = r"""
           '<div class="dish-highlight-stack">' +
             '<section class="dish-highlight"><h3>About the dish</h3><p>' + escapeArchiveText(dish.overview) + '</p></section>' +
             '<section class="dish-highlight"><h3>How it came to be</h3><p>' + escapeArchiveText(dish.history) + '</p></section>' +
-            '<section class="dish-highlight"><h3>Geography & influence</h3><p>' + escapeArchiveText(state.geography) + '</p></section>' +
           '</div>' +
         '</div>' +
         '<div class="dish-lower-grid">' +
