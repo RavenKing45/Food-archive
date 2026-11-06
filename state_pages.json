@@ -1,0 +1,875 @@
+{
+  "punjab": {
+    "name": "Punjab",
+    "region": "North India",
+    "tagline": "A cuisine shaped by fertile plains, winter fields and a culture of generous hospitality.",
+    "geography": "Punjab lies in the north-western alluvial plains of the Indus river system. The Sutlej, Beas and Ravi river basins, canal irrigation and fertile soils support wheat, mustard, pulses and dairy production. Cool winters bring leafy greens to the table, while the Punjab–Delhi corridor has also been shaped by migration, trade and the food businesses established after Partition.",
+    "culinaryLandscape": "Punjabi food is not one fixed menu. Rural farm meals, urban street food, Sikh langar traditions and the foodways of different communities overlap. Wheat breads, dairy, pulses, mustard greens and tandoor cooking are prominent, with substantial variation between districts and across the historic Punjab region.",
+    "dishes": [
+      {
+        "slug": "sarson-da-saag-makki-di-roti",
+        "name": "Sarson da Saag with Makki di Roti",
+        "descriptor": "Winter greens with maize flatbread",
+        "overview": "A cold-season pairing of slow-cooked mustard greens and rustic maize flatbread. It is often finished with ghee or white butter and served with radish, jaggery or lassi. The mix of greens differs by household and season.",
+        "ingredients": [
+          "Mustard greens (sarson)",
+          "Spinach or bathua (optional)",
+          "Maize flour (makki atta)",
+          "Ginger, garlic and green chillies",
+          "Ghee or butter",
+          "Salt; onion and spices as preferred"
+        ],
+        "steps": [
+          "Wash and chop the greens. Simmer with ginger, garlic, chillies, salt and a little water until very soft.",
+          "Mash or blend coarsely; add a small maize-flour slurry if a thicker texture is wanted.",
+          "Temper with ghee, garlic and optional onion, then simmer until the flavours come together.",
+          "Knead maize flour with warm water and salt. Pat into flat rounds by hand rather than rolling like wheat dough.",
+          "Cook on a hot griddle, turning carefully; finish with ghee or butter and serve with the saag."
+        ],
+        "history": "The pairing reflects winter agriculture and household cooking rather than a single documented inventor. Mustard greens are a cool-season crop and maize flour makes a filling bread. The date when maize reached India is debated: older scholarship places its spread through Portuguese trade in the sixteenth or seventeenth century, while newer archaeological and botanical arguments suggest earlier presence. It is therefore safer to describe makki di roti as part of an evolving Punjabi food tradition, not an unchanged ancient staple.",
+        "imageHint": "Look for dated photographs of mustard harvests, winter village kitchens, women preparing saag, or traditional hearths in Punjab. A present-day plated dish is not historical evidence.",
+        "imageQuery": "Punjab winter mustard harvest village kitchen sarson saag historical photograph",
+        "sources": [
+          {
+            "title": "Races of Maize in India — Place of Maize in Indian Agriculture",
+            "publisher": "USDA Agricultural Research Service research monograph",
+            "url": "https://www.ars.usda.gov/ARSUserFiles/50301000/Races_of_Maize/RoM_India_0_Book.pdf",
+            "note": "Summarises the widely cited Portuguese-introduction hypothesis and notes debate about earlier routes."
+          },
+          {
+            "title": "Early history of crop presence/introduction into India: VII. American cereal, maize",
+            "publisher": "Indian Journal of Genetics and Plant Breeding",
+            "url": "https://indianjournals.com/article/ijgpb-83-1-001",
+            "note": "Presents archaeological and botanical arguments that complicate the conventional introduction timeline."
+          },
+          {
+            "title": "Makki di roti and sarson da saag losing its sheen in Punjabi platter",
+            "publisher": "Hindustan Times, 14 January 2015",
+            "url": "https://www.hindustantimes.com/punjab/makki-di-roti-and-sarson-da-saag-losing-its-sheen-in-punjabi-platter/story-4flZaT5QOMaBoCuJAA7pdI.html",
+            "note": "Reports on declining cultivation of maize and mustard in Punjab and changing food habits."
+          }
+        ],
+        "oralNarrative": {
+          "narrator": "Anjum Khala",
+          "role": "Home cook from Faisalabad, described by food writer Bisma Tirmizi",
+          "account": "In a first-person food essay, Bisma Tirmizi describes learning the family method from Anjum Khala, who says the recipe came from her mother-in-law in Rupnagar (pre-Partition Punjab) and had been passed through earlier generations. This is a reported family memory, not a surviving nineteenth-century written recipe.",
+          "sourceTitle": "Food Stories: Sarson ka Saag / Makki ki Roti",
+          "sourcePublisher": "Dawn.com, 19 February 2014 — Bisma Tirmizi",
+          "sourceUrl": "https://www.dawn.com/news/1088069"
+        }
+      },
+      {
+        "slug": "chole-bhature",
+        "name": "Chole Bhature",
+        "descriptor": "Spiced chickpeas with puffed fried bread",
+        "overview": "A hearty combination of chickpea curry and deep-fried, leavened bread. The chickpeas are simmered in an onion-tomato masala; the bhatura is made from a rested dough and fried until it puffs. The pairing is strongly associated with Punjabi food culture and the Punjab–Delhi corridor.",
+        "ingredients": [
+          "Dried chickpeas, soaked overnight",
+          "Onion, tomato, ginger and garlic",
+          "Coriander, cumin, chilli and garam masala",
+          "Amchur or another souring ingredient",
+          "Wheat flour or maida",
+          "Yoghurt, leavening, salt and oil"
+        ],
+        "steps": [
+          "Soak chickpeas overnight and cook until tender.",
+          "Cook onion, ginger and garlic; add tomato and spices to make a thick masala.",
+          "Add chickpeas and some cooking liquid; simmer until the gravy clings to them.",
+          "Make a soft dough with flour, yoghurt, salt and a little leavening. Rest it, then divide into balls.",
+          "Roll or stretch into rounds and deep-fry in hot oil until puffed and golden. Serve with onion, pickle and chutney."
+        ],
+        "history": "The pairing has no securely established single birthplace. Chickpea curries and fried breads have long, overlapping histories across north India. A useful documented chapter in its Delhi history comes from the post-Partition years: the Sita Ram Diwan Chand family says the business began in 1955, selling chole bhature from a bicycle near Paharganj. This is evidence of one influential shop's family history and Delhi popularisation, not proof that the dish was invented there.",
+        "imageHint": "Search for dated Paharganj street scenes, post-Partition refugee-market photographs, early Sita Ram Diwan Chand shop images or Delhi street-vending photographs. Confirm dates and photographer before calling an image historical.",
+        "imageQuery": "1950s Paharganj Delhi street food pushcart Sita Ram Diwan Chand chole bhature",
+        "sources": [
+          {
+            "title": "From Paharganj to Delhi Favourite | Since 1955",
+            "publisher": "Sita Ram Diwan Chand — family business history",
+            "url": "https://www.sitaramdiwanchand.com/about-us",
+            "note": "First-party family account; useful for the business's claimed 1955 founding."
+          },
+          {
+            "title": "Families in Food: Spice Station",
+            "publisher": "The Indian Express, 30 September 2018",
+            "url": "https://indianexpress.com/article/express-sunday-eye/families-in-food-chole-bhature-paharganj-5378313/",
+            "note": "Reported history and family recollections about the Paharganj shop."
+          }
+        ],
+        "oralNarrative": {
+          "narrator": "Pran Nath Kohli",
+          "role": "Grandson of Sita Ram, as identified in the NDTV Food report",
+          "account": "In a reported family recollection, Kohli describes his grandfather and Diwan Chand selling chole bhature from a pushcart around Paharganj after Partition before moving to a more permanent shop. This is a named family memory about one Delhi business, not a claim about the dish's sole origin.",
+          "sourceTitle": "Sita Ram Diwan Chand: Why Delhi's Heart Is Set on This Chole-Bhature Wala Since 50 Years",
+          "sourcePublisher": "NDTV Food",
+          "sourceUrl": "https://food.ndtv.com/food-drinks/sita-ram-diwan-chand-why-delhis-heart-is-set-on-this-chole-bhature-wala-since-50-years-1715626"
+        }
+      }
+    ]
+  },
+  "west-bengal": {
+    "name": "West Bengal",
+    "region": "East India",
+    "tagline": "A riverine food culture where fish, mustard, rice and sweets carry layered histories.",
+    "geography": "West Bengal runs from the Himalayan foothills to the Ganga delta and Bay of Bengal. Rivers, wetlands, ponds and estuarine waters support freshwater and migratory fish; alluvial plains support rice, vegetables and mustard. Climate, river ecology and seasonal monsoon patterns influence everyday food, while Kolkata's colonial and commercial history shaped urban tastes.",
+    "culinaryLandscape": "Rice and fish are central in many Bengali foodways, alongside mustard oil, leafy vegetables, pulses and milk-based sweets. The state includes distinct cuisines of north Bengal, the delta, western districts and Kolkata; Bengali culinary history also contains debates over class, caste, migration and regional identity.",
+    "dishes": [
+      {
+        "slug": "shorshe-ilish",
+        "name": "Shorshe Ilish",
+        "descriptor": "Hilsa cooked with mustard and green chilli",
+        "overview": "A preparation of hilsa in a pungent mustard paste, commonly flavoured with green chillies, turmeric and mustard oil. It may be steamed, simmered or cooked in a covered vessel. The fish's rich texture is balanced by the sharpness of mustard.",
+        "ingredients": [
+          "Hilsa (ilish) steaks",
+          "Yellow or black mustard seeds",
+          "Green chillies",
+          "Turmeric and salt",
+          "Mustard oil",
+          "Optional nigella seeds and coriander leaves"
+        ],
+        "steps": [
+          "Soak mustard seeds briefly and grind with green chillies, salt and a little water to make a smooth paste.",
+          "Rub fish pieces with turmeric and salt; rest briefly.",
+          "Warm mustard oil, then let it cool slightly. Mix mustard paste with water to make a sauce.",
+          "Add fish and green chillies; cover and steam or simmer gently until just cooked.",
+          "Avoid vigorous stirring so the fish holds its shape. Serve with steamed rice."
+        ],
+        "history": "Hilsa has long been part of the foodways of Bengal's rivers and estuary. Mustard oil and mustard paste are now defining flavours, but they have not always carried the same social status: food historian Chitrita Banerji's work, discussed in The Indian Express, notes that some nineteenth-century elite Calcutta households regarded mustard oil as a lower-status cooking medium. This offers a way to situate shorshe preparations within changing class and taste cultures rather than assigning the dish a mythical date of invention.",
+        "imageHint": "Seek old photographs of hilsa landings, fish markets on the Hooghly, river fishing, household kitchens or Bengali market scenes. A photograph of hilsa should have a dated location and collection record.",
+        "imageQuery": "Hilsa fish market Hooghly river Bengal historical photograph",
+        "sources": [
+          {
+            "title": "The infinite importance of the 'kick' of mustard oil",
+            "publisher": "The Indian Express",
+            "url": "https://indianexpress.com/article/express-sunday-eye/shorshe-maach-mustard-fish-fire-belly-5596621/lite/",
+            "note": "Discusses Chitrita Banerji's account of changing social attitudes to mustard oil."
+          },
+          {
+            "title": "Regional Cuisines of India — II",
+            "publisher": "Uttarakhand Open University study material",
+            "url": "https://www.uou.ac.in/sites/default/files/slm/BHM-602AT.pdf",
+            "note": "Documents mustard oil and mustard paste as characteristic ingredients in Bengali cooking."
+          }
+        ]
+      },
+      {
+        "slug": "banglar-rosogolla",
+        "name": "Banglar Rosogolla",
+        "descriptor": "Chhana dumplings poached in sugar syrup",
+        "overview": "Soft balls of fresh chhana are cooked in a boiling sugar syrup until they become light and spongy. The texture depends on chhana moisture, kneading, shaping and syrup temperature. The Bengali rosogolla is part of a wider eastern Indian rasgulla history.",
+        "ingredients": [
+          "Fresh cow's-milk chhana",
+          "Sugar",
+          "Water",
+          "A little semolina or flour only if needed for binding",
+          "Cardamom or rose water (optional)"
+        ],
+        "steps": [
+          "Bring milk to a boil and curdle it with lemon juice or another food acid. Drain the curds in a clean cloth.",
+          "Rinse and press the chhana until moist but not watery; knead until smooth and supple.",
+          "Shape into small crack-free balls.",
+          "Boil sugar and water to make a light syrup. Add the balls with enough space to expand.",
+          "Cook at a steady boil until the balls expand and become spongy; cool in the syrup before serving."
+        ],
+        "history": "The history of rasgulla is shared and contested between Bengal and Odisha. An open-access review in the Journal of Ethnic Foods discusses the Kolkata confectioner Nabin Chandra Das and the late-nineteenth-century development of the modern sponge-like rosogolla, while also describing Odisha traditions associated with Puri and the Jagannath temple. The careful historical position is not that one state owns every earlier form, but that the modern Bengali commercial rosogolla has a distinct nineteenth-century Kolkata story within a broader eastern Indian sweet-making history.",
+        "imageHint": "Look for dated photographs of nineteenth- or early-twentieth-century Kolkata sweet shops, chhana makers, confectioners' workshops or Nabin Chandra Das's family business. Do not use a modern sweet-shop photograph as a nineteenth-century record.",
+        "imageQuery": "Kolkata old sweet shop Nabin Chandra Das rosogolla historical photograph",
+        "sources": [
+          {
+            "title": "Rasgulla — the ethnic Indian sweetmeat delicacy and its evolutionary journey through contemporary research",
+            "publisher": "Journal of Ethnic Foods, 2021 (open access)",
+            "url": "https://link.springer.com/article/10.1186/s42779-021-00091-7",
+            "note": "Reviews both Bengal and Odisha traditions and the nineteenth-century Kolkata development account."
+          }
+        ]
+      }
+    ]
+  },
+  "tamil-nadu": {
+    "name": "Tamil Nadu",
+    "region": "South India",
+    "tagline": "A landscape of paddy fields, temple towns, dry interiors and coastal exchange.",
+    "geography": "Tamil Nadu includes the Coromandel coast, the fertile Kaveri delta, dry interior plains and southern uplands. Rice is a staple in many regions; millets, pulses, coconut, tamarind and locally grown spices vary by subregion. The Chettinad settlements around Karaikudi and Sivaganga developed through the commercial and cultural networks of the Nattukottai Chettiars.",
+    "culinaryLandscape": "Tamil cuisine is regionally diverse: Kongunadu, Chettinad, Madurai, the Kaveri delta, coastal districts and the Nilgiris have distinct foodways. Harvest and temple festivals shape seasonal preparations, while trading communities and overseas connections influenced the ingredients and techniques used in some regional kitchens.",
+    "dishes": [
+      {
+        "slug": "sakkarai-pongal",
+        "name": "Sakkarai Pongal",
+        "descriptor": "Sweet rice and lentils for the harvest festival",
+        "overview": "A festive preparation of rice and moong dal cooked until soft with jaggery, ghee and cardamom. It is associated with Thai Pongal, when the harvest is celebrated and the new-season rice is ceremonially cooked.",
+        "ingredients": [
+          "Raw rice",
+          "Split moong dal",
+          "Jaggery",
+          "Ghee",
+          "Cashews and raisins",
+          "Cardamom",
+          "Water or milk"
+        ],
+        "steps": [
+          "Lightly roast the moong dal and rinse it with the rice.",
+          "Cook rice and dal together until very soft and porridge-like.",
+          "Dissolve jaggery in a little water, strain to remove grit and simmer into a syrup.",
+          "Stir the jaggery syrup into the cooked rice and dal; cook gently until thick.",
+          "Finish with ghee, cardamom and cashews and raisins fried in ghee."
+        ],
+        "history": "Pongal is an agrarian harvest festival observed in the Tamil month of Thai, usually in January. Madurai District's official festival guide describes the celebration as an offering of gratitude to the Sun, nature and cattle for the harvest, and specifically mentions sweet rice pongal and sugarcane. The festival's agricultural setting is well documented; a precise inventor or single ancient recipe date for sakkarai pongal is not established by the cited sources.",
+        "imageHint": "Search for dated rural Pongal celebrations, outdoor earthen pots, paddy harvest scenes, Mattu Pongal cattle decorations or family festival photographs. Give priority to archive collections rather than modern promotional imagery.",
+        "imageQuery": "old Tamil Nadu Pongal harvest festival traditional pot cooking historical photograph",
+        "sources": [
+          {
+            "title": "Festivals and Events — Pongal (Harvest Festival)",
+            "publisher": "Madurai District Administration, Government of Tamil Nadu",
+            "url": "https://madurai.nic.in/festivals-and-events/",
+            "note": "Documents Pongal as a harvest festival honouring the Sun, nature and cattle."
+          }
+        ]
+      },
+      {
+        "slug": "chicken-chettinad",
+        "name": "Chicken Chettinad",
+        "descriptor": "Chicken in a freshly ground, aromatic spice masala",
+        "overview": "A Chettinad-style chicken curry uses a freshly roasted and ground masala. Common ingredients include black pepper, fennel, dried chillies, cinnamon, cloves, star anise, curry leaves and coconut. Recipes vary from household to household.",
+        "ingredients": [
+          "Chicken",
+          "Onion, tomato, ginger and garlic",
+          "Black pepper, fennel and cumin",
+          "Dried red chillies, cinnamon and cloves",
+          "Star anise and kalpasi (stone flower, where available)",
+          "Coconut",
+          "Curry leaves and sesame or groundnut oil"
+        ],
+        "steps": [
+          "Dry-roast whole spices and coconut until aromatic; cool and grind to a coarse masala.",
+          "Sauté curry leaves, onion, ginger and garlic in oil.",
+          "Add tomato and ground masala; cook until the raw aroma fades and oil begins to separate.",
+          "Add chicken, salt and a little water. Cover and cook until tender.",
+          "Reduce the gravy to the desired thickness and finish with curry leaves and freshly ground pepper."
+        ],
+        "history": "Chettinad is the homeland of the Nattukottai Chettiars, a merchant and banking community whose nineteenth- and early-twentieth-century networks extended across Southeast Asia. UNESCO's Tentative List describes the Chettinad village clusters, merchant history and the way overseas travel brought external influences into Tamil traditions. This provides historical context for a cuisine known for layered spice use; it does not establish one inventor or one fixed canonical chicken recipe.",
+        "imageHint": "Look for archival Chettinad household kitchens, spice storage, traditional courtyard homes, merchant-family photographs or early Karaikudi market scenes. A dated photograph of Chettinad architecture can provide context even if it does not show the dish itself.",
+        "imageQuery": "Chettinad Karaikudi old merchant house kitchen spice trade archival photograph",
+        "sources": [
+          {
+            "title": "Chettinad, Village Clusters of the Tamil Merchants",
+            "publisher": "UNESCO World Heritage Centre — Tentative List",
+            "url": "https://whc.unesco.org/en/tentativelists/5920/",
+            "note": "Documents the Chettinad region and Nattukottai Chettiar merchant networks."
+          },
+          {
+            "title": "Chettinad Cuisine",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/chennai/food-and-cuisine/chettinad-cuisine.html",
+            "note": "Describes characteristic spices and cooking traditions."
+          }
+        ]
+      }
+    ]
+  },
+  "kerala": {
+    "name": "Kerala",
+    "region": "South India",
+    "tagline": "A coastal and backwater cuisine built around rice, coconut, spices and shared meals.",
+    "geography": "Kerala lies between the Arabian Sea and the Western Ghats. Heavy monsoon rainfall, backwaters, paddy wetlands, coconut groves and spice-growing uplands create a varied food landscape. Rice, coconut, plantain, black pepper, ginger and curry leaves are widely used, while regional food differs between Malabar, central Kerala and Travancore.",
+    "culinaryLandscape": "Kerala foodways combine coastal fish traditions, rice-based meals, coconut-rich gravies, fermented and steamed foods, and elaborate vegetarian feasts. A sadya is a social form of hospitality as much as a menu; puttu and kadala curry are associated with everyday breakfast.",
+    "dishes": [
+      {
+        "slug": "kerala-sadya",
+        "name": "Kerala Sadya",
+        "descriptor": "A ceremonial vegetarian feast served on a banana leaf",
+        "overview": "Sadya is a structured vegetarian feast, not one recipe. It brings rice together with curries, vegetable preparations, pickles, savouries and payasam, served in a customary arrangement on a plantain leaf. Onam sadya is its most widely recognised festive form.",
+        "ingredients": [
+          "Parboiled red rice",
+          "Vegetables such as ash gourd, yam, plantain and beans",
+          "Coconut and coconut milk",
+          "Lentils and yoghurt",
+          "Curry leaves, mustard seeds and dried chillies",
+          "Pickles, banana chips and pappadam",
+          "Jaggery or milk/coconut milk for payasam"
+        ],
+        "steps": [
+          "Prepare the component dishes separately, such as parippu, sambar, avial, thoran, olan, pachadi, pickles and payasam.",
+          "Wash and place the banana leaf with its tapering end pointing to the guest's left, following the Kerala Tourism description.",
+          "Arrange side dishes and savouries in their customary places; the precise menu and order vary by household and district.",
+          "Serve red rice with the curries and vegetable preparations; payasam is served as part of the feast.",
+          "The leaf is traditionally folded at the end of the meal, with local variation in practice."
+        ],
+        "history": "Sadya is a longstanding form of ceremonial hospitality in Kerala, served at festivals, weddings and family celebrations. Kerala Tourism describes the plantain-leaf arrangement, serving order and the variety of curries, savouries and desserts that may make up the feast. Onasadhya is the sadya served for Onam. The exact number of items varies, so the archive presents sadya as a flexible meal tradition rather than a fixed 28-item recipe.",
+        "imageHint": "Search for dated Onam feasts, community banana-leaf meals, wedding sadya service, or historical kitchens preparing large communal meals. Identify the event, district, date and photographer.",
+        "imageQuery": "Kerala historical Onam sadya banana leaf feast archival photograph",
+        "sources": [
+          {
+            "title": "Sadya — the traditional vegetarian feast of Keralites",
+            "publisher": "Kerala Tourism, Government of Kerala",
+            "url": "https://www.keralatourism.org/kerala-food/sadya/",
+            "note": "Official description of leaf arrangement, component dishes and serving sequence."
+          },
+          {
+            "title": "Onasadhya — A Feast of Delicacies",
+            "publisher": "Kerala Tourism, July 2015",
+            "url": "https://www.keralatourism.org/kerala-article/2015/onasadya-kerala/553",
+            "note": "Explains the association between sadya and Onam."
+          }
+        ]
+      },
+      {
+        "slug": "puttu-kadala-curry",
+        "name": "Puttu and Kadala Curry",
+        "descriptor": "Steamed rice cylinders with black-chickpea curry",
+        "overview": "Puttu is a steamed cylinder of damp rice flour layered with grated coconut. Kadala curry uses black chickpeas cooked with onion, spices and a roasted coconut paste. The pairing is widely eaten as breakfast across Kerala.",
+        "ingredients": [
+          "Coarse rice flour",
+          "Grated coconut",
+          "Water and salt",
+          "Black chickpeas (kadala)",
+          "Onion or shallots, garlic and ginger",
+          "Coriander, dried chilli and turmeric",
+          "Coconut oil, mustard seeds and curry leaves"
+        ],
+        "steps": [
+          "Soak black chickpeas overnight and cook until tender.",
+          "Roast grated coconut, shallots, dried chilli, coriander and garlic in coconut oil; grind to a coarse paste.",
+          "Temper mustard seeds and curry leaves, sauté onion and spices, then add chickpeas and coconut paste. Simmer.",
+          "Moisten rice flour gradually with salted water until it resembles damp crumbs, not a dough.",
+          "Layer coconut and rice flour in a puttu steamer and steam until cooked through. Serve with kadala curry."
+        ],
+        "history": "Kerala Tourism describes puttu and kadala curry as a familiar breakfast in Malayali households and provides a recipe for both elements. The ingredients reflect a region where rice and coconut are widely available, with black chickpeas providing a hearty accompaniment. The government source does not establish a definitive invention date, so the archive records the preparation and present-day foodway without inventing an origin legend.",
+        "imageHint": "Search for old puttu kudam steamers, traditional household breakfast scenes, rice-flour milling or historic kitchen photographs. Do not label a recent stainless-steel appliance as an antique.",
+        "imageQuery": "traditional Kerala puttu kudam steamer black chickpea curry archival kitchen",
+        "sources": [
+          {
+            "title": "Puttu and Kadala Curry",
+            "publisher": "Kerala Tourism, Government of Kerala",
+            "url": "https://www.keralatourism.org/kerala-food/puttu-kadala/43/",
+            "note": "Official ingredient list and method for puttu and kadala curry."
+          },
+          {
+            "title": "Nadan Food — Ethnic Cuisine",
+            "publisher": "Kerala Tourism Responsible Tourism Mission",
+            "url": "https://www.keralatourism.org/responsible-tourism/ethnic-cuisine/unit/nadan-food/982",
+            "note": "Documents puttu and kadala curry in local food experiences."
+          }
+        ]
+      }
+    ]
+  },
+  "rajasthan": {
+    "name": "Rajasthan",
+    "region": "West India",
+    "tagline": "A cuisine of resilience, shaped by arid landscapes, long-lasting ingredients and hospitality.",
+    "geography": "Rajasthan includes the Thar Desert, the Aravalli range, semi-arid plains and scattered river basins. Water scarcity and uneven access to fresh vegetables encouraged the use of gram flour, pulses, millet, wheat, dairy, dried beans and preserved foods. Food differs across desert districts, eastern plains and Mewar.",
+    "culinaryLandscape": "Rajasthani cooking is not only royal cuisine. Everyday foodways include breads, pulses, dairy, gram-flour preparations, preserved vegetables and festive sweets. Climate and local availability are central to the region's culinary choices.",
+    "dishes": [
+      {
+        "slug": "dal-baati-churma",
+        "name": "Dal Baati Churma",
+        "descriptor": "Baked wheat rolls, lentils and sweetened crushed bread",
+        "overview": "A complete meal of baati (firm wheat rolls), dal (often a mix of lentils) and churma (sweetened, crushed wheat). It is served at family gatherings, weddings and feasts, often with ghee and garlic chutney.",
+        "ingredients": [
+          "Wheat flour",
+          "Ghee",
+          "Moong, chana or toor dal",
+          "Turmeric, cumin, asafoetida and red chilli",
+          "Jaggery or sugar for churma",
+          "Cardamom and nuts (optional)"
+        ],
+        "steps": [
+          "Make a firm dough from wheat flour, ghee, salt and water; shape into balls.",
+          "Bake or roast the baati until browned and cooked through; traditionally this may be done in a clay oven or over embers.",
+          "Pressure-cook the lentils; temper with ghee, cumin, chilli, asafoetida and other spices.",
+          "Crush a portion of warm baati and combine with jaggery or sugar and ghee to make churma.",
+          "Crack or dip baati in ghee and serve with dal, churma and chutney."
+        ],
+        "history": "Rajasthan Tourism calls dal baati churma one of the state's best-known complete meals. A popular legend connects baati with the Mewar ruler Bappa Rawal and wartime cooking, but the precise origin story is not securely established in the cited records. The more defensible context is regional: wheat breads, pulses, ghee and durable foods suited local fuel, climate and agricultural conditions.",
+        "imageHint": "Search for old Mewar household cooking, clay ovens, baati roasting over embers or historical feast scenes. Treat Bappa Rawal origin stories as folklore unless a contemporary historical source is found.",
+        "imageQuery": "Rajasthan traditional baati clay oven old village cooking photograph",
+        "sources": [
+          {
+            "title": "Rajasthani Cuisine: Traditional Flavors",
+            "publisher": "Rajasthan Tourism, Government of Rajasthan",
+            "url": "https://www.tourism.rajasthan.gov.in/rajasthani-cuisine.html",
+            "note": "Official description of the three components and serving style."
+          },
+          {
+            "title": "Cuisine of Rajasthan",
+            "publisher": "Rajasthan Foundation, Government of Rajasthan",
+            "url": "https://foundation.rajasthan.gov.in/CuisineofRajasthan.aspx",
+            "note": "Explains the influence of aridity, water scarcity and available ingredients."
+          }
+        ]
+      },
+      {
+        "slug": "gatte-ki-sabzi",
+        "name": "Gatte ki Sabzi",
+        "descriptor": "Gram-flour dumplings in a spiced yoghurt gravy",
+        "overview": "Besan dough is seasoned, shaped into logs, boiled and sliced before being simmered in a tangy yoghurt gravy. It is a pantry-based preparation that turns shelf-stable gram flour into a substantial curry.",
+        "ingredients": [
+          "Gram flour (besan)",
+          "Yoghurt",
+          "Ghee or oil",
+          "Cumin, coriander and red chilli",
+          "Turmeric and asafoetida",
+          "Carom seeds and salt",
+          "Ginger; garlic optional"
+        ],
+        "steps": [
+          "Mix besan with salt, chilli, turmeric, carom seeds and a little oil; add water or yoghurt to form a firm dough.",
+          "Roll into logs and simmer in salted water until cooked; reserve some cooking water.",
+          "Cool and slice the logs into discs; lightly shallow-fry if desired.",
+          "Whisk yoghurt with spices and a little water until smooth.",
+          "Temper cumin and asafoetida in ghee, add the yoghurt mixture gradually and cook gently.",
+          "Add gatte and simmer until they absorb the gravy; finish with coriander."
+        ],
+        "history": "Rajasthan Foundation identifies gram flour among the common ingredients of the state's cuisine and explains that water scarcity and limited fresh green vegetables influence food choices. Gatte ki sabzi expresses this pantry logic: besan stores well, can be shaped into dumplings and cooked into a gravy. The cited sources do not establish a single inventor or date, so no precise origin is claimed.",
+        "imageHint": "Search for traditional besan grinding, village kitchens, earthen cooking vessels or archival Rajasthani household-food photographs. A modern plate may be included as a contemporary dish photograph, not a historic document.",
+        "imageQuery": "Rajasthan gatte besan dumpling traditional kitchen archival image",
+        "sources": [
+          {
+            "title": "Cuisine of Rajasthan",
+            "publisher": "Rajasthan Foundation, Government of Rajasthan",
+            "url": "https://foundation.rajasthan.gov.in/CuisineofRajasthan.aspx",
+            "note": "Documents besan and environmental factors in Rajasthani cuisine."
+          },
+          {
+            "title": "Rajasthani Cuisine: Traditional Flavors",
+            "publisher": "Rajasthan Tourism, Government of Rajasthan",
+            "url": "https://www.tourism.rajasthan.gov.in/rajasthani-cuisine.html",
+            "note": "Official page on regional traditional foods."
+          }
+        ]
+      }
+    ]
+  },
+  "gujarat": {
+    "name": "Gujarat",
+    "region": "West India",
+    "tagline": "A food culture of seasonal produce, grain, pulses, fermentation and inventive preservation.",
+    "geography": "Gujarat includes the Kathiawar peninsula, the Gulf of Khambhat, the Rann of Kutch, river plains and dry inland areas. Climate ranges from arid Kutch and Saurashtra to fertile central and southern districts. Seasonal vegetables, millets, pulses, dairy and coastal produce support distinct regional food traditions.",
+    "culinaryLandscape": "Gujarati cuisine includes sweet-sour farsan, fermented batters, vegetable preparations, breads and seasonal one-pot dishes. Many communities have strong vegetarian traditions, while coastal and district cuisines also include fish and other local foods.",
+    "dishes": [
+      {
+        "slug": "undhiyu",
+        "name": "Undhiyu",
+        "descriptor": "Winter vegetables slow-cooked in an inverted clay pot",
+        "overview": "Undhiyu brings together seasonal winter vegetables, beans, stuffed aubergines and methi muthia. In a traditional method, ingredients are layered in a clay pot called a matla, which is placed upside down and slow-cooked.",
+        "ingredients": [
+          "Surti papdi or flat beans",
+          "Purple yam and sweet potato",
+          "Raw banana and baby aubergines",
+          "Methi muthia",
+          "Green garlic, coriander and coconut",
+          "Sesame, carom, cumin and coriander",
+          "Oil, lemon and salt"
+        ],
+        "steps": [
+          "Prepare a coarse masala with green garlic, coriander, coconut, sesame, spices and lemon.",
+          "Stuff small aubergines and potatoes with some of the masala; cut other vegetables into pieces.",
+          "Mix fenugreek leaves, gram flour and spices to make muthia; shape and shallow-fry or steam.",
+          "Layer vegetables and muthia in a heavy pot with oil, masala and a little water.",
+          "Cover and cook slowly until the vegetables soften and flavours combine; turn gently to keep pieces intact."
+        ],
+        "history": "Undhiyu is closely tied to the winter vegetable harvest of south Gujarat, especially the Surat region. Gujarat Tourism describes the traditional matla method: vegetables, green garlic, carom and coconut are layered in an earthen pot, hung upside down and fired. The name is linked to undhu, Gujarati for upside down. This is a seasonal cooking technique and community food tradition rather than a recipe with a single inventor.",
+        "imageHint": "Search for dated Surat winter markets, traditional matla cooking, village outdoor fires or community undhiyu gatherings. Archival images of the cooking vessel and process may be more useful than a modern plated photograph.",
+        "imageQuery": "Surat Gujarat undhiyu matla earthen pot upside down cooking historical image",
+        "sources": [
+          {
+            "title": "Undhiyu",
+            "publisher": "Gujarat Tourism, Government of Gujarat",
+            "url": "https://gujarattourism.com/gujarati-cuisines/undhiyu.html",
+            "note": "Official description of the vegetables, earthen pot and inverted cooking method."
+          },
+          {
+            "title": "Winter brings undhiyu parties to the yard",
+            "publisher": "Condé Nast Traveller India",
+            "url": "https://www.cntraveller.in/story/in-gujarat-winter-brings-undhiyu-parties-to-the-yard/",
+            "note": "Discusses seasonal community preparation around Surat."
+          }
+        ]
+      },
+      {
+        "slug": "dhokla",
+        "name": "Dhokla",
+        "descriptor": "A soft, savoury steamed batter preparation",
+        "overview": "Dhokla is a savoury steamed preparation made from fermented rice-and-pulse batter or from gram-flour-based batters in popular variants. It is cut into squares and tempered with mustard seeds, curry leaves, green chillies and sometimes sesame.",
+        "ingredients": [
+          "Rice and chana dal, or gram flour depending on style",
+          "Water or yoghurt for the batter",
+          "Salt and a little sugar",
+          "Green chilli and ginger",
+          "Mustard seeds and curry leaves",
+          "Fruit salt for quick versions, or natural fermentation",
+          "Coriander and grated coconut"
+        ],
+        "steps": [
+          "For a fermented version, soak rice and chana dal, grind to a batter and leave to ferment until aerated.",
+          "Season with salt, ginger and chilli. For a quick version, fold in fruit salt immediately before steaming.",
+          "Pour into a greased shallow pan and steam until a skewer comes out clean.",
+          "Cool slightly and cut into squares.",
+          "Temper mustard seeds, curry leaves and green chillies in oil; pour over the dhokla and garnish."
+        ],
+        "history": "Dhokla is part of Gujarat's fermented-food tradition. A 2022 review in the Journal of Applied Microbiology notes a reference to a precursor called dukkia in Gujarati Jain literature dated to 1066 CE. That reference should be described as a possible precursor, not proof that the modern dhokla recipe existed unchanged in the eleventh century. Khaman, made chiefly with gram flour, is related but is not identical to every rice-and-pulse dhokla.",
+        "imageHint": "Search for Gujarati Jain manuscripts or catalogued folios containing the dukkia reference, early farsan shops, traditional steaming vessels and dated household food photographs. A manuscript needs a repository and folio citation.",
+        "imageQuery": "Gujarati Jain manuscript dukkia 1066 dhokla traditional steaming historical",
+        "sources": [
+          {
+            "title": "Ethno-microbiology of ethnic Indian fermented foods and alcoholic beverages",
+            "publisher": "Journal of Applied Microbiology, Wiley (2022)",
+            "url": "https://enviromicro-journals.onlinelibrary.wiley.com/doi/full/10.1111/jam.15382",
+            "note": "Discusses dhokla fermentation and the 1066 CE dukkia reference as a precursor."
+          }
+        ]
+      }
+    ]
+  },
+  "maharashtra": {
+    "name": "Maharashtra",
+    "region": "West India",
+    "tagline": "From Deccan grain kitchens to Mumbai's street stalls, food reflects migration and city life.",
+    "geography": "Maharashtra stretches from the Konkan coast across the Western Ghats to the Deccan plateau and Vidarbha. Coastal food uses rice, coconut and fish; interior regions use jowar, bajra, pulses and groundnuts. Mumbai's port and industrial history brought migrant communities and street-food traditions into close contact.",
+    "culinaryLandscape": "Maharashtrian food differs between Konkan, Desh, Vidarbha, Khandesh and Mumbai. Festival sweets, bhakri-based meals, lentil preparations and affordable city snacks belong to different but connected histories.",
+    "dishes": [
+      {
+        "slug": "vada-pav",
+        "name": "Vada Pav",
+        "descriptor": "Spiced potato fritter served in a soft bread roll",
+        "overview": "A potato mixture seasoned with chilli, ginger, garlic and spices is coated in gram-flour batter and deep-fried. It is placed inside a pav with dry garlic chutney, green chutney and often a fried green chilli.",
+        "ingredients": [
+          "Potatoes",
+          "Gram flour (besan)",
+          "Green chillies, ginger and garlic",
+          "Mustard seeds, turmeric and curry leaves",
+          "Pav bread rolls",
+          "Dry garlic-peanut or coconut chutney",
+          "Oil and salt"
+        ],
+        "steps": [
+          "Boil and mash potatoes. Temper mustard seeds, curry leaves, turmeric, chilli, ginger and garlic in oil.",
+          "Mix the tempering into the potatoes and shape into balls.",
+          "Make a thick besan batter with salt, turmeric and chilli.",
+          "Dip each potato ball in batter and deep-fry until crisp and golden.",
+          "Split pav, add chutneys and place the hot vada inside; serve with fried chilli."
+        ],
+        "history": "Vada pav is a modern urban street food, not an ancient village dish. A 2015 Cultural Anthropology study describes the mixed ancestry of its parts: pav is connected to Portuguese-influenced and later migrant bakery cultures in Bombay, while potato and the vada drew on nineteenth-century ingredient and street-food histories. The article records the popular story that vendor Ashok Vaidya joined the two in central Mumbai in the 1960s, but it also emphasises that published and oral histories are more complex than a single origin story.",
+        "imageHint": "Search for dated 1960s–1980s Mumbai street-vending scenes, Dadar or central Bombay stalls, textile-mill worker food culture or early vada-pav carts. The Ashok Vaidya account is a reported origin story, not a fully proven sole invention.",
+        "imageQuery": "Mumbai 1960s street vendor vada pav Dadar textile mill historical photograph",
+        "sources": [
+          {
+            "title": "The Taste No Chef Can Give: Processing Street Food in Mumbai",
+            "publisher": "Cultural Anthropology / Society for Cultural Anthropology, 2015",
+            "url": "https://anthrosource.onlinelibrary.wiley.com/doi/full/10.14506/ca30.1.05",
+            "note": "Academic account of vada pav's mixed history and the popular Ashok Vaidya origin story."
+          },
+          {
+            "title": "The Best of Maharashtra — Pocket Guide",
+            "publisher": "Maharashtra Tourism, Government of Maharashtra",
+            "url": "https://maharashtratourism.gov.in/wp-content/uploads/2025/06/Maharashtra-Booklet_compressed.pdf",
+            "note": "Official regional food overview."
+          }
+        ]
+      },
+      {
+        "slug": "puran-poli",
+        "name": "Puran Poli",
+        "descriptor": "Sweet lentil-and-jaggery flatbread",
+        "overview": "A thin wheat or refined-flour dough encloses a soft filling of cooked chana dal and jaggery, flavoured with cardamom or nutmeg. It is rolled carefully and cooked on a griddle, usually served with ghee or milk.",
+        "ingredients": [
+          "Chana dal",
+          "Jaggery",
+          "Wheat flour or maida",
+          "Ghee or oil",
+          "Cardamom and nutmeg",
+          "Salt and water"
+        ],
+        "steps": [
+          "Cook chana dal until tender but not waterlogged; drain thoroughly.",
+          "Cook the dal with jaggery until thick, then mash or pass through a puran press.",
+          "Season the filling with cardamom and nutmeg and cool it completely.",
+          "Knead a soft dough with flour, salt, water and a little oil or ghee; rest it.",
+          "Enclose a portion of puran in the dough, roll gently and cook on a hot griddle with ghee."
+        ],
+        "history": "Puran poli is strongly associated with festive meals in Maharashtra. Maharashtra Tourism lists it as a traditional Gudi Padwa sweet flatbread filled with jaggery and lentils. A 2018 food-technology review cites a preparation called purana in the twelfth-century Sanskrit encyclopaedia Manasollasa; because historical dish names and recipes can change over time, this should be treated as evidence of an antecedent or related preparation, not proof that today's recipe was identical. The archive records both the medieval textual reference and the dish's continuing festival role.",
+        "imageHint": "Search for old household festival cooking, Gudi Padwa meals, traditional puran presses, rolling boards or dated family photographs. Label a modern festival image as contemporary.",
+        "imageQuery": "Maharashtra Gudi Padwa puran poli traditional household cooking archival photograph",
+        "sources": [
+          {
+            "title": "Gudi Padwa — Traditional foods",
+            "publisher": "Maharashtra Tourism, Government of Maharashtra",
+            "url": "https://maharashtratourism.gov.in/festivals/gudi-padwa/",
+            "note": "Officially identifies puran poli as a traditional Gudi Padwa dish."
+          },
+          {
+            "title": "Traditional sweet flatbread of western India—Puran Poli",
+            "publisher": "Discover Food / Springer Nature, 2024",
+            "url": "https://link.springer.com/article/10.1007/s44187-024-00261-x",
+            "note": "Open review of the ingredients, method and place of puran poli in Maharashtra's food culture."
+          },
+          {
+            "title": "Puran Poli: A Signature Dish of Maharashtra",
+            "publisher": "Research Review International Journal of Multidisciplinary, 2018",
+            "url": "https://old.rrjournals.com/past-issue/puran-poli-a-signature-dish-of-maharashtra/",
+            "note": "Cites a purana preparation in the twelfth-century Manasollasa; exact equivalence with the modern dish should not be assumed."
+          }
+        ]
+      }
+    ]
+  },
+  "karnataka": {
+    "name": "Karnataka",
+    "region": "South India",
+    "tagline": "A varied culinary map from Mysuru's palace kitchens to the millet and rice traditions of the plateau.",
+    "geography": "Karnataka spans the humid Konkan and Malnad, the Kaveri basin, the dry Deccan plateau and northern districts. Rice, ragi, jowar, pulses, coconut, tamarind and local spices are used differently across coastal, southern and northern Karnataka.",
+    "culinaryLandscape": "Karnataka includes coastal, Udupi, Kodava, North Karnataka and Mysuru–Bengaluru food traditions. Palace and temple foodways coexist with everyday millet meals, tiffin culture and sweets made for festivals and hospitality.",
+    "dishes": [
+      {
+        "slug": "mysore-pak",
+        "name": "Mysore Pak",
+        "descriptor": "A ghee-rich sweet of gram flour and sugar",
+        "overview": "Mysore Pak is made by cooking gram flour with ghee and sugar syrup until the mixture sets into a dense, porous sweet. Texture ranges from soft and melt-in-the-mouth to firmer and crumbly.",
+        "ingredients": [
+          "Gram flour (besan)",
+          "Ghee",
+          "Sugar",
+          "Water for syrup",
+          "Cardamom (optional)"
+        ],
+        "steps": [
+          "Sieve gram flour and roast it lightly in a portion of ghee to remove the raw aroma.",
+          "Prepare a sugar syrup to the required thread consistency.",
+          "Add the roasted flour gradually while stirring to prevent lumps.",
+          "Add hot ghee in batches and continue stirring as the mixture thickens and begins to release from the pan.",
+          "Pour into a greased tray, allow to set and cut while slightly warm."
+        ],
+        "history": "Mysore Pak is associated with the Mysore Palace kitchen and the Wadiyar period. The Mysuru District government records the legend that palace cook Kakasura Madappa prepared it from besan, ghee and sugar. A 2019 Open Magazine report records a family version of the story from Shivanand Madappa, a descendant associated with Guru Sweets. The story is important local memory, but it is not a surviving contemporaneous palace recipe record.",
+        "imageHint": "Search for historical photographs of Mysore Palace kitchens, Dasara-era food service, Devaraja Mohalla sweet shops or early Guru Sweets. Keep family business photographs separate from palace-era archival images.",
+        "imageQuery": "Mysore Palace kitchen Kakasura Madappa Mysore Pak old sweet shop historical photograph",
+        "sources": [
+          {
+            "title": "Mysuru Specialities — Mysuru Pak",
+            "publisher": "District Mysuru, Government of Karnataka",
+            "url": "https://mysore.nic.in/en/mysuru-specialities/",
+            "note": "Government district page records the palace-cook origin tradition."
+          },
+          {
+            "title": "Who Owns the Alphonso?",
+            "publisher": "Open Magazine, 6 December 2019",
+            "url": "https://openthemagazine.com/features/who-owns-the-alphonso",
+            "note": "Includes a reported account from Shivanand Madappa about the family tradition."
+          }
+        ],
+        "oralNarrative": {
+          "narrator": "Shivanand Madappa",
+          "role": "Member of the Madappa family associated with Guru Sweets in Mysuru",
+          "account": "In a 2019 interview, Madappa recounts the family story that his great-grandfather Kakasura Madappa, believed to have cooked for the Mysore kings, improvised the sweet from gram flour, ghee and sugar. The journalist explicitly describes the story as an apocryphal family tradition, so it is presented here as oral memory rather than proven palace documentation.",
+          "sourceTitle": "Who Owns the Alphonso?",
+          "sourcePublisher": "Open Magazine, interview reported by Lhendup G. Bhutia",
+          "sourceUrl": "https://openthemagazine.com/features/who-owns-the-alphonso"
+        }
+      },
+      {
+        "slug": "bisi-bele-bath",
+        "name": "Bisi Bele Bath",
+        "descriptor": "Hot rice, lentils, vegetables and tamarind",
+        "overview": "A one-pot rice and lentil preparation cooked with vegetables, tamarind and a distinctive spice blend. It is served hot and often finished with ghee, cashews and curry leaves.",
+        "ingredients": [
+          "Rice",
+          "Toor dal",
+          "Tamarind pulp",
+          "Carrot, beans, peas or other vegetables",
+          "Coriander, cumin, dried red chilli and cinnamon",
+          "Chana dal, urad dal and dry coconut for masala",
+          "Ghee, cashews and curry leaves"
+        ],
+        "steps": [
+          "Cook rice and toor dal until soft; cook vegetables until tender.",
+          "Roast and grind the spice blend with lentils, coriander, chilli, cinnamon and dry coconut.",
+          "Prepare tamarind extract and add it to the cooked vegetables.",
+          "Combine rice, dal, vegetables, spice powder and tamarind; simmer and stir until thick and cohesive.",
+          "Temper curry leaves and cashews in ghee; pour over the dish and serve hot."
+        ],
+        "history": "Bisi bele bath is a well-established preparation in Karnataka, especially associated with the Mysuru–Bengaluru region. The name means hot lentil-rice, and the dish brings rice, dal, vegetables and a roasted spice blend into one pot. Available tourism descriptions document the ingredients and present-day popularity, but do not establish a reliable inventor or precise origin date. The archive therefore avoids an unsupported palace-invention story.",
+        "imageHint": "Search for old Mysuru or Bengaluru household cookbooks, traditional brass cooking vessels, early darshini eateries or dated family meal photographs showing the preparation.",
+        "imageQuery": "Karnataka old cookbook bisi bele bath Mysore traditional kitchen archival photograph",
+        "sources": [
+          {
+            "title": "Bisi Bele Bath",
+            "publisher": "Karnataka Tourism",
+            "url": "https://old.karnatakatourism.org/destinations/bisi-bele-bath/",
+            "note": "Lists the core ingredients and preparation method."
+          },
+          {
+            "title": "South Karnataka Food Trail: A Culinary Journey",
+            "publisher": "Karnataka Tourism",
+            "url": "https://karnatakatourism.org/en/experiences/south-karnataka-food-trail/",
+            "note": "Places bisi bele bath among the region's familiar dishes."
+          }
+        ]
+      }
+    ]
+  },
+  "uttar-pradesh": {
+    "name": "Uttar Pradesh",
+    "region": "North India",
+    "tagline": "A diverse food landscape shaped by the Ganga plains, pilgrimage towns and Awadh's courtly kitchens.",
+    "geography": "Uttar Pradesh spans the fertile Ganga–Yamuna Doab, eastern Gangetic plains, Terai foothills and historic Awadh. Wheat, rice, pulses, dairy, seasonal vegetables and river fish shape everyday meals; Lucknow's food history also reflects Persianate court culture, urban patronage and skilled specialist cooks.",
+    "culinaryLandscape": "The state contains many cuisines: Awadhi slow-cooked dishes, Banarasi street food, western UP breads and dairy, eastern UP rice and lentils, and pilgrimage-town foodways. Lucknow's kebabs and dum cooking are one prominent strand, not a stand-in for all of Uttar Pradesh.",
+    "dishes": [
+      {
+        "slug": "galouti-kebab",
+        "name": "Galouti Kebab",
+        "descriptor": "Fine-textured minced meat kebab from Lucknow",
+        "overview": "Finely minced meat is mixed with raw papaya, aromatics and a complex spice blend, shaped into small patties and shallow-fried in ghee. It is known for its tender texture and is commonly served with paratha or roomali roti.",
+        "ingredients": [
+          "Finely minced lamb or goat",
+          "Raw papaya paste",
+          "Ginger and garlic",
+          "Fried onion",
+          "Cardamom, clove, cinnamon and pepper",
+          "Chilli and salt",
+          "Ghee; egg or gram flour as a binder in some recipes"
+        ],
+        "steps": [
+          "Pound or grind the meat until very fine.",
+          "Mix with raw papaya, ginger-garlic, fried onion and a balanced spice blend.",
+          "Rest briefly so the papaya helps tenderise the meat.",
+          "Shape into small, flat patties with lightly greased hands.",
+          "Cook gently in ghee on a flat griddle until set and lightly browned; serve immediately."
+        ],
+        "history": "Galouti (also written galawati) belongs to Lucknow's Awadhi kebab tradition. The popular story says a tender kebab was developed for Nawab Asaf-ud-Daula, who had difficulty chewing; raw papaya is used as a tenderiser in many recipes. This is a widely repeated culinary legend, not a dated kitchen record. The stronger historical context is the refinement of minced-meat kebabs in Awadh's courtly kitchens and the later professional kebab shops of Lucknow.",
+        "imageHint": "Search for dated Lucknow kebab-shop photographs, nineteenth-century Awadh court scenes, old cookbooks or archival images of the city's food markets. Avoid treating a modern restaurant image as evidence of a nawabi kitchen.",
+        "imageQuery": "Lucknow old kebab shop galouti kebab Awadh historical photograph",
+        "sources": [
+          {
+            "title": "Food and Cuisine — Lucknow",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/lucknow/food-and-cuisine.html",
+            "note": "Describes galawati preparation and the popular Asaf-ud-Daula story."
+          },
+          {
+            "title": "Where tehzeeb meets taste: How Awadh's royal kitchens shaped Lucknow's food identity",
+            "publisher": "The Indian Express",
+            "url": "https://indianexpress.com/article/research/where-tehzeeb-meets-taste-how-awadhs-royal-kitchens-shaped-lucknows-food-identity-10366883/lite/",
+            "note": "Research feature on Awadh's culinary history."
+          }
+        ]
+      },
+      {
+        "slug": "awadhi-dum-pukht-biryani",
+        "name": "Awadhi Dum Pukht Biryani",
+        "descriptor": "Rice and meat slowly cooked in a sealed vessel",
+        "overview": "Aromatic rice and marinated meat are layered in a heavy vessel, sealed with dough and cooked slowly so steam circulates within. The result is fragrant and restrained, with the rice absorbing the meat and spice aromas.",
+        "ingredients": [
+          "Long-grain basmati rice",
+          "Mutton or chicken",
+          "Yoghurt",
+          "Onion, ginger and garlic",
+          "Cardamom, cinnamon, clove and mace",
+          "Mint, coriander and ghee",
+          "Saffron or rose water (optional)"
+        ],
+        "steps": [
+          "Marinate meat with yoghurt, ginger-garlic, fried onion and spices.",
+          "Parboil the rice with whole spices until partly cooked; drain.",
+          "Layer the meat and rice in a heavy handi, adding herbs, saffron and ghee.",
+          "Seal the lid with dough to limit steam escaping.",
+          "Cook gently over low heat until the meat and rice finish cooking together; rest briefly before opening."
+        ],
+        "history": "Dum pukht refers to slow cooking in a sealed vessel. The technique is closely associated with Lucknow's Awadhi food culture and its courtly kitchens, although popular origin stories often simplify the history. The Indian Express research on Awadh's kitchens and its broader history of biryani both caution that claims about one inventor or one moment of invention are difficult to verify. This entry focuses on the documented technique and regional tradition.",
+        "imageHint": "Search for historical Lucknow handis, sealed-vessel cooking, royal kitchen inventories, old cookbooks or archival Awadh dining scenes. A photograph of a modern handi should be labelled contemporary.",
+        "imageQuery": "Awadh Lucknow dum pukht sealed handi cooking historical kitchen photograph",
+        "sources": [
+          {
+            "title": "Where tehzeeb meets taste: How Awadh's royal kitchens shaped Lucknow's food identity",
+            "publisher": "The Indian Express",
+            "url": "https://indianexpress.com/article/research/where-tehzeeb-meets-taste-how-awadhs-royal-kitchens-shaped-lucknows-food-identity-10366883/lite/",
+            "note": "Discusses Awadh's royal kitchens and dum cooking."
+          },
+          {
+            "title": "Truths and myths around the beloved biryani",
+            "publisher": "The Indian Express",
+            "url": "https://indianexpress.com/article/explained/explained-culture/biryani-history-india-most-popular-dish-recipe-mutton-9955021/lite/",
+            "note": "Explains why popular biryani-origin stories need cautious treatment."
+          }
+        ]
+      }
+    ]
+  },
+  "assam": {
+    "name": "Assam",
+    "region": "Northeast India",
+    "tagline": "A riverine cuisine of rice, freshwater fish, sour broths and distinctive banana-ash preparations.",
+    "geography": "Assam is shaped by the Brahmaputra and Barak valleys, floodplains, wetlands, foothills and heavy monsoon rainfall. Rice, freshwater fish, banana plants, bamboo shoots, leafy greens and souring fruits are important in many local foodways. Communities across the state maintain different cuisines; no single dish represents every household.",
+    "culinaryLandscape": "A traditional Assamese meal may begin with khar, an alkaline preparation, and include tenga, a light sour curry, alongside rice, greens and fish. Ingredients such as elephant apple, thekera, roselle and banana plant parts reflect local biodiversity and household knowledge.",
+    "dishes": [
+      {
+        "slug": "assam-khar",
+        "name": "Assamese Khar",
+        "descriptor": "An alkaline preparation made with plant-ash filtrate",
+        "overview": "Khar is both the name of an alkaline cooking ingredient and of dishes made with it. Kola khar is prepared by filtering water through ash made from banana plant parts. A familiar dish cooks raw papaya or vegetables with a measured amount of this filtrate.",
+        "ingredients": [
+          "Kola khar (banana-plant ash filtrate)",
+          "Raw papaya or other vegetables",
+          "Black gram or other pulses in some versions",
+          "Mustard oil",
+          "Salt",
+          "Green chillies and herbs as preferred"
+        ],
+        "steps": [
+          "Prepare kola khar using a documented household method: dry suitable banana plant parts and burn them to ash.",
+          "After the ash cools, pass water through it and filter the liquid. Do not improvise with unknown or treated ash.",
+          "Cook raw papaya, pulses or vegetables until nearly tender.",
+          "Add a measured amount of the khar filtrate and simmer briefly; the alkaline liquid changes the flavour and texture.",
+          "Serve with rice. Recipes and source plants differ by community and household."
+        ],
+        "history": "Khar is an indigenous Assamese food technology, not simply a curry seasoning. A 2020 open-access Journal of Ethnic Foods study documents how banana trunk, rhizome and peels are dried, burned and extracted through water filtration to make kolakhar. Assam Tourism describes khar as a common opening element in traditional meals. The preparation is tied to local banana biodiversity and intergenerational household knowledge.",
+        "imageHint": "Search for ethnographic photographs of banana-ash preparation, bamboo sieves, traditional Assamese kitchens or fieldwork documenting kolakhar. Any process photograph should identify the community, location, date and photographer.",
+        "imageQuery": "Assam kolakhar banana ash preparation bamboo sieve ethnographic photograph",
+        "sources": [
+          {
+            "title": "The traditional and therapeutic use of banana and its plant based delicacies in ethnic Assamese cuisine and religious rituals",
+            "publisher": "Journal of Ethnic Foods, 2020 (open access)",
+            "url": "https://link.springer.com/article/10.1186/s42779-020-00053-5",
+            "note": "Documents banana plant parts and the traditional kolakhar filtration method."
+          },
+          {
+            "title": "Culinary Treasures of Assam",
+            "publisher": "Assam Tourism, Government of Assam",
+            "url": "https://assamtourism.gov.in/cuisine.php",
+            "note": "Describes khar as part of the traditional Assamese meal sequence."
+          }
+        ]
+      },
+      {
+        "slug": "masor-tenga",
+        "name": "Masor Tenga",
+        "descriptor": "Light, sour fish curry with seasonal ingredients",
+        "overview": "A light fish curry defined by a gentle sourness. Depending on district and season, souring agents include tomato, lemon, thekera, elephant apple, roselle leaves or raw mango. It is usually served with steamed rice.",
+        "ingredients": [
+          "Fresh river fish",
+          "Tomato or another local souring ingredient",
+          "Turmeric and salt",
+          "Mustard oil",
+          "Green chillies",
+          "Fenugreek or nigella seeds, depending on household",
+          "Coriander leaves"
+        ],
+        "steps": [
+          "Clean the fish and rub with turmeric and salt.",
+          "Lightly fry the pieces in mustard oil and set aside.",
+          "Temper whole spices and add tomato or the chosen souring ingredient.",
+          "Add water and simmer to make a light, tangy broth.",
+          "Return the fish and simmer gently until cooked; finish with green chilli and herbs."
+        ],
+        "history": "Masor tenga is a familiar sour fish preparation in Assam's riverine food culture. Assam Tourism describes fish as central to many household meals and lists several souring ingredients, including tomato, lemon, thekera, elephant apple, roselle and raw mango. The variety matters: tenga is a flexible method adapted to local produce and season, not one fixed recipe with a single origin date.",
+        "imageHint": "Search for archival Brahmaputra fishing, traditional fish markets, boat landings or household fish preparation. A photograph of fishermen or a fish market can document the food system even if it does not show the curry.",
+        "imageQuery": "Assam Brahmaputra traditional fishing fish market historical photograph",
+        "sources": [
+          {
+            "title": "Culinary Treasures of Assam — Masor Tenga",
+            "publisher": "Assam Tourism, Government of Assam",
+            "url": "https://assamtourism.gov.in/cuisine.php",
+            "note": "Official description of tenga and its seasonal souring ingredients."
+          }
+        ]
+      }
+    ]
+  }
+}
