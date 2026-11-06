@@ -2318,5 +2318,678 @@
         "oralNarrative": null
       }
     ]
+  },
+  "andaman-and-nicobar-islands": {
+    "name": "Andaman and Nicobar Islands",
+    "region": "Bay of Bengal",
+    "tagline": "Island foodways shaped by seafood, coconut, tubers and migration.",
+    "geography": "This Bay of Bengal archipelago includes two island groups separated by the Ten Degree Channel. Tropical forests, coral waters and a maritime climate support fishing, coconut and tuber cultivation. The Andamans and Nicobars have distinct communities and food histories.",
+    "culinaryLandscape": "Seafood is prominent in the Andamans, where Bengali, South Indian and other migrant food traditions are visible. Nicobarese foodways place particular importance on coconut, tubers, pig and marine foods. These traditions should not be treated as one uniform island cuisine.",
+    "dishes": [
+      {
+        "slug": "andaman-fish-curry",
+        "name": "Andaman Fish Curry",
+        "descriptor": "A coastal fish curry served with rice",
+        "overview": "A flexible island-style curry made with locally caught fish, coconut, chilli and souring ingredients. Recipes vary across communities and islands, reflecting the region's seafood economy and the influence of Bengali and South Indian cooking. It is commonly served with rice.",
+        "ingredients": [
+          "Local fish",
+          "Coconut milk or grated coconut",
+          "Chilli",
+          "Tamarind",
+          "Turmeric",
+          "Ginger or garlic",
+          "Salt",
+          "Rice to serve"
+        ],
+        "steps": [
+          "Clean and portion the fish.",
+          "Prepare a curry base with chilli, turmeric, tamarind and aromatics.",
+          "Add coconut milk or coconut and enough water to form a light gravy.",
+          "Add the fish and simmer gently until cooked.",
+          "Adjust seasoning and serve with rice."
+        ],
+        "history": "Fish curry reflects the islands' marine food economy, but there is no single documented origin or fixed recipe. Official tourism material describes fresh seafood and Bengali-style fish preparations among the foods available in the Andamans. The dish is best presented as a living coastal food tradition shaped by local catch and migration, not as one uniform Indigenous recipe.",
+        "imageHint": "Look for dated images of island fishing, seafood markets, coconut processing and home cooking in the Andamans. Identify the island and community in captions.",
+        "imageQuery": "Andaman Islands fishing seafood market coconut traditional cooking archival photograph",
+        "sources": [
+          {
+            "title": "Islands of Andaman & Nicobar — Culinary Delights",
+            "publisher": "Andaman & Nicobar Tourism",
+            "url": "https://tourism.andamannicobar.gov.in/islands_details.php?data=HzGSmLaZ3DCvaUnmUwkHd_3eVGwbQPQm4pffhWVMAZhZSPWBPv3N4RQ",
+            "note": "Describes seafood, prawn curries, crab and Bengali fish preparations in the islands."
+          },
+          {
+            "title": "Andaman & Nicobar Islands",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands",
+            "note": "Summarises the islands' seafood-centred food culture."
+          }
+        ]
+      },
+      {
+        "slug": "nicobari-aloo-preparation",
+        "name": "Nicobari Aloo Preparation",
+        "descriptor": "A yam-based food tradition of Car Nicobar",
+        "overview": "Nicobari aloo refers to traditional yam varieties cultivated and prepared by Nicobarese communities. Tubers are important carbohydrate foods alongside coconut, pig and marine foods. Preparation differs between households; the tubers may be cooked simply and eaten with other local foods.",
+        "ingredients": [
+          "Nicobari aloo (yam)",
+          "Water",
+          "Coconut, where used",
+          "Local greens or fish, optional",
+          "Salt"
+        ],
+        "steps": [
+          "Wash and peel the yam.",
+          "Cut it into manageable pieces.",
+          "Boil or roast until tender, following local household practice.",
+          "Serve with coconut or other locally prepared foods."
+        ],
+        "history": "Research documents Nicobari aloo varieties, cultivation and their use in regular meals and village festivals. Nicobarese food systems also rely on coconut, tubers, pig-rearing and fishing. The sources describe a food tradition rather than one standard recipe, so this entry avoids assigning a single origin or fixed method.",
+        "imageHint": "Search for ethnographic or agricultural photographs of Nicobari yam cultivation, coconut gardens, tuber harvesting and household food preparation. Respect community-specific image permissions.",
+        "imageQuery": "Nicobari aloo yam tuber cultivation Car Nicobar ethnographic photograph",
+        "sources": [
+          {
+            "title": "Traditional knowledge on Nicobari aloo among Nicobari tribal community of Car Nicobar Island",
+            "publisher": "Indian Journal of Traditional Knowledge, CSIR-NIScPR",
+            "url": "https://nopr.niscpr.res.in/handle/123456789/60955",
+            "note": "Documents tuber varieties, cultivation and food use."
+          },
+          {
+            "title": "Tuber Crops Based Farming System for Nicobari Tribes",
+            "publisher": "Journal of Root Crops",
+            "url": "https://www.journal.isrc.in/index.php/jrc/article/view/430",
+            "note": "Describes the role of coconut, tubers, pig and marine fisheries in Nicobari livelihoods."
+          }
+        ]
+      }
+    ]
+  },
+  "chandigarh": {
+    "name": "Chandigarh",
+    "region": "Northern India",
+    "tagline": "A planned city with Punjabi, Haryanvi and contemporary urban food influences.",
+    "geography": "Chandigarh sits on the plains at the Shivalik foothills, between Punjab and Haryana. Developed as a planned city in the twentieth century, it grew through migration and urban expansion rather than an ancient, separate regional food system.",
+    "culinaryLandscape": "Punjabi food is highly visible in Chandigarh, alongside Haryanvi and wider North Indian influences. Wheat breads, dairy, tandoori cooking, chickpeas and street snacks feature prominently. The city's restaurants and markets reflect a modern, mixed urban population.",
+    "dishes": [
+      {
+        "slug": "chandigarh-chole-bhature",
+        "name": "Chole Bhature",
+        "descriptor": "Spiced chickpeas with deep-fried leavened bread",
+        "overview": "Chole bhature pairs chickpeas simmered in a spiced gravy with puffy, deep-fried bread. It is a popular breakfast and street-food choice in Chandigarh, reflecting the city's Punjabi food culture rather than a dish invented locally.",
+        "ingredients": [
+          "Chickpeas",
+          "Flour",
+          "Yogurt",
+          "Onion and tomato",
+          "Ginger and garlic",
+          "Chole spices",
+          "Oil"
+        ],
+        "steps": [
+          "Soak and cook the chickpeas until tender.",
+          "Prepare a masala with onion, tomato, ginger, garlic and spices.",
+          "Simmer the chickpeas in the masala.",
+          "Make and rest a soft dough for the bhature.",
+          "Roll and deep-fry the breads until puffed; serve hot with chole."
+        ],
+        "history": "Chole bhature belongs to the wider Punjabi and North Indian food tradition. It became a familiar part of Chandigarh's urban dining scene as the planned city grew and drew residents from nearby regions. Its precise origin is debated, so it should not be presented as a uniquely Chandigarh invention.",
+        "imageHint": "Look for dated photographs of Chandigarh eateries, Punjabi dhabas, breakfast stalls and post-Partition North Indian restaurant culture.",
+        "imageQuery": "Chandigarh Punjabi chole bhature dhaba street food archival photograph",
+        "sources": [
+          {
+            "title": "A Gastronomic Journey Through Must-Try Local Foods in Chandigarh",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/a-gastronomic-journey-through-must-try-local"
+          },
+          {
+            "title": "Chandigarh",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.incredibleindia.gov.in/en/chandigarh"
+          }
+        ]
+      },
+      {
+        "slug": "amritsari-kulcha",
+        "name": "Amritsari Kulcha",
+        "descriptor": "A stuffed Punjabi flatbread baked in a tandoor",
+        "overview": "Amritsari kulcha is a leavened flatbread stuffed with potato, onion or paneer and baked in a tandoor. Served with chole, chutney or butter, it is associated with Amritsar but is widely enjoyed in Chandigarh's Punjabi-influenced food scene.",
+        "ingredients": [
+          "Flour",
+          "Yogurt or leavening",
+          "Potato or paneer filling",
+          "Onion",
+          "Coriander and spices",
+          "Ghee or butter",
+          "Chole to serve"
+        ],
+        "steps": [
+          "Prepare a soft dough and let it rest.",
+          "Season mashed potato or another chosen filling.",
+          "Fill and roll the dough into a flatbread.",
+          "Bake in a hot tandoor or cook on a suitable griddle.",
+          "Brush with ghee or butter and serve with chole."
+        ],
+        "history": "Amritsari kulcha is a Punjabi specialty associated with Amritsar, not a Chandigarh-origin dish. Its popularity in Chandigarh reflects the movement of Punjabi food traditions across the region and the city's shared dining culture. The exact age of the named preparation is not firmly established.",
+        "imageHint": "Look for historical images of Amritsar tandoors, kulcha bakeries, Punjabi street markets and Chandigarh food stalls.",
+        "imageQuery": "Amritsari kulcha tandoor Punjabi bakery historical photograph",
+        "sources": [
+          {
+            "title": "A Gastronomic Journey Through Must-Try Local Foods in Chandigarh",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.incredibleindia.gov.in/en/chandigarh/chandigarh/a-gastronomic-journey-through-must-try-local"
+          },
+          {
+            "title": "Chandigarh",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.incredibleindia.gov.in/en/chandigarh"
+          }
+        ]
+      }
+    ]
+  },
+  "dadra-and-nagar-haveli-and-daman-and-diu": {
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "region": "Western India",
+    "tagline": "Inland Adivasi foodways meet the coastal and Portuguese-influenced traditions of Daman and Diu.",
+    "geography": "The Union Territory combines inland Dadra and Nagar Haveli, near Gujarat and Maharashtra, with the Arabian Sea enclaves of Daman and Diu. Forests, rivers and tribal settlements shape inland foodways, while fishing, coconut and maritime contact influence the coast.",
+    "culinaryLandscape": "Food traditions differ across the territory. Adivasi communities in Dadra and Nagar Haveli use rice, millets, tubers and forest produce. Daman and Diu draw on Gujarati coastal cooking and Portuguese-era influences, visible in seafood and layered sweets such as bebinca.",
+    "dishes": [
+      {
+        "slug": "ukad",
+        "name": "Ukad",
+        "descriptor": "A steamed rice-flour preparation associated with Dadra and Nagar Haveli",
+        "overview": "Ukad is identified in a NITI Aayog regional profile as a traditional tribal preparation made from rice flour and served with spicy chutneys or curries. It reflects the use of rice and simple, locally available accompaniments in the food culture of Dadra and Nagar Haveli.",
+        "ingredients": [
+          "Rice flour",
+          "Water",
+          "Salt",
+          "Chilli chutney or curry to serve"
+        ],
+        "steps": [
+          "Mix rice flour with water and salt to make a thick mixture.",
+          "Cook or steam it until the rice flour is fully set.",
+          "Shape or portion while warm, according to local practice.",
+          "Serve with spicy chutney or curry."
+        ],
+        "history": "The NITI Aayog profile identifies ukad as a traditional tribal rice-flour food of Dadra and Nagar Haveli. The available reference does not establish a precise date or inventor, so the dish is best presented as a continuing regional food practice rather than assigned a specific origin story.",
+        "imageHint": "Search for documented photographs of Adivasi kitchens, rice preparation, village meals and local markets in Dadra and Nagar Haveli. Attribute the community and location where known.",
+        "imageQuery": "Dadra Nagar Haveli tribal rice flour ukad traditional food archival photograph",
+        "sources": [
+          {
+            "title": "Union Territory food and tourism profile: Dadra and Nagar Haveli and Daman and Diu",
+            "publisher": "NITI Aayog",
+            "url": "https://www.niti.gov.in/node/2250",
+            "note": "Lists ukad as a traditional tribal steamed rice-flour dish."
+          },
+          {
+            "title": "Tribal Cooking of Dadra & Nagar Haveli",
+            "publisher": "International Journal of Social Science and Humanities Research",
+            "url": "https://www.researchpublish.com/upload/book/Tribal%20Cooking%20of%20Dadra-5962.pdf",
+            "note": "Field-based account of tribal foodways, staple grains and cooking practices in the territory."
+          }
+        ]
+      },
+      {
+        "slug": "bebinca-diu",
+        "name": "Bebinca of Diu",
+        "descriptor": "A layered coconut-and-egg sweet shaped by Indo-Portuguese foodways",
+        "overview": "Bebinca is a rich layered sweet made with coconut milk, eggs, flour, sugar and ghee. In Diu it reflects the territory's Portuguese-era connections and is served as a dessert or festive treat. Thin layers are baked one after another to create its characteristic texture.",
+        "ingredients": [
+          "Coconut milk",
+          "Eggs",
+          "Flour",
+          "Sugar",
+          "Ghee",
+          "Nutmeg or cardamom, optional"
+        ],
+        "steps": [
+          "Whisk coconut milk, eggs, sugar and flour into a smooth batter.",
+          "Grease a baking dish with ghee.",
+          "Pour a thin layer and bake until set and lightly coloured.",
+          "Repeat with further layers, brushing with ghee as needed.",
+          "Cool before slicing and serving."
+        ],
+        "history": "Diu's food culture reflects centuries of Portuguese presence, which ended in 1961. Incredible India identifies bebinca among the island's culinary offerings and describes its layered coconut-based preparation. The dessert is shared across parts of the former Portuguese coastal world; it should not be described as exclusive to Diu.",
+        "imageHint": "Look for historical photographs of Diu's Portuguese-era settlement, bakeries, coconut preparation and family celebrations. Keep modern food images separate from archival material.",
+        "imageQuery": "Diu bebinca Portuguese heritage layered dessert archival photograph",
+        "sources": [
+          {
+            "title": "Discover the Authentic Gastronomy of Diu",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/diu/culinary-delights-of-diu"
+          },
+          {
+            "title": "Union Territory food and tourism profile: Dadra and Nagar Haveli and Daman and Diu",
+            "publisher": "NITI Aayog",
+            "url": "https://www.niti.gov.in/node/2250",
+            "note": "Lists bebinca among the foods of Diu."
+          }
+        ]
+      }
+    ]
+  },
+  "delhi": {
+    "name": "Delhi",
+    "region": "Northern India",
+    "tagline": "A capital food culture shaped by Mughal courts, street markets and Punjabi migration.",
+    "geography": "Delhi lies on the Yamuna plain at a historic crossroads of northern India. Its position as a political and trading centre encouraged migration and exchange over centuries. Wheat, dairy, pulses, spices and market foods remain important to its varied food culture.",
+    "culinaryLandscape": "Delhi's cuisine brings together Mughal and North Indian traditions, Old Delhi street food, Punjabi migration after Partition and newer urban influences. Kebabs, breads, biryani, chaat and restaurant dishes such as butter chicken illustrate this layered history.",
+    "dishes": [
+      {
+        "slug": "butter-chicken",
+        "name": "Butter Chicken",
+        "descriptor": "Tandoori chicken in a tomato, butter and cream gravy",
+        "overview": "Butter chicken, or murgh makhani, combines tandoor-cooked chicken with a smooth tomato-and-butter sauce. It is closely associated with Moti Mahal in Daryaganj and Delhi's post-Partition restaurant culture. Its creamy gravy and smoky chicken made it a widely copied restaurant dish.",
+        "ingredients": [
+          "Chicken",
+          "Yogurt and spices",
+          "Tomatoes",
+          "Butter",
+          "Cream, optional",
+          "Ginger and garlic",
+          "Garam masala"
+        ],
+        "steps": [
+          "Marinate chicken in yogurt, ginger, garlic and spices.",
+          "Roast or grill the chicken until cooked and lightly charred.",
+          "Cook tomatoes with butter and spices to make the gravy.",
+          "Blend or strain the gravy, then add the chicken.",
+          "Simmer briefly and finish with cream if desired."
+        ],
+        "history": "Butter chicken emerged in the mid-twentieth-century Punjabi restaurant world linked to Moti Mahal in Daryaganj. The exact inventor remains disputed between families connected with the restaurant, and some accounts trace the story to pre-Partition Peshawar. Delhi Tourism places its emergence at Moti Mahal in the 1950s; the competing claims should remain visible rather than be presented as settled fact.",
+        "imageHint": "Search for dated photographs of Moti Mahal in Daryaganj, Old Delhi restaurants, tandoor kitchens and post-Partition food businesses.",
+        "imageQuery": "Moti Mahal Daryaganj Delhi butter chicken historical restaurant photograph",
+        "sources": [
+          {
+            "title": "Old Delhi Food",
+            "publisher": "Delhi Tourism",
+            "url": "https://delhitourism.gov.in/eating_out/purani_delhi_food.html"
+          },
+          {
+            "title": "What Is Butter Chicken and Where Is It From?",
+            "publisher": "National Geographic",
+            "url": "https://www.nationalgeographic.com/travel/article/what-is-butter-chicken"
+          },
+          {
+            "title": "The Butter Chicken Origin Dispute",
+            "publisher": "The Indian Express",
+            "url": "https://indianexpress.com/article/express-sunday-eye/butter-chicken-origin-moti-mahal-daryaganj-9142687/"
+          }
+        ]
+      },
+      {
+        "slug": "old-delhi-chaat",
+        "name": "Old Delhi Chaat",
+        "descriptor": "Tangy street snacks built around potato, crisp breads and chutneys",
+        "overview": "Chaat is a family of street foods combining ingredients such as potato, crisp fried dough, gram, yogurt, chutneys and tangy spices. Chandni Chowk is strongly associated with these snacks, whose varieties differ from vendor to vendor.",
+        "ingredients": [
+          "Potato",
+          "Papdi or crisp fried dough",
+          "Chickpeas or gram",
+          "Yogurt",
+          "Tamarind chutney",
+          "Mint chutney",
+          "Chaat masala"
+        ],
+        "steps": [
+          "Boil and chop the potatoes; cook chickpeas if using.",
+          "Arrange papdi or another crisp base on a plate.",
+          "Add potato, chickpeas and yogurt.",
+          "Top with tamarind and mint chutneys and spice mix.",
+          "Serve immediately while the crisp elements remain crunchy."
+        ],
+        "history": "Chaat is deeply associated with Old Delhi's market streets, especially Chandni Chowk. Delhi Tourism describes combinations of potato, crisp fried bread, dahi bhalla, gram and tangy-salty spices. Its exact origin is uncertain; popular stories connecting it to a particular Mughal ruler are not firmly documented.",
+        "imageHint": "Look for dated photographs of Chandni Chowk, street vendors, halwai shops and Old Delhi market life. Record the archive and date where possible.",
+        "imageQuery": "Old Delhi Chandni Chowk chaat street vendor historical photograph",
+        "sources": [
+          {
+            "title": "Old Delhi Food",
+            "publisher": "Delhi Tourism",
+            "url": "https://delhitourism.gov.in/eating_out/purani_delhi_food.html"
+          },
+          {
+            "title": "The Beloved Snack Made on Delhi's Streets",
+            "publisher": "BBC Travel",
+            "url": "https://www.bbc.com/travel/article/20220717-the-beloved-snack-of-wealth-made-on-delhis-streets"
+          }
+        ]
+      }
+    ]
+  },
+  "jammu-and-kashmir": {
+    "name": "Jammu and Kashmir",
+    "region": "Northern India",
+    "tagline": "A Himalayan food culture with Kashmiri Pandit, Muslim and Wazwan traditions.",
+    "geography": "The Union Territory includes the Kashmir Valley, Jammu plains and Himalayan ranges. The valley supports rice, saffron, walnut and apple cultivation, while the Jammu region has different climates and crops. Mountain routes and historic trade connected the region with Central and South Asia.",
+    "culinaryLandscape": "Kashmiri food traditions include household cooking, Kashmiri Pandit preparations and the elaborate Muslim Wazwan feast. Rice, lamb, yogurt, saffron, dried chillies and aromatic spices are common, but recipes and food practices vary by community and region.",
+    "dishes": [
+      {
+        "slug": "rogan-josh",
+        "name": "Rogan Josh",
+        "descriptor": "A Kashmiri lamb curry served in household meals and Wazwan",
+        "overview": "Rogan josh is a slow-cooked lamb curry flavoured with Kashmiri chillies, fennel, ginger and other spices. Recipes differ between Kashmiri Pandit and Muslim traditions, including their use of garlic, yogurt and colouring agents. It is also recognised as a Wazwan dish.",
+        "ingredients": [
+          "Lamb",
+          "Kashmiri chillies",
+          "Fennel",
+          "Ginger",
+          "Yogurt, in some versions",
+          "Mustard oil or ghee",
+          "Ratan jot, in some versions"
+        ],
+        "steps": [
+          "Brown the lamb in heated oil or ghee.",
+          "Add whole spices, ginger and ground Kashmiri chilli.",
+          "Add water or yogurt according to the chosen regional style.",
+          "Simmer slowly until the lamb is tender and the gravy is aromatic.",
+          "Serve with rice."
+        ],
+        "history": "Rogan josh is a recognised part of Kashmiri cuisine and is served in Wazwan, the multi-course feast prepared for weddings and other gatherings. Its history is often linked to Persian and Central Asian influences, but a precise date or single inventor is not established. Regional and community versions should not be collapsed into one standard recipe.",
+        "imageHint": "Search for dated Wazwan feasts, copper degs, trami platters, specialist wazas and Kashmiri household kitchens.",
+        "imageQuery": "Kashmiri Wazwan rogan josh copper deg traditional feast archival photograph",
+        "sources": [
+          {
+            "title": "Wazwan",
+            "publisher": "District Budgam, Government of Jammu and Kashmir",
+            "url": "https://budgam.nic.in/culinary-delight/wazwan/"
+          },
+          {
+            "title": "Food Heritage: History, Evolution, Influences and Modern Trends",
+            "publisher": "National Council for Hotel Management and Catering Technology, Ministry of Tourism",
+            "url": "https://www.nchm.gov.in/sites/default/files/2022-11/Indian_Food_Heritage.pdf"
+          },
+          {
+            "title": "Wazwan: A Culinary Legacy",
+            "publisher": "Sahapedia",
+            "url": "https://www.sahapedia.org/wazwan-culinary-legacy"
+          }
+        ]
+      },
+      {
+        "slug": "kashmiri-kahwa",
+        "name": "Kashmiri Kahwa",
+        "descriptor": "Green tea infused with saffron, nuts and warm spices",
+        "overview": "Kahwa is a fragrant green tea brewed with ingredients such as saffron, cardamom, cinnamon and almonds. It is served at gatherings, celebrations and as a gesture of hospitality. Recipes vary between households and may include honey or sugar.",
+        "ingredients": [
+          "Green tea",
+          "Saffron",
+          "Cardamom",
+          "Cinnamon or cloves",
+          "Almonds",
+          "Honey or sugar, optional",
+          "Water"
+        ],
+        "steps": [
+          "Simmer water with cardamom and cinnamon.",
+          "Add green tea and steep briefly.",
+          "Place saffron and sliced almonds in serving cups.",
+          "Strain the tea into the cups and sweeten if desired.",
+          "Serve hot."
+        ],
+        "history": "Kahwa is associated with Kashmiri hospitality and is served at weddings, festivals and religious gatherings. Its use of green tea, saffron, nuts and spices reflects the region's agricultural and trading connections. The exact date of its arrival in Kashmir is uncertain, so claims of a precise origin should be avoided.",
+        "imageHint": "Search for historical photographs of Kashmiri samovars, tea gatherings, saffron fields and traditional bakeries.",
+        "imageQuery": "Kashmir kahwa samovar saffron tea gathering historical photograph",
+        "sources": [
+          {
+            "title": "Kashmiri Kahwa",
+            "publisher": "District Budgam, Government of Jammu and Kashmir",
+            "url": "https://budgam.nic.in/culinary-delight/kashmiri-kahwa/"
+          },
+          {
+            "title": "Hospitality and Catering Industry: Kashmir Beverages",
+            "publisher": "National Institute of Open Schooling",
+            "url": "https://digital.nios.ac.in/content/337en/337_Tourism_Eng_L20B.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "ladakh": {
+    "name": "Ladakh",
+    "region": "Northern India",
+    "tagline": "A high-altitude food culture shaped by barley, root vegetables and Tibetan exchange.",
+    "geography": "Ladakh is a high-altitude trans-Himalayan region with cold deserts, short growing seasons and the Indus valley. Barley, buckwheat, peas, apricots and livestock are important to local food systems. Historic routes connected Ladakh with Tibet and Central Asia.",
+    "culinaryLandscape": "Ladakhi food is adapted to cold and altitude. Barley, wheat, root vegetables, dairy and dried foods feature in everyday meals. Tibetan and Central Asian exchange is visible, but local dishes such as skyu and the salted butter tea gur gur cha have a distinct place in Ladakhi food culture.",
+    "dishes": [
+      {
+        "slug": "skyu",
+        "name": "Skyu",
+        "descriptor": "A Ladakhi stew of small dough pieces and root vegetables",
+        "overview": "Skyu is a hearty Ladakhi stew made with small pieces of wheat dough simmered with root vegetables. Meat may be added, while vegetarian versions are also prepared. Its thick, warming consistency suits the cold climate and makes it a distinctive local comfort food.",
+        "ingredients": [
+          "Wheat flour",
+          "Water and salt",
+          "Potato",
+          "Turnip or carrot",
+          "Onion",
+          "Meat, optional",
+          "Local herbs or spices"
+        ],
+        "steps": [
+          "Knead flour, water and salt into a firm dough.",
+          "Pinch or roll the dough into small pieces.",
+          "Cook onion and root vegetables in a pot with water or stock.",
+          "Add the dough pieces and simmer until tender.",
+          "Add meat or seasoning if used, and serve hot."
+        ],
+        "history": "Skyu is identified in educational documentation on Leh-Ladakh as a specifically Ladakhi dish. Its dough-based preparation and use of root vegetables reflect local grain and garden produce, while its dense, warming form suits the high-altitude climate. A precise date or inventor is not documented.",
+        "imageHint": "Look for archival photographs of Ladakhi household kitchens, barley milling, root-vegetable gardens and traditional cooking pots.",
+        "imageQuery": "Ladakh skyu traditional pasta stew household kitchen archival photograph",
+        "sources": [
+          {
+            "title": "A Visit to Leh Ladakh: People, Kitchen and Food",
+            "publisher": "D'source, IIT Guwahati",
+            "url": "https://dsource.in/sites/default/files/resource/visit-leh-ladakh/downloads/file/a-visit-to-leh-ladakh.pdf"
+          },
+          {
+            "title": "Importance and Preservation of Ladakhi Dishes",
+            "publisher": "Reach Ladakh",
+            "url": "https://reachladakh.com/news/oped-page/importance-and-preservation-of-ladakhi-dishes"
+          }
+        ]
+      },
+      {
+        "slug": "gur-gur-cha",
+        "name": "Gur Gur Cha (Butter Tea)",
+        "descriptor": "A salted tea churned with butter for warmth and energy",
+        "overview": "Gur gur cha is a traditional Ladakhi tea made by combining strong tea with salt and butter, often from yak or other local dairy. It is served hot throughout the day and is closely tied to hospitality and the region's pastoral economy.",
+        "ingredients": [
+          "Tea leaves",
+          "Water",
+          "Butter",
+          "Salt",
+          "Milk, optional"
+        ],
+        "steps": [
+          "Boil tea leaves in water to make a strong infusion.",
+          "Add salt and milk if used.",
+          "Combine the hot tea with butter in a churn.",
+          "Churn until the drink is blended and lightly frothy.",
+          "Serve hot."
+        ],
+        "history": "Salted butter tea is a long-standing drink across Tibetan Himalayan communities and is central to Ladakhi hospitality. It uses local dairy and provides a warming, energy-rich drink in a cold, high-altitude environment. It is shared across the wider Himalayan region, so it should not be described as exclusive to Ladakh.",
+        "imageHint": "Search for dated photographs of Ladakhi households, butter churning, yak or cattle herding and tea service in traditional homes.",
+        "imageQuery": "Ladakh gur gur cha butter tea wooden churn historical photograph",
+        "sources": [
+          {
+            "title": "A Visit to Leh Ladakh: People, Kitchen and Food",
+            "publisher": "D'source, IIT Guwahati",
+            "url": "https://dsource.in/sites/default/files/resource/visit-leh-ladakh/downloads/file/a-visit-to-leh-ladakh.pdf"
+          },
+          {
+            "title": "A Culinary Expedition in Leh Ladakh",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.incredibleindia.gov.in/en/ladakh/leh/a-culinary-expedition-in-leh-ladakh"
+          }
+        ]
+      }
+    ]
+  },
+  "lakshadweep": {
+    "name": "Lakshadweep",
+    "region": "Arabian Sea",
+    "tagline": "An island food culture centred on tuna, coconut, rice and Minicoy traditions.",
+    "geography": "Lakshadweep is an archipelago of coral atolls in the Arabian Sea. Its small land area limits cultivation, while surrounding waters support tuna and reef fishing. Proximity to Kerala and the Maldives has shaped language, trade and food traditions across the islands.",
+    "culinaryLandscape": "Tuna, coconut and rice are central to Lakshadweep's food system. Minicoy has distinctive cultural links with the Maldives, visible in dishes such as mus kavaab. Drying and processing tuna, including the production of masmin, are important to island livelihoods and cuisine.",
+    "dishes": [
+      {
+        "slug": "mus-kavaab",
+        "name": "Mus Kavaab",
+        "descriptor": "A spiced tuna preparation associated with Minicoy",
+        "overview": "Mus kavaab is a Minicoy speciality made with tuna, chilli, coriander and cardamom, cooked with onion, curry leaves and tomato. It reflects the island's seafood-based cuisine and its cultural links with the Maldives. It is distinct from the coconut-and-jaggery sweets also found across the islands.",
+        "ingredients": [
+          "Tuna",
+          "Chilli powder",
+          "Coriander",
+          "Cardamom",
+          "Onion",
+          "Tomato",
+          "Curry leaves",
+          "Oil and salt"
+        ],
+        "steps": [
+          "Clean and cut the tuna into pieces.",
+          "Season with chilli, coriander, cardamom and salt.",
+          "Cook onion, tomato and curry leaves in a pan.",
+          "Add the tuna and cook until done, allowing the spices to coat it.",
+          "Serve with rice or flatbread."
+        ],
+        "history": "Incredible India identifies mus kavaab as a Minicoy speciality and describes its tuna-and-spice preparation. The dish reflects the island's strong tuna fishery and cultural connections across the Maldives region. Its exact date of origin is not documented.",
+        "imageHint": "Search for dated photographs of Minicoy fishing, tuna preparation, local markets and family meals. Distinguish Minicoy traditions from those of other islands.",
+        "imageQuery": "Minicoy Lakshadweep mus kavaab tuna traditional food archival photograph",
+        "sources": [
+          {
+            "title": "Lakshadweep: Savouring Secrets of the Seas",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.incredibleindia.gov.in/en/lakshadweep"
+          },
+          {
+            "title": "Lakshadweep: Local Food System",
+            "publisher": "Ministry of Food Processing Industries, Government of India",
+            "url": "https://www.mofpi.gov.in/sites/default/files/KnowledgeCentre/State%20Profile/Lakshadweep.pdf",
+            "note": "Documents the importance of tuna and traditional masmin processing."
+          }
+        ]
+      },
+      {
+        "slug": "maas-podichathu",
+        "name": "Maas Podichathu",
+        "descriptor": "Dried tuna mixed with coconut and spices",
+        "overview": "Maas podichathu combines dried tuna with coconut, turmeric, onion and garlic. It draws on Lakshadweep's tuna fishery and the preservation of fish for later use. The preparation is a flavourful accompaniment to rice and other island dishes.",
+        "ingredients": [
+          "Dried tuna",
+          "Grated coconut",
+          "Turmeric",
+          "Onion",
+          "Garlic",
+          "Chilli",
+          "Salt"
+        ],
+        "steps": [
+          "Prepare or obtain dried tuna and break it into small flakes.",
+          "Grate the coconut and finely chop the aromatics.",
+          "Combine tuna with coconut, turmeric, onion, garlic and chilli.",
+          "Mix or lightly cook until the flavours combine.",
+          "Serve as an accompaniment with rice."
+        ],
+        "history": "Maas podichathu is listed by Incredible India among Lakshadweep's traditional foods and uses dried tuna with coconut and aromatics. Its ingredients reflect the importance of fish preservation and coconut in the island food system. The exact origin of the named preparation is not securely dated.",
+        "imageHint": "Look for archival images of tuna drying, fish processing, coconut grating and island household food preparation.",
+        "imageQuery": "Lakshadweep dried tuna masmin coconut fish processing historical photograph",
+        "sources": [
+          {
+            "title": "Lakshadweep: Savouring Secrets of the Seas",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.incredibleindia.gov.in/en/lakshadweep"
+          },
+          {
+            "title": "Lakshadweep: Local Food System",
+            "publisher": "Ministry of Food Processing Industries, Government of India",
+            "url": "https://www.mofpi.gov.in/sites/default/files/KnowledgeCentre/State%20Profile/Lakshadweep.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "puducherry": {
+    "name": "Puducherry",
+    "region": "Southern India",
+    "tagline": "A Tamil coastal food culture with French and Creole influences in selected dishes.",
+    "geography": "The Union Territory includes Puducherry, Karaikal, Mahe and Yanam, separated geographically and shaped by neighbouring regions. The Coromandel coast, rivers and fishing settlements support rice, seafood, coconut and tamarind. French rule left a visible but uneven influence on local foodways.",
+    "culinaryLandscape": "Puducherry's food is fundamentally diverse and largely Tamil, with distinct community traditions and influences from Telugu, Malayalam and French-speaking households. Everyday foods such as sambar coexist with bakery breads and selected Franco-Tamil or Creole preparations. The four enclaves should not be treated as culturally identical.",
+    "dishes": [
+      {
+        "slug": "roll-roti",
+        "name": "Roll Roti",
+        "descriptor": "A local bakery bread linked to Franco-Tamil household foodways",
+        "overview": "Roll roti is a bread associated with older wood-fired bakeries in Puducherry. Tamil cooks supplied bread to French and Creole households, and it was eaten with sweetened tea or coconut milk. The preparation is a record of everyday exchange rather than simply a French dish transplanted to India.",
+        "ingredients": [
+          "Wheat flour",
+          "Water",
+          "Salt",
+          "Yeast or leavening",
+          "Coconut milk or tea to serve"
+        ],
+        "steps": [
+          "Mix flour, water, salt and leavening into a dough.",
+          "Knead and rest until the dough becomes workable.",
+          "Shape into small rolls or flat rounds.",
+          "Bake in a hot oven until cooked and lightly browned.",
+          "Serve with tea or coconut milk, as preferred."
+        ],
+        "history": "Sahapedia documents roll roti as a bread made by Tamil bakers for households in colonial Puducherry. Wood-fired bakeries supplied French and Creole homes, and the bread was also eaten by local workers. The story complicates the idea that Puducherry cuisine is simply French: local cooks and Tamil tastes shaped these exchanges.",
+        "imageHint": "Search for photographs of old Puducherry wood-fired bakeries, roll-roti preparation, French Quarter homes and Tamil bakery workers.",
+        "imageQuery": "Pondicherry roll roti wood fired bakery historical photograph",
+        "sources": [
+          {
+            "title": "Pondicherry's Mélange of Cuisines",
+            "publisher": "Sahapedia",
+            "url": "https://www.sahapedia.org/pondicherrys-melange-cuisines"
+          },
+          {
+            "title": "Puducherry Culture",
+            "publisher": "Government of Puducherry",
+            "url": "https://www.py.gov.in/culture"
+          }
+        ]
+      },
+      {
+        "slug": "vettu-sambar",
+        "name": "Vettu Sambar",
+        "descriptor": "A simple Tamil home-style sambar from Puducherry foodways",
+        "overview": "Vettu sambar is a quick, economical home-style preparation described in accounts of Puducherry's Tamil food culture. It is flavoured with chilli and common pantry ingredients and served with hot rice. Family methods vary, reflecting its place in everyday cooking rather than restaurant cuisine.",
+        "ingredients": [
+          "Toor dal",
+          "Tamarind",
+          "Chilli",
+          "Onion",
+          "Tomato, optional",
+          "Turmeric",
+          "Mustard seeds",
+          "Salt"
+        ],
+        "steps": [
+          "Cook the toor dal until soft.",
+          "Prepare tamarind water and add chilli and turmeric.",
+          "Simmer the tamarind mixture with onion and optional tomato.",
+          "Add the cooked dal and simmer until combined.",
+          "Temper with mustard seeds and serve with rice."
+        ],
+        "history": "Sahapedia records vettu sambar through a household account and places it within the everyday Tamil foodways of Puducherry. The dish is valued for its simplicity and affordability. This is a documented living food practice, not a recipe with a known inventor or precise date of origin.",
+        "imageHint": "Look for family recipe notebooks, home kitchens, traditional market scenes and everyday Tamil meals in Puducherry. Attribute any oral account to its original source.",
+        "imageQuery": "Puducherry Tamil home cooking sambar kitchen historical photograph",
+        "sources": [
+          {
+            "title": "Pondicherry's Mélange of Cuisines",
+            "publisher": "Sahapedia",
+            "url": "https://www.sahapedia.org/pondicherrys-melange-cuisines"
+          },
+          {
+            "title": "Puducherry Culture",
+            "publisher": "Government of Puducherry",
+            "url": "https://www.py.gov.in/culture"
+          }
+        ]
+      }
+    ]
   }
 }
