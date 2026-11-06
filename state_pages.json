@@ -1669,5 +1669,654 @@
         "oralNarrative": null
       }
     ]
+  },
+  "meghalaya": {
+    "name": "Meghalaya",
+    "region": "Northeast India",
+    "tagline": "A Khasi, Jaintia and Garo food culture of rice, fermentation and smoked foods.",
+    "geography": "Meghalaya's rainy plateau, hills and valleys support rice, maize, millet, citrus and livestock. Forests and rivers also provide seasonal greens, fish and bamboo shoots.",
+    "culinaryLandscape": "Khasi, Jaintia and Garo cuisines use rice, smoked meat, fermented soybeans, bamboo shoots and wild greens. Fermentation, smoking and drying help preserve food.",
+    "dishes": [
+      {
+        "slug": "jadoh",
+        "name": "Jadoh",
+        "descriptor": "Khasi rice cooked with meat and spices",
+        "overview": "Jadoh is rice cooked with pork or chicken, turmeric, ginger and aromatic leaves. It is eaten in Khasi homes and at community gatherings, often with chutney or pickle.",
+        "ingredients": [
+          "Rice",
+          "Pork or chicken",
+          "Turmeric and bay leaf",
+          "Ginger and onion",
+          "Salt",
+          "Black sesame or local herbs (optional)"
+        ],
+        "steps": [
+          "Cook the meat with ginger, onion, turmeric and bay leaf.",
+          "Add washed rice and enough water.",
+          "Simmer until the rice is tender and absorbs the meat's flavour.",
+          "Serve hot with chutney or pickle."
+        ],
+        "history": "Jadoh is closely associated with Khasi food culture, where rice and meat feature in everyday and communal meals. Its precise origin is not documented; it reflects local ingredients and a simple one-pot cooking style.",
+        "imageHint": "Historical image slot: seek dated photographs of Khasi households, markets, rice fields or community feasts. Credit the archive, photographer, place and date.",
+        "imageQuery": "Khasi Jadoh Meghalaya traditional food historical photograph",
+        "sources": [
+          {
+            "title": "Diversity of traditional and fermented foods of the Seven Sister states of India",
+            "publisher": "Taylor & Francis",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/21553769.2016.1249032"
+          }
+        ],
+        "oralNarrative": null
+      },
+      {
+        "slug": "tungrymbai",
+        "name": "Tungrymbai",
+        "descriptor": "A fermented soybean food of Khasi and Jaintia communities",
+        "overview": "Tungrymbai is made from cooked soybeans fermented in leaf-lined baskets, often near a fireplace. The beans are then cooked with onion, ginger, garlic and chillies, and served with rice.",
+        "ingredients": [
+          "Soybeans",
+          "Local leaves and a basket for fermentation",
+          "Onion, ginger and garlic",
+          "Chillies",
+          "Mustard oil or pork (optional)"
+        ],
+        "steps": [
+          "Soak and boil the soybeans until soft; then cool.",
+          "Pack them in a leaf-lined basket and ferment for several days.",
+          "Cook the fermented beans with onion, ginger, garlic and chillies.",
+          "Serve with rice."
+        ],
+        "history": "Tungrymbai is a documented fermented soybean food of the Khasi and Jaintia communities. Its exact age is unknown, but the basket-fermentation method reflects wider Northeast Indian food-preservation traditions.",
+        "imageHint": "Historical image slot: seek dated photographs of soybean fermentation, leaf-lined baskets, Khasi or Jaintia kitchens and local markets. Credit the archive, photographer, place and date.",
+        "imageQuery": "Tungrymbai fermented soybean Meghalaya traditional basket preparation",
+        "sources": [
+          {
+            "title": "Tungrymbai: A traditional fermented soybean food of the ethnic tribes of Meghalaya",
+            "publisher": "Indian Journal of Traditional Knowledge, CSIR-NISCPR",
+            "url": "https://nopr.niscpr.res.in/bitstream/123456789/6286/1/IJTK%208(4)%20559-561.pdf"
+          },
+          {
+            "title": "Naturally fermented ethnic soybean foods of India",
+            "publisher": "Journal of Ethnic Foods",
+            "url": "http://dspace.cus.ac.in/jspui/bitstream/1/1363/1/JFE-2015.pdf"
+          },
+          {
+            "title": "Documentation of traditional fermentation of tungrymbai",
+            "publisher": "Meghalaya Basin Development Authority",
+            "url": "https://megbrdc.nic.in/documentation_traditional_practices/traditional_fermentation_of_tungrymbai.pdf"
+          }
+        ],
+        "oralNarrative": null
+      }
+    ]
+  },
+  "mizoram": {
+    "name": "Mizoram",
+    "region": "Northeast India",
+    "tagline": "A Mizo hill cuisine shaped by rice, bamboo, smoked meat and seasonal greens.",
+    "geography": "Mizoram's steep, rainy hills and forests support shifting cultivation, bamboo, rice, ginger, chillies and leafy greens. Pork and freshwater fish are also important foods.",
+    "culinaryLandscape": "Mizo cooking often uses boiling, steaming, smoking and fermentation, with relatively little oil. Rice, vegetables, bamboo shoots, pork and preserved ingredients are common.",
+    "dishes": [
+      {
+        "slug": "bai",
+        "name": "Bai",
+        "descriptor": "A Mizo stew of seasonal vegetables and greens",
+        "overview": "Bai is a flexible stew of vegetables, leafy greens and sometimes edible ferns. Some versions use fermented pork fat or bamboo shoots; it is usually served with rice.",
+        "ingredients": [
+          "Seasonal vegetables and leafy greens",
+          "Edible ferns or bamboo shoots (optional)",
+          "Fermented pork fat (traditional, optional)",
+          "Salt and water",
+          "Chillies or garlic (optional)"
+        ],
+        "steps": [
+          "Wash and chop the vegetables and greens.",
+          "Boil them with salt and water until tender.",
+          "Add fermented pork fat or optional seasonings.",
+          "Simmer briefly and serve with rice."
+        ],
+        "history": "Bai is a traditional Mizo household dish, not a fixed recipe with one known origin. Its ingredients vary with the season and reflect local use of greens and preserved foods.",
+        "imageHint": "Historical image slot: seek dated photographs of Mizo village kitchens, jhum cultivation, vegetable markets or communal meals. Credit the archive, photographer, place and date.",
+        "imageQuery": "Mizoram bai traditional Mizo vegetable stew preparation",
+        "sources": [
+          {
+            "title": "Taste the essence of Aizawl: The rich flavours of north-eastern cuisine",
+            "publisher": "Ministry of Tourism, Government of India",
+            "url": "https://www.incredibleindia.gov.in/en/mizoram/aizawl/taste-the-essence-of-aizawl"
+          },
+          {
+            "title": "Traditional food preparation of wild edible vegetables among Mizo communities",
+            "publisher": "Journal of Ethnic Foods, Springer",
+            "url": "https://link.springer.com/content/pdf/10.1186/s42779-021-00104-5.pdf"
+          },
+          {
+            "title": "Food, Memory and Identity: Tracing Mizo Foodways",
+            "publisher": "Redalyc",
+            "url": "https://www.redalyc.org/journal/6890/689072705003/"
+          }
+        ],
+        "oralNarrative": null
+      },
+      {
+        "slug": "vawksa-rep",
+        "name": "Vawksa Rep",
+        "descriptor": "Smoked and dried pork from Mizoram",
+        "overview": "Vawksa rep is pork cured with salt, then smoked and dried for preservation. It is later cooked in stews or with vegetables, bamboo shoots and herbs, and eaten with rice.",
+        "ingredients": [
+          "Pork",
+          "Salt",
+          "Turmeric or chillies (optional)",
+          "Bamboo shoots or local herbs (optional)",
+          "Rice to serve"
+        ],
+        "steps": [
+          "Cut the pork into pieces and rub with salt.",
+          "Smoke the meat over a hearth.",
+          "Dry until firm and preserved.",
+          "Cook with vegetables or bamboo shoots and serve with rice."
+        ],
+        "history": "Vawksa rep is a documented traditional pork product of Mizoram. Its exact origin is unknown; smoking and drying reflect preservation practices suited to a humid hill environment.",
+        "imageHint": "Historical image slot: seek dated photographs of Mizo hearths, smoking racks, pork preservation or village markets. Credit the archive, photographer, place and date.",
+        "imageQuery": "Vawksa rep smoked pork Mizoram traditional preparation",
+        "sources": [
+          {
+            "title": "Effect of curing ingredients and vacuum packaging on the physicochemical quality of vawksa rep",
+            "publisher": "National Center for Biotechnology Information",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4937049/"
+          },
+          {
+            "title": "A popular traditional pork product in Mizoram is vawksa rep",
+            "publisher": "Asian Journal of Dairy and Food Research",
+            "url": "https://arccjournals.com/journal/asian-journal-of-dairy-and-food-research/DR-2382"
+          }
+        ],
+        "oralNarrative": null
+      }
+    ]
+  },
+  "nagaland": {
+    "name": "Nagaland",
+    "region": "Northeast India",
+    "tagline": "A Naga food culture of rice, smoked meat, bamboo and fermentation.",
+    "geography": "Nagaland's forested hills and high rainfall support rice, maize, millet, bamboo and shifting cultivation. Its location near Myanmar has long enabled regional exchange.",
+    "culinaryLandscape": "Naga food traditions vary among communities such as the Ao, Angami, Sema and Lotha. Pork, bamboo shoots, fermented soybean, chillies and smoked foods are widely used, often with little oil.",
+    "dishes": [
+      {
+        "slug": "smoked-pork-with-bamboo-shoot",
+        "name": "Smoked Pork with Bamboo Shoot",
+        "descriptor": "A smoky Naga pork dish with bamboo shoots",
+        "overview": "Pork is smoked over a hearth and cooked with bamboo shoots, chillies and local herbs. The dish is commonly served with rice and reflects Naga traditions of smoking and preserving food.",
+        "ingredients": [
+          "Pork",
+          "Bamboo shoots",
+          "Chillies",
+          "Salt",
+          "Ginger, garlic or local herbs (optional)",
+          "Rice to serve"
+        ],
+        "steps": [
+          "Smoke the pork over a hearth.",
+          "Clean and slice the bamboo shoots.",
+          "Cook the pork with bamboo shoots, chillies and salt.",
+          "Simmer until tender and serve with rice."
+        ],
+        "history": "Smoked pork and bamboo shoots are widely used in Naga food traditions. The dish has no securely documented single origin; it reflects local preservation methods and ingredients from the surrounding hills and forests.",
+        "imageHint": "Historical image slot: seek dated photographs of Naga hearths, smoking racks, bamboo-shoot harvesting or community feasts. Credit the archive, photographer, place and date.",
+        "imageQuery": "Nagaland Naga smoked pork bamboo shoot traditional cooking",
+        "sources": [
+          {
+            "title": "A Survey of Traditional Animal-Origin Foods and Preliminary Ethnographic Documentation",
+            "publisher": "MDPI Foods",
+            "url": "https://www.mdpi.com/2304-8158/15/17/2991"
+          },
+          {
+            "title": "A Deep Dive into the Culinary Heritage of Nagaland",
+            "publisher": "Google Arts & Culture",
+            "url": "https://artsandculture.google.com/story/a-deep-dive-into-the-culinaryheritage-of-nagaland-banglanatak/NQWR4gmR_LgUDQ"
+          }
+        ],
+        "oralNarrative": null
+      },
+      {
+        "slug": "axone",
+        "name": "Axone",
+        "descriptor": "A fermented soybean paste used in Naga cooking",
+        "overview": "Axone, also called akhuni, is made by fermenting cooked soybeans in leaf-lined baskets. It is used to flavour pork, vegetables and stews, especially in Ao, Sema and Lotha cooking.",
+        "ingredients": [
+          "Soybeans",
+          "Local leaves and a basket for fermentation",
+          "Chillies, ginger or garlic (optional)",
+          "Pork or vegetables (to cook with axone)"
+        ],
+        "steps": [
+          "Soak and boil soybeans until soft; then cool.",
+          "Pack them in a leaf-lined basket and ferment for several days.",
+          "Mash the fermented beans into a paste.",
+          "Cook with pork or vegetables as a seasoning."
+        ],
+        "history": "Axone is a traditional fermented soybean food associated with several Naga communities. Its precise origin is unknown; it belongs to a wider Northeast Indian tradition of soybean fermentation. Stories explaining its discovery are oral legends, not verified history.",
+        "imageHint": "Historical image slot: seek dated photographs of Naga households, soybean fermentation, leaf-lined baskets or axone markets. Credit the archive, photographer, place and date.",
+        "imageQuery": "Axone akhuni fermented soybean Nagaland traditional preparation",
+        "sources": [
+          {
+            "title": "A Survey of Traditional Animal-Origin Foods and Preliminary Ethnographic Documentation",
+            "publisher": "MDPI Foods",
+            "url": "https://www.mdpi.com/2304-8158/15/17/2991"
+          },
+          {
+            "title": "Chef's Alliance Recipe - Joel Basumatari",
+            "publisher": "Slow Food Foundation",
+            "url": "https://www.fondazioneslowfood.com/en/chefs-alliance-recipe-joel-basumatari/"
+          }
+        ],
+        "oralNarrative": null
+      }
+    ]
+  },
+  "odisha": {
+    "name": "Odisha",
+    "region": "Eastern India",
+    "tagline": "An Odia food culture of rice, lentils, coastal produce and temple traditions.",
+    "geography": "Odisha stretches from the Bay of Bengal coast to the Eastern Ghats and forested interior. The Mahanadi delta supports rice farming, while coastal communities also use fish and seafood.",
+    "culinaryLandscape": "Odia meals commonly feature rice, lentils, vegetables and mustard oil. Jagannath Temple food traditions, coastal cooking and Indigenous foodways all shape the state's cuisine.",
+    "dishes": [
+      {
+        "slug": "dalma",
+        "name": "Dalma",
+        "descriptor": "An Odia stew of lentils and vegetables",
+        "overview": "Dalma combines lentils with vegetables such as pumpkin, raw banana and brinjal, seasoned with ginger and cumin. It is eaten with rice in homes and is also associated with temple food traditions.",
+        "ingredients": [
+          "Toor dal or chana dal",
+          "Seasonal vegetables",
+          "Ginger and cumin",
+          "Turmeric and salt",
+          "Coconut, ghee or mustard oil (optional)",
+          "Rice to serve"
+        ],
+        "steps": [
+          "Cook the lentils with turmeric and salt.",
+          "Add chopped vegetables, ginger and cumin.",
+          "Simmer until the lentils and vegetables are soft.",
+          "Finish with optional coconut or a ghee tempering; serve with rice."
+        ],
+        "history": "Dalma is strongly associated with Odia home cooking and Jagannath food traditions. Accounts linking it to the Savara people are cultural traditions rather than firmly established history; its exact origin is unknown.",
+        "imageHint": "Historical image slot: seek dated photographs of Jagannath Temple kitchens, temple offerings, Odia village cooking or traditional vessels. Credit the archive, photographer, place and date.",
+        "imageQuery": "Odisha dalma Jagannath temple kitchen traditional food",
+        "sources": [
+          {
+            "title": "Dalma and the Odia Thali",
+            "publisher": "India Currents",
+            "url": "https://indiacurrents.com/dalma-and-the-odia-thali/"
+          },
+          {
+            "title": "Dalma",
+            "publisher": "The Times of India",
+            "url": "https://timesofindia.indiatimes.com/travel/bhubaneshwar/dalma/ps57267614.cms"
+          }
+        ],
+        "oralNarrative": null
+      },
+      {
+        "slug": "chhena-poda",
+        "name": "Chhena Poda",
+        "descriptor": "A caramelised baked chhena sweet from Nayagarh",
+        "overview": "Chhena poda is made by baking fresh chhena with sugar and cardamom until the outside caramelises. It is associated with Nayagarh and is now a signature Odia dessert.",
+        "ingredients": [
+          "Fresh chhena",
+          "Sugar",
+          "Cardamom",
+          "Cashews or raisins (optional)",
+          "Ghee (optional)"
+        ],
+        "steps": [
+          "Knead the chhena until smooth.",
+          "Mix with sugar, cardamom and optional nuts.",
+          "Shape into a cake and bake slowly until the crust caramelises.",
+          "Cool, slice and serve."
+        ],
+        "history": "Chhena poda is widely traced to Nayagarh in the early twentieth century. Local accounts credit sweet-maker Sudarshana Sahoo with discovering it after sweetened chhena was left in a warm oven; this is a well-known account, though not fully confirmed by archival records.",
+        "imageHint": "Historical image slot: seek dated photographs of Nayagarh sweet shops, charcoal ovens or chhena preparation. Credit the archive, photographer, place and date.",
+        "imageQuery": "Nayagarh Odisha chhena poda traditional sweet making historical photograph",
+        "sources": [
+          {
+            "title": "Chhenapoda",
+            "publisher": "Ministry of Tourism, Government of India",
+            "url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/chhenapoda"
+          },
+          {
+            "title": "Odisha observes Chhena Poda Dibasa to cherish unique dessert",
+            "publisher": "The Print",
+            "url": "https://theprint.in/india/odisha-observes-chhena-poda-dibasa-to-cherish-unique-dessert/2586707/"
+          }
+        ],
+        "oralNarrative": null
+      }
+    ]
+  },
+  "sikkim": {
+    "name": "Sikkim",
+    "region": "Northeast India",
+    "tagline": "A Himalayan food culture shaped by Lepcha, Bhutia and Nepali traditions.",
+    "geography": "Sikkim's steep elevation range creates climates from subtropical valleys to alpine areas. Rice, maize, millet, cardamom, ginger, dairy and mountain greens are important foods.",
+    "culinaryLandscape": "Sikkimese food reflects Lepcha, Bhutia and Nepali communities. Fermentation, steaming and preservation are common, alongside rice, dairy, meat and Himalayan greens.",
+    "dishes": [
+      {
+        "slug": "phagshapa",
+        "name": "Phagshapa",
+        "descriptor": "A Bhutia stew of pork, radish and chillies",
+        "overview": "Phagshapa is a pork stew cooked with radish and chillies. It is associated with Bhutia food culture and is commonly served with rice.",
+        "ingredients": [
+          "Pork",
+          "Radish",
+          "Chillies",
+          "Salt",
+          "Ginger or garlic (optional)",
+          "Rice to serve"
+        ],
+        "steps": [
+          "Cut the pork into pieces and cook with chillies.",
+          "Add sliced radish and salt.",
+          "Simmer until the pork is tender and the radish is soft.",
+          "Serve hot with rice."
+        ],
+        "history": "Phagshapa is associated with Bhutia food culture in Sikkim. Its precise origin is not documented; the dish reflects the use of pork, root vegetables and chillies in Himalayan cooking.",
+        "imageHint": "Historical image slot: seek dated photographs of Bhutia households, Sikkim villages, radish fields or traditional kitchens. Credit the archive, photographer, place and date.",
+        "imageQuery": "Bhutia phagshapa Sikkim traditional pork radish stew",
+        "sources": [
+          {
+            "title": "Sikkim's Flavourful Kitchen: Grains on the Plate",
+            "publisher": "Sahapedia",
+            "url": "https://www.sahapedia.org/sikkims-flavourful-kitchen-grains-plate"
+          }
+        ],
+        "oralNarrative": null
+      },
+      {
+        "slug": "gundruk",
+        "name": "Gundruk",
+        "descriptor": "A fermented and dried leafy-green food",
+        "overview": "Gundruk is made by fermenting leafy greens such as mustard or radish leaves, then drying them. It is used in soups and curries across Sikkim and the wider Himalayan region.",
+        "ingredients": [
+          "Mustard or radish leaves",
+          "Other leafy greens (optional)",
+          "Water",
+          "Rice to serve"
+        ],
+        "steps": [
+          "Wash and wilt the leafy greens.",
+          "Pack them tightly in a clean container and allow them to ferment.",
+          "Remove the fermented greens and dry them in the sun.",
+          "Rehydrate and cook in soup or curry."
+        ],
+        "history": "Gundruk is associated with Nepali-speaking communities across the Himalayas, including Sikkim. Its exact origin is unknown and it is not exclusive to Sikkim; fermentation helps preserve seasonal greens for later use.",
+        "imageHint": "Historical image slot: seek dated photographs of Himalayan households fermenting or drying greens, village markets or traditional kitchens. Credit the archive, photographer, place and date.",
+        "imageQuery": "Sikkim Himalayan gundruk fermented leafy greens drying traditional",
+        "sources": [
+          {
+            "title": "Sikkim's Flavourful Kitchen: Grains on the Plate",
+            "publisher": "Sahapedia",
+            "url": "https://www.sahapedia.org/sikkims-flavourful-kitchen-grains-plate"
+          },
+          {
+            "title": "Fermenting Faith: Buddhist Ethics and Culinary Transformation in Himalayas",
+            "publisher": "Enroute Indian History",
+            "url": "https://enrouteindianhistory.com/fermenting-faith-buddhist-ethics-and-culinary-transformation-in-himalayas/"
+          }
+        ],
+        "oralNarrative": null
+      }
+    ]
+  },
+  "telangana": {
+    "name": "Telangana",
+    "region": "Southern India",
+    "tagline": "A Deccan food culture of millets, chillies and Hyderabadi courtly cooking.",
+    "geography": "Telangana occupies the semi-arid Deccan Plateau, crossed by the Godavari and Krishna rivers. Rice, millets, pulses, groundnuts and chillies shape its agriculture.",
+    "culinaryLandscape": "Rural Telangana cooking features millets, tamarind, sesame, lentils and flatbreads. Hyderabad adds a distinct courtly tradition shaped by Deccan and Mughal influences.",
+    "dishes": [
+      {
+        "slug": "hyderabadi-biryani",
+        "name": "Hyderabadi Biryani",
+        "descriptor": "A layered rice-and-meat dish shaped by Deccan and Mughal traditions",
+        "overview": "A layered rice-and-meat dish flavoured with yogurt, saffron and whole spices. It is associated with Hyderabad’s Asaf Jahi court and is served with raita or mirchi ka salan.",
+        "ingredients": [
+          "Basmati rice",
+          "Meat",
+          "Yogurt",
+          "Whole spices",
+          "Onion",
+          "Ginger and garlic",
+          "Ghee",
+          "Saffron and mint (optional)",
+          "Dried plums (optional)"
+        ],
+        "steps": [
+          "Marinate the meat with yogurt, spices and aromatics.",
+          "Parboil the rice with whole spices.",
+          "Layer rice and meat in a heavy pot; add ghee and saffron.",
+          "Seal and cook slowly using the dum method.",
+          "Serve with raita or mirchi ka salan."
+        ],
+        "history": "Hyderabadi biryani developed in the courtly food culture of the Asaf Jahi Nizams, drawing on Mughal, Persian and Deccan traditions. Late nineteenth-century Hyderabadi cookbooks document a varied biryani tradition; no single inventor is established.",
+        "imageHint": "Look for dated photographs of Hyderabad’s Asaf Jahi court, kitchens, biryani vessels and historic cookbooks.",
+        "imageQuery": "Hyderabad Asaf Jahi court historic kitchens biryani cooking vessels old photographs",
+        "sources": [
+          {
+            "title": "Hyderabadi Cuisine: Tracing its History through Culinary Texts",
+            "publisher": "Sahapedia",
+            "url": "http://www.sahapedia.org/hyderabadi-cuisine-tracing-its-history-through-culinary-texts"
+          },
+          {
+            "title": "Hyderabadi Biryani: History & Kachchi Dum",
+            "publisher": "Dakhni.org",
+            "url": "https://dakhni.org/heritage/cuisine/biryani/"
+          },
+          {
+            "title": "Hyderabadi biryani: history and origins",
+            "publisher": "ThePrint",
+            "url": "https://theprint.in/opinion/hyderabad-heart/hyderabadi-biryani-history-hindutva/2955673/"
+          }
+        ],
+        "oralNarrative": null
+      },
+      {
+        "slug": "sarva-pindi",
+        "name": "Sarva Pindi",
+        "descriptor": "A Telangana rice-flour pancake with peanuts and chillies",
+        "overview": "A savoury Telangana pancake made from rice flour, peanuts, sesame and chillies. It is cooked slowly in a shallow pan until crisp and eaten as a snack or breakfast.",
+        "ingredients": [
+          "Rice flour",
+          "Peanuts",
+          "Sesame seeds",
+          "Green chillies",
+          "Salt",
+          "Water",
+          "Oil",
+          "Ginger and curry leaves (optional)"
+        ],
+        "steps": [
+          "Mix rice flour with peanuts, sesame, chillies, salt and water.",
+          "Knead into a soft dough and press it into a shallow pan.",
+          "Add a little oil around the edges.",
+          "Cook slowly until crisp and cooked through.",
+          "Serve with chutney or curd."
+        ],
+        "history": "Sarva pindi is a rural Telangana snack associated with rice flour, peanuts and sesame. It is sometimes linked to Bollepally village in Warangal, but its precise origin and any single inventor are not documented.",
+        "imageHint": "Look for historical images of Telangana village kitchens, rice-flour grinding, peanut markets and traditional shallow pans.",
+        "imageQuery": "Telangana village kitchen sarva pindi rice flour peanut sesame traditional pan historical photograph",
+        "sources": [
+          {
+            "title": "This traditional Telangana snack is a must-try in Hyderabad",
+            "publisher": "The Siasat Daily",
+            "url": "https://www.siasat.com/this-traditional-telangana-snack-is-a-must-try-in-hyderabad-8-spots-3240274/"
+          },
+          {
+            "title": "Taste trails",
+            "publisher": "The New Indian Express",
+            "url": "https://www.newindianexpress.com/hyderabad/2017/Sep/15/taste-trails-1657842.html"
+          }
+        ],
+        "oralNarrative": null
+      }
+    ]
+  },
+  "tripura": {
+    "name": "Tripura",
+    "region": "Northeast India",
+    "tagline": "A Tripuri food culture of rice, bamboo shoots and fermented fish.",
+    "geography": "Tripura’s hills, valleys and river plains have a humid climate suited to rice, bamboo, vegetables and fish. Its location beside Bangladesh and the wider Northeast has encouraged long-standing food exchanges.",
+    "culinaryLandscape": "Tripuri and other Indigenous communities use rice, bamboo shoots, fermented fish, leafy greens and pork. Fermentation adds flavour and helps preserve food.",
+    "dishes": [
+      {
+        "slug": "mui-borok",
+        "name": "Mui Borok",
+        "descriptor": "A fermented fish preparation of Tripura",
+        "overview": "Mui borok is a fermented-fish preparation used to flavour Tripuri curries, chutneys and vegetables. It adds a strong savoury taste and is commonly eaten with rice.",
+        "ingredients": [
+          "Small fish",
+          "Salt",
+          "Bamboo container or earthen pot",
+          "Chillies (optional)",
+          "Ginger, garlic and local herbs (optional)"
+        ],
+        "steps": [
+          "Clean and salt the small fish.",
+          "Pack them in a bamboo container or earthen pot.",
+          "Allow them to ferment.",
+          "Use the fermented fish in curries, chutneys or vegetable dishes.",
+          "Serve the cooked preparation with rice."
+        ],
+        "history": "Mui borok is part of Tripura’s Indigenous food culture. Its exact origin is unknown; the preparation reflects the wider Northeast Indian use of fish fermentation for preservation and flavour.",
+        "imageHint": "Look for ethnographic images of Tripuri households, fish markets, fermentation containers and traditional kitchens.",
+        "imageQuery": "Tripura Tripuri traditional fermented fish mui borok bamboo container historical ethnographic photograph",
+        "sources": [
+          {
+            "title": "A Review on Ethnic Manipuri Cuisine of Northeast India",
+            "publisher": "Asian Journal of Dairy and Food Research",
+            "url": "https://arccjournals.com/journal/asian-journal-of-dairy-and-food-research/DR-2204"
+          }
+        ],
+        "oralNarrative": null
+      },
+      {
+        "slug": "chakhwi",
+        "name": "Chakhwi",
+        "descriptor": "A bamboo-shoot and meat preparation of Tripura",
+        "overview": "Chakhwi is a Tripuri dish made with bamboo shoots, local herbs and sometimes meat or fish. It is lightly cooked, usually with little oil, and served with rice.",
+        "ingredients": [
+          "Bamboo shoots",
+          "Pork or fish (optional)",
+          "Chillies",
+          "Ginger and garlic (optional)",
+          "Local herbs",
+          "Salt"
+        ],
+        "steps": [
+          "Clean and slice the bamboo shoots.",
+          "Boil or ferment them as needed.",
+          "Cook with meat or fish, chillies and aromatics.",
+          "Simmer until tender and serve with rice."
+        ],
+        "history": "Chakhwi reflects Tripura’s Indigenous use of bamboo as a seasonal food. Its exact origin is not documented, and it is better understood as a regional preparation than a dish with a known inventor.",
+        "imageHint": "Look for ethnographic images of Tripuri households, bamboo-shoot harvesting, forest markets and community cooking.",
+        "imageQuery": "Tripura Tripuri bamboo shoot harvesting traditional cooking community historical photograph",
+        "sources": [
+          {
+            "title": "A Review on Ethnic Manipuri Cuisine of Northeast India",
+            "publisher": "Asian Journal of Dairy and Food Research",
+            "url": "https://arccjournals.com/journal/asian-journal-of-dairy-and-food-research/DR-2204"
+          }
+        ],
+        "oralNarrative": null
+      }
+    ]
+  },
+  "uttarakhand": {
+    "name": "Uttarakhand",
+    "region": "Northern India",
+    "tagline": "A Kumaoni and Garhwali food culture of millets, lentils and mountain greens.",
+    "geography": "Uttarakhand spans the central Himalayas, from high mountains to deep river valleys. Terraced farms produce millets, lentils and rice, while forests provide seasonal greens and mushrooms.",
+    "culinaryLandscape": "Kumaoni and Garhwali cooking relies on grains, lentils, dairy and seasonal forest produce. Simple, warming dishes and preserved foods suit the mountain climate.",
+    "dishes": [
+      {
+        "slug": "kafuli",
+        "name": "Kafuli",
+        "descriptor": "A thick green spinach-and-fenugreek preparation from Uttarakhand",
+        "overview": "Kafuli is a thick green preparation made with spinach, fenugreek and other leafy greens. Garlic, chillies and rice flour add flavour and body; it is served with rice or roti.",
+        "ingredients": [
+          "Spinach",
+          "Fenugreek leaves",
+          "Rice flour",
+          "Garlic",
+          "Green chillies",
+          "Salt",
+          "Mustard oil (optional)"
+        ],
+        "steps": [
+          "Wash and chop the greens.",
+          "Boil or steam until soft, then mash or grind.",
+          "Cook with garlic, chillies and salt.",
+          "Stir in rice flour and simmer until thick.",
+          "Serve with rice or roti."
+        ],
+        "history": "Kafuli is associated with both Kumaon and Garhwal. It reflects the use of locally grown greens and grains in Himalayan cooking, though its precise origin is not documented.",
+        "imageHint": "Look for historical images of Uttarakhand village kitchens, leafy-green fields, grinding stones and community meals.",
+        "imageQuery": "Uttarakhand Kumaon Garhwal village kitchen kafuli leafy greens traditional cooking historical photograph",
+        "sources": [
+          {
+            "title": "Kafuli: Uttarakhand's Heritage Green Dish",
+            "publisher": "Madhusavara",
+            "url": "https://www.madhusavara.com/kitchen-blog/kafuli-uttarakhand-heritage-green-dish/"
+          },
+          {
+            "title": "Kafuli",
+            "publisher": "About Uttarakhand",
+            "url": "https://aboututtarakhand.com/kafuli/"
+          }
+        ],
+        "oralNarrative": null
+      },
+      {
+        "slug": "bal-mithai",
+        "name": "Bal Mithai",
+        "descriptor": "A Kumaoni sweet of roasted khoya coated in sugar balls",
+        "overview": "Bal mithai is a Kumaoni sweet made from slowly roasted khoya and coated in small white sugar balls. It is especially associated with Almora.",
+        "ingredients": [
+          "Khoya",
+          "Sugar",
+          "Ghee (optional)",
+          "Cardamom (optional)",
+          "Sugar balls for coating"
+        ],
+        "steps": [
+          "Roast khoya slowly until brown and caramelised.",
+          "Mix in sugar and optional cardamom.",
+          "Shape into a block and allow it to cool slightly.",
+          "Coat with small sugar balls.",
+          "Cut into pieces and serve."
+        ],
+        "history": "Bal mithai is strongly associated with Almora’s sweet shops. A commonly reported account credits local sweet seller Jogalal Shah with popularising it, but its exact origin and date remain uncertain.",
+        "imageHint": "Look for dated photographs of Almora’s Lala Bazaar, old sweet shops and traditional khoya preparation.",
+        "imageQuery": "Almora Lala Bazaar historic sweet shops bal mithai khoya preparation old photograph",
+        "sources": [
+          {
+            "title": "Bal Mithai",
+            "publisher": "ODOP, Government of India",
+            "url": "https://www.india.gov.in/explore-india/odop/details/bal-mithai"
+          },
+          {
+            "title": "Bal Mithai: history and origins",
+            "publisher": "ETV Bharat",
+            "url": "https://www.etvbharat.com/hindi/uttarakhand/state/almora/almora-bal-mithai-famous-in-foreign/uttarakhand20191026115957776"
+          },
+          {
+            "title": "Bal Mithai: The Sweet Delight of Uttarakhand",
+            "publisher": "Chal Uttarakhand",
+            "url": "https://chaluttarakhand.com/bal-mithai-the-sweet-delight-of-uttarakhand/"
+          }
+        ],
+        "oralNarrative": null
+      }
+    ]
   }
 }
