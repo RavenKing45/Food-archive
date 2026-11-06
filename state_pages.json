@@ -864,5 +864,410 @@
         ]
       }
     ]
+  },
+  "andhra-pradesh": {
+    "name": "Andhra Pradesh",
+    "tagline": "Coastal and river-valley food shaped by rice, chillies and tamarind.",
+    "region": "Southern India",
+    "geography": "Andhra Pradesh runs from the Deccan plateau to the Bay of Bengal. The Krishna and Godavari deltas support rice farming, while the drier Rayalaseema interior grows more millets and pulses. The coast also supplies fish; tamarind, chillies and sesame are widely used.",
+    "culinaryLandscape": "Andhra food often pairs rice with lentils, sour tamarind dishes, spicy pickles and chutneys. Coastal cooking uses more fish and coconut, while Rayalaseema has a drier-climate food tradition. Recipes vary across districts and households.",
+    "dishes": [
+      {
+        "slug": "gongura-pachadi",
+        "name": "Gongura Pachadi",
+        "descriptor": "A sour chutney made from gongura leaves",
+        "overview": "Gongura pachadi is made from sour sorrel leaves cooked with chillies and garlic, then ground into a coarse chutney. It is commonly eaten with rice and ghee and is especially associated with the Guntur region.",
+        "ingredients": [
+          "Gongura (sorrel) leaves",
+          "Dried red chillies",
+          "Garlic",
+          "Oil and salt",
+          "Mustard or cumin seeds (optional)",
+          "Tamarind (optional)"
+        ],
+        "steps": [
+          "Wash the leaves and dry them well.",
+          "Cook the leaves in a little oil until soft.",
+          "Fry the chillies and garlic; add optional spices.",
+          "Grind or pound everything with salt into a coarse chutney.",
+          "Serve with rice and ghee."
+        ],
+        "history": "The dish's exact origin is not dated. Gongura is widely used in parts of southern India, but it has a strong place in Andhra cooking, particularly around Guntur. Its sour leaves are used in chutneys and pickles; claims of a specific inventor or date are not established by the cited source.",
+        "imageHint": "Historical image slot: look for dated photographs of gongura cultivation, Guntur markets or household pickle-making. Verify the date, place and photographer before using an image.",
+        "imageQuery": "historical gongura cultivation Guntur market Andhra Pradesh pickle making",
+        "sources": [
+          {
+            "title": "Gongura Pickle",
+            "publisher": "Guntur District Administration, Government of Andhra Pradesh",
+            "url": "https://guntur.ap.gov.in/culinary-delight/gongura-pickle/"
+          }
+        ]
+      },
+      {
+        "slug": "pootharekulu",
+        "name": "Pootharekulu",
+        "descriptor": "A paper-thin rice sweet from Atreyapuram",
+        "overview": "Pootharekulu is made by wrapping sugar or jaggery, ghee and sometimes nuts in very thin rice sheets. It is closely associated with Atreyapuram in the Godavari delta and is also known as Andhra's paper sweet.",
+        "ingredients": [
+          "Rice or rice-starch batter",
+          "Sugar or jaggery",
+          "Ghee",
+          "Cashews or other nuts (optional)",
+          "Cardamom (optional)"
+        ],
+        "steps": [
+          "Soak and grind rice to make a smooth batter.",
+          "Spread a very thin layer over a heated surface and lift the dried sheet carefully.",
+          "Add sugar or jaggery and ghee, with optional nuts.",
+          "Fold the sheet into a small parcel and allow it to cool."
+        ],
+        "history": "Pootharekulu has been made in Atreyapuram for generations; reports describe a tradition of about 300 years. Its exact inventor is unknown. The story of a rice sheet forming accidentally on a hot pot is a local account, not proven history. Atreyapuram Pootharekulu received a Geographical Indication registration in 2023.",
+        "imageHint": "Historical image slot: seek dated photographs of Atreyapuram sweet-makers, rice-sheet preparation or traditional heated cooking surfaces. Use a present-day process photograph only if labelled as contemporary.",
+        "imageQuery": "Atreyapuram Pootharekulu traditional rice paper sweet makers historical photograph",
+        "sources": [
+          {
+            "title": "Atreyapuram Pootharekulu — GI registration details",
+            "publisher": "Geographical Indications Registry, Government of India",
+            "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/804"
+          },
+          {
+            "title": "Atreyapuram's delicate rice paper sweet",
+            "publisher": "People's Archive of Rural India",
+            "url": "https://ruralindiaonline.org/article/atreyapurams-delicate-rice-paper-sweet"
+          },
+          {
+            "title": "After GI tag, focus now on making Pootharekulu available pan-India",
+            "publisher": "The New Indian Express",
+            "url": "https://www.newindianexpress.com/states/andhra-pradesh/2023/May/18/after-gi-tag-focus-now-on-making-pootharekulu-available-pan-india-2576508.html"
+          }
+        ]
+      }
+    ]
+  },
+  "arunachal-pradesh": {
+    "name": "Arunachal Pradesh",
+    "tagline": "Himalayan food traditions built around rice, fermentation and forest produce.",
+    "region": "Northeast India",
+    "geography": "Arunachal Pradesh lies in the Eastern Himalayas. Its forested hills, deep valleys, heavy rainfall and changing elevations create varied food environments. Rice, maize, millet, bamboo shoots, leafy greens and river fish are important local foods.",
+    "culinaryLandscape": "Food varies among the state's Indigenous communities. Fermentation, smoking, boiling and steaming are common techniques. Rice-based foods, bamboo shoots, smoked meat and local greens are important, but ingredients and methods differ between communities.",
+    "dishes": [
+      {
+        "slug": "apong",
+        "name": "Apong",
+        "descriptor": "A traditional fermented rice drink",
+        "overview": "Apong is a fermented rice beverage prepared by several communities in Arunachal Pradesh and neighbouring parts of Northeast India. Rice is mixed with a locally prepared starter culture. Methods and strength vary by community and occasion.",
+        "ingredients": [
+          "Rice",
+          "Traditional fermentation starter",
+          "Water",
+          "Local plant ingredients used in some starter cultures"
+        ],
+        "steps": [
+          "Cook the rice and let it cool.",
+          "Mix in the prepared starter culture.",
+          "Keep the mixture in a clean container to ferment.",
+          "After fermentation, strain or press the mixture to collect the drink."
+        ],
+        "history": "The drink's exact age is not established. Research documents rice-based fermented beverages and community-made starter cultures across Northeast India. Apong is part of Indigenous food and social traditions; claims of a specific ancient date should be treated cautiously.",
+        "imageHint": "Historical image slot: seek dated ethnographic photographs of rice fermentation, starter preparation or community gatherings. Identify the community and location rather than labelling all images simply as Arunachali.",
+        "imageQuery": "Adi Galo Arunachal Pradesh apong traditional rice fermentation ethnographic photograph",
+        "sources": [
+          {
+            "title": "ÉPOP traditional starter culture: a complex composition of microorganisms",
+            "publisher": "Journal of Ethnic Foods, Springer Nature",
+            "url": "https://link.springer.com/article/10.1186/s42779-023-00214-2"
+          },
+          {
+            "title": "An overview of traditional rice beer of North-east India: ethnic preparation, challenges and prospects",
+            "publisher": "Indian Journal of Traditional Knowledge, CSIR-NIScPR",
+            "url": "https://nopr.niscpr.res.in/bitstream/123456789/50632/3/IJTK%2018(4)%20744-757.pdf"
+          }
+        ]
+      },
+      {
+        "slug": "bamboo-shoot-curry",
+        "name": "Bamboo Shoot Curry",
+        "descriptor": "A regional preparation using tender bamboo shoots",
+        "overview": "Bamboo shoot curry is a broad group of preparations found in Arunachal Pradesh. Tender shoots may be cooked with meat or vegetables, chillies and local herbs. Some communities preserve shoots by fermenting or drying them.",
+        "ingredients": [
+          "Tender bamboo shoots",
+          "Chillies and ginger",
+          "Salt",
+          "Pork or other meat (in some versions)",
+          "Fermented ingredients or leafy greens (in some versions)"
+        ],
+        "steps": [
+          "Clean and slice the tender bamboo shoots.",
+          "Boil or ferment them according to local practice.",
+          "Cook with chillies, ginger, salt and vegetables or meat, if used.",
+          "Simmer until tender and serve with rice."
+        ],
+        "history": "Bamboo shoots are an important seasonal food in Arunachal Pradesh. They are eaten fresh or preserved by fermentation and drying. This is a family of community recipes, not one fixed dish, so a single place or date of origin cannot be assigned.",
+        "imageHint": "Historical image slot: seek dated photographs of bamboo-shoot harvesting, preservation, storage or community cooking in Arunachal Pradesh. Caption the community and location when known.",
+        "imageQuery": "Arunachal Pradesh traditional bamboo shoot harvesting fermentation community kitchen historical",
+        "sources": [
+          {
+            "title": "ÉPOP traditional starter culture: a complex composition of microorganisms",
+            "publisher": "Journal of Ethnic Foods, Springer Nature",
+            "url": "https://link.springer.com/article/10.1186/s42779-023-00214-2"
+          },
+          {
+            "title": "An overview of traditional rice beer of North-east India: ethnic preparation, challenges and prospects",
+            "publisher": "Indian Journal of Traditional Knowledge, CSIR-NIScPR",
+            "url": "https://nopr.niscpr.res.in/bitstream/123456789/50632/3/IJTK%2018(4)%20744-757.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "bihar": {
+    "name": "Bihar",
+    "tagline": "A Gangetic food culture shaped by rice, wheat, pulses and sattu.",
+    "region": "Eastern India",
+    "geography": "Bihar lies mainly in the fertile Gangetic plain, crossed by the Ganga and its tributaries. Rice, wheat, pulses, oilseeds and seasonal vegetables shape everyday cooking. Food traditions vary across the Bhojpuri, Maithil and Magahi regions.",
+    "culinaryLandscape": "Sattu, litti, chokha, rice, lentils and regional sweets are prominent in Bihari food culture. Mustard oil, roasted gram flour and seasonal produce appear in many household preparations.",
+    "dishes": [
+      {
+        "slug": "litti-chokha",
+        "name": "Litti Chokha",
+        "descriptor": "Roasted wheat balls with mashed vegetables",
+        "overview": "Litti are wheat balls filled with roasted gram flour (sattu), spices and mustard oil. They are roasted over heat and served with chokha, a mash of roasted brinjal, potato or tomato seasoned with garlic, chillies and mustard oil.",
+        "ingredients": [
+          "Whole-wheat flour",
+          "Sattu (roasted gram flour)",
+          "Mustard oil",
+          "Garlic and green chillies",
+          "Brinjal for chokha",
+          "Potato or tomato (optional)",
+          "Salt and lemon"
+        ],
+        "steps": [
+          "Knead wheat flour with water into a firm dough.",
+          "Mix sattu with mustard oil, garlic, chillies and salt.",
+          "Fill dough portions with the sattu mixture and shape into balls.",
+          "Roast until cooked through and browned.",
+          "Roast the vegetables, mash with seasoning and serve as chokha."
+        ],
+        "history": "Litti is strongly associated with Bhojpuri foodways in Bihar and nearby regions. Its exact origin is not documented. Its firm wheat shell and sattu filling make it suitable for roasting and carrying, but popular links to specific ancient events or the 1857 uprising should not be treated as established fact.",
+        "imageHint": "Historical image slot: seek dated photographs of Bhojpuri household cooking, traditional hearths or litti roasted over coals. Do not use a modern food image as historical evidence.",
+        "imageQuery": "historical Bhojpuri Bihar litti chokha traditional hearth cooking photograph",
+        "sources": [
+          {
+            "title": "A signature dish of Bihar: Litti and Chokha",
+            "publisher": "MOJ Food Processing and Technology",
+            "url": "https://doi.org/10.15406/mojfpt.2019.07.00210"
+          },
+          {
+            "title": "Cuisine of Bihar",
+            "publisher": "Government of Bihar",
+            "url": "https://state.bihar.gov.in/yesd/SectionInformation.html?editForm=&rowId=1755"
+          }
+        ]
+      },
+      {
+        "slug": "silao-khaja",
+        "name": "Silao Khaja",
+        "descriptor": "A crisp, layered sweet from Nalanda",
+        "overview": "Silao khaja is a crisp sweet made from thin layers of wheat dough, fried in ghee and coated in sugar syrup. It is closely associated with Silao in Nalanda district and is known for its delicate, flaky texture.",
+        "ingredients": [
+          "Wheat flour or maida",
+          "Ghee",
+          "Sugar syrup",
+          "Cardamom and aniseed (in some versions)"
+        ],
+        "steps": [
+          "Make a firm dough with flour, ghee and water.",
+          "Roll it into thin sheets and layer or fold them.",
+          "Cut into pieces and deep-fry until crisp.",
+          "Coat or soak the pieces in sugar syrup and allow to cool."
+        ],
+        "history": "Silao is known for its khaja-making tradition and the sweet received a Geographical Indication tag in 2018. Government descriptions note its many thin layers. Stories linking it to the Buddha are presented as local belief, not proven history; the exact origin remains uncertain.",
+        "imageHint": "Historical image slot: seek dated photographs of Silao sweet shops, traditional khaja-making or Nalanda-area markets. Verify date and provenance before calling an image historical.",
+        "imageQuery": "Silao Khaja traditional sweet making Nalanda historical photograph",
+        "sources": [
+          {
+            "title": "Silao Khaja — One District One Product",
+            "publisher": "National Portal of India",
+            "url": "https://www.india.gov.in/explore-india/odop/details/silao-khaja"
+          },
+          {
+            "title": "Silao Khaja — GI Tag information",
+            "publisher": "Bihar Bhawan, Government of Bihar",
+            "url": "https://biharbhawan.gov.in/Docs/ArtArtist/GITags.pdf"
+          },
+          {
+            "title": "Food and Cuisine — Nalanda",
+            "publisher": "Incredible India, Ministry of Tourism, Government of India",
+            "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/nalanda/food-and-cuisine.html"
+          }
+        ]
+      }
+    ]
+  },
+  "chhattisgarh": {
+    "name": "Chhattisgarh",
+    "tagline": "A rice and forest food culture shaped by seasonal produce and Bastar traditions.",
+    "region": "Central India",
+    "geography": "Chhattisgarh includes the central plains and the forested Bastar region. Rice is a major crop in the plains, while forests provide bamboo shoots, mushrooms, tubers and leafy greens. The Mahanadi and its tributaries support farming and settlement.",
+    "culinaryLandscape": "Rice, lentils, seasonal vegetables and forest produce are central to many Chhattisgarhi meals. Bastar food traditions include bamboo shoots and locally gathered ingredients. Practices differ between the plains and forest communities.",
+    "dishes": [
+      {
+        "slug": "chila",
+        "name": "Chila",
+        "descriptor": "A savoury rice-and-lentil pancake",
+        "overview": "Chila is a thin pancake made from a batter of soaked rice and urad dal. It is cooked on a griddle and served hot with chutney or curd. It is a familiar breakfast or light meal in Chhattisgarh.",
+        "ingredients": [
+          "Rice",
+          "Urad dal",
+          "Water and salt",
+          "Oil",
+          "Green chilli, ginger or coriander (optional)"
+        ],
+        "steps": [
+          "Soak the rice and urad dal for several hours.",
+          "Grind with water into a smooth batter.",
+          "Add salt and optional herbs or chilli.",
+          "Spread on a hot, lightly oiled griddle and cook both sides.",
+          "Serve with chutney or curd."
+        ],
+        "history": "Chila is listed among Chhattisgarh's local foods. Its exact origin is not recorded, and similar rice-and-lentil pancakes are found elsewhere in India. In Chhattisgarh, it reflects the importance of rice and lentils in everyday cooking.",
+        "imageHint": "Historical image slot: seek dated photographs of Chhattisgarhi household cooking, rice grinding or traditional griddle preparation. Keep modern images clearly labelled as contemporary.",
+        "imageQuery": "Chhattisgarh traditional chila rice batter cooking historical household photograph",
+        "sources": [
+          {
+            "title": "Exploring the culinary delights of Raipur",
+            "publisher": "Incredible India, Ministry of Tourism, Government of India",
+            "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/raipur/exploring-the-culinary-delights-of-raipur"
+          },
+          {
+            "title": "Ethnic food culture of Chhattisgarh state of India",
+            "publisher": "Journal of Ethnic Foods, Springer Nature",
+            "url": "https://link.springer.com/article/10.1186/s42779-021-00103-6"
+          }
+        ]
+      },
+      {
+        "slug": "aamat",
+        "name": "Aamat",
+        "descriptor": "A Bastar vegetable curry traditionally cooked with bamboo",
+        "overview": "Aamat is a sour, spiced vegetable preparation from Bastar. It uses mixed vegetables with ginger, garlic and spices; traditional versions include bamboo shoots and may be cooked in bamboo, which adds aroma.",
+        "ingredients": [
+          "Seasonal mixed vegetables",
+          "Bamboo shoots",
+          "Ginger and garlic",
+          "Chillies and salt",
+          "Local herbs or spices"
+        ],
+        "steps": [
+          "Clean and chop the vegetables and bamboo shoots.",
+          "Prepare a base with ginger, garlic and spices.",
+          "Combine with the vegetables and a little water.",
+          "Cook slowly until tender; traditional versions may use bamboo as a cooking vessel.",
+          "Serve with rice."
+        ],
+        "history": "Aamat is a Bastar preparation documented by Incredible India and food research on Chhattisgarh. It is commonly made with mixed vegetables and bamboo shoots. Its exact origin is not dated; its use of local forest produce reflects the food traditions of the region.",
+        "imageHint": "Historical image slot: seek dated ethnographic photographs of Bastar cooking, bamboo vessels, or preparation of seasonal forest vegetables. Identify the community and location where possible.",
+        "imageQuery": "Bastar Chhattisgarh Aamat bamboo cooking traditional ethnographic photograph",
+        "sources": [
+          {
+            "title": "Exploring the culinary delights of Raipur",
+            "publisher": "Incredible India, Ministry of Tourism, Government of India",
+            "url": "https://www.incredibleindia.gov.in/en/chhattisgarh/raipur/exploring-the-culinary-delights-of-raipur"
+          },
+          {
+            "title": "Ethnic food culture of Chhattisgarh state of India",
+            "publisher": "Journal of Ethnic Foods, Springer Nature",
+            "url": "https://link.springer.com/article/10.1186/s42779-021-00103-6"
+          }
+        ]
+      }
+    ]
+  },
+  "goa": {
+    "name": "Goa",
+    "tagline": "A Konkan coastal cuisine shaped by seafood, coconut and Portuguese-era exchange.",
+    "region": "Western India",
+    "geography": "Goa lies on the Arabian Sea, with a coastline, laterite plateaus, rivers and the Western Ghats. Its tropical climate supports rice, coconut, cashew, spices, fish and fruit. The coast and rivers have connected Goa to maritime trade for centuries.",
+    "culinaryLandscape": "Goan food includes distinct Hindu and Catholic traditions. Rice, fish, coconut, kokum, vinegar and spices are widely used; Portuguese rule also influenced some local ingredients, baked foods and cooking practices.",
+    "dishes": [
+      {
+        "slug": "xacuti",
+        "name": "Xacuti",
+        "descriptor": "A Goan curry made with roasted spices and coconut",
+        "overview": "Xacuti is a rich curry made with roasted spices, coconut and onion. It may be prepared with chicken, meat, seafood or vegetables. It is commonly served with rice or local breads.",
+        "ingredients": [
+          "Chicken, meat, seafood or vegetables",
+          "Grated coconut",
+          "Dried red chillies",
+          "Coriander and cumin seeds",
+          "Onion, garlic and ginger",
+          "Turmeric and salt",
+          "Tamarind or vinegar (in some versions)"
+        ],
+        "steps": [
+          "Roast coconut, chillies and whole spices until fragrant.",
+          "Grind with garlic, ginger and turmeric into a paste.",
+          "Cook the onion until soft, then add the main ingredient.",
+          "Add the paste and water; simmer until cooked and thickened.",
+          "Serve with rice or Goan bread."
+        ],
+        "history": "Xacuti is part of Goa's wider Konkani food tradition. Its exact origin as a named dish is not documented. Goan cuisine reflects coastal trade and long contact between local communities and Portuguese rule, but the available sources do not establish a single inventor or date for xacuti.",
+        "imageHint": "Historical image slot: seek dated photographs of Goan household kitchens, spice markets, coconut preparation or traditional cooking vessels. Do not label a modern curry photograph as historical.",
+        "imageQuery": "historical Goa Konkani kitchen spice market traditional cooking",
+        "sources": [
+          {
+            "title": "Appendix II — Goa tourism historical material",
+            "publisher": "Department of Tourism, Government of Goa",
+            "url": "https://goatourism.gov.in/wp-content/uploads/2019/09/Appendix-II.pdf"
+          },
+          {
+            "title": "Soaked in history: the cuisine of Goa",
+            "publisher": "Asia Media Centre",
+            "url": "https://www.asiamediacentre.org.nz/features/soaked-in-history-the-cuisine-of-goa"
+          }
+        ]
+      },
+      {
+        "slug": "bebinca",
+        "name": "Bebinca",
+        "descriptor": "A layered Goan sweet made with coconut milk and egg yolks",
+        "overview": "Bebinca is a rich layered dessert made from egg yolks, coconut milk, sugar, flour and ghee. Each thin layer is baked before the next is added. It is especially associated with Goan Catholic celebrations and Christmas.",
+        "ingredients": [
+          "Egg yolks",
+          "Coconut milk",
+          "Sugar",
+          "Refined flour",
+          "Ghee",
+          "Nutmeg or cardamom (optional)"
+        ],
+        "steps": [
+          "Mix egg yolks, coconut milk, sugar and flour into a smooth batter.",
+          "Grease a baking dish with ghee and pour in a thin layer.",
+          "Bake until set, then add another layer.",
+          "Repeat until the desired layers are formed.",
+          "Cool before slicing."
+        ],
+        "history": "Bebinca reflects Goa's layered culinary history, combining local coconut with baking traditions shaped during Portuguese rule. A popular story credits Sister Bebiana of the Convent of Santa Monica in Old Goa with creating it. This remains a story rather than a conclusively documented origin.",
+        "imageHint": "Historical image slot: seek dated photographs of the Santa Monica convent, Goan Catholic household celebrations or traditional bebinca preparation. Verify the image's date and provenance.",
+        "imageQuery": "historical Santa Monica convent Goa bebinca traditional preparation photograph",
+        "sources": [
+          {
+            "title": "Bebinca: a multi-layered cake from India",
+            "publisher": "BBC Travel",
+            "url": "https://www.bbc.com/travel/article/20231006-bebinca-a-multi-layered-cake-from-india"
+          },
+          {
+            "title": "Soaked in history: the cuisine of Goa",
+            "publisher": "Asia Media Centre",
+            "url": "https://www.asiamediacentre.org.nz/features/soaked-in-history-the-cuisine-of-goa"
+          },
+          {
+            "title": "The best bebinca in Goa, as per the state's foodies",
+            "publisher": "Condé Nast Traveller India",
+            "url": "https://www.cntraveller.in/story/the-best-bebinca-in-goa-as-per-the-states-foodies/"
+          }
+        ]
+      }
+    ]
   }
 }
