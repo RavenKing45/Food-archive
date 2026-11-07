@@ -1,0 +1,80 @@
+INDIA'S CULINARY MEMORY ARCHIVE — CLASSIFICATION GUIDE
+
+Every food entry now has three classification fields:
+- recordType: the broad kind of food record.
+- foodForm: the more specific culinary form.
+- definition: a short explanation of why the label fits the entry.
+
+The controlled recordType vocabulary used in this project is:
+
+1. Prepared dish
+   A cooked or assembled savoury food preparation, such as a curry, stew,
+   rice preparation or kebab.
+
+2. Meal / food combination
+   A customary pairing or combination of food components commonly eaten as
+   a meal, rather than a single preparation.
+
+3. Ceremonial meal / feast
+   A structured multi-dish meal associated with customary, celebratory or
+   ceremonial serving practices.
+
+4. Snack / street food
+   A ready-to-eat savoury preparation commonly consumed as a snack or sold
+   as street food.
+
+5. Sweet / confectionery
+   A sweet preparation, dessert or confection.
+
+6. Beverage
+   A drink, whether brewed, infused or fermented.
+
+7. Bread / staple
+   A grain-based bread or staple food commonly served as a base or
+   accompaniment.
+
+8. Fermented / preserved food
+   A food whose defining character comes from fermentation, drying or other
+   preservation, often used as an ingredient or accompaniment.
+
+9. Condiment / accompaniment
+   A preparation primarily served alongside another food, such as a chutney
+   or dried-fish mixture.
+
+10. Traditional edible fruit
+    A naturally produced edible fruit consumed as food. Hoka Fruit is
+    classified here because it is not a cooked dish or recipe. Its inclusion
+    documents a regional food resource and local consumption practice.
+
+The classes are editorial catalogue categories, not claims that every
+community uses the same terminology. More than one culinary role may exist;
+recordType identifies the principal role used for this archive entry.
+
+REGION TYPE AUDIT
+The archive contains 28 States and 8 Union Territories (36 regions total).
+Goa is a State today. It became the 25th State of the Indian Union on
+30 May 1987. It was previously part of the Union Territory of Goa, Daman
+and Diu, which explains why historical sources may refer to a different
+status. The present-day Union Territory in this archive is Dadra and Nagar
+Haveli and Daman and Diu.
+
+HOKA FRUIT — Diu
+The Diu–Daman tourism brochure describes Hoka palms as branching palms
+native to the Nile valley in Egypt and Sudan and says Portuguese traders
+brought them to Diu. It describes the ripe fruit as deep red, sweet-and-sour,
+with hard fibrous flesh, and popular among local residents. The brochure
+does not provide a recipe or an exact introduction date. The page therefore
+uses "Traditional edible fruit" rather than "Prepared dish" and presents
+food characteristics and consumption instead of ingredients and method.
+
+Primary source:
+Diu–Daman Tourism Brochure, printed page 35:
+https://daman.nic.in/Download/2015/Diu-Daman-Brochure-for-approval.pdf
+
+Administrative status cross-check:
+National Portal of India, State / UT directory:
+https://www.india.gov.in/directory/web-directory/state-uts
+Ministry of Home Affairs, Union Territories Division:
+https://www.mha.gov.in/union-territories-divisions
+Goa Legislative Assembly, Goa After Liberation:
+https://www.goavidhansabha.gov.in/infrastructure_detail.php?i_id=6

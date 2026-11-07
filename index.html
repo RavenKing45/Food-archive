@@ -531,6 +531,7 @@
     // Example: assets/stories/journey-of-biryani.jpg
     const STORY_IMAGES = {{STORY_IMAGES}};
     const STATE_IMAGES = {{STATE_IMAGES}};
+    const REGION_TYPES = {{REGION_TYPES}};
 
     const stories = [
       { title: "The Journey of Biryani", description: "A dish of many regions and shared histories", slug: "journey-of-biryani", symbol: "✧", tone: "spice" },
@@ -552,11 +553,6 @@
       "Chandigarh", "Dadra and Nagar Haveli and Daman and Diu", "Delhi", "Jammu and Kashmir", "Ladakh",
       "Lakshadweep", "Puducherry"
     ];
-    const unionTerritories = new Set([
-      "Andaman and Nicobar Islands", "Chandigarh",
-      "Dadra and Nagar Haveli and Daman and Diu", "Delhi",
-      "Jammu and Kashmir", "Ladakh", "Lakshadweep", "Puducherry"
-    ]);
     const tones = ["sand", "rose", "olive", "ochre", "slate"];
 
     function escapeHtml(value) {
@@ -596,7 +592,8 @@
         const slug = name.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
         const image = STATE_IMAGES[slug];
         const tone = tones[index % tones.length];
-        const archiveLabel = unionTerritories.has(name) ? "Union Territory archive" : "State archive";
+        const regionType = REGION_TYPES[slug] || "State";
+        const archiveLabel = regionType + " archive";
         const visualStyle = image
           ? `background-image: linear-gradient(180deg, rgba(37,13,10,.02), rgba(37,13,10,.66)), url('${image}')`
           : "";

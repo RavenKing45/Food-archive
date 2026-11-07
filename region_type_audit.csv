@@ -1,0 +1,37 @@
+﻿Region,Slug,Administrative type
+Punjab,punjab,State
+West Bengal,west-bengal,State
+Tamil Nadu,tamil-nadu,State
+Kerala,kerala,State
+Rajasthan,rajasthan,State
+Gujarat,gujarat,State
+Maharashtra,maharashtra,State
+Karnataka,karnataka,State
+Uttar Pradesh,uttar-pradesh,State
+Assam,assam,State
+Andhra Pradesh,andhra-pradesh,State
+Arunachal Pradesh,arunachal-pradesh,State
+Bihar,bihar,State
+Chhattisgarh,chhattisgarh,State
+Goa,goa,State
+Haryana,haryana,State
+Himachal Pradesh,himachal-pradesh,State
+Jharkhand,jharkhand,State
+Madhya Pradesh,madhya-pradesh,State
+Manipur,manipur,State
+Meghalaya,meghalaya,State
+Mizoram,mizoram,State
+Nagaland,nagaland,State
+Odisha,odisha,State
+Sikkim,sikkim,State
+Telangana,telangana,State
+Tripura,tripura,State
+Uttarakhand,uttarakhand,State
+Andaman and Nicobar Islands,andaman-and-nicobar-islands,Union Territory
+Chandigarh,chandigarh,Union Territory
+Dadra and Nagar Haveli and Daman and Diu,dadra-and-nagar-haveli-and-daman-and-diu,Union Territory
+Delhi,delhi,Union Territory
+Jammu and Kashmir,jammu-and-kashmir,Union Territory
+Ladakh,ladakh,Union Territory
+Lakshadweep,lakshadweep,Union Territory
+Puducherry,puducherry,Union Territory

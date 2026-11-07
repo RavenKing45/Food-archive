@@ -137,6 +137,10 @@ def json_for_script(value: object) -> str:
     return json.dumps(value, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 
+region_types = {slug: region.get("administrativeType", "State") for slug, region in state_pages.items()}
+html = html.replace("{{REGION_TYPES}}", json_for_script(region_types))
+
+
 STATE_PAGE_EXTENSION = r"""
 <style id="archive-state-page-styles">
   .state-page-root {
@@ -345,7 +349,7 @@ STATE_PAGE_EXTENSION = r"""
     .state-page-root *, .state-page-root *::before, .state-page-root *::after { scroll-behavior:auto !important; transition:none !important; }
   }
 
-  /* Single-dish chapter view: choose one dish from the state list at a time. */
+  /* Single-record chapter view: choose one food record from the region list at a time. */
   .state-book {
     display:grid; grid-template-columns:minmax(245px,.72fr) minmax(0,1.95fr);
     border:1px solid rgba(105,65,41,.25); border-top:1px solid rgba(105,65,41,.25);
@@ -387,6 +391,20 @@ STATE_PAGE_EXTENSION = r"""
     margin:5px 0 7px;
   }
   .dish-descriptor { margin:0; font-size:19px; line-height:1.2; }
+  .dish-classification {
+    margin:12px 0 15px; padding:10px 12px 11px;
+    background:rgba(233,215,182,.32); border:1px solid rgba(126,79,48,.25); border-radius:6px;
+  }
+  .dish-classification-head { display:flex; flex-wrap:wrap; align-items:center; gap:7px 10px; }
+  .dish-classification-label { color:#89603f; font:9px "Libre Baskerville",Georgia,serif; letter-spacing:1.4px; text-transform:uppercase; }
+  .dish-classification-type {
+    display:inline-flex; align-items:center; padding:4px 9px; border:1px solid rgba(126,79,48,.38);
+    border-radius:20px; color:#5c2a20; background:rgba(255,248,232,.72);
+    font:700 11px "Libre Baskerville",Georgia,serif;
+  }
+  .dish-classification-form { color:#76513d; font:italic 15px/1.2 "Cormorant Garamond",Georgia,serif; }
+  .dish-classification p { margin:6px 0 0; color:#563d30; font:10.5px/1.6 "Libre Baskerville",Georgia,serif; }
+  .dish-info-card p { color:#432c24; margin:0; font:11px/1.7 "Libre Baskerville",Georgia,serif; }
   .dish-meta-line {
     display:flex; flex-wrap:wrap; gap:8px 17px; margin-top:10px;
     color:#6f5141; font:11px "Libre Baskerville",Georgia,serif;
@@ -497,11 +515,6 @@ STATE_PAGE_EXTENSION = r"""
   function slugifyState(value) {
     return String(value).toLowerCase().replace(/&/g,"and").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
   }
-  const unionTerritorySlugs = new Set([
-    "andaman-and-nicobar-islands", "chandigarh",
-    "dadra-and-nagar-haveli-and-daman-and-diu", "delhi",
-    "jammu-and-kashmir", "ladakh", "lakshadweep", "puducherry"
-  ]);
   function scrollArchiveViewToTop() {
     try { window.scrollTo(0, 0); } catch (_) {}
     try { document.documentElement.scrollTop = 0; } catch (_) {}
@@ -537,6 +550,28 @@ STATE_PAGE_EXTENSION = r"""
     const ingredients = (dish.ingredients || []).map(x => "<li>" + escapeArchiveText(x) + "</li>").join("");
     const steps = (dish.steps || []).map(x => "<li>" + escapeArchiveText(x) + "</li>").join("");
     const sources = linkList(dish.sources);
+    const classification = dish.classification || {};
+    const classificationMarkup = classification.recordType ? (
+      '<section class="dish-classification" aria-label="Record classification">' +
+        '<div class="dish-classification-head">' +
+          '<span class="dish-classification-label">Record classification</span>' +
+          '<span class="dish-classification-type">' + escapeArchiveText(classification.recordType) + '</span>' +
+          '<span class="dish-classification-form">Food form: ' + escapeArchiveText(classification.foodForm || "Not specified") + '</span>' +
+        '</div>' +
+        '<p>' + escapeArchiveText(classification.definition || "") + '</p>' +
+      '</section>'
+    ) : "";
+    const detailCards = (dish.foodCharacteristics || dish.consumption) ? (
+      '<div class="dish-lower-grid">' +
+        '<section class="dish-info-card"><h3>Food characteristics</h3><p>' + escapeArchiveText(dish.foodCharacteristics || "") + '</p></section>' +
+        '<section class="dish-info-card"><h3>Consumption</h3><p>' + escapeArchiveText(dish.consumption || "") + '</p></section>' +
+      '</div>'
+    ) : (
+      '<div class="dish-lower-grid">' +
+        '<section class="dish-info-card"><h3>Ingredients</h3><ul>' + ingredients + '</ul></section>' +
+        '<section class="dish-info-card"><h3>Preparation</h3><ol>' + steps + '</ol></section>' +
+      '</div>'
+    );
     const oral = dish.oralNarrative ? (
       '<section class="oral-narrative">' +
         '<h4>Oral narrative</h4>' +
@@ -551,29 +586,27 @@ STATE_PAGE_EXTENSION = r"""
       '</section>'
     ) : (
       '<section class="oral-narrative"><h4>Oral narrative</h4>' +
-      '<p>No named, attributable oral account has been verified for this dish in the sources currently available. This space is reserved for a documented interview or community testimony.</p></section>'
+      '<p>No named, attributable oral account has been verified for this food record in the sources currently available. This space is reserved for a documented interview or community testimony.</p></section>'
     );
     return (
       '<article class="dish-record">' +
         '<header class="dish-record-head">' +
           '<h2>' + escapeArchiveText(dish.name) + '</h2>' +
           '<p class="dish-descriptor">' + escapeArchiveText(dish.descriptor || "") + '</p>' +
+          classificationMarkup +
         '</header>' +
         '<div class="dish-main-layout">' +
           '<div class="dish-photo ' + (image ? 'has-image' : 'no-image') + '">' +
             (image
               ? '<img class="dish-photo-image" src="' + image + '" alt="' + escapeArchiveText(dish.name + ' photograph') + '" loading="lazy" decoding="async">'
-              : '<div class="dish-photo-placeholder"><strong>Dish photograph to be added</strong><span>Use a real, source-credited photograph — not AI-generated imagery</span></div>') +
+              : '<div class="dish-photo-placeholder"><strong>Food photograph to be added</strong><span>Use a real, source-credited photograph — not AI-generated imagery</span></div>') +
           '</div>' +
           '<div class="dish-highlight-stack">' +
-            '<section class="dish-highlight"><h3>About the dish</h3><p>' + escapeArchiveText(dish.overview) + '</p></section>' +
-            '<section class="dish-highlight"><h3>How it came to be</h3><p>' + escapeArchiveText(dish.history) + '</p></section>' +
+            '<section class="dish-highlight"><h3>About this food</h3><p>' + escapeArchiveText(dish.overview) + '</p></section>' +
+            '<section class="dish-highlight"><h3>Historical background</h3><p>' + escapeArchiveText(dish.history) + '</p></section>' +
           '</div>' +
         '</div>' +
-        '<div class="dish-lower-grid">' +
-          '<section class="dish-info-card"><h3>Ingredients</h3><ul>' + ingredients + '</ul></section>' +
-          '<section class="dish-info-card"><h3>How it is made</h3><ol>' + steps + '</ol></section>' +
-        '</div>' +
+        detailCards +
         '<div class="dish-support-grid">' +
           '<div class="historical-slot">' +
             '<h3 class="historical-slot-title">Historical photograph / document</h3>' +
@@ -588,7 +621,7 @@ STATE_PAGE_EXTENSION = r"""
   function renderState(slug) {
     const state = archiveStatePages[slug];
     if (!state) return false;
-    const regionType = unionTerritorySlugs.has(slug) ? "Union Territory" : "State";
+    const regionType = state.administrativeType || "State";
     const stateImage = archiveStateCardImages[slug] || "";
     const bannerStyle = stateImage ? 'style="background-image:url(' + stateImage + ')"' : "";
     const stateDishes = Array.isArray(state.dishes) ? state.dishes : [];
@@ -614,7 +647,7 @@ STATE_PAGE_EXTENSION = r"""
           '<aside class="state-context">' +
             '<span class="state-context-label">Regional food culture</span>' +
             '<h2>' + escapeArchiveText(state.name) + ' Archive</h2>' +
-            '<div class="dish-choice-list" role="tablist" aria-label="Dishes from ' + escapeArchiveText(state.name) + '">' + dishButtons + '</div>' +
+            '<div class="dish-choice-list" role="tablist" aria-label="Food records from ' + escapeArchiveText(state.name) + '">' + dishButtons + '</div>' +
             '<h3>Geography & influence</h3>' +
             '<p>' + escapeArchiveText(state.geography) + '</p>' +
             '<div class="state-context-ornament"></div>' +

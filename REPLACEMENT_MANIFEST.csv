@@ -1,0 +1,16 @@
+﻿order,zip_timestamp,region,dish_in_batch,existing_slug,source_filename,source_dimensions,replacement_path,output_format,output_dimensions
+1,2026-11-8-1-6-38,Arunachal Pradesh,Apong,apong,"Nogin_Apong,_Lakhimpur.jpg",3718x2284,assets/dishes/apong.webp,WEBP,3718x2284
+2,2026-11-8-1-8-2,Assam,Masor Tenga,masor-tenga,20240825180048_Masor_Tenga_Recipe_Authentic_Assame.jpeg,736x736,assets/dishes/masor-tenga.jpg,JPEG,736x736
+3,2026-11-8-1-8-46,Himachal Pradesh,Himachali Dham,himachali-dham,images.jpg,574x534,assets/dishes/himachali-dham.webp,WEBP,574x534
+4,2026-11-8-1-9-42,Himachal Pradesh,Siddu,siddu,siddu-yt-2025-11-06-16-42-00.jpg,1011x675,assets/dishes/siddu.webp,WEBP,1011x675
+5,2026-11-8-1-9-52,Jharkhand,Dhuska,dhuska,Dhuska1-scaled.jpeg,2560x1536,assets/dishes/dhuska.webp,WEBP,2560x1536
+6,2026-11-8-1-11-16,Jharkhand,Rugra,rugra,images (1).jpg,554x554,assets/dishes/rugra.jpg,JPEG,554x554
+7,2026-11-8-1-11-34,Meghalaya,Jadoh,jadoh,Jadoh-1.jpg,768x911,assets/dishes/jadoh.webp,WEBP,768x911
+8,2026-11-8-1-13-18,Meghalaya,Tungrymbai,tungrymbai,Screenshot 2026-11-08 011318.png,981x831,assets/dishes/tungrymbai.jpg,JPEG,981x831
+9,2026-11-8-1-13-52,Odisha,Dalma,dalma,images (2).jpg,669x458,assets/dishes/dalma.webp,WEBP,669x458
+10,2026-11-8-1-14-4,Telangana,Sarva Pindi,sarva-pindi,maxresdefault.jpg,1280x720,assets/dishes/sarva-pindi.webp,WEBP,1280x720
+11,2026-11-8-1-14-44,Tripura,Mui Borok,mui-borok,images (3).jpg,479x317,assets/dishes/mui-borok.webp,WEBP,479x317
+12,2026-11-8-1-22-20,Dadra and Nagar Haveli and Daman and Diu,Hoka Fruit (temporary replacement for Diu Bebinca),bebinca-diu,I9QpPoEcVuwzpJEK5Os6p8yqBfRNhiagxqqJCoC7kzurdZb280obcWWp4kuacg-OXP8ojILO5tX8Focmrgf7BA4FEpqcrWoI59tkUBE99l3CIf5qDEi_qT88cU0nhdUJmsAwOFRKSQ9OrTqfeMsQJRCE9xoWc46xIa7vhhdLtyaZvpVi1PVWrIr2yHwUo7QB.jpg,4896x3264,assets/dishes/bebinca-diu.webp,WEBP,4896x3264
+13,2026-11-8-1-23-8,Jammu and Kashmir,Kashmiri Kahwa,kashmiri-kahwa,Screenshot 2026-11-08 012309.png,892x740,assets/dishes/kashmiri-kahwa.webp,WEBP,892x740
+14,2026-11-8-1-23-34,Puducherry,Roll Roti,roll-roti,veg-roll-frankie.jpg,680x510,assets/dishes/roll-roti.webp,WEBP,680x510
+15,2026-11-8-1-23-50,Puducherry,Vettu Sambar,vettu-sambar,maxresdefault (1).jpg,1280x720,assets/dishes/vettu-sambar.webp,WEBP,1280x720

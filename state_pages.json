@@ -56,6 +56,11 @@
           "sourceTitle": "Food Stories: Sarson ka Saag / Makki ki Roti",
           "sourcePublisher": "Dawn.com, 19 February 2014 — Bisma Tirmizi",
           "sourceUrl": "https://www.dawn.com/news/1088069"
+        },
+        "classification": {
+          "recordType": "Meal / food combination",
+          "foodForm": "Seasonal greens-and-flatbread pairing",
+          "definition": "A composed meal pairing slow-cooked mustard greens with maize flatbread."
         }
       },
       {
@@ -102,9 +107,15 @@
           "sourceTitle": "Sita Ram Diwan Chand: Why Delhi's Heart Is Set on This Chole-Bhature Wala Since 50 Years",
           "sourcePublisher": "NDTV Food",
           "sourceUrl": "https://food.ndtv.com/food-drinks/sita-ram-diwan-chand-why-delhis-heart-is-set-on-this-chole-bhature-wala-since-50-years-1715626"
+        },
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Chickpea curry with fried bread",
+          "definition": "A savoury preparation pairing spiced chickpeas with deep-fried, leavened bread."
         }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "west-bengal": {
     "name": "West Bengal",
@@ -148,7 +159,12 @@
             "url": "https://www.uou.ac.in/sites/default/files/slm/BHM-602AT.pdf",
             "note": "Documents mustard oil and mustard paste as characteristic ingredients in Bengali cooking."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Mustard fish curry",
+          "definition": "A fish preparation cooked in a mustard-based sauce with green chilli."
+        }
       },
       {
         "slug": "banglar-rosogolla",
@@ -178,9 +194,15 @@
             "url": "https://link.springer.com/article/10.1186/s42779-021-00091-7",
             "note": "Reviews both Bengal and Odisha traditions and the nineteenth-century Kolkata development account."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Sweet / confectionery",
+          "foodForm": "Chhana dumplings in syrup",
+          "definition": "A milk-curd sweet formed into dumplings and poached in sugar syrup."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "tamil-nadu": {
     "name": "Tamil Nadu",
@@ -219,7 +241,12 @@
             "url": "https://madurai.nic.in/festivals-and-events/",
             "note": "Documents Pongal as a harvest festival honouring the Sun, nature and cattle."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Sweet / confectionery",
+          "foodForm": "Sweet rice-and-lentil preparation",
+          "definition": "A festive sweet made by cooking rice and lentils with sweetener and flavourings."
+        }
       },
       {
         "slug": "chicken-chettinad",
@@ -257,9 +284,15 @@
             "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/chennai/food-and-cuisine/chettinad-cuisine.html",
             "note": "Describes characteristic spices and cooking traditions."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Spiced chicken curry",
+          "definition": "A cooked chicken preparation flavoured with a freshly ground aromatic spice mixture."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "kerala": {
     "name": "Kerala",
@@ -305,7 +338,12 @@
             "url": "https://www.keralatourism.org/kerala-article/2015/onasadya-kerala/553",
             "note": "Explains the association between sadya and Onam."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Ceremonial meal / feast",
+          "foodForm": "Multi-dish vegetarian feast",
+          "definition": "A structured celebratory meal consisting of several vegetarian preparations served together."
+        }
       },
       {
         "slug": "puttu-kadala-curry",
@@ -344,9 +382,15 @@
             "url": "https://www.keralatourism.org/responsible-tourism/ethnic-cuisine/unit/nadan-food/982",
             "note": "Documents puttu and kadala curry in local food experiences."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Meal / food combination",
+          "foodForm": "Steamed rice cylinders with chickpea curry",
+          "definition": "A meal pairing a steamed rice-flour staple with a seasoned black-chickpea curry."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "rajasthan": {
     "name": "Rajasthan",
@@ -391,7 +435,12 @@
             "url": "https://foundation.rajasthan.gov.in/CuisineofRajasthan.aspx",
             "note": "Explains the influence of aridity, water scarcity and available ingredients."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Meal / food combination",
+          "foodForm": "Wheat, lentil and sweetened-crumble combination",
+          "definition": "A complete regional meal combining baked wheat rolls, lentils and a sweetened crushed-bread preparation."
+        }
       },
       {
         "slug": "gatte-ki-sabzi",
@@ -430,9 +479,15 @@
             "url": "https://www.tourism.rajasthan.gov.in/rajasthani-cuisine.html",
             "note": "Official page on regional traditional foods."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Gram-flour dumpling curry",
+          "definition": "A curry in which gram-flour dumplings are cooked in a seasoned yoghurt-based gravy."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "gujarat": {
     "name": "Gujarat",
@@ -478,7 +533,12 @@
             "url": "https://www.cntraveller.in/story/in-gujarat-winter-brings-undhiyu-parties-to-the-yard/",
             "note": "Discusses seasonal community preparation around Surat."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Mixed-vegetable preparation",
+          "definition": "A seasonal mixed-vegetable preparation traditionally cooked slowly with regional spices."
+        }
       },
       {
         "slug": "dhokla",
@@ -511,9 +571,15 @@
             "url": "https://enviromicro-journals.onlinelibrary.wiley.com/doi/full/10.1111/jam.15382",
             "note": "Discusses dhokla fermentation and the 1066 CE dukkia reference as a precursor."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Snack / street food",
+          "foodForm": "Steamed savoury batter cake",
+          "definition": "A savoury, spongy preparation made from a seasoned batter and cooked by steaming."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "maharashtra": {
     "name": "Maharashtra",
@@ -559,7 +625,12 @@
             "url": "https://maharashtratourism.gov.in/wp-content/uploads/2025/06/Maharashtra-Booklet_compressed.pdf",
             "note": "Official regional food overview."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Snack / street food",
+          "foodForm": "Potato fritter bread roll",
+          "definition": "A ready-to-eat snack made by placing a spiced potato fritter inside a bread roll."
+        }
       },
       {
         "slug": "puran-poli",
@@ -603,9 +674,15 @@
             "url": "https://old.rrjournals.com/past-issue/puran-poli-a-signature-dish-of-maharashtra/",
             "note": "Cites a purana preparation in the twelfth-century Manasollasa; exact equivalence with the modern dish should not be assumed."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Sweet / confectionery",
+          "foodForm": "Stuffed sweet flatbread",
+          "definition": "A flatbread filled with a sweetened lentil mixture and cooked on a griddle."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "karnataka": {
     "name": "Karnataka",
@@ -657,6 +734,11 @@
           "sourceTitle": "Who Owns the Alphonso?",
           "sourcePublisher": "Open Magazine, interview reported by Lhendup G. Bhutia",
           "sourceUrl": "https://openthemagazine.com/features/who-owns-the-alphonso"
+        },
+        "classification": {
+          "recordType": "Sweet / confectionery",
+          "foodForm": "Gram-flour and ghee sweet",
+          "definition": "A dense confection prepared from gram flour, sugar and ghee."
         }
       },
       {
@@ -695,9 +777,15 @@
             "url": "https://karnatakatourism.org/en/experiences/south-karnataka-food-trail/",
             "note": "Places bisi bele bath among the region's familiar dishes."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Rice-and-lentil one-pot meal",
+          "definition": "A cooked one-pot preparation combining rice, lentils, vegetables and tamarind."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "uttar-pradesh": {
     "name": "Uttar Pradesh",
@@ -742,7 +830,12 @@
             "url": "https://indianexpress.com/article/research/where-tehzeeb-meets-taste-how-awadhs-royal-kitchens-shaped-lucknows-food-identity-10366883/lite/",
             "note": "Research feature on Awadh's culinary history."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Minced-meat kebab",
+          "definition": "A finely minced and seasoned meat preparation shaped and cooked as a kebab."
+        }
       },
       {
         "slug": "awadhi-dum-pukht-biryani",
@@ -781,9 +874,15 @@
             "url": "https://indianexpress.com/article/explained/explained-culture/biryani-history-india-most-popular-dish-recipe-mutton-9955021/lite/",
             "note": "Explains why popular biryani-origin stories need cautious treatment."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Sealed-pot rice-and-meat preparation",
+          "definition": "A layered rice and meat preparation cooked slowly in a sealed vessel."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "assam": {
     "name": "Assam",
@@ -828,7 +927,12 @@
             "url": "https://assamtourism.gov.in/cuisine.php",
             "note": "Describes khar as part of the traditional Assamese meal sequence."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Alkaline culinary preparation",
+          "definition": "A traditional alkaline preparation using an alkaline filtrate as a defining ingredient."
+        }
       },
       {
         "slug": "masor-tenga",
@@ -861,9 +965,15 @@
             "url": "https://assamtourism.gov.in/cuisine.php",
             "note": "Official description of tenga and its seasonal souring ingredients."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Sour fish curry",
+          "definition": "A light fish curry characterised by a souring ingredient and seasonal additions."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "andhra-pradesh": {
     "name": "Andhra Pradesh",
@@ -901,7 +1011,12 @@
             "publisher": "Guntur District Administration, Government of Andhra Pradesh",
             "url": "https://guntur.ap.gov.in/culinary-delight/gongura-pickle/"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Condiment / accompaniment",
+          "foodForm": "Sour leafy-green chutney",
+          "definition": "A tangy chutney made from gongura leaves and served alongside a meal."
+        }
       },
       {
         "slug": "pootharekulu",
@@ -940,9 +1055,15 @@
             "publisher": "The New Indian Express",
             "url": "https://www.newindianexpress.com/states/andhra-pradesh/2023/May/18/after-gi-tag-focus-now-on-making-pootharekulu-available-pan-india-2576508.html"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Sweet / confectionery",
+          "foodForm": "Paper-thin rice sweet",
+          "definition": "A delicate sweet made by layering very thin rice-based sheets with sweet filling."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "arunachal-pradesh": {
     "name": "Arunachal Pradesh",
@@ -982,7 +1103,12 @@
             "publisher": "Indian Journal of Traditional Knowledge, CSIR-NIScPR",
             "url": "https://nopr.niscpr.res.in/bitstream/123456789/50632/3/IJTK%2018(4)%20744-757.pdf"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Beverage",
+          "foodForm": "Fermented rice drink",
+          "definition": "A traditional drink produced by fermenting rice through community-specific methods."
+        }
       },
       {
         "slug": "bamboo-shoot-curry",
@@ -1016,9 +1142,15 @@
             "publisher": "Indian Journal of Traditional Knowledge, CSIR-NIScPR",
             "url": "https://nopr.niscpr.res.in/bitstream/123456789/50632/3/IJTK%2018(4)%20744-757.pdf"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Bamboo-shoot curry",
+          "definition": "A savoury curry in which tender bamboo shoots are cooked with seasonings."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "bihar": {
     "name": "Bihar",
@@ -1062,7 +1194,12 @@
             "publisher": "Government of Bihar",
             "url": "https://state.bihar.gov.in/yesd/SectionInformation.html?editForm=&rowId=1755"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Meal / food combination",
+          "foodForm": "Roasted wheat balls with mashed vegetables",
+          "definition": "A regional meal pairing roasted, filled wheat dough balls with mashed vegetable preparations."
+        }
       },
       {
         "slug": "silao-khaja",
@@ -1100,9 +1237,15 @@
             "publisher": "Incredible India, Ministry of Tourism, Government of India",
             "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/nalanda/food-and-cuisine.html"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Sweet / confectionery",
+          "foodForm": "Layered crisp pastry",
+          "definition": "A crisp, layered sweet pastry associated with Silao in Nalanda."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "chhattisgarh": {
     "name": "Chhattisgarh",
@@ -1144,7 +1287,12 @@
             "publisher": "Journal of Ethnic Foods, Springer Nature",
             "url": "https://link.springer.com/article/10.1186/s42779-021-00103-6"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Snack / street food",
+          "foodForm": "Rice-and-lentil pancake",
+          "definition": "A savoury pancake prepared from a rice-and-lentil batter and cooked on a hot surface."
+        }
       },
       {
         "slug": "aamat",
@@ -1179,9 +1327,15 @@
             "publisher": "Journal of Ethnic Foods, Springer Nature",
             "url": "https://link.springer.com/article/10.1186/s42779-021-00103-6"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Bastar vegetable stew",
+          "definition": "A vegetable-based stew associated with Bastar and traditionally cooked with bamboo."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "goa": {
     "name": "Goa",
@@ -1225,7 +1379,12 @@
             "publisher": "Asia Media Centre",
             "url": "https://www.asiamediacentre.org.nz/features/soaked-in-history-the-cuisine-of-goa"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Roasted-spice curry",
+          "definition": "A curry defined by a complex roasted spice mixture and coconut."
+        }
       },
       {
         "slug": "bebinca",
@@ -1266,9 +1425,15 @@
             "publisher": "Condé Nast Traveller India",
             "url": "https://www.cntraveller.in/story/the-best-bebinca-in-goa-as-per-the-states-foodies/"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Sweet / confectionery",
+          "foodForm": "Layered baked coconut-and-egg dessert",
+          "definition": "A layered sweet made by baking successive portions of a coconut-milk-and-egg batter."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "haryana": {
     "name": "Haryana",
@@ -1309,7 +1474,12 @@
             "url": "https://www.haryana.com/about-haryana/culture"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Pearl-millet and lentil preparation",
+          "definition": "A warming cooked preparation combining pearl millet and lentils."
+        }
       },
       {
         "slug": "haryanvi-kadhi",
@@ -1346,9 +1516,15 @@
             "url": "http://link.springer.com/article/10.1186/s42779-024-00262-2"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Yoghurt-and-gram-flour curry",
+          "definition": "A savoury curry made by cooking a yoghurt and gram-flour mixture with seasonings."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "himachal-pradesh": {
     "name": "Himachal Pradesh",
@@ -1391,7 +1567,12 @@
             "url": "https://www.architecturaldigest.in/story/century-old-brassware-and-secret-recipes-how-himachali-dham-is-being-cooked-today/"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Ceremonial meal / feast",
+          "foodForm": "Traditional multi-course meal",
+          "definition": "A customary celebratory meal composed of several dishes and served in a set sequence or format."
+        }
       },
       {
         "slug": "siddu",
@@ -1426,9 +1607,15 @@
             "url": "https://hillpost.in/2024/02/siddu-or-sidduku-the-heart-winning-dish-of-devbhoomi/123702/"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Bread / staple",
+          "foodForm": "Fermented steamed wheat bread",
+          "definition": "A leavened wheat-dough bread shaped and cooked by steaming."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "jharkhand": {
     "name": "Jharkhand",
@@ -1470,7 +1657,12 @@
             "url": "https://en.wikipedia.org/wiki/Jharkhandi_cuisine"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Snack / street food",
+          "foodForm": "Deep-fried rice-and-lentil pancake",
+          "definition": "A savoury batter preparation made with rice and lentils and cooked by deep-frying."
+        }
       },
       {
         "slug": "rugra",
@@ -1506,9 +1698,15 @@
             "url": "https://india.mongabay.com/2023/11/production-of-rugra-a-nutritious-mushroom-found-in-jharkhand-impacted-by-weather-changes/"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Wild-mushroom preparation",
+          "definition": "A cooked savoury preparation centred on seasonal wild mushrooms."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "madhya-pradesh": {
     "name": "Madhya Pradesh",
@@ -1551,7 +1749,12 @@
             "url": "https://food.ndtv.com/food-drinks/which-city-is-known-for-its-iconic-poha-jalebi-breakfast-11479047"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Flattened-rice breakfast preparation",
+          "definition": "A breakfast dish made by softening and seasoning flattened rice."
+        }
       },
       {
         "slug": "dal-bafla",
@@ -1587,9 +1790,15 @@
             "url": "https://www.mptourism.com//nimari-cuisine-southwestern-madhya-pradesh.html"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Meal / food combination",
+          "foodForm": "Baked wheat dumplings with lentils",
+          "definition": "A meal pairing baked wheat dough balls with lentils and customary accompaniments."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "manipur": {
     "name": "Manipur",
@@ -1631,7 +1840,12 @@
             "url": "https://en.wikipedia.org/wiki/Eromba"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Mashed vegetable and fermented-fish preparation",
+          "definition": "A savoury preparation made by mashing vegetables with fermented fish and seasonings."
+        }
       },
       {
         "slug": "chak-hao-kheer",
@@ -1666,9 +1880,15 @@
             "url": "https://www.outlooktraveller.com/amp/story/responsible-tourism/this-rice-from-manipur-has-more-antioxidants-than-blueberries"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Sweet / confectionery",
+          "foodForm": "Black-rice pudding",
+          "definition": "A sweet pudding prepared by cooking aromatic black rice with milk and sweetener."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "meghalaya": {
     "name": "Meghalaya",
@@ -1706,7 +1926,12 @@
             "url": "https://www.tandfonline.com/doi/full/10.1080/21553769.2016.1249032"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Khasi rice-and-meat preparation",
+          "definition": "A savoury rice preparation cooked with meat and spices."
+        }
       },
       {
         "slug": "tungrymbai",
@@ -1746,9 +1971,15 @@
             "url": "https://megbrdc.nic.in/documentation_traditional_practices/traditional_fermentation_of_tungrymbai.pdf"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Fermented / preserved food",
+          "foodForm": "Fermented soybean preparation",
+          "definition": "A food preparation made by fermenting soybeans and using the resulting mixture in cooking."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "mizoram": {
     "name": "Mizoram",
@@ -1795,7 +2026,12 @@
             "url": "https://www.redalyc.org/journal/6890/689072705003/"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Mizo vegetable stew",
+          "definition": "A gently cooked savoury preparation of seasonal vegetables and greens."
+        }
       },
       {
         "slug": "vawksa-rep",
@@ -1830,9 +2066,15 @@
             "url": "https://arccjournals.com/journal/asian-journal-of-dairy-and-food-research/DR-2382"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Smoked pork preparation",
+          "definition": "A pork preparation in which smoking and drying contribute the defining flavour and preservation."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "nagaland": {
     "name": "Nagaland",
@@ -1875,7 +2117,12 @@
             "url": "https://artsandculture.google.com/story/a-deep-dive-into-the-culinaryheritage-of-nagaland-banglanatak/NQWR4gmR_LgUDQ"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Smoked pork and bamboo-shoot preparation",
+          "definition": "A savoury preparation combining smoked pork with bamboo shoots."
+        }
       },
       {
         "slug": "axone",
@@ -1909,9 +2156,15 @@
             "url": "https://www.fondazioneslowfood.com/en/chefs-alliance-recipe-joel-basumatari/"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Fermented / preserved food",
+          "foodForm": "Fermented soybean condiment",
+          "definition": "A strongly flavoured fermented soybean product used as a seasoning or ingredient in Naga cooking."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "odisha": {
     "name": "Odisha",
@@ -1954,7 +2207,12 @@
             "url": "https://timesofindia.indiatimes.com/travel/bhubaneshwar/dalma/ps57267614.cms"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Lentil-and-vegetable stew",
+          "definition": "A cooked stew combining lentils and vegetables, commonly seasoned with regional spices."
+        }
       },
       {
         "slug": "chhena-poda",
@@ -1989,9 +2247,15 @@
             "url": "https://theprint.in/india/odisha-observes-chhena-poda-dibasa-to-cherish-unique-dessert/2586707/"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Sweet / confectionery",
+          "foodForm": "Baked chhena sweet",
+          "definition": "A sweet made by baking chhena with sugar until its surface and edges caramelise."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "sikkim": {
     "name": "Sikkim",
@@ -2029,7 +2293,12 @@
             "url": "https://www.sahapedia.org/sikkims-flavourful-kitchen-grains-plate"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Pork, radish and chilli stew",
+          "definition": "A savoury stew combining pork with radish and chillies."
+        }
       },
       {
         "slug": "gundruk",
@@ -2063,9 +2332,15 @@
             "url": "https://enrouteindianhistory.com/fermenting-faith-buddhist-ethics-and-culinary-transformation-in-himalayas/"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Fermented / preserved food",
+          "foodForm": "Fermented leafy-green preserve",
+          "definition": "A preserved food made by fermenting leafy vegetables and drying the resulting product."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "telangana": {
     "name": "Telangana",
@@ -2117,7 +2392,12 @@
             "url": "https://theprint.in/opinion/hyderabad-heart/hyderabadi-biryani-history-hindutva/2955673/"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Layered rice-and-meat preparation",
+          "definition": "A seasoned rice preparation cooked with meat and aromatic spices using a regional biryani method."
+        }
       },
       {
         "slug": "sarva-pindi",
@@ -2156,9 +2436,15 @@
             "url": "https://www.newindianexpress.com/hyderabad/2017/Sep/15/taste-trails-1657842.html"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Snack / street food",
+          "foodForm": "Savoury rice-flour pancake",
+          "definition": "A seasoned rice-flour dough is shaped into a flat preparation and cooked on a pan."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "tripura": {
     "name": "Tripura",
@@ -2196,7 +2482,12 @@
             "url": "https://arccjournals.com/journal/asian-journal-of-dairy-and-food-research/DR-2204"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Fermented / preserved food",
+          "foodForm": "Fermented fish preparation",
+          "definition": "A fermented fish food associated with Tripura and used for its concentrated savoury flavour."
+        }
       },
       {
         "slug": "chakhwi",
@@ -2227,9 +2518,15 @@
             "url": "https://arccjournals.com/journal/asian-journal-of-dairy-and-food-research/DR-2204"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Bamboo-shoot and vegetable stew",
+          "definition": "A regional savoury preparation featuring bamboo shoots with vegetables and, in some versions, meat."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "uttarakhand": {
     "name": "Uttarakhand",
@@ -2274,7 +2571,12 @@
             "url": "https://aboututtarakhand.com/kafuli/"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Leafy-green curry",
+          "definition": "A thick savoury preparation made from leafy greens and commonly served with a staple."
+        }
       },
       {
         "slug": "bal-mithai",
@@ -2315,9 +2617,15 @@
             "url": "https://chaluttarakhand.com/bal-mithai-the-sweet-delight-of-uttarakhand/"
           }
         ],
-        "oralNarrative": null
+        "oralNarrative": null,
+        "classification": {
+          "recordType": "Sweet / confectionery",
+          "foodForm": "Roasted-khoya confection",
+          "definition": "A regional sweet made from roasted khoya and coated with small sugar balls."
+        }
       }
-    ]
+    ],
+    "administrativeType": "State"
   },
   "andaman-and-nicobar-islands": {
     "name": "Andaman and Nicobar Islands",
@@ -2364,7 +2672,12 @@
             "url": "https://www.incredibleindia.gov.in/en/andaman-and-nicobar-islands",
             "note": "Summarises the islands' seafood-centred food culture."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Coastal fish curry",
+          "definition": "A coastal preparation in which fish is cooked in a seasoned curry base."
+        }
       },
       {
         "slug": "nicobari-aloo-preparation",
@@ -2400,9 +2713,15 @@
             "url": "https://www.journal.isrc.in/index.php/jrc/article/view/430",
             "note": "Describes the role of coconut, tubers, pig and marine fisheries in Nicobari livelihoods."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Tuber-based preparation",
+          "definition": "A traditional food preparation based on locally used tubers rather than a wheat- or rice-based staple."
+        }
       }
-    ]
+    ],
+    "administrativeType": "Union Territory"
   },
   "chandigarh": {
     "name": "Chandigarh",
@@ -2446,7 +2765,12 @@
             "publisher": "Incredible India, Ministry of Tourism",
             "url": "https://www.incredibleindia.gov.in/en/chandigarh"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Chickpea curry with fried bread",
+          "definition": "A savoury meal pairing spiced chickpeas with deep-fried leavened bread."
+        }
       },
       {
         "slug": "amritsari-kulcha",
@@ -2483,51 +2807,44 @@
             "publisher": "Incredible India, Ministry of Tourism",
             "url": "https://www.incredibleindia.gov.in/en/chandigarh"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Bread / staple",
+          "foodForm": "Stuffed leavened flatbread",
+          "definition": "A leavened flatbread filled with a savoury mixture and baked in a tandoor."
+        }
       }
-    ]
+    ],
+    "administrativeType": "Union Territory"
   },
   "dadra-and-nagar-haveli-and-daman-and-diu": {
     "name": "Dadra and Nagar Haveli and Daman and Diu",
     "region": "Western India",
     "tagline": "Inland Adivasi foodways meet the coastal and Portuguese-influenced traditions of Daman and Diu.",
     "geography": "The Union Territory combines inland Dadra and Nagar Haveli, near Gujarat and Maharashtra, with the Arabian Sea enclaves of Daman and Diu. Forests, rivers and tribal settlements shape inland foodways, while fishing, coconut and maritime contact influence the coast.",
-    "culinaryLandscape": "Food traditions differ across the territory. Adivasi communities in Dadra and Nagar Haveli use rice, millets, tubers and forest produce. Daman and Diu draw on Gujarati coastal cooking and Portuguese-era influences, visible in seafood and layered sweets such as bebinca.",
+    "culinaryLandscape": "Food traditions differ across the territory. Adivasi communities in Dadra and Nagar Haveli use rice, millets, tubers and forest produce. Daman and Diu draw on Gujarati coastal cooking and Portuguese-era influences, visible in seafood, bakery and sweet traditions. Diu’s Hoka fruit adds a distinctive botanical food-heritage record linked by the local tourism brochure to Portuguese-era trade.",
     "dishes": [
       {
-        "slug": "bebinca-diu",
-        "name": "Diu Bebinca",
-        "descriptor": "A layered coconut-and-egg sweet shaped by Indo-Portuguese foodways",
-        "overview": "Bebinca is a rich layered sweet made with coconut milk, eggs, flour, sugar and ghee. In Diu it reflects the territory's Portuguese-era connections and is served as a dessert or festive treat. Thin layers are baked one after another to create its characteristic texture.",
-        "ingredients": [
-          "Coconut milk",
-          "Eggs",
-          "Flour",
-          "Sugar",
-          "Ghee",
-          "Nutmeg or cardamom, optional"
-        ],
-        "steps": [
-          "Whisk coconut milk, eggs, sugar and flour into a smooth batter.",
-          "Grease a baking dish with ghee.",
-          "Pour a thin layer and bake until set and lightly coloured.",
-          "Repeat with further layers, brushing with ghee as needed.",
-          "Cool before slicing and serving."
-        ],
-        "history": "Diu's food culture reflects centuries of Portuguese presence, which ended in 1961. Incredible India identifies bebinca among the island's culinary offerings and describes its layered coconut-based preparation. The dessert is shared across parts of the former Portuguese coastal world; it should not be described as exclusive to Diu.",
-        "imageHint": "Look for historical photographs of Diu's Portuguese-era settlement, bakeries, coconut preparation and family celebrations. Keep modern food images separate from archival material.",
-        "imageQuery": "Diu bebinca Portuguese heritage layered dessert archival photograph",
+        "slug": "hoka-fruit",
+        "name": "Hoka Fruit of Diu",
+        "descriptor": "A deep-red, sweet-and-sour fruit of Diu’s branching Hoka palm",
+        "classification": {
+          "recordType": "Traditional edible fruit",
+          "foodForm": "Fresh palm fruit",
+          "definition": "An edible fruit consumed fresh. It is catalogued here as a regional food-heritage record, not as a prepared dish or recipe."
+        },
+        "overview": "Hoka fruit is the ripe edible fruit of the branching Hoka palm associated with Diu. The Diu–Daman tourism brochure describes the ripe fruit as deep red, sweet-and-sour and firm, with hard, fibrous flesh. It says the fruit is popular among local residents and can be obtained from local vendors. This entry records the fruit as a local food resource rather than presenting it as a cooked dish.",
+        "foodCharacteristics": "The local tourism brochure describes the ripe fruit as deep red, with a sweet-and-sour taste and hard, fibrous flesh. These are the characteristics reported by that source; the archive does not infer a specific variety or botanical measurement.",
+        "consumption": "The brochure recommends tasting the ripe fruit and reports that local vendors sell it. It does not provide a recipe or a detailed preparation method, so this record does not invent one.",
+        "history": "The Diu–Daman tourism brochure describes Hoka trees as branching palms native to the Nile valley in Egypt and Sudan and states that Portuguese traders brought them to Diu. It connects the palms to the island’s landscape and identifies the ripe fruit as a local food. The brochure does not give an exact introduction date or identify a particular trader.",
+        "imageHint": "Use an identified photograph of the Hoka palm or its ripe fruit in Diu. Record the location, date, photographer and archive; do not substitute a generic palm-fruit photograph without confirming the subject.",
+        "imageQuery": "Diu Hoka fruit deep red ripe fruit branching Hoka palm",
         "sources": [
           {
-            "title": "Discover the Authentic Gastronomy of Diu",
-            "publisher": "Incredible India, Ministry of Tourism",
-            "url": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/diu/culinary-delights-of-diu"
-          },
-          {
-            "title": "Union Territory food and tourism profile: Dadra and Nagar Haveli and Daman and Diu",
-            "publisher": "NITI Aayog",
-            "url": "https://www.niti.gov.in/node/2250",
-            "note": "Lists bebinca among the foods of Diu."
+            "title": "Diu–Daman Tourism Brochure",
+            "publisher": "Daman and Diu Tourism / Administration",
+            "url": "https://daman.nic.in/Download/2015/Diu-Daman-Brochure-for-approval.pdf",
+            "note": "Printed page 35 describes Hoka palms, their reported introduction to Diu by Portuguese traders, and the ripe fruit’s colour, taste, texture and local sale."
           }
         ]
       },
@@ -2565,9 +2882,15 @@
             "url": "https://www.niti.gov.in/node/2250",
             "note": "Lists Jetty Roll as a Daman street-food favourite with spiced seafood or meat rolled in soft bread."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Snack / street food",
+          "foodForm": "Street-food filled roll",
+          "definition": "A ready-to-eat bread roll wrapped around a spiced filling, which may be seafood or meat."
+        }
       }
-    ]
+    ],
+    "administrativeType": "Union Territory"
   },
   "delhi": {
     "name": "Delhi",
@@ -2616,7 +2939,12 @@
             "publisher": "The Indian Express",
             "url": "https://indianexpress.com/article/express-sunday-eye/butter-chicken-origin-moti-mahal-daryaganj-9142687/"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Chicken curry",
+          "definition": "A cooked chicken preparation in a tomato, butter and cream-based gravy."
+        }
       },
       {
         "slug": "old-delhi-chaat",
@@ -2653,9 +2981,15 @@
             "publisher": "BBC Travel",
             "url": "https://www.bbc.com/travel/article/20220717-the-beloved-snack-of-wealth-made-on-delhis-streets"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Snack / street food",
+          "foodForm": "Tangy savoury street snacks",
+          "definition": "A family of ready-to-eat snacks built from crisp elements, potato and contrasting chutneys."
+        }
       }
-    ]
+    ],
+    "administrativeType": "Union Territory"
   },
   "jammu-and-kashmir": {
     "name": "Jammu and Kashmir",
@@ -2704,7 +3038,12 @@
             "publisher": "Sahapedia",
             "url": "https://www.sahapedia.org/wazwan-culinary-legacy"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Kashmiri lamb curry",
+          "definition": "A slow-cooked lamb preparation seasoned with Kashmiri spices and aromatics."
+        }
       },
       {
         "slug": "kashmiri-kahwa",
@@ -2741,9 +3080,15 @@
             "publisher": "National Institute of Open Schooling",
             "url": "https://digital.nios.ac.in/content/337en/337_Tourism_Eng_L20B.pdf"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Beverage",
+          "foodForm": "Saffron-and-spice green tea infusion",
+          "definition": "A brewed green-tea drink infused with ingredients such as saffron, cardamom, cinnamon and almonds."
+        }
       }
-    ]
+    ],
+    "administrativeType": "Union Territory"
   },
   "ladakh": {
     "name": "Ladakh",
@@ -2787,7 +3132,12 @@
             "publisher": "Reach Ladakh",
             "url": "https://reachladakh.com/news/oped-page/importance-and-preservation-of-ladakhi-dishes"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Dough-and-root-vegetable stew",
+          "definition": "A thick stew in which small pieces of wheat dough are simmered with root vegetables."
+        }
       },
       {
         "slug": "gur-gur-cha",
@@ -2822,9 +3172,15 @@
             "publisher": "Incredible India, Ministry of Tourism",
             "url": "https://www.incredibleindia.gov.in/en/ladakh/leh/a-culinary-expedition-in-leh-ladakh"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Beverage",
+          "foodForm": "Salted butter tea",
+          "definition": "A hot tea drink blended with salt and butter, traditionally churned before serving."
+        }
       }
-    ]
+    ],
+    "administrativeType": "Union Territory"
   },
   "lakshadweep": {
     "name": "Lakshadweep",
@@ -2870,7 +3226,12 @@
             "url": "https://www.mofpi.gov.in/sites/default/files/KnowledgeCentre/State%20Profile/Lakshadweep.pdf",
             "note": "Documents the importance of tuna and traditional masmin processing."
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Spiced tuna preparation",
+          "definition": "A cooked tuna preparation flavoured with chillies, coriander, cardamom and other seasonings."
+        }
       },
       {
         "slug": "maas-podichathu",
@@ -2907,9 +3268,15 @@
             "publisher": "Ministry of Food Processing Industries, Government of India",
             "url": "https://www.mofpi.gov.in/sites/default/files/KnowledgeCentre/State%20Profile/Lakshadweep.pdf"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Condiment / accompaniment",
+          "foodForm": "Dried-tuna and coconut preparation",
+          "definition": "A savoury accompaniment combining dried tuna with coconut and spices."
+        }
       }
-    ]
+    ],
+    "administrativeType": "Union Territory"
   },
   "puducherry": {
     "name": "Puducherry",
@@ -2951,7 +3318,12 @@
             "publisher": "Government of Puducherry",
             "url": "https://www.py.gov.in/culture"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Bread / staple",
+          "foodForm": "Bakery bread roll",
+          "definition": "A locally associated bread made from a wheat-flour dough and baked before serving."
+        }
       },
       {
         "slug": "vettu-sambar",
@@ -2989,8 +3361,14 @@
             "publisher": "Government of Puducherry",
             "url": "https://www.py.gov.in/culture"
           }
-        ]
+        ],
+        "classification": {
+          "recordType": "Prepared dish",
+          "foodForm": "Lentil-and-tamarind curry",
+          "definition": "A home-style preparation combining cooked lentils with tamarind and seasonings."
+        }
       }
-    ]
+    ],
+    "administrativeType": "Union Territory"
   }
 }

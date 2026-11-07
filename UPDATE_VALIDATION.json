@@ -1,0 +1,19 @@
+{
+  "regions": 36,
+  "states": 28,
+  "unionTerritories": 8,
+  "records": 72,
+  "classifiedRecords": 72,
+  "regionTypesFromData": true,
+  "goaType": "State",
+  "diuEntries": [
+    [
+      "hoka-fruit",
+      "Hoka Fruit of Diu"
+    ],
+    [
+      "daman-jetty-roll",
+      "Daman Jetty Roll"
+    ]
+  ]
+}
