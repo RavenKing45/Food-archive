@@ -409,19 +409,20 @@ STATE_PAGE_EXTENSION = r"""
     margin:5px 0 7px;
   }
   .dish-descriptor { margin:0; font-size:19px; line-height:1.2; }
+  /* Compact food classification: type badge plus optional food-form descriptor. */
   .dish-classification {
-    margin:12px 0 15px; padding:10px 12px 11px;
-    background:rgba(233,215,182,.32); border:1px solid rgba(126,79,48,.25); border-radius:6px;
+    display:flex; flex-wrap:wrap; align-items:center; gap:7px 12px;
+    margin:10px 0 14px; padding:0; background:transparent; border:0; border-radius:0;
   }
-  .dish-classification-head { display:flex; flex-wrap:wrap; align-items:center; gap:7px 10px; }
-  .dish-classification-label { color:#89603f; font:9px "Libre Baskerville",Georgia,serif; letter-spacing:1.4px; text-transform:uppercase; }
   .dish-classification-type {
-    display:inline-flex; align-items:center; padding:4px 9px; border:1px solid rgba(126,79,48,.38);
-    border-radius:20px; color:#5c2a20; background:rgba(255,248,232,.72);
+    display:inline-flex; align-items:center; padding:4px 10px;
+    border:1px solid rgba(126,79,48,.34); border-radius:20px;
+    color:#5c2a20; background:rgba(255,248,232,.58);
     font:700 11px "Libre Baskerville",Georgia,serif;
   }
-  .dish-classification-form { color:#76513d; font:italic 15px/1.2 "Cormorant Garamond",Georgia,serif; }
-  .dish-classification p { margin:6px 0 0; color:#563d30; font:10.5px/1.6 "Libre Baskerville",Georgia,serif; }
+  .dish-classification-form {
+    color:#76513d; font:italic 16px/1.2 "Cormorant Garamond",Georgia,serif;
+  }
   .dish-info-card p { color:#432c24; margin:0; font:11px/1.7 "Libre Baskerville",Georgia,serif; }
   .dish-meta-line {
     display:flex; flex-wrap:wrap; gap:8px 17px; margin-top:10px;
@@ -448,7 +449,7 @@ STATE_PAGE_EXTENSION = r"""
   .dish-highlight h3 {
     margin:0 0 6px; color:#56211b; font:700 24px/1 "Cormorant Garamond",Georgia,serif;
   }
-  .dish-highlight p { margin:0; color:#432c24; font:12px/1.68 "Libre Baskerville",Georgia,serif; }
+  .dish-highlight p { margin:0; color:#432c24; font:14px/1.72 "Libre Baskerville",Georgia,serif; }
   .dish-highlight::before {
     content:"✧"; position:absolute; left:0; top:2px; color:#8d4c34; font-size:12px;
   }
@@ -476,6 +477,7 @@ STATE_PAGE_EXTENSION = r"""
   }
   .dish-support-grid .historical-slot { margin:0; min-height:100%; }
   .dish-support-grid .oral-narrative { margin:0; }
+  .dish-support-grid.no-oral { grid-template-columns:1fr; }
   .dish-sources { margin-top:16px; padding:11px 13px 0; }
   .dish-sources h4 { font-size:21px; }
   .dish-sources ol { font-size:10.5px; line-height:1.62; }
@@ -577,14 +579,12 @@ STATE_PAGE_EXTENSION = r"""
     const sources = linkList(dish.sources);
     const classification = dish.classification || {};
     const classificationMarkup = classification.recordType ? (
-      '<section class="dish-classification" aria-label="Record classification">' +
-        '<div class="dish-classification-head">' +
-          '<span class="dish-classification-label">Record classification</span>' +
-          '<span class="dish-classification-type">' + escapeArchiveText(classification.recordType) + '</span>' +
-          '<span class="dish-classification-form">Food form: ' + escapeArchiveText(classification.foodForm || "Not specified") + '</span>' +
-        '</div>' +
-        '<p>' + escapeArchiveText(classification.definition || "") + '</p>' +
-      '</section>'
+      '<div class="dish-classification" aria-label="Food type">' +
+        '<span class="dish-classification-type">' + escapeArchiveText(classification.recordType) + '</span>' +
+        (classification.foodForm
+          ? '<span class="dish-classification-form">' + escapeArchiveText(classification.foodForm) + '</span>'
+          : '') +
+      '</div>'
     ) : "";
     const detailCards = (dish.foodCharacteristics || dish.consumption) ? (
       '<div class="dish-lower-grid">' +
@@ -609,10 +609,7 @@ STATE_PAGE_EXTENSION = r"""
           (dish.oralNarrative.sourcePublisher ? ' — ' + escapeArchiveText(dish.oralNarrative.sourcePublisher) : '') +
         '</div>' +
       '</section>'
-    ) : (
-      '<section class="oral-narrative"><h4>Oral narrative</h4>' +
-      '<p>No named, attributable oral account has been verified for this food record in the sources currently available. This space is reserved for a documented interview or community testimony.</p></section>'
-    );
+    ) : "";
     return (
       '<article class="dish-record">' +
         '<header class="dish-record-head">' +
@@ -632,7 +629,7 @@ STATE_PAGE_EXTENSION = r"""
           '</div>' +
         '</div>' +
         detailCards +
-        '<div class="dish-support-grid">' +
+        '<div class="dish-support-grid ' + (dish.oralNarrative ? 'has-oral' : 'no-oral') + '">' +
           '<div class="historical-slot">' +
             '<h3 class="historical-slot-title">Historical photograph / document</h3>' +
             '<p>' + escapeArchiveText(dish.imageHint || "Historical image slot — add a dated and source-credited item after verification.") + '</p>' +
