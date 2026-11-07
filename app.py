@@ -52,8 +52,23 @@ def image_data_uri(path: Path) -> str:
     return f"data:{mime_type};base64,{encoded}"
 
 
+def image_folder_signature(folder_path: str) -> tuple[tuple[str, int, int], ...]:
+    """Return a cache key that changes when files in an image folder change."""
+    folder = Path(folder_path)
+    if not folder.exists():
+        return ()
+    return tuple(
+        (path.name, path.stat().st_size, path.stat().st_mtime_ns)
+        for path in sorted(folder.iterdir())
+        if path.is_file() and path.suffix.lower() in SUPPORTED_IMAGE_SUFFIXES
+    )
+
+
 @st.cache_data(show_spinner=False)
-def image_folder_map(folder_path: str) -> dict[str, str]:
+def image_folder_map(
+    folder_path: str,
+    file_signature: tuple[tuple[str, int, int], ...] = (),
+) -> dict[str, str]:
     """Load optional images keyed by filename stem (without extension)."""
     folder = Path(folder_path)
     images: dict[str, str] = {}
@@ -107,9 +122,9 @@ for marker, asset_path in required_assets.items():
         st.stop()
     html = html.replace(marker, image_data_uri(asset_path))
 
-story_images = image_folder_map(str(ASSETS / "stories"))
-state_images = image_folder_map(str(ASSETS / "states"))
-dish_images = image_folder_map(str(ASSETS / "dishes"))
+story_images = image_folder_map(str(ASSETS / "stories"), image_folder_signature(str(ASSETS / "stories")))
+state_images = image_folder_map(str(ASSETS / "states"), image_folder_signature(str(ASSETS / "states")))
+dish_images = image_folder_map(str(ASSETS / "dishes"), image_folder_signature(str(ASSETS / "dishes")))
 
 html = html.replace("{{STORY_IMAGES}}", json.dumps(story_images, ensure_ascii=False))
 html = html.replace("{{STATE_IMAGES}}", json.dumps(state_images, ensure_ascii=False))
@@ -237,13 +252,25 @@ STATE_PAGE_EXTENSION = r"""
   }
   .dish-descriptor { color:#765344; font:italic 17px/1.15 "Cormorant Garamond",Georgia,serif; margin:0 0 12px; }
   .dish-photo {
-    min-height:170px; width:100%; position:relative; overflow:hidden; border-radius:7px;
-    background:linear-gradient(145deg,#dbc39d,#97704e 72%,#49241b);
+    width:100%; min-height:0; position:relative; overflow:hidden; border-radius:7px;
     border:1px solid rgba(105,65,41,.3); margin:0 0 13px;
     display:flex; align-items:center; justify-content:center; text-align:center;
-    color:#fff0d7; background-size:cover; background-position:center;
+    color:#fff0d7;
   }
-  .dish-photo::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,transparent 48%,rgba(38,14,11,.35)); pointer-events:none; }
+  /* Real images keep their intrinsic aspect ratio: no fixed height and no cropping. */
+  .dish-photo.has-image {
+    display:block; min-height:0; padding:0; background:#eee1cb;
+  }
+  .dish-photo-image {
+    display:block; width:100%; max-width:100%; height:auto; max-height:none;
+    object-fit:contain; object-position:center;
+  }
+  /* Keep a deliberate visual slot only when a dish photograph is still missing. */
+  .dish-photo.no-image {
+    min-height:170px;
+    background:linear-gradient(145deg,#dbc39d,#97704e 72%,#49241b);
+  }
+  .dish-photo.no-image::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,transparent 48%,rgba(38,14,11,.35)); pointer-events:none; }
   .dish-photo-placeholder { position:relative; z-index:1; padding:12px; text-shadow:0 1px 4px rgba(0,0,0,.4); }
   .dish-photo-placeholder strong { display:block; font:700 20px "Cormorant Garamond",Georgia,serif; }
   .dish-photo-placeholder span { display:block; margin-top:4px; font-size:8px; letter-spacing:1.3px; text-transform:uppercase; }
@@ -295,7 +322,7 @@ STATE_PAGE_EXTENSION = r"""
   @media(max-width:1050px) {
     .state-book { grid-template-columns:minmax(220px,.65fr) minmax(0,1.6fr); }
     .dish-record { padding:0 7px 12px; }
-    .dish-photo { min-height:145px; }
+    .dish-photo.no-image { min-height:145px; }
   }
   @media(max-width:760px) {
     .state-page-topbar { min-height:128px; padding:78px 18px 14px; align-items:flex-end; justify-content:flex-start; }
@@ -310,7 +337,7 @@ STATE_PAGE_EXTENSION = r"""
     .dish-spread { padding:18px 10px 24px; }
     .dish-record { border-right:0; border-bottom:1px solid rgba(105,65,41,.3); padding:0 5px 20px; }
     .dish-record:last-child { border-bottom:0; }
-    .dish-photo { min-height:210px; }
+    .dish-photo.no-image { min-height:210px; }
     .state-spread-heading { font-size:15px; }
     .state-page-end { flex-direction:column; text-align:center; }
   }
@@ -369,10 +396,11 @@ STATE_PAGE_EXTENSION = r"""
     display:grid; grid-template-columns:minmax(0,1.15fr) minmax(250px,.9fr);
     gap:20px; align-items:start;
   }
-  .dish-photo {
+  .dish-photo.no-image {
     min-height:330px; margin:0; border-radius:8px;
     background:linear-gradient(145deg,#dbc39d,#97704e 72%,#49241b);
   }
+  .dish-photo.has-image { min-height:0; margin:0; border-radius:8px; }
   .dish-photo-placeholder strong { font-size:25px; }
   .dish-photo-placeholder span { font-size:9px; line-height:1.6; }
   .dish-highlight-stack { display:flex; flex-direction:column; gap:17px; }
@@ -418,7 +446,7 @@ STATE_PAGE_EXTENSION = r"""
   @media(max-width:1050px) {
     .state-book { grid-template-columns:minmax(225px,.7fr) minmax(0,1.8fr); }
     .dish-main-layout { grid-template-columns:minmax(0,1fr) minmax(220px,.9fr); gap:13px; }
-    .dish-photo { min-height:280px; }
+    .dish-photo.no-image { min-height:280px; }
   }
   @media(max-width:760px) {
     .state-book { grid-template-columns:1fr; }
@@ -427,7 +455,7 @@ STATE_PAGE_EXTENSION = r"""
     .dish-choice-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); }
     .dish-choice-button { font-size:17px; min-height:50px; }
     .dish-main-layout { grid-template-columns:1fr; }
-    .dish-photo { min-height:240px; }
+    .dish-photo.no-image { min-height:240px; }
     .dish-lower-grid,.dish-support-grid { grid-template-columns:1fr; }
   }
 
@@ -532,8 +560,10 @@ STATE_PAGE_EXTENSION = r"""
           '<p class="dish-descriptor">' + escapeArchiveText(dish.descriptor || "") + '</p>' +
         '</header>' +
         '<div class="dish-main-layout">' +
-          '<div class="dish-photo" ' + (image ? 'style="background-image:url(' + image + ')"' : '') + '>' +
-            (image ? '' : '<div class="dish-photo-placeholder"><strong>Dish photograph to be added</strong><span>Use a real, source-credited photograph — not AI-generated imagery</span></div>') +
+          '<div class="dish-photo ' + (image ? 'has-image' : 'no-image') + '">' +
+            (image
+              ? '<img class="dish-photo-image" src="' + image + '" alt="' + escapeArchiveText(dish.name + ' photograph') + '" loading="lazy" decoding="async">'
+              : '<div class="dish-photo-placeholder"><strong>Dish photograph to be added</strong><span>Use a real, source-credited photograph — not AI-generated imagery</span></div>') +
           '</div>' +
           '<div class="dish-highlight-stack">' +
             '<section class="dish-highlight"><h3>About the dish</h3><p>' + escapeArchiveText(dish.overview) + '</p></section>' +

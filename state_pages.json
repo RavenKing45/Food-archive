@@ -2495,43 +2495,8 @@
     "culinaryLandscape": "Food traditions differ across the territory. Adivasi communities in Dadra and Nagar Haveli use rice, millets, tubers and forest produce. Daman and Diu draw on Gujarati coastal cooking and Portuguese-era influences, visible in seafood and layered sweets such as bebinca.",
     "dishes": [
       {
-        "slug": "ukad",
-        "name": "Ukad",
-        "descriptor": "A steamed rice-flour preparation associated with Dadra and Nagar Haveli",
-        "overview": "Ukad is identified in a NITI Aayog regional profile as a traditional tribal preparation made from rice flour and served with spicy chutneys or curries. It reflects the use of rice and simple, locally available accompaniments in the food culture of Dadra and Nagar Haveli.",
-        "ingredients": [
-          "Rice flour",
-          "Water",
-          "Salt",
-          "Chilli chutney or curry to serve"
-        ],
-        "steps": [
-          "Mix rice flour with water and salt to make a thick mixture.",
-          "Cook or steam it until the rice flour is fully set.",
-          "Shape or portion while warm, according to local practice.",
-          "Serve with spicy chutney or curry."
-        ],
-        "history": "The NITI Aayog profile identifies ukad as a traditional tribal rice-flour food of Dadra and Nagar Haveli. The available reference does not establish a precise date or inventor, so the dish is best presented as a continuing regional food practice rather than assigned a specific origin story.",
-        "imageHint": "Search for documented photographs of Adivasi kitchens, rice preparation, village meals and local markets in Dadra and Nagar Haveli. Attribute the community and location where known.",
-        "imageQuery": "Dadra Nagar Haveli tribal rice flour ukad traditional food archival photograph",
-        "sources": [
-          {
-            "title": "Union Territory food and tourism profile: Dadra and Nagar Haveli and Daman and Diu",
-            "publisher": "NITI Aayog",
-            "url": "https://www.niti.gov.in/node/2250",
-            "note": "Lists ukad as a traditional tribal steamed rice-flour dish."
-          },
-          {
-            "title": "Tribal Cooking of Dadra & Nagar Haveli",
-            "publisher": "International Journal of Social Science and Humanities Research",
-            "url": "https://www.researchpublish.com/upload/book/Tribal%20Cooking%20of%20Dadra-5962.pdf",
-            "note": "Field-based account of tribal foodways, staple grains and cooking practices in the territory."
-          }
-        ]
-      },
-      {
         "slug": "bebinca-diu",
-        "name": "Bebinca of Diu",
+        "name": "Diu Bebinca",
         "descriptor": "A layered coconut-and-egg sweet shaped by Indo-Portuguese foodways",
         "overview": "Bebinca is a rich layered sweet made with coconut milk, eggs, flour, sugar and ghee. In Diu it reflects the territory's Portuguese-era connections and is served as a dessert or festive treat. Thin layers are baked one after another to create its characteristic texture.",
         "ingredients": [
@@ -2563,6 +2528,42 @@
             "publisher": "NITI Aayog",
             "url": "https://www.niti.gov.in/node/2250",
             "note": "Lists bebinca among the foods of Diu."
+          }
+        ]
+      },
+      {
+        "slug": "daman-jetty-roll",
+        "name": "Daman Jetty Roll",
+        "descriptor": "A Daman street-food adaptation of the kathi kebab roll",
+        "overview": "Jetty Roll is a local Daman street-food speciality: a soft bread or roll wrapped around a spiced filling that may be seafood or meat. Public descriptions identify it as a local adaptation of the kathi kebab roll; the filling and accompaniments can vary by vendor.",
+        "ingredients": [
+          "Soft bread or flatbread used as the wrap",
+          "Spiced cooked meat or seafood filling (varies by vendor)",
+          "Onion or other fresh accompaniments (where used)",
+          "Chutney or sauce (where used)"
+        ],
+        "steps": [
+          "Prepare a cooked, spiced meat or seafood filling; the choice varies by vendor.",
+          "Warm or cook the soft bread or flatbread used for the roll.",
+          "Place the prepared filling along the centre of the bread.",
+          "Add any accompaniments or chutney used by that vendor.",
+          "Fold or roll the bread around the filling and serve warm."
+        ],
+        "history": "Incredible India describes Jetty Roll as a Daman speciality and a local version of the kathi kebab roll, reporting that it was brought to the region by a Bengali cook and later adapted to local tastes. NITI Aayog also lists it as a Daman street-food favourite, describing spiced seafood or meat rolled in soft bread. The available sources do not identify a precise date or a single named inventor, and fillings vary.",
+        "imageHint": "For the historical image slot, look for dated photographs of Nani Daman Jetty, nearby food stalls or Daman street markets. Treat the supplied food photograph as a contemporary dish image unless its date and provenance are documented.",
+        "imageQuery": "Daman Jetty Roll local street food Daman kathi roll",
+        "sources": [
+          {
+            "title": "Explore Daman: Coastal beauty and history — food and cuisine",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/daman",
+            "note": "Describes Jetty Roll as a local Daman version of the kathi kebab roll, influenced by Bengali cooking and adapted to local tastes."
+          },
+          {
+            "title": "Union Territory profile: Dadra and Nagar Haveli and Daman and Diu",
+            "publisher": "NITI Aayog",
+            "url": "https://www.niti.gov.in/node/2250",
+            "note": "Lists Jetty Roll as a Daman street-food favourite with spiced seafood or meat rolled in soft bread."
           }
         ]
       }

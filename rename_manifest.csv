@@ -1,0 +1,29 @@
+order,dish,slug,output_file,source_file,source_modified_time,dimensions
+1,Chole Bhature,chole-bhature,assets/dishes/chole-bhature.webp,dishes part 1/Punjabi-Chole-Bhature-Recipe.webp,2026-11-7-23-8-16,1774x887
+2,Shorshe Ilish,shorshe-ilish,assets/dishes/shorshe-ilish.webp,dishes part 1/sh.jpg,2026-11-7-23-9-58,800x534
+3,Banglar Rosogolla,banglar-rosogolla,assets/dishes/banglar-rosogolla.webp,dishes part 1/560486.webp,2026-11-7-23-10-14,500x375
+4,Sakkarai Pongal,sakkarai-pongal,assets/dishes/sakkarai-pongal.webp,dishes part 1/SweetPongal1-e1673485715747.webp,2026-11-7-23-11-34,720x680
+5,Chicken Chettinad,chicken-chettinad,assets/dishes/chicken-chettinad.webp,dishes part 1/IMG_9350.jpg,2026-11-7-23-11-56,943x629
+6,Kerala Sadya,kerala-sadya,assets/dishes/kerala-sadya.webp,dishes part 1/kerala-sadhya.webp,2026-11-7-23-13-48,1920x1080
+7,Puttu and Kadala Curry,puttu-kadala-curry,assets/dishes/puttu-kadala-curry.webp,dishes part 1/puttu-kadala-kerala-vegetarian-recipes.jpg,2026-11-7-23-13-58,650x434
+8,Gatte ki Sabzi,gatte-ki-sabzi,assets/dishes/gatte-ki-sabzi.webp,dishes part 1/Z2hO1it6jyqsy7dGpUSs.webp,2026-11-7-23-15-4,640x360
+9,Undhiyu,undhiyu,assets/dishes/undhiyu.webp,dishes part 1/EA4F2A39-35E3-4B14-AF57-EC001512711F.jpeg,2026-11-7-23-15-22,615x469
+10,Dhokla,dhokla,assets/dishes/dhokla.webp,dishes part 1/Dhokla_on_Gujrart.jpg,2026-11-7-23-15-38,600x300
+11,Vada Pav,vada-pav,assets/dishes/vada-pav.webp,dishes part 1/Vada_Pav-Indian_street_food.JPG,2026-11-7-23-16-4,1280x853
+12,Puran Poli,puran-poli,assets/dishes/puran-poli.webp,dishes part 1/55045560.avif,2026-11-7-23-16-14,1200x900
+13,Mysore Pak,mysore-pak,assets/dishes/mysore-pak.webp,dishes part 1/MysorePak_01.jpg,2026-11-7-23-18-20,1536x1536
+14,Awadhi Dum Pukht Biryani,awadhi-dum-pukht-biryani,assets/dishes/awadhi-dum-pukht-biryani.webp,dishes part 1/images.jpg,2026-11-7-23-19-18,674x455
+15,Gongura Pachadi,gongura-pachadi,assets/dishes/gongura-pachadi.webp,dishes part 1/Gongura-Pachadi.jpg,2026-11-7-23-20-12,500x334
+16,Pootharekulu,pootharekulu,assets/dishes/pootharekulu.webp,dishes part 1/Pootharekulu_dry_fruits.jpg,2026-11-7-23-21-4,4173x3561
+17,Apong,apong,assets/dishes/apong.webp,dishes part 1/photo.avif,2026-11-7-23-21-38,1280x720
+18,Bamboo Shoot Curry,bamboo-shoot-curry,assets/dishes/bamboo-shoot-curry.webp,dishes part 1/thai-bamboo-shoot-curry.webp,2026-11-7-23-21-54,1200x1200
+19,Litti Chokha,litti-chokha,assets/dishes/litti-chokha.webp,dishes part 1/indian-street-food-bihar-litti-chokha-litti-chokha-traditional-bihari-meal-famous-across-jharkhand-bihar-158606507.webp,2026-11-7-23-23-24,800x534
+20,Silao Khaja,silao-khaja,assets/dishes/silao-khaja.webp,dishes part 1/Khaja-2-1.jpg,2026-11-7-23-24-14,1280x720
+21,Aamat,aamat,assets/dishes/aamat.webp,dishes part 1/2398996df12441048b34da8ed74b6017.jpg,2026-11-7-23-24-42,320x205
+22,Xacuti,xacuti,assets/dishes/xacuti.webp,dishes part 1/DSC_0032_1034798658_center.jpg,2026-11-7-23-25-30,1024x687
+23,Goa Bebinca,bebinca,assets/dishes/bebinca.webp,dishes part 1/Bebinca-756x471.avif,2026-11-7-23-25-50,756x471
+24,Andaman Fish Curry,andaman-fish-curry,assets/dishes/andaman-fish-curry.webp,dishes part 1/images (1).jpg,2026-11-7-23-26-44,596x335
+25,Nicobari Aloo Preparation,nicobari-aloo-preparation,assets/dishes/nicobari-aloo-preparation.webp,dishes part 1/images (2).jpg,2026-11-7-23-27-0,225x225
+26,Amritsari Kulcha,amritsari-kulcha,assets/dishes/amritsari-kulcha.webp,dishes part 1/9fa809ab62b6c3d8fd480800c0812b61.avif,2026-11-7-23-28-14,4413x2942
+27,Diu Bebinca,bebinca-diu,assets/dishes/bebinca-diu.webp,dishes part 1/images (3).jpg,2026-11-7-23-29-16,335x597
+28,Daman Jetty Roll,daman-jetty-roll,assets/dishes/daman-jetty-roll.webp,dishes part 1/Jetty-rolls.jpg,2026-11-7-23-35-10,960x960

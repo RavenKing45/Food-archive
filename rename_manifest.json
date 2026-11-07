@@ -1,0 +1,254 @@
+[
+  {
+    "order": 1,
+    "dish": "Chole Bhature",
+    "slug": "chole-bhature",
+    "output_file": "assets/dishes/chole-bhature.webp",
+    "source_file": "dishes part 1/Punjabi-Chole-Bhature-Recipe.webp",
+    "source_modified_time": "2026-11-7-23-8-16",
+    "dimensions": "1774x887"
+  },
+  {
+    "order": 2,
+    "dish": "Shorshe Ilish",
+    "slug": "shorshe-ilish",
+    "output_file": "assets/dishes/shorshe-ilish.webp",
+    "source_file": "dishes part 1/sh.jpg",
+    "source_modified_time": "2026-11-7-23-9-58",
+    "dimensions": "800x534"
+  },
+  {
+    "order": 3,
+    "dish": "Banglar Rosogolla",
+    "slug": "banglar-rosogolla",
+    "output_file": "assets/dishes/banglar-rosogolla.webp",
+    "source_file": "dishes part 1/560486.webp",
+    "source_modified_time": "2026-11-7-23-10-14",
+    "dimensions": "500x375"
+  },
+  {
+    "order": 4,
+    "dish": "Sakkarai Pongal",
+    "slug": "sakkarai-pongal",
+    "output_file": "assets/dishes/sakkarai-pongal.webp",
+    "source_file": "dishes part 1/SweetPongal1-e1673485715747.webp",
+    "source_modified_time": "2026-11-7-23-11-34",
+    "dimensions": "720x680"
+  },
+  {
+    "order": 5,
+    "dish": "Chicken Chettinad",
+    "slug": "chicken-chettinad",
+    "output_file": "assets/dishes/chicken-chettinad.webp",
+    "source_file": "dishes part 1/IMG_9350.jpg",
+    "source_modified_time": "2026-11-7-23-11-56",
+    "dimensions": "943x629"
+  },
+  {
+    "order": 6,
+    "dish": "Kerala Sadya",
+    "slug": "kerala-sadya",
+    "output_file": "assets/dishes/kerala-sadya.webp",
+    "source_file": "dishes part 1/kerala-sadhya.webp",
+    "source_modified_time": "2026-11-7-23-13-48",
+    "dimensions": "1920x1080"
+  },
+  {
+    "order": 7,
+    "dish": "Puttu and Kadala Curry",
+    "slug": "puttu-kadala-curry",
+    "output_file": "assets/dishes/puttu-kadala-curry.webp",
+    "source_file": "dishes part 1/puttu-kadala-kerala-vegetarian-recipes.jpg",
+    "source_modified_time": "2026-11-7-23-13-58",
+    "dimensions": "650x434"
+  },
+  {
+    "order": 8,
+    "dish": "Gatte ki Sabzi",
+    "slug": "gatte-ki-sabzi",
+    "output_file": "assets/dishes/gatte-ki-sabzi.webp",
+    "source_file": "dishes part 1/Z2hO1it6jyqsy7dGpUSs.webp",
+    "source_modified_time": "2026-11-7-23-15-4",
+    "dimensions": "640x360"
+  },
+  {
+    "order": 9,
+    "dish": "Undhiyu",
+    "slug": "undhiyu",
+    "output_file": "assets/dishes/undhiyu.webp",
+    "source_file": "dishes part 1/EA4F2A39-35E3-4B14-AF57-EC001512711F.jpeg",
+    "source_modified_time": "2026-11-7-23-15-22",
+    "dimensions": "615x469"
+  },
+  {
+    "order": 10,
+    "dish": "Dhokla",
+    "slug": "dhokla",
+    "output_file": "assets/dishes/dhokla.webp",
+    "source_file": "dishes part 1/Dhokla_on_Gujrart.jpg",
+    "source_modified_time": "2026-11-7-23-15-38",
+    "dimensions": "600x300"
+  },
+  {
+    "order": 11,
+    "dish": "Vada Pav",
+    "slug": "vada-pav",
+    "output_file": "assets/dishes/vada-pav.webp",
+    "source_file": "dishes part 1/Vada_Pav-Indian_street_food.JPG",
+    "source_modified_time": "2026-11-7-23-16-4",
+    "dimensions": "1280x853"
+  },
+  {
+    "order": 12,
+    "dish": "Puran Poli",
+    "slug": "puran-poli",
+    "output_file": "assets/dishes/puran-poli.webp",
+    "source_file": "dishes part 1/55045560.avif",
+    "source_modified_time": "2026-11-7-23-16-14",
+    "dimensions": "1200x900"
+  },
+  {
+    "order": 13,
+    "dish": "Mysore Pak",
+    "slug": "mysore-pak",
+    "output_file": "assets/dishes/mysore-pak.webp",
+    "source_file": "dishes part 1/MysorePak_01.jpg",
+    "source_modified_time": "2026-11-7-23-18-20",
+    "dimensions": "1536x1536"
+  },
+  {
+    "order": 14,
+    "dish": "Awadhi Dum Pukht Biryani",
+    "slug": "awadhi-dum-pukht-biryani",
+    "output_file": "assets/dishes/awadhi-dum-pukht-biryani.webp",
+    "source_file": "dishes part 1/images.jpg",
+    "source_modified_time": "2026-11-7-23-19-18",
+    "dimensions": "674x455"
+  },
+  {
+    "order": 15,
+    "dish": "Gongura Pachadi",
+    "slug": "gongura-pachadi",
+    "output_file": "assets/dishes/gongura-pachadi.webp",
+    "source_file": "dishes part 1/Gongura-Pachadi.jpg",
+    "source_modified_time": "2026-11-7-23-20-12",
+    "dimensions": "500x334"
+  },
+  {
+    "order": 16,
+    "dish": "Pootharekulu",
+    "slug": "pootharekulu",
+    "output_file": "assets/dishes/pootharekulu.webp",
+    "source_file": "dishes part 1/Pootharekulu_dry_fruits.jpg",
+    "source_modified_time": "2026-11-7-23-21-4",
+    "dimensions": "4173x3561"
+  },
+  {
+    "order": 17,
+    "dish": "Apong",
+    "slug": "apong",
+    "output_file": "assets/dishes/apong.webp",
+    "source_file": "dishes part 1/photo.avif",
+    "source_modified_time": "2026-11-7-23-21-38",
+    "dimensions": "1280x720"
+  },
+  {
+    "order": 18,
+    "dish": "Bamboo Shoot Curry",
+    "slug": "bamboo-shoot-curry",
+    "output_file": "assets/dishes/bamboo-shoot-curry.webp",
+    "source_file": "dishes part 1/thai-bamboo-shoot-curry.webp",
+    "source_modified_time": "2026-11-7-23-21-54",
+    "dimensions": "1200x1200"
+  },
+  {
+    "order": 19,
+    "dish": "Litti Chokha",
+    "slug": "litti-chokha",
+    "output_file": "assets/dishes/litti-chokha.webp",
+    "source_file": "dishes part 1/indian-street-food-bihar-litti-chokha-litti-chokha-traditional-bihari-meal-famous-across-jharkhand-bihar-158606507.webp",
+    "source_modified_time": "2026-11-7-23-23-24",
+    "dimensions": "800x534"
+  },
+  {
+    "order": 20,
+    "dish": "Silao Khaja",
+    "slug": "silao-khaja",
+    "output_file": "assets/dishes/silao-khaja.webp",
+    "source_file": "dishes part 1/Khaja-2-1.jpg",
+    "source_modified_time": "2026-11-7-23-24-14",
+    "dimensions": "1280x720"
+  },
+  {
+    "order": 21,
+    "dish": "Aamat",
+    "slug": "aamat",
+    "output_file": "assets/dishes/aamat.webp",
+    "source_file": "dishes part 1/2398996df12441048b34da8ed74b6017.jpg",
+    "source_modified_time": "2026-11-7-23-24-42",
+    "dimensions": "320x205"
+  },
+  {
+    "order": 22,
+    "dish": "Xacuti",
+    "slug": "xacuti",
+    "output_file": "assets/dishes/xacuti.webp",
+    "source_file": "dishes part 1/DSC_0032_1034798658_center.jpg",
+    "source_modified_time": "2026-11-7-23-25-30",
+    "dimensions": "1024x687"
+  },
+  {
+    "order": 23,
+    "dish": "Goa Bebinca",
+    "slug": "bebinca",
+    "output_file": "assets/dishes/bebinca.webp",
+    "source_file": "dishes part 1/Bebinca-756x471.avif",
+    "source_modified_time": "2026-11-7-23-25-50",
+    "dimensions": "756x471"
+  },
+  {
+    "order": 24,
+    "dish": "Andaman Fish Curry",
+    "slug": "andaman-fish-curry",
+    "output_file": "assets/dishes/andaman-fish-curry.webp",
+    "source_file": "dishes part 1/images (1).jpg",
+    "source_modified_time": "2026-11-7-23-26-44",
+    "dimensions": "596x335"
+  },
+  {
+    "order": 25,
+    "dish": "Nicobari Aloo Preparation",
+    "slug": "nicobari-aloo-preparation",
+    "output_file": "assets/dishes/nicobari-aloo-preparation.webp",
+    "source_file": "dishes part 1/images (2).jpg",
+    "source_modified_time": "2026-11-7-23-27-0",
+    "dimensions": "225x225"
+  },
+  {
+    "order": 26,
+    "dish": "Amritsari Kulcha",
+    "slug": "amritsari-kulcha",
+    "output_file": "assets/dishes/amritsari-kulcha.webp",
+    "source_file": "dishes part 1/9fa809ab62b6c3d8fd480800c0812b61.avif",
+    "source_modified_time": "2026-11-7-23-28-14",
+    "dimensions": "4413x2942"
+  },
+  {
+    "order": 27,
+    "dish": "Diu Bebinca",
+    "slug": "bebinca-diu",
+    "output_file": "assets/dishes/bebinca-diu.webp",
+    "source_file": "dishes part 1/images (3).jpg",
+    "source_modified_time": "2026-11-7-23-29-16",
+    "dimensions": "335x597"
+  },
+  {
+    "order": 28,
+    "dish": "Daman Jetty Roll",
+    "slug": "daman-jetty-roll",
+    "output_file": "assets/dishes/daman-jetty-roll.webp",
+    "source_file": "dishes part 1/Jetty-rolls.jpg",
+    "source_modified_time": "2026-11-7-23-35-10",
+    "dimensions": "960x960"
+  }
+]

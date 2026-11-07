@@ -1,0 +1,22 @@
+INDIA'S CULINARY MEMORY ARCHIVE — COMPLETE DISH PHOTO INSTALL
+
+This bundle contains a complete set of 72 dish images for the 36 regional chapters,
+plus the latest state_pages.json and app.py with an image-folder cache-signature fix.
+
+INSTALL
+1. Back up your existing project folder.
+2. Extract this ZIP into the project root — the folder containing app.py and index.html.
+3. Merge assets/dishes/ and replace app.py and state_pages.json when prompted.
+4. Restart Streamlit. Every one of the 72 dish records has a same-slug image file in assets/dishes/.
+5. For deployment, commit and push app.py, state_pages.json, and assets/dishes/ to the connected GitHub branch.
+
+No index.html change or new Python dependency is needed. The app matches the image filename stem
+to the dish record's slug. Supported formats are .jpg, .jpeg, .png and .webp.
+
+The 72-image set combines 17 previously matched exact photos, 28 Part 1 photos, and 27 Part 2 photos.
+Optional filename candidates were excluded.
+
+IMAGE PROVENANCE
+Filename-to-dish mapping and image readability were checked. The bundle does not independently
+verify photographer, date, licence, or historical status. Add source/credit information before
+presenting any image as historical or archival evidence.
