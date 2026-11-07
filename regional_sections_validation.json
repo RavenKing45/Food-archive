@@ -1,0 +1,13 @@
+{
+  "regions": 36,
+  "states": 28,
+  "union_territories": 8,
+  "dish_records": 72,
+  "geography_categories_per_region": 4,
+  "food_culture_categories_per_region": 5,
+  "section_source_links": 150,
+  "dish_records_unchanged": true,
+  "administrative_types_unchanged": true,
+  "python_syntax": "passed",
+  "javascript_syntax": "passed"
+}

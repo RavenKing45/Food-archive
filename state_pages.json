@@ -3,8 +3,6 @@
     "name": "Punjab",
     "region": "North India",
     "tagline": "Fertile plains, winter fields and a food culture shaped by farming and hospitality.",
-    "geography": "Punjab lies in the north-western Indus plains. The Sutlej, Beas and Ravi, fertile soils and canal irrigation support wheat, mustard, pulses and dairy. Cool winters bring leafy greens to the table; migration and trade have also shaped regional food.",
-    "culinaryLandscape": "Punjabi food varies by district and community. Wheat breads, dairy, pulses, mustard greens and tandoor cooking are widely recognised, alongside langar traditions and a strong street-food culture.",
     "dishes": [
       {
         "slug": "sarson-da-saag-makki-di-roti",
@@ -115,14 +113,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Punjab’s fertile alluvial plains, rivers and extensive canal irrigation support wheat, rice, mustard and dairy farming. Hot summers and cool winters shape the growing seasons, while the wetter foothills contrast with the drier south-west."
+    },
+    "foodCulture": {
+      "text": "Wheat rotis, rice, dal, seasonal vegetables, curd and buttermilk are common everyday foods. Sarson da saag, makki di roti, stuffed parathas and tandoor breads are popular, with local habits varying across the region."
+    }
   },
   "west-bengal": {
     "name": "West Bengal",
     "region": "East India",
     "tagline": "A river-and-delta cuisine shaped by rice, fish, mustard and sweets.",
-    "geography": "West Bengal runs from the Himalayan foothills to the Ganga delta and Bay of Bengal. Rivers, ponds and wetlands support freshwater fish; rice, mustard, vegetables and coastal produce shape everyday cooking.",
-    "culinaryLandscape": "Bengali food often pairs rice with fish, vegetables and mustard-based preparations. Milk sweets are also important. Recipes differ between the hills, delta, coast and city kitchens.",
     "dishes": [
       {
         "slug": "shorshe-ilish",
@@ -202,14 +204,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "West Bengal stretches from Himalayan foothills across fertile river plains to the Ganga delta and coast. Monsoon rain supports rice fields, while rivers, ponds, wetlands and estuaries provide freshwater and brackish-water fish."
+    },
+    "foodCulture": {
+      "text": "Rice is usually served with dal, vegetables and fish or meat. Mustard-flavoured fish, posto, street snacks and milk-based sweets are familiar foods; everyday meals and ingredients differ between the hills, western districts and delta."
+    }
   },
   "tamil-nadu": {
     "name": "Tamil Nadu",
     "region": "South India",
     "tagline": "A varied food culture shaped by paddy fields, dry plains, coastal trade and temple towns.",
-    "geography": "Tamil Nadu includes the Coromandel coast, Kaveri delta, dry interior plains and southern uplands. Rice is central in many areas; millets, pulses, coconut, tamarind and spices vary by region.",
-    "culinaryLandscape": "Tamil Nadu has distinct food traditions in Chettinad, Kongunadu, the Kaveri delta, Madurai and the coast. Rice dishes, lentils, fermented foods and festival preparations are common, but recipes vary locally.",
     "dishes": [
       {
         "slug": "sakkarai-pongal",
@@ -292,14 +298,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "The Kaveri delta, long coastline and dry inland plains create different growing areas. North-east monsoon rain supports delta rice, while millets, pulses, groundnuts and other crops are important in drier districts."
+    },
+    "foodCulture": {
+      "text": "Rice meals with sambar, rasam and vegetables are common. Idli, dosa, millet dishes, seafood and meat preparations are also popular; Chettinad, Kongunadu, delta and coastal traditions use different ingredients and spice blends."
+    }
   },
   "kerala": {
     "name": "Kerala",
     "region": "South India",
     "tagline": "A coastal and backwater cuisine built around rice, coconut, spices and shared meals.",
-    "geography": "Kerala lies between the Arabian Sea and Western Ghats. Monsoon rainfall, backwaters, paddy fields and spice-growing hills support rice, coconut, plantain, pepper, ginger and a wide range of fish and vegetables.",
-    "culinaryLandscape": "Kerala food includes banana-leaf feasts, rice breakfasts, coconut-rich curries and coastal fish dishes. Malabar, central Kerala and Travancore have distinct traditions.",
     "dishes": [
       {
         "slug": "kerala-sadya",
@@ -390,14 +400,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Kerala’s coast, backwaters and Western Ghats bring heavy monsoon rain and varied growing conditions. Lowlands support rice and coconut, while the hills grow spices such as pepper and cardamom; rivers and coastal waters support fishing."
+    },
+    "foodCulture": {
+      "text": "Rice, fish curries and coconut-based dishes are common, alongside puttu, appam, idiyappam and tapioca. Sadya is served for festivals, while Malabar, central Kerala and Travancore have distinct dishes and community food traditions."
+    }
   },
   "rajasthan": {
     "name": "Rajasthan",
     "region": "West India",
     "tagline": "A cuisine shaped by arid landscapes, durable ingredients and hospitality.",
-    "geography": "Rajasthan includes the Thar Desert, Aravalli range and semi-arid plains. Water scarcity and seasonal produce encouraged the use of pulses, gram flour, millet, wheat, dairy and preserved foods.",
-    "culinaryLandscape": "Rajasthani food is more than royal cuisine. Everyday meals use breads, pulses, dairy, gram flour and preserved vegetables. Dishes differ between desert districts, eastern plains and Mewar.",
     "dishes": [
       {
         "slug": "dal-baati-churma",
@@ -487,14 +501,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Rajasthan’s Thar Desert, Aravalli range and semi-arid plains bring low and uneven rainfall. Sandy soils and water scarcity favour hardy crops such as bajra, pulses and gram, while wetter eastern areas support a wider range of crops."
+    },
+    "foodCulture": {
+      "text": "Bajra and wheat breads, pulses, dairy, gram-flour dishes and preserved vegetables are common. Dal baati churma, gatte ki sabzi and ker-sangri are familiar foods, with preferences varying between Marwar, Mewar and eastern districts."
+    }
   },
   "gujarat": {
     "name": "Gujarat",
     "region": "West India",
     "tagline": "A cuisine of seasonal vegetables, grains, pulses and fermented foods.",
-    "geography": "Gujarat spans the Rann of Kutch, Kathiawar, river plains and the coast. Its dry and fertile zones support different crops, including millets, pulses, vegetables and dairy produce.",
-    "culinaryLandscape": "Gujarati food includes farsan, fermented batters, vegetable dishes, breads and seasonal one-pot meals. Vegetarian traditions are strong in many communities, while coastal foodways also include fish.",
     "dishes": [
       {
         "slug": "undhiyu",
@@ -579,14 +597,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Gujarat’s dry Kutch and Saurashtra, central plains and long coastline create varied farming and fishing areas. Millets, pulses and groundnuts grow in drier districts, while irrigation supports crops such as wheat, rice and cotton."
+    },
+    "foodCulture": {
+      "text": "Rotli, rice, dal or kadhi, vegetables and farsan are common parts of meals. Dhokla, thepla and seasonal dishes such as undhiyu are well known; food preferences differ across Kutch, Saurashtra, central and southern Gujarat."
+    }
   },
   "maharashtra": {
     "name": "Maharashtra",
     "region": "West India",
     "tagline": "From Deccan grain kitchens to Mumbai street stalls, food reflects regional life and migration.",
-    "geography": "Maharashtra stretches from the Konkan coast across the Western Ghats to the Deccan plateau and Vidarbha. Coastal cooking uses rice, coconut and fish; the interior uses jowar, bajra, pulses and groundnuts.",
-    "culinaryLandscape": "Konkan, Desh, Vidarbha, Khandesh and Mumbai have distinct food traditions. Bhakri meals, lentil dishes, festival sweets and city snacks form part of this varied cuisine.",
     "dishes": [
       {
         "slug": "vada-pav",
@@ -682,14 +704,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Maharashtra includes the Konkan coast, Western Ghats and the drier Deccan plateau. Heavy coastal monsoon rain supports rice and coconut, while black soils and irrigation inland support crops such as jowar, cotton, pulses and sugarcane."
+    },
+    "foodCulture": {
+      "text": "Jowar or bajra bhakri, rice, varan-bhaat, pithla and seasonal vegetables are common. Coastal meals often include fish and coconut, while snacks such as vada pav and regional dishes vary across Konkan, Vidarbha, Marathwada and western Maharashtra."
+    }
   },
   "karnataka": {
     "name": "Karnataka",
     "region": "South India",
     "tagline": "A varied food culture, from coastal rice dishes to the millet traditions of the Deccan.",
-    "geography": "Karnataka spans the Konkan and Malnad, the Kaveri basin, the dry Deccan plateau and northern districts. Rice, ragi, jowar, pulses, coconut and tamarind are used differently across these regions.",
-    "culinaryLandscape": "Coastal, Udupi, Kodava, North Karnataka and Mysuru-Bengaluru cuisines are distinct. Everyday millet meals, tiffin dishes, temple foodways and festival sweets all have a place.",
     "dishes": [
       {
         "slug": "mysore-pak",
@@ -785,14 +811,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Karnataka ranges from the wet Western Ghats and coast to the drier Deccan plateau. Red and laterite soils, black soils and river valleys support different crops, including rice, ragi, jowar, arecanut, coffee and spices."
+    },
+    "foodCulture": {
+      "text": "Rice, ragi mudde, jowar rotti, dosa and idli are everyday staples in different areas. Bisi bele bath, Udupi vegetarian food and coastal seafood are well known; food habits vary between the coast, Malnad, northern and southern districts."
+    }
   },
   "uttar-pradesh": {
     "name": "Uttar Pradesh",
     "region": "North India",
     "tagline": "A broad food landscape shaped by the Ganga plains, pilgrimage towns and Awadh's kitchens.",
-    "geography": "Uttar Pradesh spans the Ganga-Yamuna Doab, eastern plains, Terai foothills and historic Awadh. Wheat, rice, pulses, dairy and seasonal vegetables shape everyday meals; river fish is important in some areas.",
-    "culinaryLandscape": "The state includes Awadhi slow-cooked dishes, Banarasi street food, western UP breads and dairy, and eastern UP rice and lentils. Lucknow's kebabs are one regional tradition, not the whole state's cuisine.",
     "dishes": [
       {
         "slug": "galouti-kebab",
@@ -882,14 +912,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "The Ganga-Yamuna plains have fertile alluvial soils and support wheat, rice, sugarcane and pulses. The Terai is wetter, while Bundelkhand is drier and more rocky, creating different crops and food supplies across the region."
+    },
+    "foodCulture": {
+      "text": "Wheat rotis and rice are common staples, usually served with dal and vegetables. Awadhi kebabs and biryani, Braj sweets, eastern snacks and Bundelkhand dishes add regional variety to everyday home cooking."
+    }
   },
   "assam": {
     "name": "Assam",
     "region": "Northeast India",
     "tagline": "A riverine cuisine of rice, freshwater fish, sour broths and banana-ash preparations.",
-    "geography": "Assam is shaped by the Brahmaputra and Barak valleys, wetlands, floodplains and heavy monsoon rainfall. Rice, freshwater fish, banana plants, bamboo shoots and souring fruits are important in many local foodways.",
-    "culinaryLandscape": "Assamese meals may include khar, an alkaline preparation, and tenga, a light sour curry, with rice, greens and fish. Ingredients and recipes vary across the state's communities.",
     "dishes": [
       {
         "slug": "assam-khar",
@@ -973,14 +1007,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "The Brahmaputra and Barak valleys have fertile river soils, heavy monsoon rain and a humid climate. These conditions support rice fields, ponds and river fishing, while the hills and forests provide bamboo shoots, greens and seasonal produce."
+    },
+    "foodCulture": {
+      "text": "Rice is the main staple, often eaten with fish, leafy vegetables and simple dals. Khar and masor tenga are well-known preparations; pork, fermented foods and bamboo shoots feature in some community traditions, which vary across Assam."
+    }
   },
   "andhra-pradesh": {
     "name": "Andhra Pradesh",
     "tagline": "Coastal and river-valley food shaped by rice, chillies and tamarind.",
     "region": "Southern India",
-    "geography": "Andhra Pradesh runs from the Deccan plateau to the Bay of Bengal. The Krishna and Godavari deltas support rice farming, while the drier Rayalaseema interior grows more millets and pulses. The coast also supplies fish; tamarind, chillies and sesame are widely used.",
-    "culinaryLandscape": "Andhra food often pairs rice with lentils, sour tamarind dishes, spicy pickles and chutneys. Coastal cooking uses more fish and coconut, while Rayalaseema has a drier-climate food tradition. Recipes vary across districts and households.",
     "dishes": [
       {
         "slug": "gongura-pachadi",
@@ -1063,14 +1101,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "The Godavari and Krishna deltas, long coast and inland dry plateau create varied growing conditions. Alluvial delta soils support rice, while red soils and lower rainfall inland favour crops such as millets, pulses, groundnuts and chillies."
+    },
+    "foodCulture": {
+      "text": "Rice meals with pappu, pulusu, pachadi and pickles are common. Coastal food often includes fish and seafood, while Rayalaseema is known for spicier dishes and greater use of millets and groundnuts."
+    }
   },
   "arunachal-pradesh": {
     "name": "Arunachal Pradesh",
     "tagline": "Himalayan food traditions built around rice, fermentation and forest produce.",
     "region": "Northeast India",
-    "geography": "Arunachal Pradesh lies in the Eastern Himalayas. Its forested hills, deep valleys, heavy rainfall and changing elevations create varied food environments. Rice, maize, millet, bamboo shoots, leafy greens and river fish are important local foods.",
-    "culinaryLandscape": "Food varies among the state's Indigenous communities. Fermentation, smoking, boiling and steaming are common techniques. Rice-based foods, bamboo shoots, smoked meat and local greens are important, but ingredients and methods differ between communities.",
     "dishes": [
       {
         "slug": "apong",
@@ -1150,14 +1192,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Arunachal Pradesh’s steep Himalayan hills, deep valleys and heavy monsoon rain create many small growing zones. Rice and maize are cultivated where slopes allow, while forests and home gardens provide bamboo shoots, greens, herbs and fruit."
+    },
+    "foodCulture": {
+      "text": "Rice and maize are common staples, served with boiled vegetables, leafy greens, bamboo shoots and local herbs. Pork, fish and fermented foods are important in some communities; ingredients and cooking styles differ across tribal groups."
+    }
   },
   "bihar": {
     "name": "Bihar",
     "tagline": "A Gangetic food culture shaped by rice, wheat, pulses and sattu.",
     "region": "Eastern India",
-    "geography": "Bihar lies mainly in the fertile Gangetic plain, crossed by the Ganga and its tributaries. Rice, wheat, pulses, oilseeds and seasonal vegetables shape everyday cooking. Food traditions vary across the Bhojpuri, Maithil and Magahi regions.",
-    "culinaryLandscape": "Sattu, litti, chokha, rice, lentils and regional sweets are prominent in Bihari food culture. Mustard oil, roasted gram flour and seasonal produce appear in many household preparations.",
     "dishes": [
       {
         "slug": "litti-chokha",
@@ -1245,14 +1291,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "The Ganga plain and its tributary floodplains have fertile alluvial soils suited to rice, wheat, maize and pulses. The southern plateau is drier and more uneven, so rainfall and crop choices differ between northern and southern districts."
+    },
+    "foodCulture": {
+      "text": "Rice and wheat are everyday staples, with dal, vegetables, sattu and seasonal greens. Litti chokha, fish dishes in river areas and sweets such as khaja are familiar; food preferences vary across Mithila, Bhojpur, Magadh and other regions."
+    }
   },
   "chhattisgarh": {
     "name": "Chhattisgarh",
     "tagline": "A rice and forest food culture shaped by seasonal produce and Bastar traditions.",
     "region": "Central India",
-    "geography": "Chhattisgarh includes the central plains and the forested Bastar region. Rice is a major crop in the plains, while forests provide bamboo shoots, mushrooms, tubers and leafy greens. The Mahanadi and its tributaries support farming and settlement.",
-    "culinaryLandscape": "Rice, lentils, seasonal vegetables and forest produce are central to many Chhattisgarhi meals. Bastar food traditions include bamboo shoots and locally gathered ingredients. Practices differ between the plains and forest communities.",
     "dishes": [
       {
         "slug": "chila",
@@ -1335,14 +1385,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "The Mahanadi basin, forested hills and plateau areas bring different soils and water conditions. Monsoon rainfall supports rice in the plains, while millets, pulses, tubers and forest produce are important in upland and forest communities."
+    },
+    "foodCulture": {
+      "text": "Rice is the main staple, often served with lentils, leafy vegetables and seasonal forest foods. Chila, fara and local rice preparations are familiar; millet dishes and ingredients such as mushrooms and bamboo shoots are important in some communities."
+    }
   },
   "goa": {
     "name": "Goa",
     "tagline": "A Konkan coastal cuisine shaped by seafood, coconut and Portuguese-era exchange.",
     "region": "Western India",
-    "geography": "Goa lies on the Arabian Sea, with a coastline, laterite plateaus, rivers and the Western Ghats. Its tropical climate supports rice, coconut, cashew, spices, fish and fruit. The coast and rivers have connected Goa to maritime trade for centuries.",
-    "culinaryLandscape": "Goan food includes distinct Hindu and Catholic traditions. Rice, fish, coconut, kokum, vinegar and spices are widely used; Portuguese rule also influenced some local ingredients, baked foods and cooking practices.",
     "dishes": [
       {
         "slug": "xacuti",
@@ -1433,14 +1487,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Goa’s narrow coastal plain, estuaries and Western Ghats bring heavy monsoon rain and varied soils. Rice grows in low-lying fields, while coconut, cashew and spices grow in suitable areas; the coast and rivers support fishing."
+    },
+    "foodCulture": {
+      "text": "Rice, fish curry and coconut-based dishes are common in many households. Xacuti, vindaloo, sorpotel and bebinca are well known, while Hindu and Christian communities maintain distinct food traditions and festive dishes."
+    }
   },
   "haryana": {
     "name": "Haryana",
     "region": "Northern India",
     "tagline": "A wheat-and-millet cuisine shaped by dry plains and dairy farming.",
-    "geography": "Haryana lies on the semi-arid plains west of Delhi. Wheat, bajra, gram, mustard and dairy are important to its farming economy.",
-    "culinaryLandscape": "Haryanvi meals often feature bajra roti, khichdi, kadhi, ghee, butter and buttermilk. Recipes vary between drier western districts and the more irrigated Yamuna belt.",
     "dishes": [
       {
         "slug": "bajra-khichdi",
@@ -1524,14 +1582,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Haryana’s fertile alluvial plains support wheat, mustard, rice and sugarcane, with drier south-western areas relying more on hardy crops and irrigation. Hot summers, cool winters and uneven rainfall shape the farming calendar."
+    },
+    "foodCulture": {
+      "text": "Wheat rotis, bajra, dal, curd, buttermilk and seasonal vegetables are common. Bajra khichdi, kadhi, churma and dairy-based foods are familiar, with meals varying between the irrigated plains and drier districts."
+    }
   },
   "himachal-pradesh": {
     "name": "Himachal Pradesh",
     "region": "Northern India",
     "tagline": "A Himalayan food culture of ceremonial feasts and steamed breads.",
-    "geography": "Himachal Pradesh spans the western Himalayas, from lower valleys to high mountain settlements. Terraced fields, orchards, barley, millets, lentils and livestock shape local food.",
-    "culinaryLandscape": "Rice, wheat, lentils, dairy and mountain herbs are widely used. Temple festivals and community gatherings sustain regional feast traditions, while recipes differ between valleys and elevations.",
     "dishes": [
       {
         "slug": "himachali-dham",
@@ -1615,14 +1677,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Himachal Pradesh’s mountains and valleys change sharply with altitude. Terraced fields and varied soils support maize, wheat, rice, millets, pulses and fruit, while cooler high areas have shorter growing seasons than the lower valleys."
+    },
+    "foodCulture": {
+      "text": "Maize and wheat are common grains, with rice, lentils, beans and seasonal vegetables also eaten. Siddu, madra and dishes served during the traditional dham feast are familiar; food differs across Kullu, Kangra, Chamba and other valleys."
+    }
   },
   "jharkhand": {
     "name": "Jharkhand",
     "region": "Eastern India",
     "tagline": "A forest-and-field cuisine shaped by rice and seasonal gathering.",
-    "geography": "Jharkhand lies on the forested Chota Nagpur Plateau. Rice farming and monsoon cycles shape food, while forests provide mushrooms, tubers, greens and other seasonal produce.",
-    "culinaryLandscape": "Food traditions vary among Santhal, Munda, Oraon, Ho and other communities. Rice, lentils, mustard oil, fermented foods and gathered forest ingredients are important.",
     "dishes": [
       {
         "slug": "dhuska",
@@ -1706,14 +1772,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Jharkhand’s Chota Nagpur plateau, forests and river valleys have red and lateritic soils and a strong monsoon season. Rice grows in suitable lowlands, while millets, pulses, tubers and forest foods support many rural communities."
+    },
+    "foodCulture": {
+      "text": "Rice is the main staple, often eaten with leafy vegetables, lentils and seasonal forest produce. Dhuska, chilka roti and rugra mushroom preparations are regional favourites; food traditions vary among Adivasi and other communities."
+    }
   },
   "madhya-pradesh": {
     "name": "Madhya Pradesh",
     "region": "Central India",
     "tagline": "A central Indian cuisine of wheat, lentils and Malwa street food.",
-    "geography": "Madhya Pradesh includes the Malwa plateau, Vindhya and Satpura ranges, and the Narmada and Chambal river valleys. Wheat, soybean, pulses, millets and forest produce shape its food regions.",
-    "culinaryLandscape": "Cuisine differs across Malwa, Bundelkhand, Baghelkhand and tribal regions. Poha, dal bafla, wheat breads, lentils, gram flour and dairy are prominent, alongside local grain and forest foods.",
     "dishes": [
       {
         "slug": "indori-poha",
@@ -1798,14 +1868,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Madhya Pradesh’s plateaus, river valleys and forested highlands have varied black, red and yellow soils. Rainfall and irrigation support wheat, soybean, pulses and rice in different areas, while millets remain important in some regions."
+    },
+    "foodCulture": {
+      "text": "Wheat rotis, rice, dal and seasonal vegetables are everyday foods. Poha is popular in Indore, while dal bafla and tribal millet or maize dishes reflect different regional food traditions across the state."
+    }
   },
   "manipur": {
     "name": "Manipur",
     "region": "Northeast India",
     "tagline": "A valley cuisine of fermented fish, herbs and distinctive rice.",
-    "geography": "Manipur includes the Imphal valley, Loktak Lake and surrounding forested hills. Wetlands and rivers support fishing and rice farming, while hill communities maintain varied food traditions.",
-    "culinaryLandscape": "Meitei food often features rice, fermented fish, vegetables, herbs and chillies. Naga, Kuki, Pangal and other communities maintain their own cuisines and ingredients; fermentation is an important preservation technique.",
     "dishes": [
       {
         "slug": "eromba",
@@ -1888,14 +1962,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Manipur’s central Imphal Valley has fertile fields and wetlands, while hills surround it on all sides. Monsoon rain supports rice cultivation, and rivers, ponds and Loktak Lake provide fish and aquatic plants."
+    },
+    "foodCulture": {
+      "text": "Rice is the staple, commonly eaten with fish, vegetables and herbs. Eromba, singju and dishes using fermented fish are familiar; food preferences differ between Meitei communities and the many hill communities."
+    }
   },
   "meghalaya": {
     "name": "Meghalaya",
     "region": "Northeast India",
     "tagline": "A Khasi, Jaintia and Garo food culture of rice, fermentation and smoked foods.",
-    "geography": "Meghalaya's rainy plateau, hills and valleys support rice, maize, millet, citrus and livestock. Forests and rivers also provide seasonal greens, fish and bamboo shoots.",
-    "culinaryLandscape": "Khasi, Jaintia and Garo cuisines use rice, smoked meat, fermented soybeans, bamboo shoots and wild greens. Fermentation, smoking and drying help preserve food.",
     "dishes": [
       {
         "slug": "jadoh",
@@ -1979,14 +2057,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Meghalaya’s Khasi, Jaintia and Garo hills receive heavy rainfall, with cooler highlands and warmer valleys. Hill soils and terraced fields support rice, maize, potatoes and vegetables, while orchards grow fruits such as oranges and pineapples."
+    },
+    "foodCulture": {
+      "text": "Rice is a staple, often served with meat, greens and local vegetables. Jadoh, tungrymbai and smoked pork are well known, while food preferences and ingredients differ among Khasi, Jaintia and Garo communities."
+    }
   },
   "mizoram": {
     "name": "Mizoram",
     "region": "Northeast India",
     "tagline": "A Mizo hill cuisine shaped by rice, bamboo, smoked meat and seasonal greens.",
-    "geography": "Mizoram's steep, rainy hills and forests support shifting cultivation, bamboo, rice, ginger, chillies and leafy greens. Pork and freshwater fish are also important foods.",
-    "culinaryLandscape": "Mizo cooking often uses boiling, steaming, smoking and fermentation, with relatively little oil. Rice, vegetables, bamboo shoots, pork and preserved ingredients are common.",
     "dishes": [
       {
         "slug": "bai",
@@ -2074,14 +2156,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Mizoram’s steep hills and valleys receive heavy monsoon rain. Shifting and terrace cultivation support rice, maize and vegetables, while forests and home gardens provide bamboo shoots, leafy greens, herbs and seasonal produce."
+    },
+    "foodCulture": {
+      "text": "Rice is the main staple, commonly served with boiled vegetables, bai and smoked meat. Pork, bamboo shoots, herbs and fermented ingredients are widely used, though food preferences vary among Mizo communities and households."
+    }
   },
   "nagaland": {
     "name": "Nagaland",
     "region": "Northeast India",
     "tagline": "A Naga food culture of rice, smoked meat, bamboo and fermentation.",
-    "geography": "Nagaland's forested hills and high rainfall support rice, maize, millet, bamboo and shifting cultivation. Its location near Myanmar has long enabled regional exchange.",
-    "culinaryLandscape": "Naga food traditions vary among communities such as the Ao, Angami, Sema and Lotha. Pork, bamboo shoots, fermented soybean, chillies and smoked foods are widely used, often with little oil.",
     "dishes": [
       {
         "slug": "smoked-pork-with-bamboo-shoot",
@@ -2164,14 +2250,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Nagaland’s mountain ridges, forested slopes and narrow valleys have a humid monsoon climate. Rice and maize grow on hill farms, while forests and gardens provide bamboo shoots, greens and other seasonal ingredients."
+    },
+    "foodCulture": {
+      "text": "Rice is the main staple in many Naga communities. Smoked pork, boiled greens, bamboo shoots and fermented foods such as axone are familiar, with ingredients and preparation styles varying among Naga communities."
+    }
   },
   "odisha": {
     "name": "Odisha",
     "region": "Eastern India",
     "tagline": "An Odia food culture of rice, lentils, coastal produce and temple traditions.",
-    "geography": "Odisha stretches from the Bay of Bengal coast to the Eastern Ghats and forested interior. The Mahanadi delta supports rice farming, while coastal communities also use fish and seafood.",
-    "culinaryLandscape": "Odia meals commonly feature rice, lentils, vegetables and mustard oil. Jagannath Temple food traditions, coastal cooking and Indigenous foodways all shape the state's cuisine.",
     "dishes": [
       {
         "slug": "dalma",
@@ -2255,14 +2345,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Odisha extends from the Mahanadi delta and coast to the Eastern Ghats and forested interior. Monsoon rain and fertile delta soils support rice, while coastal waters and Chilika lagoon provide fish; uplands grow millets and pulses."
+    },
+    "foodCulture": {
+      "text": "Rice is the main staple, commonly paired with dal, vegetables or fish. Dalma, pakhala, temple foods and chhena sweets are well known; millets and forest foods remain important in several upland and tribal communities."
+    }
   },
   "sikkim": {
     "name": "Sikkim",
     "region": "Northeast India",
     "tagline": "A Himalayan food culture shaped by Lepcha, Bhutia and Nepali traditions.",
-    "geography": "Sikkim's steep elevation range creates climates from subtropical valleys to alpine areas. Rice, maize, millet, cardamom, ginger, dairy and mountain greens are important foods.",
-    "culinaryLandscape": "Sikkimese food reflects Lepcha, Bhutia and Nepali communities. Fermentation, steaming and preservation are common, alongside rice, dairy, meat and Himalayan greens.",
     "dishes": [
       {
         "slug": "phagshapa",
@@ -2340,14 +2434,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Sikkim rises from warm river valleys to cold high mountain areas, so growing conditions change with altitude. Monsoon rain supports rice, maize, ginger and cardamom in suitable areas, while higher villages have shorter growing seasons."
+    },
+    "foodCulture": {
+      "text": "Rice, maize, buckwheat and local vegetables are eaten across the state. Momo, thukpa, phagshapa and fermented greens are familiar foods, with Lepcha, Bhutia and Nepali communities maintaining distinct traditions."
+    }
   },
   "telangana": {
     "name": "Telangana",
     "region": "Southern India",
     "tagline": "A Deccan food culture of millets, chillies and Hyderabadi courtly cooking.",
-    "geography": "Telangana occupies the semi-arid Deccan Plateau, crossed by the Godavari and Krishna rivers. Rice, millets, pulses, groundnuts and chillies shape its agriculture.",
-    "culinaryLandscape": "Rural Telangana cooking features millets, tamarind, sesame, lentils and flatbreads. Hyderabad adds a distinct courtly tradition shaped by Deccan and Mughal influences.",
     "dishes": [
       {
         "slug": "hyderabadi-biryani",
@@ -2444,14 +2542,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Telangana lies on the Deccan plateau, with red and black soils and hot, often dry conditions. Monsoon rain, tanks and irrigation support rice in some areas, while jowar, pulses, groundnuts and chillies grow across other districts."
+    },
+    "foodCulture": {
+      "text": "Rice and jowar are important staples, served with pappu, pulusu, vegetables and pickles. Sarva pindi is a familiar snack, while Hyderabad has a distinct biryani and meat-cooking tradition alongside rural millet-based food."
+    }
   },
   "tripura": {
     "name": "Tripura",
     "region": "Northeast India",
     "tagline": "A Tripuri food culture of rice, bamboo shoots and fermented fish.",
-    "geography": "Tripura’s hills, valleys and river plains have a humid climate suited to rice, bamboo, vegetables and fish. Its location beside Bangladesh and the wider Northeast has encouraged long-standing food exchanges.",
-    "culinaryLandscape": "Tripuri and other Indigenous communities use rice, bamboo shoots, fermented fish, leafy greens and pork. Fermentation adds flavour and helps preserve food.",
     "dishes": [
       {
         "slug": "mui-borok",
@@ -2526,14 +2628,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Tripura’s hill ranges and river valleys have warm, humid monsoon conditions. Rice is grown in the valleys, while bamboo, fruit and vegetables grow in hill areas; rivers and ponds provide fish for local meals."
+    },
+    "foodCulture": {
+      "text": "Rice is the staple, commonly eaten with fish, vegetables and fermented berma. Mui borok, chakhwi and bamboo-shoot preparations are familiar in Indigenous Tripuri food traditions, alongside Bengali food traditions in the state."
+    }
   },
   "uttarakhand": {
     "name": "Uttarakhand",
     "region": "Northern India",
     "tagline": "A Kumaoni and Garhwali food culture of millets, lentils and mountain greens.",
-    "geography": "Uttarakhand spans the central Himalayas, from high mountains to deep river valleys. Terraced farms produce millets, lentils and rice, while forests provide seasonal greens and mushrooms.",
-    "culinaryLandscape": "Kumaoni and Garhwali cooking relies on grains, lentils, dairy and seasonal forest produce. Simple, warming dishes and preserved foods suit the mountain climate.",
     "dishes": [
       {
         "slug": "kafuli",
@@ -2625,14 +2731,18 @@
         }
       }
     ],
-    "administrativeType": "State"
+    "administrativeType": "State",
+    "regionalGeography": {
+      "text": "Uttarakhand ranges from high Himalayan slopes to the warmer Terai plains. Terraced mountain farms grow millets, pulses and seasonal vegetables, while deeper lowland soils support more rice and wheat; winters are cold at higher elevations."
+    },
+    "foodCulture": {
+      "text": "Mandua, jhangora, rice and wheat are eaten in different areas, often with lentils and local greens. Kafuli, chainsoo and phanu are familiar dishes, with Kumaoni, Garhwali and Terai food traditions differing."
+    }
   },
   "andaman-and-nicobar-islands": {
     "name": "Andaman and Nicobar Islands",
     "region": "Bay of Bengal",
     "tagline": "Island foodways shaped by seafood, coconut, tubers and migration.",
-    "geography": "This Bay of Bengal archipelago includes two island groups separated by the Ten Degree Channel. Tropical forests, coral waters and a maritime climate support fishing, coconut and tuber cultivation. The Andamans and Nicobars have distinct communities and food histories.",
-    "culinaryLandscape": "Seafood is prominent in the Andamans, where Bengali, South Indian and other migrant food traditions are visible. Nicobarese foodways place particular importance on coconut, tubers, pig and marine foods. These traditions should not be treated as one uniform island cuisine.",
     "dishes": [
       {
         "slug": "andaman-fish-curry",
@@ -2721,14 +2831,18 @@
         }
       }
     ],
-    "administrativeType": "Union Territory"
+    "administrativeType": "Union Territory",
+    "regionalGeography": {
+      "text": "The Andaman and Nicobar Islands have forested interiors, narrow coasts, mangroves and coral waters. Heavy tropical rain and limited flat land shape cultivation; coconut, rice and tubers are grown, while the surrounding sea provides fish."
+    },
+    "foodCulture": {
+      "text": "Rice, fish, seafood, coconut and tubers are common foods, though traditions differ between the island groups. Nicobari foodways include distinctive local ingredients and practices, while migrant communities have brought other regional cuisines."
+    }
   },
   "chandigarh": {
     "name": "Chandigarh",
     "region": "Northern India",
     "tagline": "A planned city with Punjabi, Haryanvi and contemporary urban food influences.",
-    "geography": "Chandigarh sits on the plains at the Shivalik foothills, between Punjab and Haryana. Developed as a planned city in the twentieth century, it grew through migration and urban expansion rather than an ancient, separate regional food system.",
-    "culinaryLandscape": "Punjabi food is highly visible in Chandigarh, alongside Haryanvi and wider North Indian influences. Wheat breads, dairy, tandoori cooking, chickpeas and street snacks feature prominently. The city's restaurants and markets reflect a modern, mixed urban population.",
     "dishes": [
       {
         "slug": "chandigarh-chole-bhature",
@@ -2815,14 +2929,18 @@
         }
       }
     ],
-    "administrativeType": "Union Territory"
+    "administrativeType": "Union Territory",
+    "regionalGeography": {
+      "text": "Chandigarh lies on the northern plains near the Shivalik foothills, but urban growth leaves little farmland within the city. Its food supply is closely linked to the surrounding irrigated Punjab and Haryana plains."
+    },
+    "foodCulture": {
+      "text": "Wheat breads, rice, dal, dairy foods and North Indian vegetables are common. Punjabi and Haryanvi dishes, tandoori foods, chickpea snacks and street food are widely available, reflecting the city’s mixed urban population."
+    }
   },
   "dadra-and-nagar-haveli-and-daman-and-diu": {
     "name": "Dadra and Nagar Haveli and Daman and Diu",
     "region": "Western India",
     "tagline": "Inland Adivasi foodways meet the coastal and Portuguese-influenced traditions of Daman and Diu.",
-    "geography": "The Union Territory combines inland Dadra and Nagar Haveli, near Gujarat and Maharashtra, with the Arabian Sea enclaves of Daman and Diu. Forests, rivers and tribal settlements shape inland foodways, while fishing, coconut and maritime contact influence the coast.",
-    "culinaryLandscape": "Food traditions differ across the territory. Adivasi communities in Dadra and Nagar Haveli use rice, millets, tubers and forest produce. Daman and Diu draw on Gujarati coastal cooking and Portuguese-era influences, visible in seafood, bakery and sweet traditions. Diu’s Hoka fruit adds a distinctive botanical food-heritage record linked by the local tourism brochure to Portuguese-era trade.",
     "dishes": [
       {
         "slug": "hoka-fruit",
@@ -2890,14 +3008,18 @@
         }
       }
     ],
-    "administrativeType": "Union Territory"
+    "administrativeType": "Union Territory",
+    "regionalGeography": {
+      "text": "This Union Territory combines inland hills and forests with the coasts of Daman and Diu. Monsoon rain supports rice, millets and tubers inland, while the Arabian Sea and estuaries make fishing important along the coast."
+    },
+    "foodCulture": {
+      "text": "Rice, millets, tubers and seasonal greens feature in inland food traditions, while coastal meals include fish and seafood. Daman and Diu also have distinct street-food and Portuguese-influenced traditions; the territory does not have one uniform cuisine."
+    }
   },
   "delhi": {
     "name": "Delhi",
     "region": "Northern India",
     "tagline": "A capital food culture shaped by Mughal courts, street markets and Punjabi migration.",
-    "geography": "Delhi lies on the Yamuna plain at a historic crossroads of northern India. Its position as a political and trading centre encouraged migration and exchange over centuries. Wheat, dairy, pulses, spices and market foods remain important to its varied food culture.",
-    "culinaryLandscape": "Delhi's cuisine brings together Mughal and North Indian traditions, Old Delhi street food, Punjabi migration after Partition and newer urban influences. Kebabs, breads, biryani, chaat and restaurant dishes such as butter chicken illustrate this layered history.",
     "dishes": [
       {
         "slug": "butter-chicken",
@@ -2989,14 +3111,18 @@
         }
       }
     ],
-    "administrativeType": "Union Territory"
+    "administrativeType": "Union Territory",
+    "regionalGeography": {
+      "text": "Delhi sits on the Yamuna floodplain beside the rocky Delhi Ridge. Hot summers, winter cold and monsoon rain shape seasonal produce, but most food supplies now arrive through regional farms and wholesale markets beyond the city."
+    },
+    "foodCulture": {
+      "text": "Wheat breads, rice, dal and vegetables are everyday foods. Old Delhi is known for chaat, kebabs, biryani and sweets, while Punjabi, Mughlai and many migrant cuisines contribute to the city’s varied food culture."
+    }
   },
   "jammu-and-kashmir": {
     "name": "Jammu and Kashmir",
     "region": "Northern India",
     "tagline": "A Himalayan food culture with Kashmiri Pandit, Muslim and Wazwan traditions.",
-    "geography": "The Union Territory includes the Kashmir Valley, Jammu plains and Himalayan ranges. The valley supports rice, saffron, walnut and apple cultivation, while the Jammu region has different climates and crops. Mountain routes and historic trade connected the region with Central and South Asia.",
-    "culinaryLandscape": "Kashmiri food traditions include household cooking, Kashmiri Pandit preparations and the elaborate Muslim Wazwan feast. Rice, lamb, yogurt, saffron, dried chillies and aromatic spices are common, but recipes and food practices vary by community and region.",
     "dishes": [
       {
         "slug": "rogan-josh",
@@ -3088,14 +3214,18 @@
         }
       }
     ],
-    "administrativeType": "Union Territory"
+    "administrativeType": "Union Territory",
+    "regionalGeography": {
+      "text": "The Kashmir Valley, Jammu plains and Himalayan districts have different soils and climates. Valley orchards and fields support rice, fruit and saffron in selected areas, while warmer Jammu districts grow wheat, maize, rice and pulses."
+    },
+    "foodCulture": {
+      "text": "Rice is central in the Kashmir Valley, while wheat and maize are common in parts of Jammu. Wazwan, household curries, kahwa and dried vegetables are familiar in Kashmir; Dogra and other communities have distinct food traditions."
+    }
   },
   "ladakh": {
     "name": "Ladakh",
     "region": "Northern India",
     "tagline": "A high-altitude food culture shaped by barley, root vegetables and Tibetan exchange.",
-    "geography": "Ladakh is a high-altitude trans-Himalayan region with cold deserts, short growing seasons and the Indus valley. Barley, buckwheat, peas, apricots and livestock are important to local food systems. Historic routes connected Ladakh with Tibet and Central Asia.",
-    "culinaryLandscape": "Ladakhi food is adapted to cold and altitude. Barley, wheat, root vegetables, dairy and dried foods feature in everyday meals. Tibetan and Central Asian exchange is visible, but local dishes such as skyu and the salted butter tea gur gur cha have a distinct place in Ladakhi food culture.",
     "dishes": [
       {
         "slug": "skyu",
@@ -3180,14 +3310,18 @@
         }
       }
     ],
-    "administrativeType": "Union Territory"
+    "administrativeType": "Union Territory",
+    "regionalGeography": {
+      "text": "Ladakh is a high-altitude cold desert with very little rainfall. Farming is concentrated in irrigated Indus Valley settlements, where a short summer supports barley, wheat, buckwheat, peas, vegetables and apricots."
+    },
+    "foodCulture": {
+      "text": "Barley, wheat, buckwheat and local vegetables are important foods. Skyu, khambir bread, thukpa, momos and butter tea are familiar, while food habits vary between villages and Buddhist and Muslim communities."
+    }
   },
   "lakshadweep": {
     "name": "Lakshadweep",
     "region": "Arabian Sea",
     "tagline": "An island food culture centred on tuna, coconut, rice and Minicoy traditions.",
-    "geography": "Lakshadweep is an archipelago of coral atolls in the Arabian Sea. Its small land area limits cultivation, while surrounding waters support tuna and reef fishing. Proximity to Kerala and the Maldives has shaped language, trade and food traditions across the islands.",
-    "culinaryLandscape": "Tuna, coconut and rice are central to Lakshadweep's food system. Minicoy has distinctive cultural links with the Maldives, visible in dishes such as mus kavaab. Drying and processing tuna, including the production of masmin, are important to island livelihoods and cuisine.",
     "dishes": [
       {
         "slug": "mus-kavaab",
@@ -3276,14 +3410,18 @@
         }
       }
     ],
-    "administrativeType": "Union Territory"
+    "administrativeType": "Union Territory",
+    "regionalGeography": {
+      "text": "Lakshadweep’s low coral islands have sandy, calcareous soils and little land for farming. Coconut grows widely, but the surrounding reefs and lagoons provide the main food resource; the south-west monsoon brings heavy seasonal rain."
+    },
+    "foodCulture": {
+      "text": "Rice is commonly eaten with fish and coconut-based accompaniments. Tuna, dried fish, fish curries and coconut preparations are familiar, while Minicoy has distinct food traditions and cultural links with the Maldives."
+    }
   },
   "puducherry": {
     "name": "Puducherry",
     "region": "Southern India",
     "tagline": "A Tamil coastal food culture with French and Creole influences in selected dishes.",
-    "geography": "The Union Territory includes Puducherry, Karaikal, Mahe and Yanam, separated geographically and shaped by neighbouring regions. The Coromandel coast, rivers and fishing settlements support rice, seafood, coconut and tamarind. French rule left a visible but uneven influence on local foodways.",
-    "culinaryLandscape": "Puducherry's food is fundamentally diverse and largely Tamil, with distinct community traditions and influences from Telugu, Malayalam and French-speaking households. Everyday foods such as sambar coexist with bakery breads and selected Franco-Tamil or Creole preparations. The four enclaves should not be treated as culturally identical.",
     "dishes": [
       {
         "slug": "roll-roti",
@@ -3369,6 +3507,12 @@
         }
       }
     ],
-    "administrativeType": "Union Territory"
+    "administrativeType": "Union Territory",
+    "regionalGeography": {
+      "text": "Puducherry’s four separated enclaves have different coastal and river settings. The Cauvery delta supports rice, while the coast provides fish and coconut; hot weather, monsoon rain and local waterlogging shape farming and fishing seasons."
+    },
+    "foodCulture": {
+      "text": "Rice meals, sambar, seafood and local vegetables are common in Puducherry and Karaikal. Mahe shares Kerala food influences, Yanam reflects Telugu traditions, and Puducherry’s bakeries preserve elements of Franco-Tamil food culture."
+    }
   }
 }

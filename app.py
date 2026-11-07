@@ -230,6 +230,21 @@ STATE_PAGE_EXTENSION = r"""
     color:#5a211b; margin:23px 0 7px; font:700 23px/1 "Cormorant Garamond",Georgia,serif;
   }
   .state-context p { color:#3f2922; margin:0; font:12px/1.8 "Libre Baskerville",Georgia,serif; }
+  /* Two concise regional context notes, matching the archive's original editorial style. */
+  .region-info-section { margin-top:19px; }
+  .region-info-section-header { margin:0 0 7px; padding:0; border:0; }
+  .region-info-section h3 {
+    margin:0; color:#57201b;
+    font:700 27px/1.05 "Cormorant Garamond",Georgia,serif;
+  }
+  .region-info-section > p {
+    margin:0; color:#432c24;
+    font:15px/1.62 "Libre Baskerville",Georgia,serif;
+  }
+  .region-info-divider {
+    height:1px; margin:17px 0 0;
+    background:linear-gradient(90deg,#94623f,rgba(148,98,63,.1));
+  }
   .state-context-ornament {
     height:1px; margin:18px 0; background:linear-gradient(90deg,#94623f,transparent);
   }
@@ -378,6 +393,9 @@ STATE_PAGE_EXTENSION = r"""
   .dish-choice-index { flex:0 0 25px; color:#9a6b49; font:700 13px "Libre Baskerville",Georgia,serif; }
   .state-context h3 { font-size:24px; }
   .state-context p { font-size:12.5px; line-height:1.68; }
+  .region-info-section { margin-top:17px; }
+  .region-info-section h3 { font-size:25px; }
+  .region-info-section > p { font-size:14px; line-height:1.6; }
   .dish-spread { padding:22px clamp(13px,1.8vw,27px) 30px; min-width:0; }
   .dish-spread-top { margin:0 3px 14px; padding-bottom:10px; }
   .dish-spread-top h2 { font-size:28px; }
@@ -540,6 +558,13 @@ STATE_PAGE_EXTENSION = r"""
         (source.note ? '<br><span>' + escapeArchiveText(source.note) + '</span>' : '') + '</li>';
     }).join("");
   }
+  function renderRegionInfoSection(title, section) {
+    const text = section && typeof section.text === "string" ? section.text : "";
+    return '<section class="region-info-section">' +
+      '<header class="region-info-section-header"><h3>' + escapeArchiveText(title) + '</h3></header>' +
+      '<p>' + escapeArchiveText(text) + '</p>' +
+    '</section>';
+  }
   function dishImage(slug) {
     return archiveDishImages[slug] || "";
   }
@@ -648,11 +673,9 @@ STATE_PAGE_EXTENSION = r"""
             '<span class="state-context-label">Regional food culture</span>' +
             '<h2>' + escapeArchiveText(state.name) + ' Archive</h2>' +
             '<div class="dish-choice-list" role="tablist" aria-label="Food records from ' + escapeArchiveText(state.name) + '">' + dishButtons + '</div>' +
-            '<h3>Geography & influence</h3>' +
-            '<p>' + escapeArchiveText(state.geography) + '</p>' +
-            '<div class="state-context-ornament"></div>' +
-            '<h3>Culinary landscape</h3>' +
-            '<p>' + escapeArchiveText(state.culinaryLandscape) + '</p>' +
+            renderRegionInfoSection('Geography & influence', state.regionalGeography) +
+            '<div class="region-info-divider"></div>' +
+            renderRegionInfoSection('Culinary landscape', state.foodCulture) +
           '</aside>' +
           '<section class="dish-spread">' +
             '<div class="dish-content" id="active-dish-content" role="tabpanel"></div>' +
