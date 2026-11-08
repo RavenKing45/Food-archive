@@ -18,7 +18,7 @@ from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parent
 ASSETS = ROOT / "assets"
-SUPPORTED_IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp"}
+SUPPORTED_IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp", ".avif"}
 
 st.set_page_config(
     page_title="India's Culinary Memory Archive",
@@ -29,7 +29,13 @@ st.set_page_config(
 
 
 def image_data_uri(path: Path) -> str:
-    """Resize and optimize an image, then return it as an embeddable data URI."""
+    """Resize and optimize supported images; preserve AVIF bytes for the browser."""
+    # Pillow installations do not universally include an AVIF decoder. Browsers
+    # support AVIF directly, so embed the original bytes instead of failing to load.
+    if path.suffix.lower() == ".avif":
+        encoded = base64.b64encode(path.read_bytes()).decode("ascii")
+        return f"data:image/avif;base64,{encoded}"
+
     with Image.open(path) as source:
         image = ImageOps.exif_transpose(source)
         image.thumbnail((2200, 1500), Image.Resampling.LANCZOS)
@@ -123,6 +129,24 @@ for marker, asset_path in required_assets.items():
     html = html.replace(marker, image_data_uri(asset_path))
 
 story_images = image_folder_map(str(ASSETS / "stories"), image_folder_signature(str(ASSETS / "stories")))
+
+# Match the human-readable image filenames in assets/stories/ to the story
+# slugs used by index.html. Keep the original stem keys as well.
+story_image_aliases = {
+    "vada-pav": "vada-pav-mumbai-commuter-food",
+    "rasogulla": "rasgulla-two-regional-traditions",
+    "dal-bati": "dal-baati-food-for-the-road",
+    "masala-dosa": "masala-dosa-udupi-network",
+    "chole-bhature": "chole-bhature-post-partition-delhi",
+    # The supplied folder screenshot used "chat" (one "a" in the filename).
+    # Accept both spellings so either daulat-ki-chat.jpg or daulat-ki-chaat.jpg works.
+    "daulat-ki-chat": "daulat-ki-chaat-delhi-winter",
+    "daulat-ki-chaat": "daulat-ki-chaat-delhi-winter",
+}
+for image_stem, story_slug in story_image_aliases.items():
+    if image_stem in story_images:
+        story_images[story_slug] = story_images[image_stem]
+
 state_images = image_folder_map(str(ASSETS / "states"), image_folder_signature(str(ASSETS / "states")))
 dish_images = image_folder_map(str(ASSETS / "dishes"), image_folder_signature(str(ASSETS / "dishes")))
 
