@@ -441,6 +441,155 @@
       .story-track { animation: none; }
       *, *::before, *::after { transition-duration: .01ms !important; }
     }
+
+    .story-card {
+      padding: 0;
+      color: inherit;
+      font-family: inherit;
+      text-align: left;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+    }
+    .story-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(197,161,106,.9);
+      box-shadow: 0 7px 16px rgba(74,38,22,.18);
+    }
+    .story-card:focus-visible {
+      outline: 3px solid #c5a16a;
+      outline-offset: 4px;
+    }
+    .food-story-dialog {
+      width: min(760px, calc(100% - 28px));
+      max-width: 760px;
+      max-height: 88vh;
+      padding: 0;
+      border: 1px solid #b58b55;
+      border-radius: 12px;
+      color: #351915;
+      background: transparent;
+      box-shadow: 0 18px 60px rgba(23,8,6,.42);
+    }
+    .food-story-dialog::backdrop {
+      background: rgba(31,10,8,.72);
+      backdrop-filter: blur(2px);
+    }
+    .food-story-panel {
+      max-height: 88vh;
+      overflow-y: auto;
+      padding: clamp(22px, 4vw, 38px);
+      background-color: #fbf3e4;
+      background-image:
+        radial-gradient(ellipse at 18% 14%, rgba(255,255,255,.4), transparent 34%),
+        repeating-linear-gradient(0deg, rgba(92,57,34,.018) 0, rgba(92,57,34,.018) 1px, transparent 1px, transparent 5px);
+    }
+    .food-story-dialog-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(91,48,34,.28);
+    }
+    .food-story-dialog-region {
+      margin: 0;
+      color: #845a40;
+      font-family: var(--body);
+      font-size: 8px;
+      letter-spacing: 1.7px;
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+    .food-story-close {
+      border: 1px solid rgba(91,48,34,.35);
+      border-radius: 50%;
+      width: 34px;
+      height: 34px;
+      color: #4b1c18;
+      background: rgba(255,248,232,.8);
+      font-family: Georgia, serif;
+      font-size: 22px;
+      line-height: 1;
+    }
+    .food-story-close:hover { background: #f0dfc2; }
+    .food-story-title {
+      margin: 20px 0 5px;
+      color: #4d1715;
+      font-family: var(--serif);
+      font-size: clamp(30px, 5vw, 43px);
+      line-height: .98;
+      font-weight: 700;
+    }
+    .food-story-subtitle {
+      margin: 0 0 20px;
+      color: #805a45;
+      font-family: var(--serif);
+      font-size: 20px;
+      font-style: italic;
+      line-height: 1.25;
+    }
+    .food-story-body p {
+      margin: 0 0 13px;
+      color: #40221b;
+      font-family: var(--body);
+      font-size: 11px;
+      line-height: 1.9;
+    }
+    .food-story-note {
+      margin: 18px 0 0;
+      padding: 12px 14px;
+      border-left: 3px solid #9a6948;
+      background: rgba(232,211,175,.38);
+      color: #6c4a37;
+      font-family: var(--body);
+      font-size: 9px;
+      line-height: 1.7;
+    }
+    .food-story-sources {
+      margin-top: 24px;
+      padding-top: 15px;
+      border-top: 1px solid rgba(91,48,34,.28);
+    }
+    .food-story-sources h3 {
+      margin: 0 0 10px;
+      color: #57201b;
+      font-family: var(--serif);
+      font-size: 23px;
+      line-height: 1;
+    }
+    .food-story-sources ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .food-story-sources li {
+      margin: 0 0 10px;
+      padding-left: 3px;
+      color: #56372b;
+      font-family: var(--body);
+      font-size: 9px;
+      line-height: 1.65;
+    }
+    .food-story-sources a {
+      color: #5a211b;
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-color: rgba(90,33,27,.5);
+      text-underline-offset: 2px;
+    }
+    .food-story-source-meta {
+      display: block;
+      margin-top: 2px;
+      color: #806858;
+      font-size: 8px;
+    }
+    @media (max-width: 640px) {
+      .food-story-panel { padding: 21px 18px 24px; }
+      .food-story-body p { font-size: 10px; }
+      .food-story-sources li { font-size: 8px; }
+    }
+
   </style>
 </head>
 <body id="top">
@@ -526,6 +675,24 @@
     <div class="footer-bottom"></div>
   </footer>
 
+
+  <dialog class="food-story-dialog" id="food-story-dialog" aria-labelledby="food-story-dialog-title">
+    <div class="food-story-panel">
+      <div class="food-story-dialog-top">
+        <p class="food-story-dialog-region" id="food-story-dialog-region"></p>
+        <button class="food-story-close" id="food-story-close" type="button" aria-label="Close story">×</button>
+      </div>
+      <h2 class="food-story-title" id="food-story-dialog-title"></h2>
+      <p class="food-story-subtitle" id="food-story-dialog-subtitle"></p>
+      <div class="food-story-body" id="food-story-dialog-body"></div>
+      <p class="food-story-note" id="food-story-dialog-note" hidden></p>
+      <section class="food-story-sources" aria-labelledby="food-story-sources-title">
+        <h3 id="food-story-sources-title">Sources &amp; further reading</h3>
+        <ol id="food-story-source-list"></ol>
+      </section>
+    </div>
+  </dialog>
+
   <script>
     // Add story images later in assets/stories/ using each story's slug as the filename.
     // Example: assets/stories/journey-of-biryani.jpg
@@ -533,13 +700,7 @@
     const STATE_IMAGES = {{STATE_IMAGES}};
     const REGION_TYPES = {{REGION_TYPES}};
 
-    const stories = [
-      { title: "The Journey of Biryani", description: "A dish of many regions and shared histories", slug: "journey-of-biryani", symbol: "✧", tone: "spice" },
-      { title: "Street Food Traditions", description: "India's vibrant food culture on the streets", slug: "street-food-traditions", symbol: "❧", tone: "market" },
-      { title: "The Story of Sadya", description: "A ceremonial meal from Kerala", slug: "story-of-sadya", symbol: "❋", tone: "leaf" },
-      { title: "Sweets of Celebration", description: "Festivals, rituals and the sweet heritage of India", slug: "sweets-of-celebration", symbol: "✺", tone: "sweet" },
-      { title: "Cooking in Clay", description: "The tradition of earthen cooking across India", slug: "cooking-in-clay", symbol: "◉", tone: "clay" }
-    ];
+    const stories = [{"slug":"vada-pav-mumbai-commuter-food","title":"Vada Pav: A Commuter's Food","description":"Railway crowds, workday meals and Mumbai's street culture.","region":"Mumbai · Maharashtra","symbol":"✦","tone":"market","paragraphs":["Vada pav is often introduced through a Dadar origin story: Ashok Vaidya is widely credited with selling batata vada near Dadar railway station in the 1960s. Accounts differ on the precise year and on who sold the first vada pav, so this is best treated as a popular attribution rather than a settled record.","The setting helps explain the snack's rise. Railway crowds, textile-mill workers and daily commuters needed food that was inexpensive, filling and easy to carry. The potato fritter reflects Maharashtrian snack culture, while pav belongs to a bread tradition shaped by Portuguese contact and later bakery communities. The combination became one of Mumbai's best-known street foods."],"editorialNote":"The often-repeated 1966 date is not firmly established, and other early vendors are also credited. The story does not claim a single inventor.","sources":[{"title":"Meet Mumbai's Iconic Veggie Burger","publisher":"KPBS Public Media","date":"4 November 2016","url":"https://www.kpbs.org/news/2016/11/04/meet-mumbais-iconic-veggie-burger"},{"title":"Handcart to TasteAtlas: The story behind Dadar's famous Ashok Vada Pav","publisher":"The Indian Express","date":"27 June 2026","url":"https://indianexpress.com/article/cities/mumbai/ashok-vada-pav-dadar-kirti-college-tasteatlas-ranking-history-10759907/"}]},{"slug":"rasgulla-two-regional-traditions","title":"Rasgulla: Two Regional Traditions","description":"Temple tradition, confectionery craft and regional identity.","region":"Odisha · West Bengal","symbol":"✺","tone":"sweet","paragraphs":["Rasgulla's history is not a simple contest with one clear winner. In Odisha, Rasagola is associated with the Jagannath Temple's Niladri Bije tradition, although the age of the present sweet within that ritual is debated. In Bengal, the modern chhana-based rosogolla is associated with Nabin Chandra Das and the growth of Kolkata's nineteenth-century sweet-shop culture.","The Geographical Indications Registry lists Banglar Rasogolla and Odisha Rasagola as separate regional products. That recognition records distinct regional identities and product traditions; it does not decide which place made the earliest version. The story is best understood through temple practice, confectionery innovation and the way food becomes part of regional memory."],"editorialNote":"Do not present a 12th-century Puri origin or an exact 1868 invention date as settled fact. GI registration is not a ruling on historical priority.","sources":[{"title":"Registration Details of Geographical Indications in India","publisher":"Geographical Indications Registry, Government of India","date":"Register updated through 15 May 2025","url":"https://www.ipindia.gov.in/writereaddata/Portal/Images/pdf/Total_Registered_GI_details_of_GI_Application_in_India_15_05_2025.pdf"},{"title":"My City, My Heritage: My Kolkata — section 'Nabin Chandra Das & Sweet Shops of Kolkata'","publisher":"Sahapedia / InterGlobe Foundation","date":"First edition 2022","url":"https://www.sahapedia.org/sites/default/files/pdf/my-city-my-heritage/MCMH_Kolkata.pdf"},{"title":"Who deserves credit for the rasgulla? Bengalis, Odiyas...or the Portuguese?","publisher":"Scroll.in","date":"4 August 2015","url":"https://scroll.in/article/745871/who-deserves-credit-for-the-rasgulla-bengalis-odiyas-or-the-portuguese"}]},{"slug":"pav-bhaji-mill-city","title":"Pav Bhaji and the Mill City","description":"Textile-mill work, short breaks and street-side ingenuity.","region":"Mumbai · Maharashtra","symbol":"❧","tone":"market","paragraphs":["Pav bhaji is often connected with Bombay's textile-mill era, when workers needed a hot, filling meal that could be served quickly during short breaks. Food writers describe an urban street-food setting in which vendors mashed vegetables with spices and butter, then served the mixture with toasted pav.","The exact first vendor and date are not established, so it is safer to describe pav bhaji as emerging from Mumbai's industrial food culture rather than crediting one inventor. The pav reflects a bread tradition shaped by Portuguese contact and local bakery communities. What began as practical street food travelled from mill districts and roadside stalls into restaurants and homes across India."],"editorialNote":"The textile-worker connection is widely reported, but the precise invention date, first vendor and popular 'leftover vegetables' anecdote are not firmly documented.","sources":[{"title":"How pav bhaji came to represent Mumbai's colourful street food culture","publisher":"The Indian Express","date":"18 February 2025","url":"https://indianexpress.com/article/lifestyle/food-wine/pav-bhaji-street-food-maharashtra-history-culture-9369525/"},{"title":"Breaking Bread","publisher":"Open Magazine","date":"28 February 2025","url":"https://openthemagazine.com/feature/breaking-bread"}]},{"slug":"dal-baati-food-for-the-road","title":"Dal Baati: Food for the Road","description":"Dry weather, storage and the practical demands of travel.","region":"Rajasthan","symbol":"◉","tone":"clay","paragraphs":["Dal baati churma is one of Rajasthan's best-known meals, but the story of baati also reaches beyond the dining table. A 2023 article in the Indian Journal of History of Science examines food practices in Rajasthan's military campaigns and explains why hard wheat baati suited travel: it could be toasted with simple fuel, carried and kept for several days in the dry weather of western Rajasthan.","The article discusses historical references and battlefield practices, while the sugarcane-juice story sometimes told about churma is identified as folklore. The strongest story is not a dramatic single invention, but an adaptation of food to mobility, storage and the conditions of the region. Dal and churma later became the familiar companions to baati in the well-known combination."],"editorialNote":"The academic article supports the suitability and use of baati in military settings; it does not prove every popular Bappa Rawal or churma origin legend.","sources":[{"title":"Food, water and intoxicants in the battlefield practices of Rajasthan","publisher":"Indian Journal of History of Science, 58 (2023), pp. 57–63","date":"Published 6 February 2023","url":"https://doi.org/10.1007/s43539-023-00072-6"}]},{"slug":"masala-dosa-udupi-network","title":"Masala Dosa and Udupi's Reach","description":"Temple cooks, restaurant networks and the spread of South Indian food.","region":"Udupi · Karnataka","symbol":"❋","tone":"leaf","paragraphs":["Dosa has a long and debated South Indian history, but masala dosa has a more specific restaurant story. The crisp rice-and-lentil crepe filled with spiced potato is closely associated with Udupi cuisine. A hospitality textbook from Yashwantrao Chavan Maharashtra Open University describes masala dosa as an Udupi dish and credits Udupi restaurants with spreading it beyond Karnataka.","The Federal's account of Madras food history describes Udupi cooks and restaurateurs moving to the city in the early twentieth century, including K. Krishna Rao's restaurant ventures. The exact first inventor and date remain uncertain. The more defensible history is one of movement: cooks, hotel owners and customers carried Udupi-style food into new urban settings, helping masala dosa become familiar across India."],"editorialNote":"K. Krishna Rao is associated with the popularisation of masala dosa in Madras, but a single, conclusively documented inventor or first date has not been established.","sources":[{"title":"Quantity Food Production — B.Sc. Hospitality Studies and Catering Services","publisher":"Yashwantrao Chavan Maharashtra Open University","date":"First published June 2018","url":"https://ycmou.ac.in/media/publication/ycmou_book/RVV_YB_128.pdf"},{"title":"Madras Day special: How masala dosa became Chennai's signature dish","publisher":"The Federal","date":"23 August 2021","url":"https://thefederal.com/features/madras-day-special-masala-dosa-and-chennai-are-made-for-each-other"}]},{"slug":"chole-bhature-post-partition-delhi","title":"Chole Bhature after Partition","description":"Punjabi migration, new neighbourhoods and Delhi's changing food map.","region":"Punjab · Delhi","symbol":"✧","tone":"spice","paragraphs":["Chole bhature belongs to Punjabi food traditions, but its place in Delhi was shaped by the upheaval of Partition in 1947. Punjabi refugees rebuilt homes and livelihoods in the capital, bringing food habits and restaurant traditions with them. Accounts of post-Partition Delhi describe refugee-run dhabas and small eateries helping Punjabi food become part of the city's everyday food landscape.","This does not mean that chole bhature was invented after Partition. The more careful story is about its spread and popularisation: migration carried Punjabi dishes into new neighbourhoods, where chickpea curry and bhature became familiar at breakfast stalls, roadside eateries and restaurants."],"editorialNote":"The evidence supports Partition-era Punjabi influence on Delhi's food culture; it does not establish that the dish itself originated in Delhi or after 1947.","sources":[{"title":"How Punjabi refugees transformed Delhi's food culture after the Partition","publisher":"The Patriot","date":"15 August 2025","url":"https://thepatriot.in/cover-story/how-punjabi-refugees-transformed-delhis-food-culture-after-the-partition-74377"},{"title":"Foods of India — Talk About Delhi","publisher":"Delhi Tourism, Government of NCT of Delhi","date":"Undated cultural feature","url":"https://delhitourism.gov.in/talk_delhi/foods.html"}]},{"slug":"galouti-kebab-awadh-court","title":"Galouti Kebab: A Soft Legend","description":"Awadh's courtly cuisine, delicate technique and a famous origin tale.","region":"Lucknow · Uttar Pradesh","symbol":"✦","tone":"spice","paragraphs":["Galouti kebab is known for finely minced meat and an unusually soft texture. A popular story links it to Nawab Asaf-ud-Daula of Awadh, who supposedly wanted a kebab he could enjoy despite losing his teeth. The tale is widely repeated, but it should be treated as culinary legend rather than a confirmed court record.","What is clearer is the technique: finely ground meat, spices and tenderising ingredients such as raw papaya help create the delicate texture associated with the kebab. It belongs to Lucknow's wider Awadhi tradition, shaped by the refinement of courtly cooking. The famous claim of 160 spices is associated with Tunday Kebabi's particular version, not every galouti kebab."],"editorialNote":"The toothless-Nawab story is popular tradition. The 160-spice claim is linked to Tunday Kebab and should not be applied to all galouti kebabs.","sources":[{"title":"Explore the Indian city of Lucknow, whose streets are alive with smoke and flame","publisher":"National Geographic Traveller","date":"17 May 2023","url":"https://www.nationalgeographic.com/travel/article/explore-indian-city-lucknow"},{"title":"For the best Galouti Kebabs","publisher":"The New Indian Express","date":"23 June 2018","url":"https://www.newindianexpress.com/cities/hyderabad/2018/Jun/23/for-the-best-galouti-kebabs-1832153.html"}]},{"slug":"daulat-ki-chaat-delhi-winter","title":"Daulat Ki Chaat: Delhi's Winter Sweet","description":"Cold mornings, dairy craft and a delicate street food.","region":"Old Delhi","symbol":"✺","tone":"sweet","paragraphs":["Daulat ki chaat is a delicate milk-and-cream foam sold in Old Delhi during the cold months. Vendors whip and handle the mixture before it loses its airy structure, then finish it with ingredients such as saffron, nuts and silver leaf. Its short season and early-morning sale have made it part of the winter rhythm of markets such as Chandni Chowk.","Popular stories say that overnight dew or moonlight gives the dessert its texture. Food writers and vendors describe dew more as a poetic tradition than a necessary cooking step: cold conditions help the foam hold, while modern vendors can use chilled ingredients. Related sweets appear across North India under names such as malaiyo and nimish. Its precise origin is unknown, but its winter street-vending culture is well established."],"editorialNote":"Dew is a popular explanation, not an established technical requirement. Avoid claims of a 500-year or Mughal-court origin.","sources":[{"title":"The beloved 'snack of wealth' made on Delhi's streets","publisher":"BBC Travel","date":"18 July 2022","url":"https://www.bbc.com/travel/article/20220717-the-beloved-snack-of-wealth-made-on-delhis-streets"},{"title":"Long before Daulat ki Chaat became an Instagram favourite, it was an unembellished country dish","publisher":"Scroll.in","date":"17 February 2022","url":"https://scroll.in/magazine/1017455/long-before-daulat-ki-chaat-became-an-instagram-favourite-it-was-an-unembellished-country-dish"}]}];
 
     const featuredStates = [
       "Rajasthan", "Kerala", "Punjab", "Assam", "West Bengal",
@@ -559,24 +720,60 @@
       return String(value).replace(/[&<>\"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch]);
     }
 
-    function storyCard(story) {
+    function storyCard(story, index) {
       const image = STORY_IMAGES[story.slug];
       const visualStyle = image
         ? `background-image: linear-gradient(180deg, rgba(33,13,10,.04), rgba(33,13,10,.12)), url('${image}')`
         : "";
       return `
-        <article class="story-card">
+        <button class="story-card" type="button" data-story-index="${index}" aria-haspopup="dialog" aria-label="Read story: ${escapeHtml(story.title)}">
           <div class="story-visual ${image ? "has-image" : "tone-" + story.tone}" style="${visualStyle}">
             ${image ? "" : `<span class="story-symbol" aria-hidden="true">${story.symbol}</span><span class="image-slot-label">Image to be added</span>`}
           </div>
           <div class="story-copy"><h3>${escapeHtml(story.title)}</h3><p>${escapeHtml(story.description)}</p></div>
-        </article>`;
+        </button>`;
     }
 
     const groupA = document.getElementById("story-group-a");
     const groupB = document.getElementById("story-group-b");
-    groupA.innerHTML = stories.map(storyCard).join("");
-    groupB.innerHTML = stories.map(storyCard).join("");
+    groupB.setAttribute("inert", "");
+    groupA.innerHTML = stories.map((story, index) => storyCard(story, index)).join("");
+    groupB.innerHTML = stories.map((story, index) => storyCard(story, index)).join("");
+
+    const storyDialog = document.getElementById("food-story-dialog");
+    const storyDialogRegion = document.getElementById("food-story-dialog-region");
+    const storyDialogTitle = document.getElementById("food-story-dialog-title");
+    const storyDialogSubtitle = document.getElementById("food-story-dialog-subtitle");
+    const storyDialogBody = document.getElementById("food-story-dialog-body");
+    const storyDialogNote = document.getElementById("food-story-dialog-note");
+    const storySourceList = document.getElementById("food-story-source-list");
+
+    function openFoodStory(index) {
+      const story = stories[index];
+      if (!story) return;
+      storyDialogRegion.textContent = story.region || "Food story";
+      storyDialogTitle.textContent = story.title;
+      storyDialogSubtitle.textContent = story.description;
+      storyDialogBody.innerHTML = (story.paragraphs || []).map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("");
+      storyDialogNote.textContent = story.editorialNote || "";
+      storyDialogNote.hidden = !story.editorialNote;
+      storySourceList.innerHTML = (story.sources || []).map(source => `
+        <li>
+          <a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title)}</a>
+          <span class="food-story-source-meta">${escapeHtml(source.publisher)} · ${escapeHtml(source.date)}</span>
+        </li>`).join("");
+      storyDialog.showModal();
+    }
+
+    groupA.addEventListener("click", event => {
+      const card = event.target.closest("[data-story-index]");
+      if (!card) return;
+      openFoodStory(Number(card.dataset.storyIndex));
+    });
+    document.getElementById("food-story-close").addEventListener("click", () => storyDialog.close());
+    storyDialog.addEventListener("click", event => {
+      if (event.target === storyDialog) storyDialog.close();
+    });
 
     const stateGrid = document.getElementById("state-grid");
     const searchInput = document.getElementById("state-search");
