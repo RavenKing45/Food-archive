@@ -1,11 +1,12 @@
 # PROJECT HANDOFF — INDIA'S CULINARY MEMORY ARCHIVE
 
 **File Status:** Living Single Source of Truth for Model/Account Handoffs  
-**Last Updated:** 2026-11-09T05:40:00+05:30  
+**Last Updated:** 2026-11-09T06:15:00+05:30  
 **Project Root:** Local workspace root (`culinary-memory-archive`)  
 **Git Repository:** `RavenKing45/Food-archive` on branch `main`  
 **Baseline Commit SHA:** `fbe9bdb` ("Polish: design token system, typography, responsive layout, accessibility")  
-**Git Status:** Working tree contains uncommitted creative overhaul changes in `index.html` and `app.py`. Untracked files and directories exist and are strictly preserved.
+**Latest Commit SHA:** `6a02960` ("Creative overhaul: museum-grade archive identity, story reader, regional chapters")  
+**Git Status:** The creative overhaul is committed at `6a02960`. The working tree now holds a further **uncommitted targeted-correction pass** in `index.html` and `app.py` (plus the regenerated `artifacts/scratch/qa-index.html`). Untracked files and directories exist and are strictly preserved.
 
 ---
 
@@ -69,8 +70,8 @@
 |---|---|---|---|
 | `PROJECT_HANDOFF.md` | Untracked | Single source of truth for all project context, decisions, status, and continuation instructions. | Keep continuously updated. |
 | `artifacts/handoff/SESSION_LOG.md` | Untracked | Chronological audit trail of milestones, actions, tests, and handoffs across sessions. | Keep updated. |
-| `index.html` | Modified (`+1679 / -680`) | Complete creative overhaul of homepage, branding, typography, stories collection, multi-image editorial story reader, footer restructuring, and responsive refinements. | Complete in working tree for review. |
-| `app.py` | Modified (`+247 / -187`) | Upgraded `STATE_PAGE_EXTENSION` regional chapters, emblem SVG, floating back pill, historical research notes, and dish browser experience. | Complete in working tree for review. |
+| `index.html` | Modified (uncommitted corrections) | Creative overhaul (committed at `6a02960`) plus the targeted-correction pass: stories intro + `Folio Collection I–VI` ornament removed, reader curatorial/folio metadata removed, story photo caption bars removed (all images kept), footer rebranded, and document-scoped smooth-scroll nav for the About Archive anchor. | Complete in working tree for review. |
+| `app.py` | Modified (uncommitted corrections) | Creative overhaul (committed at `6a02960`) plus the targeted-correction pass: dish "Historical photograph / document" placeholder, its Wikimedia search link/logic and all unused `.dish-photo.no-image*` / `.dish-photo-placeholder*` / `.dish-support-grid*` / `.historical-slot*` CSS removed; all 72 real dish photographs, history, oral narratives and sources retained. | Complete in working tree for review. |
 | `state_pages.json` | Tracked (Clean at `fbe9bdb`) | Contains 36 regional entries and 72 dish records. | **STRICTLY PRESERVED.** No edits made. |
 | `checkpoint_backup/app.py.bak` | Untracked | Emergency fallback backup created before previous polish pass. | Strictly preserve. |
 | `checkpoint_backup/index.html.bak` | Untracked | Emergency fallback backup created before previous polish pass. | Strictly preserve. |
@@ -143,6 +144,14 @@
   - **Mobile tap-target fix:** `.brand` gains `min-height: 44px` at ≤400px (the shrunk 36px emblem had dropped the brand link below the 44px mobile minimum).
   - **Verification:** QA render regenerated (all 5 markers resolve), `py_compile app.py` PASS, JS `node --check` PASS, and `consistency.mjs` re-run four times (r2→r5: 50→46→43→43 FAIL, 28→28→28→26 WARN). `row-gap`, `hole`, `cut-text`, `overlap-text`, `no-visual`, and `tap-size` now PASS.
   - **Final screenshots:** `artifacts/design-review/creative-overhaul/final-shots/{1440,1024,768,390}.png`.
+- [x] Task 8.6: Targeted owner corrections pass (see SESSION_LOG 2026-11-09 05:55–06:15):
+  - **Correction 1 (Food Stories heading):** Removed the section intro sentence and the `Folio Collection I–VI` ornament (`.section-ornament`, incl. its mobile override); the heading row is now title-only. (The `.section-intro` CSS is retained — it is still used by the Regional Atlas heading.)
+  - **Correction 2 (Story metadata):** Removed the reader top-bar FOLIO stamp, the `#story-folio-pill` / `#story-type-pill` meta pills and the whole `.story-curatorial-strip`; removed `folio`, `provenance`, `archivalClass` (+ per-plate `title`/`desc`) from all six story objects. Removed the now-orphaned JS references (`storyFolioPill`, `storyFolioStamp`, `storyStripProvenance`, `storyStripClass`, `story.folio`/`.provenance`/`.archivalClass`).
+  - **Correction 3 (Image captions):** Removed the hero `figcaption` ("Plate I: Primary Foodform…", "Archival Plate I") and the contextual-plate caption rendering. **Every photograph is kept** — hero plate, contextual regional plates, side-by-side grids, all 36 state images and all 72 dish images — and the `contextualPlates[].stateSlug` → `STATE_IMAGES` lookup is preserved intact.
+  - **Correction 4 (Dish placeholder):** In `app.py` removed the empty `.dish-photo-placeholder`, the `.historical-slot` "Historical photograph / document" block + its Wikimedia "Search historical image material" link, the `searchUrl` logic, and the now-unused `.dish-photo.no-image*`, `.dish-photo-placeholder*`, `.dish-support-grid*` and `.historical-slot*` CSS (incl. the responsive overrides). Dish rendering now always outputs the real photograph; history, oral narratives and source lists retained.
+  - **Correction 5 (Branding):** Replaced the visible "Archivum Gastronomicum Indiae" (footer colophon heading) with "India's Culinary Memory Archive". Footer legal line and the story closing seal already carried the correct brand.
+  - **Correction 6 (About Archive scroll):** Replaced `target.scrollIntoView(...)` with a document-scoped `scrollArchiveTo()` helper (`window.scrollTo` clamped to the widget's own scroll range) so clicking About Archive no longer walks the ancestor chain and nudges the Streamlit host page past its boundary (no leftover blank artefact). Streamlit host UI and the Manage-app badge are untouched.
+  - **Verification:** `py_compile app.py` **PASS**; inline JS `node --check` **PASS** (both `index.html` script blocks and the `app.py` `STATE_PAGE_EXTENSION` script); QA render regenerated — `remaining markers: []`; grep sweep confirms zero orphaned references and zero visible "Archivum Gastronomicum Indiae".
 
 ---
 
@@ -159,11 +168,11 @@
 
 ## H. Current Stopping Point & Immediate Next Action
 
-- **Last Completed Action:** Handoff-resume verification + responsive correction pass (2026-11-09 04:00–05:40). Confirmed the footer restructuring was already fully applied (`.site-footer::after` + `.footer-colophon .footer-legal`, `{{FOOTER_IMAGE}}` functional, no stale classes). Fixed the responsive `.story-grid`/`.story-row` regression at ≤880px and ≤440px, removed a dead `@media (max-width: 1100px)` block, and added a 44px mobile tap target to `.brand` at ≤400px.
-- **Current Action:** All checks re-run and final screenshots captured. Working tree remains uncommitted at baseline `fbe9bdb`.
-- **Exact Point Where Implementation Stopped:** Implementation, visual polish, responsive/correction pass, verification, and documentation fully complete in the working tree. No new work in progress.
-- **Running Processes:** Streamlit server running on port 8501 (PID **21868**), responding HTTP 200. Do not start a second instance.
-- **Errors/Warnings:** None blocking. `py_compile app.py` PASS (exit 0); JS `node --check` PASS (exit 0). `consistency.mjs` reports 43 FAIL / 26 WARN — all FAILs are the taste-skill structural conventions (SR-2 fixed 1–2-screen sections, SR-4 one-section-per-screen, SR-6 exact container/`.hero-text` naming + `.skip-link` bypass-link, SR-8 split lines). These conflict with the deliberate editorial scroll design and were intentionally not chased (per the user's instruction not to damage the design to satisfy checker rules).
+- **Last Completed Action:** Targeted owner corrections pass (2026-11-09 05:55–06:15) — six corrections applied to `index.html` and `app.py` (see Task 8.6). Note: the previous session's `index.html` edits had only partially persisted (reader metadata markup removed, but footer brand, caption markup and several JS refs still present plus orphaned `storyFolioPill`/`storyStrip*` references that would throw at runtime). This pass re-established the true on-disk state and completed every correction cleanly.
+- **Current Action:** All six corrections applied to the working tree; syntax, JS and marker checks pass. New screenshots were intentionally not produced (out of scope for this correction pass).
+- **Exact Point Where Implementation Stopped:** All six corrections complete and verified in the working tree. No new work in progress.
+- **Running Processes:** Streamlit server was running on port 8501 earlier this session. It reads `index.html` at import time, so a restart is required for it to serve the corrected markup. Do not start a duplicate instance.
+- **Errors/Warnings:** None blocking. `py_compile app.py` PASS (exit 0); inline JS `node --check` PASS (exit 0) for both `index.html` script blocks and the `app.py` extension; QA render `remaining markers: []`.
 - **EXACT INSTRUCTION FOR RESUMING MODEL:**
   1. Inspect this `PROJECT_HANDOFF.md` and `artifacts/handoff/SESSION_LOG.md`, then check `git status`.
   2. `index.html` and `app.py` are modified in the working tree and complete; all untracked files/artifacts are preserved.
@@ -181,12 +190,17 @@
   - r2: 50 FAIL / 28 WARN · r3: 46 FAIL / 28 WARN · r4: 43 FAIL / 26 WARN · r5: **43 FAIL / 26 WARN**.
   - Resolved to PASS by the fixes: `row-gap`, `hole`, `cut-text`, `overlap-text`, `no-visual`, `tap-size`.
   - Remaining FAILs are the SR-2/SR-4/SR-6/SR-8 structural conventions (fixed-height sections, one-section-per-screen, exact container/`.hero-text` naming, split lines) — intentionally accepted as design conflicts, not defects.
-- **Template Markers Verification:**
+- **Template Markers Verification (post-corrections):**
   - `{{HERO_IMAGE}}`: **Present** (`index.html:286`) and resolves
-  - `{{FOOTER_IMAGE}}`: **Present** (`index.html:906`, inside `.site-footer::after`) and resolves
-  - `{{STORY_IMAGES}}`: **Present** (`index.html:1872`) and resolves
-  - `{{STATE_IMAGES}}`: **Present** (`index.html:1873`) and resolves
-  - `{{REGION_TYPES}}`: **Present** (`index.html:1874`) and resolves
+  - `{{FOOTER_IMAGE}}`: **Present** (`index.html:894`, inside `.site-footer::after`) and resolves
+  - `{{STORY_IMAGES}}`: **Present** (`index.html:1741`) and resolves
+  - `{{STATE_IMAGES}}`: **Present** (`index.html:1742`) and resolves
+  - `{{REGION_TYPES}}`: **Present** (`index.html:1743`) and resolves
+- **Targeted-corrections pass verification (2026-11-09 05:55–06:15):**
+  - `python -m py_compile app.py` → **PASS** (exit 0).
+  - Inline JS `node --check` → **PASS** for both `index.html` script blocks and the `app.py` `STATE_PAGE_EXTENSION` script.
+  - `python artifacts/scratch/qa_render.py` → wrote `qa-index.html`; `remaining markers: []`.
+  - Grep sweep confirmed **zero** occurrences of `Archivum Gastronomicum Indiae`, `story-folio-stamp`, `story-curatorial-strip`, `story-plate-caption`, `storyFolioPill`, `storyFolioStamp`, `storyStripProvenance`, `storyStripClass`, `story.folio` / `.provenance` / `.archivalClass`, `dish-photo-placeholder`, `historical-slot`, `dish-support-grid`, `no-image`, or `searchUrl`.
 - **Asset Integrity:** 36 regional images, 72 dish images, 6 story images → **100% Present**.
 - **Final Viewport Screenshots (`artifacts/design-review/creative-overhaul/final-shots/`):**
   - `1440.png` (5.1 MB, 1440×3409, 4 screens) · `1024.png` (3.5 MB, 1024×3325, 5 screens) · `768.png` (3.9 MB, 768×4540, 5 screens) · `390.png` (2.3 MB, 390×5520, 7 screens).

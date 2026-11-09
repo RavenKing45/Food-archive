@@ -141,3 +141,27 @@ This log records chronological progress, milestone accomplishments, test outcome
   - Final full-page screenshots captured with `shoot.mjs` in `artifacts/design-review/creative-overhaul/final-shots/`: `1440.png` (1440×3409), `1024.png` (1024×3325), `768.png` (768×4540), `390.png` (390×5520).
 - **Handoff Documentation:** Rewrote the relevant sections of `PROJECT_HANDOFF.md` (status, file inventory, completed tasks, stopping point, testing log, git info) and appended this entry to `SESSION_LOG.md`.
 - **Stopping Point:** Implementation, responsive correction pass, verification, and documentation complete in the working tree; no work in progress. Server still on 8501 (PID 21868). Changes remain uncommitted at `fbe9bdb`; nothing staged, committed, pushed, or deployed.
+
+---
+
+### Session Entry: 2026-11-09 05:55–06:15 UTC+05:30
+- **Model:** DeepSeek-V4.1-Flash (targeted-corrections pass)
+- **Objective:** Apply six owner-requested corrections to `index.html` and `app.py` only — no re-audit, no asset re-inventory, no unrelated redesign.
+- **Git State Verified:** The earlier creative overhaul was committed as `6a02960` ("Creative overhaul: museum-grade archive identity, story reader, regional chapters"). Working tree held uncommitted changes in `index.html`, `app.py`. Untracked files preserved. Nothing staged, committed, pushed or deployed in this pass.
+- **State Reconciliation (important):** The prior session's `index.html` edits had only **partially persisted** — the reader top-bar FOLIO stamp, meta pills and curatorial strip markup were gone, but the footer brand, the hero `figcaption` and several JS references remained, including orphaned `storyFolioPill` / `storyFolioStamp` / `storyStripProvenance` / `storyStripClass` references that would have thrown a `ReferenceError` at runtime (their data fields and DOM nodes had already been removed). This pass re-established the true on-disk state and completed every correction.
+- **Corrections Applied (`index.html`):**
+  - **1 — Food Stories heading:** Removed the intro sentence and the `Folio Collection I–VI` ornament (`.section-ornament` + mobile override). Heading row is now title-only; `.section-intro` CSS kept (still used by the Regional Atlas heading).
+  - **2 — Story metadata:** Removed the top-bar FOLIO stamp, `#story-folio-pill` / `#story-type-pill`, and the whole `.story-curatorial-strip`. Dropped `folio`, `provenance`, `archivalClass` and per-plate `title`/`desc` from all six story objects. Removed the orphaned `openFoodStory` JS references.
+  - **3 — Image captions:** Removed the hero `figcaption` ("Plate I: Primary Foodform…", "Archival Plate I") and the contextual-plate caption rendering. **All photographs retained** (hero, contextual regional, side-by-side grids, 36 state, 72 dish) and the `contextualPlates[].stateSlug` → `STATE_IMAGES` lookup preserved.
+  - **5 — Branding:** Replaced the visible "Archivum Gastronomicum Indiae" footer colophon heading with "India's Culinary Memory Archive".
+  - **6 — About Archive scroll:** Replaced `target.scrollIntoView(...)` with a document-scoped `scrollArchiveTo()` helper using `window.scrollTo` so the iframe no longer nudges the Streamlit host page past its boundary (no leftover blank artefact). Streamlit host UI and Manage-app badge untouched.
+- **Corrections Applied (`app.py`):**
+  - **4 — Dish placeholder:** Removed the empty `.dish-photo-placeholder` branch, the `.historical-slot` "Historical photograph / document" block, its Wikimedia "Search historical image material" link, the `searchUrl` logic, and all now-unused `.dish-photo.no-image*`, `.dish-photo-placeholder*`, `.dish-support-grid*`, `.historical-slot*` CSS (including the two responsive `.dish-photo.no-image` overrides and the `.dish-support-grid` entry in the ≤760px rule). Dish rendering now always outputs the real photograph; history, oral narratives and source lists retained. All 72 dish slugs verified to have a matching image in `assets/dishes/`.
+- **Verification & Testing:**
+  - `python -m py_compile app.py` → **PASS** (exit 0).
+  - Inline JS `node --check` → **PASS** for both `index.html` script blocks and the `app.py` `STATE_PAGE_EXTENSION` script (extracted via a temporary helper, then removed).
+  - `python artifacts/scratch/qa_render.py` → wrote `qa-index.html`; `remaining markers: []`.
+  - Grep sweep confirmed zero remaining references to any removed identifier, and all five template markers present (`{{HERO_IMAGE}}` 286, `{{FOOTER_IMAGE}}` 894, `{{STORY_IMAGES}}` 1741, `{{STATE_IMAGES}}` 1742, `{{REGION_TYPES}}` 1743).
+  - **No new screenshots** produced (out of scope for this correction pass).
+- **Handoff Documentation:** Updated `PROJECT_HANDOFF.md` (header, file inventory, Task 8.6, stopping point, testing log) and appended this entry.
+- **Stopping Point:** All six corrections complete and verified in the working tree; no work in progress. Streamlit reads `index.html` at import time, so a restart would be required to serve the corrected markup from a running instance. Changes remain uncommitted; nothing staged, committed, pushed or deployed.

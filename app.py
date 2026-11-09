@@ -434,18 +434,6 @@ STATE_PAGE_EXTENSION = r"""
     display: block; width: 100%; max-width: 100%; height: auto;
     object-fit: cover; object-position: center;
   }
-  .dish-photo.no-image {
-    min-height: 320px; margin: 0; border-radius: 6px;
-    background: linear-gradient(145deg, #c4a882, #7a5034 72%, #381610);
-  }
-  .dish-photo.no-image::after {
-    content: ""; position: absolute; inset: 0;
-    background: linear-gradient(180deg, transparent 50%, rgba(21, 6, 5, 0.45));
-    pointer-events: none;
-  }
-  .dish-photo-placeholder { position: relative; z-index: 1; padding: 14px; text-shadow: 0 1px 4px rgba(0,0,0,0.5); text-align: center; }
-  .dish-photo-placeholder strong { display: block; font: 700 24px var(--sp-serif); }
-  .dish-photo-placeholder span { display: block; margin-top: 5px; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; font-family: var(--sp-serif); }
 
   /* Main layout */
   .dish-main-layout {
@@ -491,44 +479,9 @@ STATE_PAGE_EXTENSION = r"""
   }
   .dish-info-card li { padding-left: 2px; margin: 0 0 6px; }
 
-  /* Support grid */
-  .dish-support-grid {
-    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px;
-    margin-top: 18px; align-items: start;
-  }
-  .dish-support-grid.no-oral { grid-template-columns: 1fr; }
-  .dish-support-grid .historical-slot { margin: 0; }
-  .dish-support-grid .oral-narrative { margin: 0; }
-
-  /* Historical slot */
-  .historical-slot {
-    padding: 18px 22px;
-    border: 1px solid var(--sp-line-brass);
-    border-left: 3px solid var(--sp-gold);
-    background: var(--sp-paper-warm);
-    border-radius: 0 4px 4px 0;
-    box-shadow: 0 2px 8px rgba(40, 18, 12, 0.04);
-  }
-  .historical-slot-title {
-    color: var(--sp-maroon-mid); font: 700 18px/1.2 var(--sp-serif); margin: 0 0 8px;
-    letter-spacing: 0.3px;
-    display: flex; align-items: center; gap: 8px;
-  }
-  .historical-slot-title::before {
-    content: "\2726";
-    color: var(--sp-gold);
-    font-size: 10px;
-  }
-  .historical-slot p { margin: 0 0 10px; color: var(--sp-muted); font: 13px/1.7 var(--sp-body); }
-  .historical-slot a, .dish-sources a, .oral-source a {
-    color: var(--sp-terracotta); text-decoration: underline;
-    text-decoration-color: rgba(132, 52, 34, 0.4); text-underline-offset: 3px;
-    transition: color 180ms var(--sp-ease-out);
-  }
-  .historical-slot a:hover, .dish-sources a:hover, .oral-source a:hover { color: var(--sp-maroon-deep); }
-
   /* Oral narrative */
   .oral-narrative {
+    margin-top: 18px;
     padding: 16px 18px;
     background: var(--sp-paper-warm);
     border-left: 4px solid var(--sp-terracotta); border-radius: 0 6px 6px 0;
@@ -574,7 +527,6 @@ STATE_PAGE_EXTENSION = r"""
   @media(max-width:1050px) {
     .state-book { grid-template-columns: minmax(240px, .7fr) minmax(0, 1.8fr); }
     .dish-main-layout { grid-template-columns: minmax(0, 1fr) minmax(240px, .9fr); gap: 16px; }
-    .dish-photo.no-image { min-height: 280px; }
   }
   @media(max-width:760px) {
     .state-page-topbar { min-height: auto; padding: 72px 18px 14px; }
@@ -590,8 +542,7 @@ STATE_PAGE_EXTENSION = r"""
     .dish-choice-button { font-size: 17px; min-height: 48px; }
     .dish-spread { padding: 20px 12px 28px; }
     .dish-main-layout { grid-template-columns: 1fr; }
-    .dish-photo.no-image { min-height: 240px; }
-    .dish-lower-grid, .dish-support-grid { grid-template-columns: 1fr; }
+    .dish-lower-grid { grid-template-columns: 1fr; }
     .state-page-end { flex-direction: column; text-align: center; }
     .state-spread-heading { font-size: 15px; }
   }
@@ -675,8 +626,6 @@ STATE_PAGE_EXTENSION = r"""
   }
   function renderDish(dish, index, state) {
     const image = dishImage(dish.slug);
-    const searchUrl = "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=" +
-      encodeURIComponent(dish.imageQuery || (dish.name + " historical photograph"));
     const ingredients = (dish.ingredients || []).map(x => "<li>" + escapeArchiveText(x) + "</li>").join("");
     const steps = (dish.steps || []).map(x => "<li>" + escapeArchiveText(x) + "</li>").join("");
     const sources = linkList(dish.sources);
@@ -721,10 +670,8 @@ STATE_PAGE_EXTENSION = r"""
           classificationMarkup +
         '</header>' +
         '<div class="dish-main-layout">' +
-          '<div class="dish-photo ' + (image ? 'has-image' : 'no-image') + '">' +
-            (image
-              ? '<img class="dish-photo-image" src="' + image + '" alt="' + escapeArchiveText(dish.name + ' photograph') + '" loading="lazy" decoding="async">'
-              : '<div class="dish-photo-placeholder"><strong>Food photograph to be added</strong><span>Use a real, source-credited photograph — not AI-generated imagery</span></div>') +
+          '<div class="dish-photo has-image">' +
+            '<img class="dish-photo-image" src="' + image + '" alt="' + escapeArchiveText(dish.name + ' photograph') + '" loading="lazy" decoding="async">' +
           '</div>' +
           '<div class="dish-highlight-stack">' +
             '<section class="dish-highlight"><h3>About this food</h3><p>' + escapeArchiveText(dish.overview) + '</p></section>' +
@@ -732,13 +679,7 @@ STATE_PAGE_EXTENSION = r"""
           '</div>' +
         '</div>' +
         detailCards +
-        '<div class="dish-support-grid ' + (dish.oralNarrative ? 'has-oral' : 'no-oral') + '">' +
-          '<div class="historical-slot">' +
-            '<h3 class="historical-slot-title">Historical photograph / document</h3>' +
-            '<p>' + escapeArchiveText(dish.imageHint || "Historical image slot — add a dated and source-credited item after verification.") + '</p>' +
-            '<a href="' + escapeArchiveText(searchUrl) + '" target="_blank" rel="noopener noreferrer">Search historical image material ↗</a>' +
-          '</div>' + oral +
-        '</div>' +
+        oral +
         '<div class="dish-sources"><h4>Sources & further reading</h4><ol>' + sources + '</ol></div>' +
       '</article>'
     );
