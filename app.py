@@ -195,6 +195,59 @@ if html.count("{{FOOD_STORIES}}") != 1:
     st.stop()
 html = html.replace("{{FOOD_STORIES}}", json_for_script(food_stories))
 
+# ── Story content images ────────────────────────────────────────────
+# Each story section may carry an "imageAfter" slot. Supplied contextual
+# photographs (assets/contextual-story-images/) are placed by an explicit
+# slot → filename mapping; a slot with no supplied photograph falls back to a
+# genuine dish photograph where one matches. Unmapped slots render nothing, so
+# the reader keeps a clean one-image-at-a-time vertical flow.
+contextual_images = image_folder_map(
+    str(ASSETS / "contextual-story-images"),
+    image_folder_signature(str(ASSETS / "contextual-story-images")),
+)
+
+# Explicit slot → supplied-photograph mapping (lower-cased filename stem).
+# These are intentional, exact matches — no approximate filename matching.
+STORY_SLOT_CONTEXT_ASSETS = {
+    "vada-pav-mumbai-commuter-food-image-01": "mumbai_03-2016_78_dadar_station",
+    "vada-pav-mumbai-commuter-food-image-03": "vada-pav-seller",
+    "rasgulla-two-regional-traditions-image-01": "family-trip-jagannath-puri-temple-odisha-775864",
+    "rasgulla-two-regional-traditions-image-02": "kolkata-confectioner",
+    "masala-dosa-udupi-network-image-02": "spreading-dosa-batter-circular-motion",
+    "chole-bhature-post-partition-delhi-image-03": "cooked-chole-added-to-pot",
+    "daulat-ki-chaat-delhi-winter-image-02": "daulat-ki-chat-2",
+}
+
+# Fallback dish photographs already present in assets/dishes/ for slots that
+# have no supplied contextual photograph.
+STORY_SLOT_DISH_ASSETS = {
+    "vada-pav-mumbai-commuter-food-image-02": "vada-pav",
+    "rasgulla-two-regional-traditions-image-03": "banglar-rosogolla",
+    "dal-baati-food-for-the-road-image-01": "dal-baati-churma",
+    "chole-bhature-post-partition-delhi-image-01": "chole-bhature",
+    "daulat-ki-chaat-delhi-winter-image-03": "old-delhi-chaat",
+}
+
+story_slot_images: dict[str, str] = {}
+for story in food_stories:
+    for section in story.get("sections", []):
+        slot = section.get("imageAfter")
+        if not slot or not slot.get("id"):
+            continue
+        slot_id = slot["id"]
+        context_stem = STORY_SLOT_CONTEXT_ASSETS.get(slot_id)
+        if context_stem and context_stem in contextual_images:
+            story_slot_images[slot_id] = contextual_images[context_stem]
+            continue
+        dish_stem = STORY_SLOT_DISH_ASSETS.get(slot_id)
+        if dish_stem and dish_stem in dish_images:
+            story_slot_images[slot_id] = dish_images[dish_stem]
+
+if html.count("{{STORY_SLOT_IMAGES}}") != 1:
+    st.error("index.html must contain exactly one {{STORY_SLOT_IMAGES}} marker.")
+    st.stop()
+html = html.replace("{{STORY_SLOT_IMAGES}}", json_for_script(story_slot_images))
+
 region_types = {slug: region.get("administrativeType", "State") for slug, region in state_pages.items()}
 html = html.replace("{{REGION_TYPES}}", json_for_script(region_types))
 

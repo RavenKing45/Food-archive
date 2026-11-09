@@ -165,3 +165,53 @@ This log records chronological progress, milestone accomplishments, test outcome
   - **No new screenshots** produced (out of scope for this correction pass).
 - **Handoff Documentation:** Updated `PROJECT_HANDOFF.md` (header, file inventory, Task 8.6, stopping point, testing log) and appended this entry.
 - **Stopping Point:** All six corrections complete and verified in the working tree; no work in progress. Streamlit reads `index.html` at import time, so a restart would be required to serve the corrected markup from a running instance. Changes remain uncommitted; nothing staged, committed, pushed or deployed.
+
+---
+
+### Session Entry: 2026-11-09 06:20–08:20 UTC+05:30
+- **Model:** DeepSeek-V4.1-Flash (story visual-presentation pass)
+- **Objective:** Focus exclusively on the visual presentation of the six story pages over the **updated** `food_stories.json` — add one relevant photograph per image slot, keep every image standalone in the vertical flow, and lift spacing/typography/section transitions/image framing to a premium editorial standard. No story-text changes; no caption bars; no asset re-inventory; no full-site redesign or re-audit.
+- **Git State Verified:** Overhaul committed at `6a02960`; the working tree carried the uncommitted targeted-correction pass. This pass added further uncommitted changes in `index.html`, `app.py` and `artifacts/scratch/qa_render.py`. Untracked files preserved. Nothing staged, committed, pushed or deployed.
+- **Inspection:** Confirmed the reader is now fully data-driven over the new dataset — `openFoodStory()` renders `paragraphs[]` (with citation `sup` links) and, per section, calls `renderImageSlot(section.imageAfter)`. Counted the slots in `food_stories.json`: **20** total (vada-pav 3, rasgulla 3, dal-baati 3, masala-dosa 4, chole-bhature 4, daulat-ki-chaat 3; each story's last section is `imageAfter: null`), each with `subject`/`altText` guidance.
+- **Sourcing — blocking discovery & owner decision:** Tested the platform `text_to_image` endpoint (`https://coresg-normal.trae.ai/api/ide/v1/text_to_image`) across 4 distinct prompts and 3 `image_size` values: every request returned HTTP 200 / `image/jpeg` but the **identical 176,626-byte file** (SHA-256 `E330CD02…`) — a static placeholder, not a real generator. No MCP image tool exists (checked `get_llm_config` and the MCP tools dir). Surfaced the blocker to the owner; the owner chose **"real photos now, leave rest empty"**, so generation was abandoned and its scaffolding reverted.
+- **Implementation (`app.py`):** Added `STORY_SLOT_DISH_ASSETS` (slot id → dish stem) and a loop that resolves it against `dish_images` (from `image_folder_map(assets/dishes)`) into `story_slot_images`, then injects `{{STORY_SLOT_IMAGES}}` with an exactly-one marker check via `json_for_script`. Only genuine dish photographs are mapped — **5 of 20** (vada-pav → img-02, rasgulla → img-03, dal-baati → img-01, chole-bhature → img-01, daulat-ki-chaat → img-03). Unmapped slots produce no entry, so nothing renders and the flow stays clean.
+- **Implementation (`index.html`):**
+  - Added `const STORY_SLOT_IMAGES = {{STORY_SLOT_IMAGES}};` beside the other injected data.
+  - Rewrote `renderImageSlot(slot)` to emit a caption-free real `<img>` inside a `figure.story-content-image-slot` (carrying `data-image-slot` / `data-image-subject` / `data-image-alt`), returning `""` when a slot has no image — so consecutive slots stack vertically and never form a collage.
+  - Magazine styling: `.story-page-content` narrowed to a measured `min(760px, calc(100% - 44px))` column; `.story-editorial-section` given a 44px rhythm and a hairline top rule + `padding-top` on every section after the opening; `.story-prose` set to 18px / 1.92 with `0 0 1.5em` paragraph spacing; content images framed exactly like the hero plate (brass hairline, 4px radius, deep-maroon backing, soft shadow, 4:3 `object-fit: cover`, subtle hover scale). Mobile (≤720px) trims section padding and image margin; reduced-motion disables the image scale.
+  - Replaced the old placeholder-slot CSS (`.story-content-image-slot-placeholder`, `.story-image-slot-index`, `.story-image-slot-alt`) entirely.
+- **Implementation (`artifacts/scratch/qa_render.py`):** Mirrored the app wiring (load `food_stories.json`, `STORY_SLOT_DISH_ASSETS`, `dish_files`, build `slot_images`), added the `{{FOOD_STORIES}}` and `{{STORY_SLOT_IMAGES}}` replacements, and extended the "remaining markers" print to all seven markers. Removed the leftover unused `from urllib.parse import quote` import from the abandoned generator path.
+- **Verification:**
+  - `python -m py_compile app.py` → **PASS** (exit 0).
+  - `python artifacts/scratch/qa_render.py` → wrote `qa-index.html`; `remaining markers: []`.
+  - `python artifacts/scratch/_js_check.py` → 3 script blocks, **0 failure(s)**.
+  - `python artifacts/scratch/_slot_verify.py` → **20 slots · 5 mapped · 0 generated**.
+  - Streamlit live check `http://localhost:8501` → **HTTP 200** (not restarted; a duplicate instance was not started).
+  - **No screenshots** produced (out of scope for this pass).
+- **Preservation:** Story text, paragraphs, headings, citations and sources unchanged; homepage imagery, all 36 state images, all 72 dish images, all mappings and Streamlit functionality untouched. No caption bars added.
+- **Handoff Documentation:** Updated `PROJECT_HANDOFF.md` (header, preservation marker list, file inventory, Task 8.7, stopping point, testing log) and appended this entry.
+- **Stopping Point:** Story visual-presentation pass complete and verified in the working tree; no work in progress. Streamlit reads `index.html` at import time, so a restart would be required to serve the newest markup. Changes remain uncommitted; nothing staged, committed, pushed or deployed.
+
+---
+
+### Session Entry: 2026-11-09 08:45–09:30 UTC+05:30
+- **Model:** DeepSeek-V4.1-Flash (contextual-photograph placement pass, Task 8.8)
+- **Objective:** Insert the contextual photographs supplied in `si.zip` into their respective story pages, between the existing story sections. Strictly an image-placement task: preserve every existing banner/hero image and its mapping/CSS, do not alter story text/headings/citations/references, do not remove any homepage/footer/regional/dish image, no redesign. Do not commit, push or deploy.
+- **Constraint honoured — banners untouched:** each story still leads with its original `assets/stories/` banner through the unchanged `STORY_IMAGES[story.slug]` hero-plate path (`vada-pav.jpg`, `rasogulla.jpg`, `dal-bati.jpg`, `masala-dosa.jpg`, `chole-bhature.jpg`, `daulat-ki-chat.jpg`). No banner mapping or CSS changed.
+- **Extraction:** all seven entries of `si.zip` (each under an `si/` prefix) extracted with their **original filenames and unmodified bytes** into a new dedicated folder `assets/contextual-story-images/`: `Mumbai_03-2016_78_Dadar_station.jpg`, `vada-pav-seller.webp`, `family-trip-jagannath-puri-temple-odisha-775864.jpg`, `kolkata-confectioner.jpg`, `spreading-dosa-batter-circular-motion.jpg`, `cooked-chole-added-to-pot.webp`, `daulat-ki-chat-2.avif`. No story-card or banner asset overwritten.
+- **Explicit mapping (`app.py`):** added `STORY_SLOT_CONTEXT_ASSETS` — a deliberate slot-id → supplied-photograph-stem map (no approximate filename matching). Each supplied photograph is resolved from the contextual folder **first**; the existing `STORY_SLOT_DISH_ASSETS` genuine-dish map is kept only as a fallback for slots with no supplied photo. The `{{STORY_SLOT_IMAGES}}` injection and its exactly-one marker check are unchanged.
+  - vada-pav `image-01` → Dadar station; `image-03` → vada-pav seller.
+  - rasgulla `image-01` → Jagannath/Puri temple; `image-02` → Kolkata confectioner.
+  - masala-dosa `image-02` → dosa batter on tawa.
+  - chole-bhature `image-03` → cooked chole in pot.
+  - daulat-ki-chaat `image-02` → the finished dessert (`.avif`).
+- **Dal Baati Churma:** the intended wood-fire/chulha baati photograph was **not** in the ZIP; the slot is left empty. No unrelated photograph was substituted and no other story's image was reused.
+- **`index.html`:** **unchanged** — `renderImageSlot()` already renders one caption-free `<img>` per resolved slot, stacked in the vertical reading flow, so only `app.py` and the QA helper needed edits.
+- **QA helper (`artifacts/scratch/qa_render.py`):** mirrored the contextual-first resolver and confirmed `.avif` is enumerated (removed a leftover unused `urllib.parse.quote` import).
+- **Verification & Testing:**
+  - `python artifacts/scratch/qa_render.py` → wrote `qa-index.html`; `remaining markers: []`.
+  - `python artifacts/scratch/_slot_verify.py` → **20 slots · 12 mapped · 0 generated** (7 supplied + 5 genuine dish fallbacks); missing 8 incl. the Dal-baati chulha slot.
+  - New dev-only `artifacts/scratch/_story_render_verify.mjs` (headless Chrome over raw CDP — Puppeteer/Playwright not installed) loaded each of the six `#story/<slug>` pages and reported **ALL CHECKS PASSED**: every banner present and loaded; every mapped photograph loaded and placed under its intended section; **0 side-by-side pairs** at 1440 (image 760px) and 390 (image 358px).
+  - Per-story result: vada-pav (3: Dadar station / dish vada-pav / seller), rasgulla (3: Puri temple / Kolkata confectioner / dish banglar-rosogolla), dal-baati (1: dish dal-baati-churma), masala-dosa (1: dosa batter), chole-bhature (2: dish chole-bhature / cooked chole), daulat-ki-chaat (2: dessert .avif / dish old-delhi-chaat).
+- **Handoff Documentation:** Updated `PROJECT_HANDOFF.md` (header, file inventory, Task 8.8, stopping point, testing log, git info) and appended this entry.
+- **Stopping Point:** Contextual-photograph placement complete and verified in the working tree; no work in progress. Streamlit reads `app.py`/`index.html` at import time, so a restart would be required for a running instance to serve the newest changes. Changes remain uncommitted; nothing staged, committed, pushed or deployed.
