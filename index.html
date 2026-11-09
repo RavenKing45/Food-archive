@@ -1915,13 +1915,7 @@
 
       function renderParagraph(paragraph) {
         const text = typeof paragraph === "string" ? paragraph : (paragraph.text || "");
-        const citations = typeof paragraph === "string" ? [] : (paragraph.citations || []);
-        const citationMarkup = citations.map(sourceId => {
-          const source = (story.sources || []).find(item => item.id === sourceId);
-          if (!source) return "";
-          return `<sup class="story-inline-citations"><a href="#${escapeHtml(sourceAnchorId(sourceId))}" aria-label="Source ${escapeHtml(sourceId)}: ${escapeHtml(source.title)}">[${escapeHtml(sourceId)}]</a></sup>`;
-        }).join(" ");
-        return `<p>${escapeHtml(text)}${citationMarkup ? " " + citationMarkup : ""}</p>`;
+        return `<p>${escapeHtml(text)}</p>`;
       }
 
       function renderImageSlot(slot) {
