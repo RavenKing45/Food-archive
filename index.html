@@ -1233,78 +1233,70 @@
       font-weight: 700;
     }
 
-    /* Secondary Contextual Photographic Plate (Task 2 Core Requirement) */
-    .story-context-plate {
-      margin: 54px 0;
-      background: var(--maroon-deep);
-      border: 1px solid var(--line-brass);
-      border-radius: 4px;
-      overflow: hidden;
-      box-shadow: 0 10px 36px rgba(20, 6, 5, 0.22), 0 2px 8px rgba(20, 6, 5, 0.1);
-    }
-    .story-context-plate-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 0;
-    }
-    .story-context-plate-grid.dual-plate {
-      grid-template-columns: 1fr 1fr;
-    }
-    .context-plate-cell {
-      position: relative;
-      min-height: 280px;
-      max-height: 380px;
-      overflow: hidden;
-      background: #1b0705;
-    }
-    .context-plate-cell img {
+    /* Individual story image placements (one image per position; never a paired collage). */
+    .story-content-image-slot {
+      display: block;
       width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      transition: transform var(--trans-photo);
+      margin: 38px 0 52px;
     }
-    .story-context-plate:hover .context-plate-cell img {
-      transform: scale(1.025);
-    }
-
-    /* Curatorial Memorandum / Editorial Note */
-    .story-curatorial-note {
-      margin: 54px 0;
-      padding: 26px 32px;
-      background: var(--paper-warm);
-      border-left: 4px solid var(--terracotta);
-      border-top: 1px solid var(--line-subtle);
-      border-right: 1px solid var(--line-subtle);
-      border-bottom: 1px solid var(--line-subtle);
-      border-radius: 0 4px 4px 0;
-      position: relative;
-      box-shadow: 0 3px 12px rgba(40, 18, 12, 0.05);
-    }
-    .curatorial-note-label {
+    .story-content-image-slot-placeholder {
+      min-height: clamp(190px, 28vw, 310px);
       display: flex;
+      flex-direction: column;
       align-items: center;
-      gap: 8px;
+      justify-content: center;
+      gap: 12px;
+      padding: 28px clamp(20px, 5vw, 56px);
+      text-align: center;
+      color: var(--muted);
+      background: linear-gradient(135deg, rgba(238, 228, 210, 0.92), rgba(252, 248, 241, 0.96));
+      border: 1px dashed rgba(132, 52, 34, 0.34);
+      border-radius: 4px;
+    }
+    .story-image-slot-index {
+      color: var(--terracotta);
       font-family: var(--serif);
       font-size: var(--text-xs);
+      font-weight: 700;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: var(--terracotta);
-      font-weight: 700;
-      margin-bottom: 10px;
     }
-    .curatorial-note-label::before {
-      content: "\2726";
-      color: var(--gold);
-      font-size: 11px;
-    }
-    .curatorial-note-body {
-      margin: 0;
+    .story-content-image-slot-placeholder strong {
+      max-width: 680px;
+      color: var(--maroon-mid);
       font-family: var(--serif);
-      font-size: 19px;
-      font-style: italic;
-      line-height: 1.72;
-      color: var(--ink-mid);
+      font-size: clamp(18px, 2.2vw, 24px);
+      font-weight: 600;
+      line-height: 1.35;
+    }
+    .story-image-slot-alt {
+      max-width: 620px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.6;
+    }
+    .story-inline-citations {
+      white-space: nowrap;
+      margin-left: 2px;
+    }
+    .story-inline-citations a {
+      color: var(--terracotta);
+      font-family: var(--serif);
+      font-size: 0.78em;
+      font-weight: 700;
+      text-decoration: none;
+      vertical-align: super;
+    }
+    .story-inline-citations a:hover {
+      color: var(--maroon-deep);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .story-source-relevance {
+      margin: 5px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.65;
     }
 
     /* Academic Source Dossier */
@@ -1427,7 +1419,6 @@
       .story-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .story-row { display: contents; }
       .state-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .story-context-plate-grid.dual-plate { grid-template-columns: 1fr; }
     }
     @media (max-width: 720px) {
       /* Mobile Header */
@@ -1487,7 +1478,6 @@
       }
       .story-hero-plate-image-wrap { max-height: 320px; }
       .story-pullquote { padding: 22px 18px; margin: 36px 0; }
-      .context-plate-cell { min-height: 220px; max-height: 260px; }
       .story-reader-footer-nav { flex-direction: column; }
       .reader-nav-btn { width: 100%; justify-content: center; }
     }
@@ -1672,49 +1662,15 @@
 
     <!-- Main Editorial Exhibition Content -->
     <article class="story-page-content">
-      <!-- Primary Photographic Plate -->
+      <!-- Primary Photographic Plate: keep the existing per-story hero image mapping. -->
       <figure class="story-hero-plate" id="story-page-image-wrap">
         <div class="story-hero-plate-image-wrap">
           <img class="story-page-image" id="story-page-image" alt="" loading="eager" decoding="async">
         </div>
       </figure>
 
-      <!-- Multi-Part Editorial Prose with Section Headings -->
-      <div class="story-editorial-section">
-        <h2 class="story-section-title" id="story-sec-title-1">I. The Social Fabric of the Food</h2>
-        <div class="story-prose opening-prose" id="story-part-1"></div>
-      </div>
-
-      <!-- Exhibition Pullquote -->
-      <div class="story-pullquote" id="story-pullquote-wrap">
-        <blockquote id="story-pullquote-text">"Food had to be more than delicious. It had to be affordable, filling and easy to carry."</blockquote>
-        <span class="story-pullquote-cite" id="story-pullquote-cite">Archive Monograph Insight</span>
-      </div>
-
-      <!-- Section II: Historical & Technical Evolution -->
-      <div class="story-editorial-section">
-        <h2 class="story-section-title" id="story-sec-title-2">II. Origins, Technique &amp; Adaptation</h2>
-        <div class="story-prose" id="story-part-2"></div>
-      </div>
-
-      <!-- Secondary Contextual Archival Photographic Plate (Task 2 Core) -->
-      <figure class="story-context-plate" id="story-context-plate-wrap">
-        <div class="story-context-plate-grid" id="story-context-grid">
-          <!-- Dynamically populated with contextual state/regional photography -->
-        </div>
-      </figure>
-
-      <!-- Section III: Cultural Legacy & Contemporary Life -->
-      <div class="story-editorial-section">
-        <h2 class="story-section-title" id="story-sec-title-3">III. Cultural Memory &amp; Contemporary Significance</h2>
-        <div class="story-prose" id="story-part-3"></div>
-      </div>
-
-      <!-- Formal Curatorial Note / Archival Memorandum -->
-      <aside class="story-curatorial-note" id="story-page-note">
-        <div class="curatorial-note-label">Curatorial Field Memorandum</div>
-        <p class="curatorial-note-body" id="story-page-note-body"></p>
-      </aside>
+      <!-- Story sections and individually placed image slots are rendered from food_stories.json. -->
+      <div id="story-editorial-sections" class="story-editorial-sections"></div>
 
       <!-- Source Bibliography & Dossier -->
       <section class="story-sources-dossier">
@@ -1743,131 +1699,7 @@
     const REGION_TYPES = {{REGION_TYPES}};
 
     // ── Researched Food Stories Curatorial Dataset ──────────────────
-    const stories = [
-      {
-        slug: "vada-pav-mumbai-commuter-food",
-        title: "Vada Pav: The Food of a City That Never Stops",
-        description: "How Mumbai's working rhythms shaped one of its most recognisable foods.",
-        region: "Mumbai · Maharashtra",
-        pullQuote: "Food had to be more than delicious. It had to be affordable, filling, and easy to carry.",
-        contextualPlates: [
-          { stateSlug: "maharashtra" }
-        ],
-        paragraphs: [
-          "Mumbai's streets move at a relentless pace. Every day, thousands of people pass through railway stations, rush between workplaces and squeeze meals into the few minutes they can spare. In a city like this, food had to be more than delicious. It had to be affordable, filling and easy to carry.",
-          "Vada pav answered that need. A spiced potato fritter, tucked inside a bread roll and served with chutneys, brought together familiar Maharashtrian flavours and the convenience of bakery bread. Its rise is often associated with Ashok Vaidya's stall near Dadar railway station in the 1960s, although the precise origins remain disputed.",
-          "What followed was bigger than one vendor or one recipe. Vada pav became part of the everyday life of Mumbai — a reminder that some of a city's most recognisable foods emerge not from royal kitchens, but from the demands of ordinary working people."
-        ],
-        editorialNote: "Ashok Vaidya is widely credited in popular accounts, but the precise year and first vendor are not firmly established. The story describes the conditions behind the snack's rise rather than claiming a single inventor.",
-        sources: [
-          { title: "Meet Mumbai's Iconic Veggie Burger", publisher: "KPBS Public Media", date: "4 November 2016", url: "https://www.kpbs.org/news/2016/11/04/meet-mumbais-iconic-veggie-burger" },
-          { title: "Handcart to TasteAtlas: The story behind Dadar's famous Ashok Vada Pav", publisher: "The Indian Express", date: "27 June 2026", url: "https://indianexpress.com/article/cities/mumbai/ashok-vada-pav-dadar-kirti-college-tasteatlas-ranking-history-10759907/" }
-        ]
-      },
-      {
-        slug: "rasgulla-two-regional-traditions",
-        title: "Rasgulla: Two Regions, Two Culinary Memories",
-        description: "Temple tradition and confectionery innovation behind two regional identities.",
-        region: "Odisha · West Bengal",
-        pullQuote: "These are not simply two claims competing for ownership of one dessert. They represent different ways in which a food becomes meaningful.",
-        contextualPlates: [
-          { stateSlug: "odisha" },
-          { stateSlug: "west-bengal" }
-        ],
-        paragraphs: [
-          "Ask where the rasgulla comes from, and you may find yourself in the middle of a much older cultural conversation. In Odisha, Rasagola is associated with the Jagannath Temple's Niladri Bije tradition. Its place in the ritual gives the sweet a significance beyond the kitchen: it becomes part of religious practice and regional memory.",
-          "Travel to nineteenth-century Kolkata, however, and another chapter emerges. Here, the modern chhana-based rosogolla became associated with confectioner Nabin Chandra Das and the city's growing sweet-shop culture.",
-          "These are not simply two claims competing for ownership of one dessert. They represent different ways in which a food becomes meaningful: through temple tradition in one place, and confectionery innovation and urban culture in another. Today, Banglar Rasogolla and Odisha Rasagola have separate Geographical Indication registrations. The archive preserves this story not to declare a winner, but to show how a humble sweet can carry the identity of two regions."
-        ],
-        editorialNote: "Do not present a 12th-century Puri origin or an exact 1868 invention date as settled fact. GI registration records distinct regional products; it does not decide historical priority.",
-        sources: [
-          { title: "Registration Details of Geographical Indications in India", publisher: "Geographical Indications Registry, Government of India", date: "Register updated through 15 May 2025", url: "https://www.ipindia.gov.in/writereaddata/Portal/Images/pdf/Total_Registered_GI_details_of_GI_Application_in_India_15_05_2025.pdf" },
-          { title: "My City, My Heritage: My Kolkata — section 'Nabin Chandra Das & Sweet Shops of Kolkata'", publisher: "Sahapedia / InterGlobe Foundation", date: "First edition 2022", url: "https://www.sahapedia.org/sites/default/files/pdf/my-city-my-heritage/MCMH_Kolkata.pdf" },
-          { title: "Who deserves credit for the rasgulla? Bengalis, Odiyas...or the Portuguese?", publisher: "Scroll.in", date: "4 August 2015", url: "https://scroll.in/article/745871/who-deserves-credit-for-the-rasgulla-bengalis-odiyas-or-the-portuguese" }
-        ]
-      },
-      {
-        slug: "dal-baati-food-for-the-road",
-        title: "Dal Baati: Food Designed for the Desert",
-        description: "How climate, travel and storage shaped a lasting Rajasthani meal.",
-        region: "Rajasthan",
-        pullQuote: "In western Rajasthan, preparing a meal has historically meant working with what the landscape allows.",
-        contextualPlates: [
-          { stateSlug: "rajasthan" }
-        ],
-        paragraphs: [
-          "In western Rajasthan, preparing a meal has historically meant working with what the landscape allows. Water can be scarce, journeys can be long, and food that spoils quickly is not always practical.",
-          "Baati reflects this relationship between food and environment. Made from wheat dough and traditionally baked or roasted over heat, the hard bread could be carried and kept for days. Its practicality also made it useful during military campaigns, a connection examined in a 2023 article in the Indian Journal of History of Science.",
-          "Over time, baati became part of the familiar combination with dal and churma. What is now recognised as one of Rajasthan's signature meals carries a much more practical history: making food that could survive travel and suit the conditions of the region. Its story is not about a single inventor. It is about how geography and necessity can shape an entire food tradition."
-        ],
-        editorialNote: "The 2023 academic article discusses baati's suitability and use in military settings. It does not establish every popular Bappa Rawal or churma-origin legend.",
-        sources: [
-          { title: "Food, water and intoxicants in the battlefield practices of Rajasthan", publisher: "Indian Journal of History of Science, 58 (2023), pp. 57–63", date: "Published 6 February 2023", url: "https://doi.org/10.1007/s43539-023-00072-6" }
-        ]
-      },
-      {
-        slug: "masala-dosa-udupi-network",
-        title: "Masala Dosa: How Udupi Took Its Food Across India",
-        description: "The cooks and restaurant networks that carried Udupi food into new cities.",
-        region: "Udupi · Karnataka",
-        pullQuote: "Culinary traditions do not spread by recipes alone. They travel through migration, businesses, and the people who carry their skills into new places.",
-        contextualPlates: [
-          { stateSlug: "karnataka" },
-          { stateSlug: "tamil-nadu" }
-        ],
-        paragraphs: [
-          "A dish can travel much farther than the people who first made it. Masala dosa is a good example. Its roots are closely associated with Udupi's culinary traditions, where the crisp rice-and-lentil dosa is paired with a spiced potato filling. But its wider popularity was shaped by something beyond the recipe: the movement of cooks and restaurant owners.",
-          "During the early twentieth century, Udupi cooks and restaurateurs began establishing themselves in cities beyond coastal Karnataka. Madras was among the important destinations. Restaurant ventures associated with figures such as K. Krishna Rao helped introduce Udupi-style food to new urban audiences.",
-          "As these restaurants spread, so did the dishes they served. Masala dosa moved from a regional food tradition into the everyday eating habits of people across India. Its history shows that culinary traditions do not spread by recipes alone. They travel through migration, businesses and the people who carry their skills into new places."
-        ],
-        editorialNote: "K. Krishna Rao is associated with the popularisation of masala dosa in Madras, but a single, conclusively documented inventor or first date has not been established.",
-        sources: [
-          { title: "Quantity Food Production — B.Sc. Hospitality Studies and Catering Services", publisher: "Yashwantrao Chavan Maharashtra Open University", date: "First published June 2018", url: "https://ycmou.ac.in/media/publication/ycmou_book/RVV_YB_128.pdf" },
-          { title: "Madras Day special: How masala dosa became Chennai's signature dish", publisher: "The Federal", date: "23 August 2021", url: "https://thefederal.com/features/madras-day-special-masala-dosa-and-chennai-are-made-for-each-other" }
-        ]
-      },
-      {
-        slug: "chole-bhature-post-partition-delhi",
-        title: "Chole Bhature: A Food Tradition Carried Across a Border",
-        description: "How Partition-era migration helped shape Delhi's everyday food culture.",
-        region: "Punjab · Delhi",
-        pullQuote: "Behind that familiar plate lies a story of displacement, rebuilding, and the way food can help people preserve a sense of home in a new place.",
-        contextualPlates: [
-          { stateSlug: "punjab" },
-          { stateSlug: "delhi" }
-        ],
-        paragraphs: [
-          "In 1947, Partition forced millions of people to leave their homes and rebuild their lives elsewhere. Among the things they carried with them were habits that could not simply be left behind — the language they spoke, the customs they followed and the food they knew.",
-          "Punjabi migrants became an important part of Delhi's changing food culture. Refugee-run dhabas and small eateries introduced familiar Punjabi preparations into neighbourhoods that were themselves being reshaped by migration.",
-          "Chole bhature became part of this changing landscape. The combination of spiced chickpeas and deep-fried bread was not invented by Partition, but its popularity in Delhi grew within the wider movement of Punjabi people, food businesses and culinary traditions into the capital. Today, it is an everyday favourite across the city. Yet behind that familiar plate lies a story of displacement, rebuilding and the way food can help people preserve a sense of home in a new place."
-        ],
-        editorialNote: "The evidence supports Partition-era Punjabi influence on Delhi's food culture; it does not establish that chole bhature itself originated in Delhi or after 1947.",
-        sources: [
-          { title: "How Punjabi refugees transformed Delhi's food culture after the Partition", publisher: "The Patriot", date: "15 August 2025", url: "https://thepatriot.in/cover-story/how-punjabi-refugees-transformed-delhis-food-culture-after-the-partition-74377" },
-          { title: "Foods of India — Talk About Delhi", publisher: "Delhi Tourism, Government of NCT of Delhi", date: "Undated cultural feature", url: "https://delhitourism.gov.in/talk_delhi/foods.html" }
-        ]
-      },
-      {
-        slug: "daulat-ki-chaat-delhi-winter",
-        title: "Daulat Ki Chaat: A Sweet That Belongs to Winter",
-        description: "A seasonal Old Delhi delicacy shaped by cold weather and delicate technique.",
-        region: "Old Delhi",
-        pullQuote: "Food culture is not always built around permanent availability. Sometimes, a dish becomes special precisely because it belongs to a particular season.",
-        contextualPlates: [
-          { stateSlug: "delhi" }
-        ],
-        paragraphs: [
-          "In Old Delhi, some foods are not available throughout the year. Daulat ki chaat belongs to the colder months, when vendors prepare its delicate milk-and-cream foam and sell it in the early hours of the day.",
-          "Unlike sweets that depend on heavy syrups or elaborate decoration, its appeal lies in its texture. The airy mixture is carefully prepared and handled before it loses its structure, then finished with ingredients such as saffron, nuts and silver leaf.",
-          "Stories about overnight dew and moonlight have become part of its identity. While these explanations are better understood as popular tradition than established cooking requirements, they reflect the close association between the dessert and Delhi's winter mornings. Related preparations are found elsewhere in North India under names such as malaiyo and nimish. Its exact origins remain uncertain, but its seasonal character is unmistakable. Daulat ki chaat reminds us that food culture is not always built around permanent availability. Sometimes, a dish becomes special precisely because it belongs to a particular season."
-        ],
-        editorialNote: "Dew is a popular explanation, not an established technical requirement. Avoid claims of a 500-year or Mughal-court origin.",
-        sources: [
-          { title: "The beloved 'snack of wealth' made on Delhi's streets", publisher: "BBC Travel", date: "18 July 2022", url: "https://www.bbc.com/travel/article/20220717-the-beloved-snack-of-wealth-made-on-delhis-streets" },
-          { title: "Long before Daulat ki Chaat became an Instagram favourite, it was an unembellished country dish", publisher: "Scroll.in", date: "17 February 2022", url: "https://scroll.in/magazine/1017455/long-before-daulat-ki-chaat-became-an-instagram-favourite-it-was-an-unembellished-country-dish" }
-        ]
-      }
-    ];
+    const stories = {{FOOD_STORIES}};
 
     // ── Regional Catalogue Data ────────────────────────────────────
     const featuredStates = [
@@ -1930,13 +1762,7 @@
     const storyPageSubtitle = document.getElementById("story-page-subtitle");
     const storyImageWrap   = document.getElementById("story-page-image-wrap");
     const storyImage       = document.getElementById("story-page-image");
-    const storyPullquote   = document.getElementById("story-pullquote-text");
-    const storyPullcite    = document.getElementById("story-pullquote-cite");
-    const storyPart1       = document.getElementById("story-part-1");
-    const storyPart2       = document.getElementById("story-part-2");
-    const storyPart3       = document.getElementById("story-part-3");
-    const storyContextGrid = document.getElementById("story-context-grid");
-    const storyNoteBody    = document.getElementById("story-page-note-body");
+    const storyEditorialSections = document.getElementById("story-editorial-sections");
     const storySourcesList = document.getElementById("story-page-source-list");
     const archiveMain      = document.querySelector("main");
     const archiveFooter    = document.querySelector(".site-footer");
@@ -1971,37 +1797,57 @@
         storyImageWrap.hidden = true;
       }
 
-      // Prose distribution
-      const p = story.paragraphs || [];
-      storyPart1.innerHTML = p[0] ? `<p>${escapeHtml(p[0])}</p>` : "";
-      storyPart2.innerHTML = p[1] ? `<p>${escapeHtml(p[1])}</p>` : "";
-      storyPart3.innerHTML = p[2] ? `<p>${escapeHtml(p[2])}</p>` : "";
-
-      // Pull Quote
-      storyPullquote.textContent = story.pullQuote || (p[0] || "");
-      storyPullcite.textContent = story.region + " Archive Monograph";
-
-      // Secondary Contextual Archival Plates (Task 2)
-      if (story.contextualPlates && story.contextualPlates.length > 0) {
-        storyContextGrid.className = "story-context-plate-grid" + (story.contextualPlates.length > 1 ? " dual-plate" : "");
-        storyContextGrid.innerHTML = story.contextualPlates.map(plate => {
-          const stateImg = STATE_IMAGES[plate.stateSlug] || "";
-          return `<div class="context-plate-cell">
-            ${stateImg ? `<img src="${stateImg}" alt="${escapeHtml(story.region)} — regional archival photograph" loading="lazy">` : ""}
-          </div>`;
-        }).join("");
-        document.getElementById("story-context-plate-wrap").hidden = false;
-      } else {
-        document.getElementById("story-context-plate-wrap").hidden = true;
+      // Render the complete four-part story from the structured JSON dataset.
+      function sourceAnchorId(sourceId) {
+        return "story-source-" + story.slug.replace(/[^a-z0-9-]/gi, "-") + "-" + String(sourceId).replace(/[^a-z0-9-]/gi, "-");
       }
 
-      // Curatorial Memorandum Note
-      storyNoteBody.textContent = story.editorialNote || "";
+      function renderParagraph(paragraph) {
+        const text = typeof paragraph === "string" ? paragraph : (paragraph.text || "");
+        const citations = typeof paragraph === "string" ? [] : (paragraph.citations || []);
+        const citationMarkup = citations.map(sourceId => {
+          const source = (story.sources || []).find(item => item.id === sourceId);
+          if (!source) return "";
+          return `<sup class="story-inline-citations"><a href="#${escapeHtml(sourceAnchorId(sourceId))}" aria-label="Source ${escapeHtml(sourceId)}: ${escapeHtml(source.title)}">[${escapeHtml(sourceId)}]</a></sup>`;
+        }).join(" ");
+        return `<p>${escapeHtml(text)}${citationMarkup ? " " + citationMarkup : ""}</p>`;
+      }
+
+      function renderImageSlot(slot) {
+        if (!slot) return "";
+        return `<figure class="story-content-image-slot" id="${escapeHtml(slot.id)}"
+          data-image-slot="${escapeHtml(slot.id)}"
+          data-image-subject="${escapeHtml(slot.subject)}"
+          data-image-alt="${escapeHtml(slot.altText)}"
+          aria-label="Image placement: ${escapeHtml(slot.subject)}">
+          <div class="story-content-image-slot-placeholder">
+            <span class="story-image-slot-index">Image ${String(slot.slot).padStart(2, "0")}</span>
+            <strong>${escapeHtml(slot.subject)}</strong>
+            <span class="story-image-slot-alt">Suggested alt text: ${escapeHtml(slot.altText)}</span>
+          </div>
+        </figure>`;
+      }
+
+      storyEditorialSections.innerHTML = (story.sections || []).map((section, sectionIndex) => {
+        const paragraphs = (section.paragraphs || []).map(renderParagraph).join("");
+        const proseClass = sectionIndex === 0 ? "story-prose opening-prose" : "story-prose";
+        const sectionMarkup = `<section class="story-editorial-section">
+          <h2 class="story-section-title">${escapeHtml(section.heading)}</h2>
+          <div class="${proseClass}">${paragraphs}</div>
+        </section>`;
+        const imageMarkup = renderImageSlot(section.imageAfter);
+        const quoteMarkup = sectionIndex === 0 && story.pullQuote ? `<aside class="story-pullquote">
+          <blockquote>${escapeHtml(story.pullQuote)}</blockquote>
+          <span class="story-pullquote-cite">${escapeHtml(story.region)} · Culinary Memory Archive</span>
+        </aside>` : "";
+        return sectionMarkup + imageMarkup + quoteMarkup;
+      }).join("");
 
       // Source Bibliography
-      storySourcesList.innerHTML = (story.sources || []).map(s => `<li>
+      storySourcesList.innerHTML = (story.sources || []).map(s => `<li id="${escapeHtml(sourceAnchorId(s.id))}">
         <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.title)}</a>
         <span class="story-source-meta">${escapeHtml(s.publisher || "")}${s.date ? " · " + escapeHtml(s.date) : ""}</span>
+        ${s.relevance ? `<p class="story-source-relevance">${escapeHtml(s.relevance)}</p>` : ""}
       </li>`).join("");
 
       // Update Prev / Next Buttons

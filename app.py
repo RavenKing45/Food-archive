@@ -92,6 +92,34 @@ def image_folder_map(
     return images
 
 
+def load_food_stories(path: Path) -> list[dict]:
+    """Read the structured six-story editorial dataset used by index.html."""
+    if not path.is_file():
+        st.error("food_stories.json was not found. Keep it beside app.py.")
+        st.stop()
+
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        st.error(f"Could not read food_stories.json: {error}")
+        st.stop()
+
+    if not isinstance(payload, list) or len(payload) != 6:
+        st.error("food_stories.json must contain the six curated food stories.")
+        st.stop()
+
+    required = {"slug", "title", "description", "region", "sections", "sources"}
+    for index, story in enumerate(payload, start=1):
+        if not isinstance(story, dict) or not required.issubset(story):
+            st.error(f"Story {index} in food_stories.json is missing required fields.")
+            st.stop()
+        if not isinstance(story["sections"], list) or not story["sections"]:
+            st.error(f"Story {index} in food_stories.json has no sections.")
+            st.stop()
+
+    return payload
+
+
 def load_state_pages(path: Path) -> dict:
     """Read and minimally validate the state content file."""
     if not path.is_file():
@@ -160,6 +188,12 @@ def json_for_script(value: object) -> str:
     """Serialize JSON safely for insertion into an inline script."""
     return json.dumps(value, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
+
+food_stories = load_food_stories(ROOT / "food_stories.json")
+if html.count("{{FOOD_STORIES}}") != 1:
+    st.error("index.html must contain exactly one {{FOOD_STORIES}} story-data marker.")
+    st.stop()
+html = html.replace("{{FOOD_STORIES}}", json_for_script(food_stories))
 
 region_types = {slug: region.get("administrativeType", "State") for slug, region in state_pages.items()}
 html = html.replace("{{REGION_TYPES}}", json_for_script(region_types))
