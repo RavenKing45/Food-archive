@@ -103,8 +103,7 @@
           "role": "Grandson of Sita Ram, as identified in the NDTV Food report",
           "account": "Pran Nath Kohli recalls his grandfather and Diwan Chand selling chole bhature from a pushcart in Paharganj after Partition, before moving into a shop. This is a family account of one Delhi business, not proof of the dish's sole origin.",
           "sourceTitle": "Sita Ram Diwan Chand: Why Delhi's Heart Is Set on This Chole-Bhature Wala Since 50 Years",
-          "sourcePublisher": "NDTV Food",
-          "sourceUrl": "https://food.ndtv.com/food-drinks/sita-ram-diwan-chand-why-delhis-heart-is-set-on-this-chole-bhature-wala-since-50-years-1715626"
+          "sourcePublisher": "NDTV Food"
         },
         "classification": {
           "recordType": "Prepared dish",
@@ -283,12 +282,6 @@
             "publisher": "UNESCO World Heritage Centre — Tentative List",
             "url": "https://whc.unesco.org/en/tentativelists/5920/",
             "note": "Documents the Chettinad region and Nattukottai Chettiar merchant networks."
-          },
-          {
-            "title": "Chettinad Cuisine",
-            "publisher": "Incredible India, Ministry of Tourism",
-            "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/chennai/food-and-cuisine/chettinad-cuisine.html",
-            "note": "Describes characteristic spices and cooking traditions."
           }
         ],
         "classification": {
@@ -582,14 +575,7 @@
         "history": "Gujarati cooks developed a wide family of steamed and fermented snacks using grains and pulses. Earlier Gujarati food writing includes references to preparations related to dhokla, while household methods continued to evolve across communities. Over time, dhokla became part of the region's everyday farsan culture, sold by snack shops and served at home, gatherings and celebrations.",
         "imageHint": "Look for catalogued Gujarati Jain manuscripts mentioning dukkia, early farsan shops or traditional steaming vessels. Cite the repository and folio for manuscripts.",
         "imageQuery": "Gujarati Jain manuscript dukkia 1066 dhokla traditional steaming historical",
-        "sources": [
-          {
-            "title": "Ethno-microbiology of ethnic Indian fermented foods and alcoholic beverages",
-            "publisher": "Journal of Applied Microbiology, Wiley (2022)",
-            "url": "https://enviromicro-journals.onlinelibrary.wiley.com/doi/full/10.1111/jam.15382",
-            "note": "Discusses dhokla fermentation and the 1066 CE dukkia reference as a precursor."
-          }
-        ],
+        "sources": [],
         "classification": {
           "recordType": "Snack / street food",
           "foodForm": "Steamed savoury batter cake",
@@ -635,12 +621,6 @@
         "imageHint": "Search dated 1960s–1980s Mumbai street stalls, Dadar vendors, mill-worker food scenes or early vada-pav carts. Treat the Ashok Vaidya story as a reported origin.",
         "imageQuery": "Mumbai 1960s street vendor vada pav Dadar textile mill historical photograph",
         "sources": [
-          {
-            "title": "The Taste No Chef Can Give: Processing Street Food in Mumbai",
-            "publisher": "Cultural Anthropology / Society for Cultural Anthropology, 2015",
-            "url": "https://anthrosource.onlinelibrary.wiley.com/doi/full/10.14506/ca30.1.05",
-            "note": "Academic account of vada pav's mixed history and the popular Ashok Vaidya origin story."
-          },
           {
             "title": "The Best of Maharashtra — Pocket Guide",
             "publisher": "Maharashtra Tourism, Government of Maharashtra",
@@ -792,12 +772,6 @@
         "imageQuery": "Karnataka old cookbook bisi bele bath Mysore traditional kitchen archival photograph",
         "sources": [
           {
-            "title": "Bisi Bele Bath",
-            "publisher": "Karnataka Tourism",
-            "url": "https://old.karnatakatourism.org/destinations/bisi-bele-bath/",
-            "note": "Lists the core ingredients and preparation method."
-          },
-          {
             "title": "South Karnataka Food Trail: A Culinary Journey",
             "publisher": "Karnataka Tourism",
             "url": "https://karnatakatourism.org/en/experiences/south-karnataka-food-trail/",
@@ -848,12 +822,6 @@
         "imageHint": "Search dated Lucknow kebab shops, Awadh court dining images, old cookbooks or archival food-market photographs. Avoid presenting modern restaurant photos as royal-kitchen records.",
         "imageQuery": "Lucknow old kebab shop galouti kebab Awadh historical photograph",
         "sources": [
-          {
-            "title": "Food and Cuisine — Lucknow",
-            "publisher": "Incredible India, Ministry of Tourism",
-            "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/lucknow/food-and-cuisine.html",
-            "note": "Describes galawati preparation and the popular Asaf-ud-Daula story."
-          },
           {
             "title": "Where tehzeeb meets taste: How Awadh's royal kitchens shaped Lucknow's food identity",
             "publisher": "The Indian Express",
@@ -1234,11 +1202,6 @@
             "title": "A signature dish of Bihar: Litti and Chokha",
             "publisher": "MOJ Food Processing and Technology",
             "url": "https://doi.org/10.15406/mojfpt.2019.07.00210"
-          },
-          {
-            "title": "Cuisine of Bihar",
-            "publisher": "Government of Bihar",
-            "url": "https://state.bihar.gov.in/yesd/SectionInformation.html?editForm=&rowId=1755"
           }
         ],
         "classification": {
@@ -1277,11 +1240,6 @@
             "title": "Silao Khaja — GI Tag information",
             "publisher": "Bihar Bhawan, Government of Bihar",
             "url": "https://biharbhawan.gov.in/Docs/ArtArtist/GITags.pdf"
-          },
-          {
-            "title": "Food and Cuisine — Nalanda",
-            "publisher": "Incredible India, Ministry of Tourism, Government of India",
-            "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/nalanda/food-and-cuisine.html"
           }
         ],
         "classification": {
@@ -1659,11 +1617,6 @@
         "imageQuery": "Siddu Himachal Pradesh traditional food preparation",
         "sources": [
           {
-            "title": "Why The Pahadi Bread Siddhu Is At The Heart Of Himachali Life",
-            "publisher": "NDTV Food",
-            "url": "https://food.ndtv.com/food-drinks/why-the-pahadi-bread-siddhu-is-at-the-heart-of-himachali-life-11301073"
-          },
-          {
             "title": "SIDDU or SIDDUKU – the Heart Winning Dish of DevBhoomi",
             "publisher": "Hill Post",
             "url": "https://hillpost.in/2024/02/siddu-or-sidduku-the-heart-winning-dish-of-devbhoomi/123702/"
@@ -1812,11 +1765,6 @@
             "title": "Indori poha: history and origins",
             "publisher": "Dainik Bhaskar",
             "url": "https://www.bhaskar.com/local/mp/indore/news/taste-of-mp-story-on-indori-poha-128960780.html"
-          },
-          {
-            "title": "Which City Is Known For Its Iconic Poha-Jalebi Breakfast?",
-            "publisher": "NDTV Food",
-            "url": "https://food.ndtv.com/food-drinks/which-city-is-known-for-its-iconic-poha-jalebi-breakfast-11479047"
           }
         ],
         "oralNarrative": null,
@@ -1997,13 +1945,7 @@
         "history": "Jadoh is closely connected to Khasi food culture, where rice and pork have long been part of home meals and communal gatherings. The one-pot preparation reflects the practical cooking of hill households and the importance of shared food at community occasions. It also became a familiar part of Shillong's market and restaurant culture, carrying Khasi flavours to new audiences.",
         "imageHint": "Historical image slot: seek dated photographs of Khasi households, markets, rice fields or community feasts. Credit the archive, photographer, place and date.",
         "imageQuery": "Khasi Jadoh Meghalaya traditional food historical photograph",
-        "sources": [
-          {
-            "title": "Diversity of traditional and fermented foods of the Seven Sister states of India",
-            "publisher": "Taylor & Francis",
-            "url": "https://www.tandfonline.com/doi/full/10.1080/21553769.2016.1249032"
-          }
-        ],
+        "sources": [],
         "oralNarrative": null,
         "classification": {
           "recordType": "Prepared dish",
@@ -2037,11 +1979,6 @@
             "title": "Tungrymbai: A traditional fermented soybean food of the ethnic tribes of Meghalaya",
             "publisher": "Indian Journal of Traditional Knowledge, CSIR-NISCPR",
             "url": "https://nopr.niscpr.res.in/bitstream/123456789/6286/1/IJTK%208(4)%20559-561.pdf"
-          },
-          {
-            "title": "Naturally fermented ethnic soybean foods of India",
-            "publisher": "Journal of Ethnic Foods",
-            "url": "http://dspace.cus.ac.in/jspui/bitstream/1/1363/1/JFE-2015.pdf"
           },
           {
             "title": "Documentation of traditional fermentation of tungrymbai",
@@ -2193,11 +2130,6 @@
         "imageQuery": "Nagaland Naga smoked pork bamboo shoot traditional cooking",
         "sources": [
           {
-            "title": "A Survey of Traditional Animal-Origin Foods and Preliminary Ethnographic Documentation",
-            "publisher": "MDPI Foods",
-            "url": "https://www.mdpi.com/2304-8158/15/17/2991"
-          },
-          {
             "title": "A Deep Dive into the Culinary Heritage of Nagaland",
             "publisher": "Google Arts & Culture",
             "url": "https://artsandculture.google.com/story/a-deep-dive-into-the-culinaryheritage-of-nagaland-banglanatak/NQWR4gmR_LgUDQ"
@@ -2230,18 +2162,7 @@
         "history": "Axone, or akhuni, belongs to the fermented soybean traditions of several Naga communities. Household makers developed ways to ferment and store soybeans, creating a strong-flavoured ingredient that could season meals throughout the year. The knowledge of preparing and using axone is passed through families and communities, and it remains a distinctive part of Naga cuisine.",
         "imageHint": "Historical image slot: seek dated photographs of Naga households, soybean fermentation, leaf-lined baskets or axone markets. Credit the archive, photographer, place and date.",
         "imageQuery": "Axone akhuni fermented soybean Nagaland traditional preparation",
-        "sources": [
-          {
-            "title": "A Survey of Traditional Animal-Origin Foods and Preliminary Ethnographic Documentation",
-            "publisher": "MDPI Foods",
-            "url": "https://www.mdpi.com/2304-8158/15/17/2991"
-          },
-          {
-            "title": "Chef's Alliance Recipe - Joel Basumatari",
-            "publisher": "Slow Food Foundation",
-            "url": "https://www.fondazioneslowfood.com/en/chefs-alliance-recipe-joel-basumatari/"
-          }
-        ],
+        "sources": [],
         "oralNarrative": null,
         "classification": {
           "recordType": "Fermented / preserved food",
@@ -2667,11 +2588,6 @@
         "imageQuery": "Uttarakhand Kumaon Garhwal village kitchen kafuli leafy greens traditional cooking historical photograph",
         "sources": [
           {
-            "title": "Kafuli: Uttarakhand's Heritage Green Dish",
-            "publisher": "Madhusavara",
-            "url": "https://www.madhusavara.com/kitchen-blog/kafuli-uttarakhand-heritage-green-dish/"
-          },
-          {
             "title": "Kafuli",
             "publisher": "About Uttarakhand",
             "url": "https://aboututtarakhand.com/kafuli/"
@@ -2957,14 +2873,7 @@
         "history": "The Hoka palm became part of Diu's landscape through the maritime connections of the Portuguese period, when traders brought the tree from the African region. Over time it adapted to the island environment and its fruit entered local food life, sold by vendors and enjoyed by residents. The palm now forms a distinctive part of Diu's coastal identity.",
         "imageHint": "Use an identified photograph of the Hoka palm or its ripe fruit in Diu. Record the location, date, photographer and archive; do not substitute a generic palm-fruit photograph without confirming the subject.",
         "imageQuery": "Diu Hoka fruit deep red ripe fruit branching Hoka palm",
-        "sources": [
-          {
-            "title": "Diu–Daman Tourism Brochure",
-            "publisher": "Daman and Diu Tourism / Administration",
-            "url": "https://daman.nic.in/Download/2015/Diu-Daman-Brochure-for-approval.pdf",
-            "note": "Printed page 35 describes Hoka palms, their reported introduction to Diu by Portuguese traders, and the ripe fruit’s colour, taste, texture and local sale."
-          }
-        ]
+        "sources": []
       },
       {
         "slug": "daman-jetty-roll",
@@ -3153,11 +3062,6 @@
             "title": "Wazwan",
             "publisher": "District Budgam, Government of Jammu and Kashmir",
             "url": "https://budgam.nic.in/culinary-delight/wazwan/"
-          },
-          {
-            "title": "Food Heritage: History, Evolution, Influences and Modern Trends",
-            "publisher": "National Council for Hotel Management and Catering Technology, Ministry of Tourism",
-            "url": "https://www.nchm.gov.in/sites/default/files/2022-11/Indian_Food_Heritage.pdf"
           },
           {
             "title": "Wazwan: A Culinary Legacy",
@@ -3353,12 +3257,6 @@
             "title": "Lakshadweep: Savouring Secrets of the Seas",
             "publisher": "Incredible India, Ministry of Tourism",
             "url": "https://www.incredibleindia.gov.in/en/lakshadweep"
-          },
-          {
-            "title": "Lakshadweep: Local Food System",
-            "publisher": "Ministry of Food Processing Industries, Government of India",
-            "url": "https://www.mofpi.gov.in/sites/default/files/KnowledgeCentre/State%20Profile/Lakshadweep.pdf",
-            "note": "Documents the importance of tuna and traditional masmin processing."
           }
         ],
         "classification": {
@@ -3396,11 +3294,6 @@
             "title": "Lakshadweep: Savouring Secrets of the Seas",
             "publisher": "Incredible India, Ministry of Tourism",
             "url": "https://www.incredibleindia.gov.in/en/lakshadweep"
-          },
-          {
-            "title": "Lakshadweep: Local Food System",
-            "publisher": "Ministry of Food Processing Industries, Government of India",
-            "url": "https://www.mofpi.gov.in/sites/default/files/KnowledgeCentre/State%20Profile/Lakshadweep.pdf"
           }
         ],
         "classification": {

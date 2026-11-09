@@ -1,0 +1,762 @@
+[
+  {
+    "slug": "vada-pav-mumbai-commuter-food",
+    "title": "Vada Pav: A Snack Built for Mumbai",
+    "description": "Born in the rhythm of the city, vada pav brought a hot potato fritter, soft bread and sharp chutneys together in a meal made for the daily commute.",
+    "region": "Mumbai · Maharashtra",
+    "symbol": "✦",
+    "tone": "market",
+    "pullQuote": "Food had to be more than delicious. It had to be affordable, filling, and easy to carry.",
+    "sections": [
+      {
+        "heading": "I. Dadar and the working city",
+        "paragraphs": [
+          {
+            "text": "In Mumbai, a meal often has to keep pace with the city. Trains arrive, crowds spill onto platforms and workers make their way between home, station and workplace. The vada pav fits naturally into this rhythm: inexpensive, portable and substantial enough to eat on the move.",
+            "citations": []
+          },
+          {
+            "text": "Vada pav is commonly associated with Dadar in the late 1960s. Food historian Mohsina Mukadam identifies Ashok Vaidya, who sold snacks near Dadar station, with its early popularisation. The story began with a practical pairing: a hot batata vada tucked into pav, making it easier to carry and eat on the move.",
+            "citations": [
+              "V1",
+              "V2"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "vada-pav-mumbai-commuter-food-image-01",
+          "slot": 1,
+          "subject": "Dadar railway station and its busy street-side setting; ideally a period photograph or a grounded view of the station area. Avoid a generic Mumbai skyline.",
+          "altText": "A street-level view of Dadar station and nearby market activity, with commuters and small food stalls."
+        }
+      },
+      {
+        "heading": "II. The making of the combination",
+        "paragraphs": [
+          {
+            "text": "The snack brings together two foods with different histories. Batata vada was already familiar in Maharashtra: spiced mashed potato shaped into a ball, coated in gram-flour batter and deep-fried. Pav, meanwhile, had become part of Bombay’s bakery and street-food culture through the city’s Portuguese, Goan, and later migrant baking traditions. Putting the hot vada inside a split bun made the combination easy to hold and eat.",
+            "citations": []
+          },
+          {
+            "text": "Chutneys give the simple pairing its character. Green chutney adds freshness, garlic chutney brings heat and depth, and a fried green chilli often completes the serving. The result is not elaborate cooking; it is a clever assembly of familiar ingredients into a new everyday meal.",
+            "citations": [
+              "V1",
+              "V2"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "vada-pav-mumbai-commuter-food-image-02",
+          "slot": 2,
+          "subject": "A close, single-subject food photograph showing a batata vada being placed inside pav with chutney. This should explain the assembly of the snack.",
+          "altText": "A freshly fried potato vada being tucked into a soft pav with chutneys."
+        }
+      },
+      {
+        "heading": "III. From a stall to a city habit",
+        "paragraphs": [
+          {
+            "text": "As the snack spread, it became part of the wider world of Mumbai’s street vendors. Railway approaches, office districts and busy market streets offered the steady flow of customers that small food stalls depended on. The growth of vada pav also reflects the city’s changing working life: people needed food that was quick to serve, affordable and satisfying.",
+            "citations": []
+          },
+          {
+            "text": "The snack later acquired a public identity beyond the food itself. It was promoted, branded and sometimes drawn into local political symbolism. Cultural anthropologist Harris Solomon describes how vada pav’s meaning changed through street vending, political branding and commercial standardisation. In other words, the street did not simply provide a place to sell the snack; it helped shape what the snack came to represent.",
+            "citations": [
+              "V3"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "vada-pav-mumbai-commuter-food-image-03",
+          "slot": 3,
+          "subject": "A real Mumbai vada pav vendor or stall serving customers. Choose a working street-food scene rather than a staged restaurant plate.",
+          "altText": "A Mumbai street vendor preparing vada pav for commuters."
+        }
+      },
+      {
+        "heading": "IV. The many lives of vada pav",
+        "paragraphs": [
+          {
+            "text": "Today, vada pav appears in roadside stalls, college areas, railway neighbourhoods and restaurant menus. Some vendors keep close to the familiar potato, pav and chutney combination; others add cheese, different sauces or regional twists. The versions may change, but the original appeal remains easy to understand.",
+            "citations": []
+          },
+          {
+            "text": "Vada pav belongs to Mumbai because it reflects a particular kind of urban ingenuity. It turns everyday ingredients into a meal suited to crowded streets and limited time. More than a symbol on a menu, it is a piece of the city’s daily routine—carried in paper, eaten between trains, and remembered through the taste of a favourite stall.",
+            "citations": []
+          }
+        ],
+        "imageAfter": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "V1",
+        "title": "Handcart to TasteAtlas: The story behind Dadar’s famous Ashok Vada Pav",
+        "publisher": "The Indian Express",
+        "date": "2026",
+        "relevance": "Directly relevant to Dadar, Ashok Vaidya, the late-1960s account, the role of pav, and the fact that the popular origin story has competing versions.",
+        "url": "https://indianexpress.com/article/cities/mumbai/ashok-vada-pav-dadar-kirti-college-tasteatlas-ranking-history-10759907/"
+      },
+      {
+        "id": "V2",
+        "title": "We explore why Vada Pav is synonymous with Mumbai",
+        "publisher": "Mid-Day",
+        "date": "2023",
+        "relevance": "Interviews food historian Dr Mohsina Mukadam and connects Ashok Vaidya and Dadar station to the dish; supports the 1967–68 account and city context.",
+        "url": "https://www.mid-day.com/mumbai-guide/mumbai-food/article/vada-pav-wow-23305244"
+      },
+      {
+        "id": "V3",
+        "title": "The Taste No Chef Can Give: Processing Street Food in Mumbai",
+        "publisher": "Harris Solomon · Cultural Anthropology",
+        "date": "2015",
+        "relevance": "Academic analysis of vada pav, street vending, political branding and commercial processing; relevant to the story’s social and urban significance.",
+        "url": "https://anthrosource.onlinelibrary.wiley.com/doi/10.14506/ca30.1.05"
+      }
+    ]
+  },
+  {
+    "slug": "rasgulla-two-regional-traditions",
+    "title": "Rasgulla: A Sweet Across Two Traditions",
+    "description": "From the rituals of Puri to the sweet shops of Kolkata, rasgulla carries two regional histories shaped by devotion, confectionery skill and changing ways of sharing food.",
+    "region": "Odisha · West Bengal",
+    "symbol": "✺",
+    "tone": "sweet",
+    "pullQuote": "These are not simply two claims competing for ownership of one dessert. They represent different ways in which a food becomes meaningful.",
+    "sections": [
+      {
+        "heading": "I. A sweet in the Jagannath tradition",
+        "paragraphs": [
+          {
+            "text": "In Puri, rasagola is more than a dessert served after a meal. It is associated with the Niladri Bije ritual, which marks Lord Jagannath’s return to the temple at the end of the Rath Yatra. According to the tradition, Goddess Lakshmi is displeased that she was left behind during the journey. Jagannath offers her rasagola as part of the reconciliation, making the sweet a familiar part of the festival’s religious storytelling.",
+            "citations": [
+              "R1",
+              "R2"
+            ]
+          },
+          {
+            "text": "The ritual gives the Odia rasagola a place within a living temple culture. It is prepared from chhena, shaped by hand and cooked in sugar syrup. Its importance comes not only from its taste but from the occasion on which it is offered and the community memory attached to that act.",
+            "citations": []
+          }
+        ],
+        "imageAfter": {
+          "id": "rasgulla-two-regional-traditions-image-01",
+          "slot": 1,
+          "subject": "A photograph specifically connected to the Jagannath Temple in Puri or the Niladri Bije/Rath Yatra tradition. Do not substitute Konark Sun Temple or an unrelated Odisha monument.",
+          "altText": "The Jagannath Temple in Puri, the setting associated with the Niladri Bije tradition."
+        }
+      },
+      {
+        "heading": "II. The Kolkata confectioners",
+        "paragraphs": [
+          {
+            "text": "A separate chapter developed in nineteenth-century Bengal, where confectioners were working with chhena—fresh curdled milk solids—as a base for sweets. Turning it into a soft ball that could cook in syrup without breaking required careful handling. The texture depended on the quality of the chhena, the way it was kneaded and the control of the cooking process.",
+            "citations": []
+          },
+          {
+            "text": "Nabin Chandra Das of Kolkata became closely associated with the development of the spongy Bengali rosogolla. A review in the Journal of Ethnic Foods describes his experiments between 1865 and 1868, while Sahapedia’s Kolkata heritage guide records the family’s role in the city’s sweet-shop history. His contribution is best understood as the development and popularisation of a distinctive Kolkata style, alongside—not in place of—the Odia tradition.",
+            "citations": [
+              "R3",
+              "R4"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "rasgulla-two-regional-traditions-image-02",
+          "slot": 2,
+          "subject": "A Kolkata sweet shop or confectioner shaping chhena sweets. A documented Nabin Chandra Das/K.C. Das historical image is preferable if permissions and provenance are clear.",
+          "altText": "A Kolkata confectioner shaping fresh chhena sweets in a traditional sweet shop."
+        }
+      },
+      {
+        "heading": "III. The technique behind the texture",
+        "paragraphs": [
+          {
+            "text": "The method begins by curdling milk to make fresh chhena. The curds are drained and kneaded until they form a smooth, pliable mixture, then shaped into small balls. These are cooked in boiling sugar syrup, where they expand and develop the soft, porous texture that makes rosogolla recognisable.",
+            "citations": []
+          },
+          {
+            "text": "The process leaves little room for rough handling. If the chhena is too coarse, too wet or poorly kneaded, the balls may become dense or break during cooking. The balance between the chhena mixture, heat and syrup is what turns a few basic ingredients into a sweet with a delicate, spongy bite.",
+            "citations": [
+              "R1",
+              "R3"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "rasgulla-two-regional-traditions-image-03",
+          "slot": 3,
+          "subject": "A close process photograph of chhena being kneaded or round rosogolla cooking in a pan of sugar syrup. Choose one process, not a collage.",
+          "altText": "Fresh chhena being kneaded before the rosogolla balls are cooked in syrup."
+        }
+      },
+      {
+        "heading": "IV. From sweet shops to a wider world",
+        "paragraphs": [
+          {
+            "text": "The sweet travelled further as Kolkata’s confectionery businesses grew. K. C. Das records that canned rosogolla was introduced by the family business in 1930, helping a delicate syrup-based sweet reach customers beyond the neighbourhood sweet shop. Packaging changed how far the sweet could travel, while the familiar round shape and syrupy texture remained at its centre.",
+            "citations": [
+              "R5"
+            ]
+          },
+          {
+            "text": "The regional identities are also formally recognised. The Geographical Indications Registry lists Banglar Rasogolla as registered in 2017 and Odisha Rasagola as registered in 2019. These names recognise distinct regional products; they do not make the wider story a simple contest with one winner. The sweet’s history is richer when both traditions are allowed to be seen clearly.",
+            "citations": [
+              "R6",
+              "R7"
+            ]
+          }
+        ],
+        "imageAfter": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "R1",
+        "title": "Rasagola",
+        "publisher": "Odisha Tourism",
+        "date": "",
+        "relevance": "Official state tourism source for the Puri/Jagannath association, Niladri Bije tradition, ingredients and the Odisha preparation method.",
+        "url": "https://odishatourism.gov.in/en/rasagola"
+      },
+      {
+        "id": "R2",
+        "title": "Rasagola: The Ritual Offering of Odisha",
+        "publisher": "Asit Mohanty · Odisha Review",
+        "date": "2017",
+        "relevance": "A detailed Odisha-focused account of the ritual offering and regional tradition. Treat it as a regional historical argument, not neutral proof of exclusive origin.",
+        "url": "https://magazines.odisha.gov.in/Orissareview/2017/April/engpdf/Rasagola.pdf"
+      },
+      {
+        "id": "R3",
+        "title": "Rasgulla—the ethnic Indian sweetmeat delicacy and its evolutionary journey through contemporary research",
+        "publisher": "Journal of Ethnic Foods",
+        "date": "2021",
+        "relevance": "Research review for chhena processing, texture and the Kolkata development narrative. It also notes that the complete documented history is limited.",
+        "url": "https://link.springer.com/article/10.1186/s42779-021-00091-7"
+      },
+      {
+        "id": "R4",
+        "title": "My City, My Heritage: Kolkata",
+        "publisher": "Sahapedia",
+        "date": "",
+        "relevance": "Cultural heritage guide for Nabin Chandra Das, the Baghbazar sweet-shop history and the family’s later canned rosogolla story.",
+        "url": "https://www.sahapedia.org/sites/default/files/pdf/my-city-my-heritage/MCMH_Kolkata.pdf"
+      },
+      {
+        "id": "R5",
+        "title": "About Us",
+        "publisher": "K. C. Das",
+        "date": "",
+        "relevance": "The company’s own account of the 1930 canned rosogolla introduction. Use as a first-party business history, not an independent historical assessment.",
+        "url": "https://kcdasonline.com/pages/about-us"
+      },
+      {
+        "id": "R6",
+        "title": "Banglar Rasogolla",
+        "publisher": "Intellectual Property India, GI Registry",
+        "date": "",
+        "relevance": "Official registry record for the Banglar Rasogolla registration.",
+        "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/533"
+      },
+      {
+        "id": "R7",
+        "title": "Odisha Rasagola",
+        "publisher": "Intellectual Property India, GI Registry",
+        "date": "",
+        "relevance": "Official registry record for the Odisha Rasagola registration.",
+        "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/612"
+      }
+    ]
+  },
+  {
+    "slug": "dal-baati-food-for-the-road",
+    "title": "Dal Baati Churma: Rajasthan on a Plate",
+    "description": "A meal of baked wheat, slow-cooked lentils and sweetened crumbs, dal baati churma brings together the flavours and hospitality of Rajasthan.",
+    "region": "Rajasthan",
+    "symbol": "◉",
+    "tone": "clay",
+    "pullQuote": "In western Rajasthan, preparing a meal has historically meant working with what the landscape allows.",
+    "sections": [
+      {
+        "heading": "I. Three parts, one meal",
+        "paragraphs": [
+          {
+            "text": "Dal baati churma is one of Rajasthan’s best-known meals, built around three preparations that balance one another. Dal brings a warm, spiced lentil gravy; baati provides a firm wheat-based bread; and churma adds a sweet finish made from crumbled cereal or baati. The meal is often served with generous ghee, chilli and garlic chutney, making it both substantial and rich in flavour.",
+            "citations": [
+              "D1",
+              "D2"
+            ]
+          },
+          {
+            "text": "The combination appears at family gatherings, festive meals and celebrations. Rajasthan Tourism describes it as a complete regional meal, while the state’s food heritage literature records several local versions of the baati and churma. Its appeal lies in the contrast of textures: crisp or firm baati, soft dal and crumbly sweetness.",
+            "citations": []
+          }
+        ],
+        "imageAfter": {
+          "id": "dal-baati-food-for-the-road-image-01",
+          "slot": 1,
+          "subject": "A single, clear photograph of a complete traditional dal baati churma thali showing dal, baati and churma together. This is the best establishing image for the dish.",
+          "altText": "A traditional Rajasthani serving of dal baati churma with ghee and accompaniments."
+        }
+      },
+      {
+        "heading": "II. Baati and the cooking fire",
+        "paragraphs": [
+          {
+            "text": "Baati begins with a simple dough, commonly made from wheat flour and shaped into firm round portions. Traditional accounts describe the balls being cooked in the heat of a chulha or buried in hot ash, including fuel made from dried dung cakes. The slow, direct heat creates a browned outside and a dense centre; the baati is then broken open and commonly served with ghee.",
+            "citations": [
+              "D2"
+            ]
+          },
+          {
+            "text": "A Mewar tradition connects baati with the region’s warrior past, describing dough being baked while men were away. The simple preparation and its ability to be carried made it useful on long journeys; the cooking method is recorded in Rajasthan’s food heritage literature.",
+            "citations": [
+              "D2"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "dal-baati-food-for-the-road-image-02",
+          "slot": 2,
+          "subject": "A close process photograph of baati cooking in a traditional chulha, wood fire or hot ash. Avoid a generic desert fort or palace photograph.",
+          "altText": "Wheat baati being baked over a traditional fire."
+        }
+      },
+      {
+        "heading": "III. Dal and churma complete the plate",
+        "paragraphs": [
+          {
+            "text": "The dal is cooked from lentils that may vary by household and region. The heritage account describes soaked pulses simmered with spices such as cumin, mustard, chilli, turmeric, coriander and ginger, then finished with a generous tempering. Panchmel dal, made with a mix of lentils, is one familiar version.",
+            "citations": [
+              "D2"
+            ]
+          },
+          {
+            "text": "Churma gives the meal its sweet counterpoint. In one traditional method, baati is crushed and mixed with sugar and ghee; other versions use different grains, sweeteners or flavourings. This turns a bread that might otherwise be eaten alongside dal into a dessert-like preparation, while keeping the three parts connected through the same base ingredients.",
+            "citations": []
+          }
+        ],
+        "imageAfter": {
+          "id": "dal-baati-food-for-the-road-image-03",
+          "slot": 3,
+          "subject": "A close photograph of dal being tempered or churma being crumbled and mixed with ghee/sugar. Choose one clear action for this slot.",
+          "altText": "A cook finishing a bowl of Rajasthani lentil dal with a hot spice tempering."
+        }
+      },
+      {
+        "heading": "IV. A regional classic that keeps changing",
+        "paragraphs": [
+          {
+            "text": "The meal has never been limited to one fixed recipe. Baati may be plain, stuffed or prepared as baafla; the lentils and tempering change with local preference; and churma can take on different flavours. These variations show how a familiar regional meal can remain recognisable while adapting to household practice.",
+            "citations": []
+          },
+          {
+            "text": "Today, restaurants and home kitchens continue to serve dal baati churma as a signature Rajasthani combination. Its appeal comes from more than its size: each part has a distinct role, and together they create a meal that is at once earthy, filling, spicy and sweet.",
+            "citations": [
+              "D1",
+              "D2"
+            ]
+          }
+        ],
+        "imageAfter": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "D1",
+        "title": "Rajasthani Cuisine: Traditional Flavors",
+        "publisher": "Rajasthan Tourism",
+        "date": "",
+        "relevance": "Official tourism description of the dish’s three components, serving style and role in Rajasthan’s food culture.",
+        "url": "https://www.tourism.rajasthan.gov.in/rajasthani-cuisine.html"
+      },
+      {
+        "id": "D2",
+        "title": "Dal-Baati-Churma: Signature Rajasthan’s Delicacy",
+        "publisher": "INTACH Udaipur Chapter · Food Heritage of Rajasthan",
+        "date": "2020",
+        "relevance": "Direct chapter on the dish: baati cooking, fuel, dal preparation, churma, variations and the Bappa Rawal/warrior account. The origin anecdote is folklore, not conclusive historical proof.",
+        "url": "https://mlsu.ac.in/naac2023/3.4.5%20Link%20to%20Books%20and%20Chapters/Article%20Pdf/A140_Food%20Heritage%20of%20Rajasthan%20%20Dal-Baati-Churma%20Signature%20Rajasthan%27s%20Delicacy.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "masala-dosa-udupi-network",
+    "title": "Masala Dosa: The Udupi Kitchen and Beyond",
+    "description": "A crisp fermented crepe wrapped around spiced potato, masala dosa carries the influence of Udupi’s vegetarian food traditions into kitchens across India.",
+    "region": "Udupi · Karnataka",
+    "symbol": "❋",
+    "tone": "leaf",
+    "pullQuote": "Culinary traditions do not spread by recipes alone. They travel through migration, businesses, and the people who carry their skills into new places.",
+    "sections": [
+      {
+        "heading": "I. A dish shaped by Udupi",
+        "paragraphs": [
+          {
+            "text": "Masala dosa is now familiar far beyond Karnataka, but its story is closely linked with Udupi cuisine. The coastal temple town developed a distinctive vegetarian food culture influenced by the kitchens and practices around the Sri Krishna Matha. Its food traditions place emphasis on rice, lentils, local produce and carefully balanced preparations.",
+            "citations": [
+              "M1",
+              "M2"
+            ]
+          },
+          {
+            "text": "The modern masala dosa is a filled variation of the dosa: a thin savoury crepe paired with a spiced potato preparation. The combination grew within Udupi’s hotel and temple-town food culture, then travelled with cooks and restaurateurs into new cities.",
+            "citations": [
+              "M1",
+              "M4"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "masala-dosa-udupi-network-image-01",
+          "slot": 1,
+          "subject": "A photograph of Udupi town or the Sri Krishna Matha as geographic/cultural context. Do not caption the temple as the proven birthplace of this exact modern dosa preparation.",
+          "altText": "Udupi’s Sri Krishna Matha and the temple-town setting associated with its vegetarian food culture."
+        }
+      },
+      {
+        "heading": "II. Batter, heat and texture",
+        "paragraphs": [
+          {
+            "text": "The dosa begins with a batter made from rice and lentils, ground and left to ferment. Fermentation gives the batter its characteristic aroma and helps it spread into a thin layer on a hot, lightly greased griddle. As the moisture cooks away, the surface turns golden and crisp while the centre can remain softer.",
+            "citations": []
+          },
+          {
+            "text": "This technique requires judgement. A batter that is too thick will not spread easily; a griddle that is too hot can brown the dosa before it cooks evenly. The cook spreads the batter in a circular motion, lets it set, and often adds ghee or oil to help the surface crisp. The method is simple in ingredients but highly dependent on timing and temperature.",
+            "citations": [
+              "M2",
+              "M5"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "masala-dosa-udupi-network-image-02",
+          "slot": 2,
+          "subject": "A single action photograph showing fermented dosa batter being spread in a circular motion on a hot tawa. This illustrates the technique.",
+          "altText": "A cook spreading dosa batter into a thin circle on a hot griddle."
+        }
+      },
+      {
+        "heading": "III. The potato filling",
+        "paragraphs": [
+          {
+            "text": "The masala gives the dosa its name and its heart. Boiled potatoes are broken into pieces and cooked with a tempering of mustard seeds, curry leaves, turmeric, chillies and other seasonings. Depending on the household or restaurant, onion, ginger and additional spices may also be used.",
+            "citations": []
+          },
+          {
+            "text": "The cooked filling is placed on the dosa before it is folded or rolled. The contrast is central to the dish: a crisp outer layer gives way to a warm, soft potato centre. Coconut chutney and sambar often accompany it, adding freshness and spice. Across restaurants, the filling and degree of crispness vary, but the combination of dosa and potato masala remains the defining idea.",
+            "citations": [
+              "M2",
+              "M5"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "masala-dosa-udupi-network-image-03",
+          "slot": 3,
+          "subject": "A close photograph of the spiced potato masala being prepared or placed inside a dosa. Avoid a second complete plated-dosa image.",
+          "altText": "A spoonful of spiced potato masala being placed onto a freshly cooked dosa."
+        }
+      },
+      {
+        "heading": "IV. From Udupi hotels to everyday menus",
+        "paragraphs": [
+          {
+            "text": "Udupi-style restaurants helped introduce South Indian vegetarian food to a much wider audience. Migration and restaurant entrepreneurship carried these menus into cities such as Mumbai and Chennai, where hotels became familiar places for breakfast, snacks and affordable meals. The New Indian Express traces part of this restaurant history to migration from the Udupi region during the twentieth century.",
+            "citations": [
+              "M1"
+            ]
+          },
+          {
+            "text": "As the hotel network expanded, masala dosa became one of its most recognisable dishes. It now appears in many forms—from soft and folded to large and paper-thin—while remaining connected to the regional techniques that made it popular. Its journey is a story of local food knowledge finding a place in a much larger urban food culture.",
+            "citations": []
+          }
+        ],
+        "imageAfter": {
+          "id": "masala-dosa-udupi-network-image-04",
+          "slot": 4,
+          "subject": "A historical or traditional Udupi-style vegetarian hotel/canteen setting, ideally showing its service culture. Do not use an unrelated South Indian temple.",
+          "altText": "A traditional Udupi-style vegetarian restaurant serving breakfast."
+        }
+      }
+    ],
+    "sources": [
+      {
+        "id": "M1",
+        "title": "From the Lord’s Kitchen",
+        "publisher": "The New Indian Express",
+        "date": "2023",
+        "relevance": "Directly connects masala dosa to Udupi cuisine, describes the temple-influenced vegetarian food tradition and discusses the spread of Udupi restaurants through migration.",
+        "url": "https://www.newindianexpress.com/amp/story/lifestyle/food/2023/May/27/from-the-lords-kitchen-2578597.html"
+      },
+      {
+        "id": "M2",
+        "title": "Neer Dose",
+        "publisher": "Karnataka Tourism",
+        "date": "",
+        "relevance": "Official Karnataka Tourism page describing regular dosa batter as fermented rice and urad dal, and identifying masala dosa as a dosa served with potato mash. It supports the preparation details, not a single origin claim.",
+        "url": "https://karnatakatourism.org/en/experiences/neer-dosa"
+      },
+      {
+        "id": "M3",
+        "title": "Things that make India proud: Udupi",
+        "publisher": "India Today",
+        "date": "2002",
+        "relevance": "Historical feature on Udupi’s temple-town cuisine, its vegetarian food and the spread of Udupi hotels.",
+        "url": "https://www.indiatoday.in/magazine/cover-story/story/20020819-things-that-make-india-proud-udupi-794525-2002-08-18"
+      },
+      {
+        "id": "M4",
+        "title": "Masala in the dosa",
+        "publisher": "The Indian Express",
+        "date": "2017",
+        "relevance": "Useful for showing that masala dosa has acquired multiple origin stories and continues to evolve. Do not use its urban-legend account as settled fact.",
+        "url": "https://indianexpress.com/article/opinion/editorials/masala-in-the-dosa/"
+      },
+      {
+        "id": "M5",
+        "title": "Masala Dosa",
+        "publisher": "ICAR-Central Rice Research Institute",
+        "date": "",
+        "relevance": "Government agricultural research institute source for the rice/black-gram batter, fermentation, circular spreading, potato filling and common seasonings.",
+        "url": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "chole-bhature-post-partition-delhi",
+    "title": "Chole Bhature: A Punjabi Favourite Finds a Home in Delhi",
+    "description": "Spiced chickpeas and puffed fried bread became a beloved North Indian pairing, with Delhi’s post-Partition food streets playing an important part in its popularity.",
+    "region": "Punjab · Delhi",
+    "symbol": "✧",
+    "tone": "spice",
+    "pullQuote": "Behind that familiar plate lies a story of displacement, rebuilding, and the way food can help people preserve a sense of home in a new place.",
+    "sections": [
+      {
+        "heading": "I. A pairing made for a hearty meal",
+        "paragraphs": [
+          {
+            "text": "Chole bhature brings together two preparations with very different textures. Chole is a slow-cooked chickpea curry, usually dark with spices and rich in flavour. Bhature is a soft dough rolled out and fried until it swells into a golden, airy bread. Served together with onions, pickles or green chillies, the plate is filling, warming and generous.",
+            "citations": []
+          },
+          {
+            "text": "Chickpeas have a long history as a food crop and ingredient across several regions. The pairing of spiced chickpeas with fried bread became closely associated with Punjabi cooking and, over time, grew into a familiar North Indian meal.",
+            "citations": [
+              "C1",
+              "C2"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "chole-bhature-post-partition-delhi-image-01",
+          "slot": 1,
+          "subject": "A single overhead or three-quarter photograph of a complete chole bhature serving. Make both components clearly visible, with accompaniments.",
+          "altText": "A plate of chole bhature served with onions, pickle and green chilli."
+        }
+      },
+      {
+        "heading": "II. Delhi after Partition",
+        "paragraphs": [
+          {
+            "text": "The dish became especially prominent in Delhi after the Partition of 1947. In a first-person food essay for The Indian Express, writer Kaushik Das Gupta recalls Punjabi refugee families bringing their food into the city’s street-food culture. Pushcarts with kerosene stoves and metal containers of spiced chickpeas became part of the neighbourhood food landscape. The account is personal, but it captures the role migration played in making the dish familiar in Delhi.",
+            "citations": [
+              "C1"
+            ]
+          },
+          {
+            "text": "As families resettled and food businesses grew, dishes carried from home kitchens found new customers in markets, roadside stalls and halwai shops. Chole bhature became a breakfast and brunch favourite, served both as everyday street food and as a meal people deliberately travelled across the city to eat.",
+            "citations": []
+          }
+        ],
+        "imageAfter": {
+          "id": "chole-bhature-post-partition-delhi-image-02",
+          "slot": 2,
+          "subject": "A real Delhi market or street-food setting with a traditional pushcart/halwai counter. If using an archival Partition-era image, ensure the photograph is correctly dated and captioned.",
+          "altText": "A busy Delhi food lane with a traditional breakfast stall."
+        }
+      },
+      {
+        "heading": "III. Two preparations, two skills",
+        "paragraphs": [
+          {
+            "text": "Good chole begins with dried chickpeas soaked until they soften. They are then simmered with a masala built from spices, aromatics and, in many versions, tea or other ingredients that deepen the colour. Each cook has a preferred balance: some versions are sharper and tangier, while others are darker and more robust.",
+            "citations": []
+          },
+          {
+            "text": "Bhature needs a different kind of attention. The dough is mixed, rested until it becomes workable and rolled into discs. When it meets hot oil, it puffs quickly into a soft, hollow bread with a lightly crisp surface. The contrast between the thick chickpea curry and the freshly fried bhatura is what makes the combination so satisfying.",
+            "citations": [
+              "C1"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "chole-bhature-post-partition-delhi-image-03",
+          "slot": 3,
+          "subject": "A close process photograph of chickpeas simmering in a spiced pot. Place separately from the bhatura image.",
+          "altText": "Chickpeas simmering in a dark, spiced chole masala."
+        }
+      },
+      {
+        "heading": "IV. From neighbourhood shop to city ritual",
+        "paragraphs": [
+          {
+            "text": "In Delhi, chole bhature is now associated with halwai shops, breakfast counters, market lanes and family outings. A plate may arrive with pickled vegetables, raw onion, green chilli, ginger or a glass of lassi. Each shop develops its own signature through the spice blend, the texture of the chickpeas and the way the bhatura is fried.",
+            "citations": []
+          },
+          {
+            "text": "The dish’s popularity shows how migration can reshape a city’s food habits. What begins as a familiar preparation carried by families can become part of a new city’s everyday identity. Chole bhature is now enjoyed far beyond Delhi, but its story in the capital remains closely tied to Punjabi kitchens, street vendors and the appetite of a growing city.",
+            "citations": []
+          }
+        ],
+        "imageAfter": {
+          "id": "chole-bhature-post-partition-delhi-image-04",
+          "slot": 4,
+          "subject": "A contemporary Delhi halwai counter with freshly fried bhature being served alongside chole. Use one scene, not a collage.",
+          "altText": "A halwai serving freshly fried bhature with a bowl of chole at a Delhi breakfast counter."
+        }
+      }
+    ],
+    "sources": [
+      {
+        "id": "C1",
+        "title": "On the irresistible charms of chhole bhature",
+        "publisher": "The Indian Express",
+        "date": "2020",
+        "relevance": "Direct feature on chhole bhature, its ingredients and preparation, and the role of Punjabi refugee food traditions in Delhi after Partition. The Partition account is presented as the writer’s family memory, not a definitive origin certificate.",
+        "url": "https://indianexpress.com/article/express-sunday-eye/bon-appetit-chhole-bhature-6321907/"
+      },
+      {
+        "id": "C2",
+        "title": "Food and Cuisine",
+        "publisher": "Incredible India",
+        "date": "",
+        "relevance": "Official tourism overview identifying chhole bhature as a popular Delhi food with origins in Punjab; use for broad regional association, not a precise invention date.",
+        "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/delhi/food-and-cuisine.html"
+      }
+    ]
+  },
+  {
+    "slug": "daulat-ki-chaat-delhi-winter",
+    "title": "Daulat Ki Chaat: The Delicate Taste of Delhi’s Winter",
+    "description": "Made from hand-whipped milk foam and sold in the cool mornings of Old Delhi, daulat ki chaat is a dessert whose appeal lies in its fleeting texture and the labour behind it.",
+    "region": "Old Delhi",
+    "symbol": "✺",
+    "tone": "sweet",
+    "pullQuote": "Food culture is not always built around permanent availability. Sometimes, a dish becomes special precisely because it belongs to a particular season.",
+    "sections": [
+      {
+        "heading": "I. A dessert that belongs to winter",
+        "paragraphs": [
+          {
+            "text": "In the lanes of Old Delhi, daulat ki chaat appears when the weather turns cool. It is unlike the dense sweets usually found in a halwai shop: a spoonful is light, airy and delicate, with the flavour of milk, cream and its finishing garnishes. Vendors traditionally sell it in the morning, when the foam can be kept cool and served before it loses its texture.",
+            "citations": [
+              "L1",
+              "L2"
+            ]
+          },
+          {
+            "text": "The sweet is closely associated with Chandni Chowk and the Walled City, where family-run vendors prepare it during the winter season. Similar milk-foam sweets are known in other North Indian cities under names such as malai makhan, malayo and nimish, though each has its own local character.",
+            "citations": [
+              "L1",
+              "L3"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "daulat-ki-chaat-delhi-winter-image-01",
+          "slot": 1,
+          "subject": "A winter morning street scene in Chandni Chowk or the Old Delhi lanes, showing a daulat ki chaat vendor/cart. Keep the location recognisable.",
+          "altText": "A daulat ki chaat cart in an Old Delhi market lane on a winter morning."
+        }
+      },
+      {
+        "heading": "II. The work behind the foam",
+        "paragraphs": [
+          {
+            "text": "The preparation begins with full-cream milk and cream. The mixture is kept cold and whisked by hand, often with a traditional wooden churner called a mathani. As air is worked into the milk, a delicate foam forms on the surface. Vendors carefully lift and collect the lightest layer, repeating the process until they have enough to serve.",
+            "citations": []
+          },
+          {
+            "text": "The foam is finished with powdered sugar and garnishes that may include saffron, khoya, pistachios or almonds. The recipe is simple to describe, but the texture depends on patient work and careful handling. The collected foam is fragile; it cannot be packed away like a firm sweet and expected to remain unchanged.",
+            "citations": [
+              "L1",
+              "L2"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "daulat-ki-chaat-delhi-winter-image-02",
+          "slot": 2,
+          "subject": "A close process image of a vendor hand-whisking chilled milk with a mathani or lifting the foam. Prefer a real preparation photograph over a generic bowl of cream.",
+          "altText": "A vendor hand-churning chilled milk to build the delicate foam."
+        }
+      },
+      {
+        "heading": "III. Why the morning matters",
+        "paragraphs": [
+          {
+            "text": "Daulat ki chaat is most closely associated with winter because cool conditions help the milk remain cold while it is churned and the foam is gathered. As the day warms, the delicate structure becomes harder to preserve. This is why the dessert is usually prepared before dawn and sold in the early hours, often disappearing from street carts by late morning.",
+            "citations": [
+              "L1",
+              "L3"
+            ]
+          },
+          {
+            "text": "Stories about moonlight and night dew are part of the dessert’s charm and are repeated in vendor accounts. But the practical explanation is temperature: chilled milk and cool surroundings help the froth form and remain stable. The moonlit-night image is best treated as folklore, not as a required step in the recipe.",
+            "citations": [
+              "L1",
+              "L2"
+            ]
+          }
+        ],
+        "imageAfter": {
+          "id": "daulat-ki-chaat-delhi-winter-image-03",
+          "slot": 3,
+          "subject": "A single close-up of daulat ki chaat served in a pattal/dona, showing its airy foam and saffron/nut garnish.",
+          "altText": "A fresh serving of daulat ki chaat topped with saffron and nuts."
+        }
+      },
+      {
+        "heading": "IV. A tradition that lasts only a few hours",
+        "paragraphs": [
+          {
+            "text": "Vendor families in Old Delhi have carried the preparation across generations, shaping its identity through local memory and the seasonal routine of making and selling it. The craft itself is central to the experience.",
+            "citations": []
+          },
+          {
+            "text": "For a short part of the year, vendors begin work while the city is still waking. They whisk, collect and protect the foam, then serve it fresh to customers moving through the old lanes. The dessert’s fame comes from this combination of skill and timing: it is made slowly, served quickly and enjoyed before the winter morning disappears.",
+            "citations": []
+          }
+        ],
+        "imageAfter": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "L1",
+        "title": "The ‘wealth’ of winter: Why daulat ki chaat disappears from Old Delhi’s streets before noon",
+        "publisher": "The Indian Express",
+        "date": "2026",
+        "relevance": "Current, directly relevant feature for winter seasonality, hand-churning, foam collection, serving and the lack of a definitive first creator.",
+        "url": "https://indianexpress.com/article/lifestyle/food-wine/winter-dessert-why-daulat-ki-chaat-disappears-from-old-delhis-streets-before-noon-10472683/"
+      },
+      {
+        "id": "L2",
+        "title": "Delhiwale: Winter’s tasty essence",
+        "publisher": "Hindustan Times",
+        "date": "2024",
+        "relevance": "On-the-ground account of Old Delhi vendors, family traditions, preparation timings and the moon/dew story as folklore.",
+        "url": "https://www.hindustantimes.com/cities/delhi-news/delhiwale-winter-s-tasty-essence-101729531512580.html"
+      },
+      {
+        "id": "L3",
+        "title": "Have you tasted air? Dive into Daulat ki chaat",
+        "publisher": "The Indian Express",
+        "date": "2019",
+        "relevance": "Explains the winter technique and compares related milk-foam preparations such as nimish. Useful for a concise account of the texture and craft.",
+        "url": "https://indianexpress.com/article/express-sunday-eye/have-you-tasted-air-dive-into-daulat-ki-chaat-6096438/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+INDIA'S CULINARY MEMORY ARCHIVE — LINK CHECK SUMMARY
+==========================================================
+URL occurrences in JSON: 170
+Unique URLs checked: 144
+
+Unique URL results:
+  BLOCKED / RESTRICTED: 8
+  BROKEN: 2
+  CONNECTION ERROR: 10
+  SERVER ERROR: 1
+  WORKING: 123
+
+Occurrences by result:
+  BLOCKED / RESTRICTED: 9
+  BROKEN: 2
+  CONNECTION ERROR: 11
+  SERVER ERROR: 1
+  WORKING: 147
+
+Interpretation:
+  WORKING = server responded successfully; this does not prove the page supports the cited claim.
+  BROKEN = 404/410; replace or correct the URL after confirming the source.
+  BLOCKED / RESTRICTED = publisher denied automated access; open it manually before calling it broken.
+  RATE LIMITED / SERVER ERROR / CONNECTION ERROR = retry later before taking action.
+
+Detailed report: archive_link_check_report.csv
