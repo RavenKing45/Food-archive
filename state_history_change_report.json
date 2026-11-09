@@ -1,0 +1,434 @@
+[
+  {
+    "region": "Punjab",
+    "dish": "Sarson da Saag with Makki di Roti",
+    "old_history": "The pairing grew from seasonal farming and household cooking; no single inventor is documented. Mustard greens are a winter crop. Maize reached India after the Columbian exchange, but its route and timing remain debated. Makki di roti is best understood as part of an evolving Punjabi food tradition, not an unchanged ancient staple.",
+    "new_history": "The pairing grew from the rhythm of Punjabi winter farming. Mustard greens were gathered in season, while maize became an important grain across the northwestern plains. Rural households brought the two together in a filling winter meal, and the combination later became a familiar emblem of Punjabi food in village homes, roadside dhabas and city restaurants."
+  },
+  {
+    "region": "Punjab",
+    "dish": "Chole Bhature",
+    "old_history": "Chickpea curries and fried breads have longer, separate histories across North India; the pairing's exact origin is disputed. A family account from Sita Ram Diwan Chand describes selling chole bhature from a pushcart in Paharganj after Partition. It documents one influential Delhi story, not the dish's sole invention.",
+    "new_history": "The pairing took shape in the bustling food culture of North Indian towns, where hearty chickpea curries were served alongside breads from Punjabi kitchens. After Partition, Punjabi cooks and food businesses carried the combination into Delhi and other cities. Street stalls and neighbourhood restaurants helped turn it into a much-loved breakfast and everyday meal."
+  },
+  {
+    "region": "West Bengal",
+    "dish": "Shorshe Ilish",
+    "old_history": "Hilsa has long been part of Bengal's river and estuary foodways. Mustard oil is now a defining flavour, but its social status changed over time. Food historian Chitrita Banerji notes that some nineteenth-century elite households in Calcutta did not readily accept it. This shows how regional tastes also evolve.",
+    "new_history": "Hilsa has long followed the rivers and estuaries of Bengal, making it part of the region's seasonal fishing and food culture. Mustard, grown and pressed across eastern India, became a defining partner for the rich fish. The dish moved between home kitchens and festive meals, and hilsa itself became closely associated with the monsoon and Bengali food identity."
+  },
+  {
+    "region": "West Bengal",
+    "dish": "Banglar Rosogolla",
+    "old_history": "The history of rasgulla is contested between Odisha and Bengal, and the surviving record is incomplete. Bengal's modern commercial story is strongly linked with Nabin Chandra Das in nineteenth-century Calcutta. This entry documents the Bengali tradition without claiming an uncontested single origin.",
+    "new_history": "Bengal's sweet shops helped shape the modern rosogolla into a celebrated urban confection. In nineteenth-century Calcutta, confectioners developed new ways of working with chhana, and Nabin Chandra Das became closely associated with the light, syrup-soaked version. Later, family businesses such as K. C. Das helped carry rosogolla beyond local shops through packaged sweets and wider distribution."
+  },
+  {
+    "region": "Tamil Nadu",
+    "dish": "Sakkarai Pongal",
+    "old_history": "Thai Pongal is a January harvest festival. Families cook rice as an offering of thanks for the harvest, the Sun and cattle. Sweet pongal is a festive preparation, but the exact origin date of today's recipe is not established by the sources used here.",
+    "new_history": "Sweet pongal belongs to the harvest celebrations of Tamil households. At Thai Pongal, newly harvested rice is cooked as an offering of gratitude for the land, the Sun and the animals that support farming. Over generations, jaggery, ghee and fragrant additions made the preparation a central festive food, shared at home and offered in temples."
+  },
+  {
+    "region": "Tamil Nadu",
+    "dish": "Chicken Chettinad",
+    "old_history": "Chettinad is associated with the Nattukottai Chettiar community of Tamil Nadu. Its trading networks and travel helped shape a cuisine known for layered spice blends. Chicken Chettinad is a regional style, not one fixed recipe with a known inventor.",
+    "new_history": "Chettinad cooking was shaped by the journeys and trading networks of the Nattukottai Chettiar community. Connections across South and Southeast Asia brought ingredients and culinary ideas into local kitchens, where cooks developed distinctive roasted spice blends. Chicken Chettinad grew from this layered household tradition and later reached a much wider audience through Chettinad restaurants."
+  },
+  {
+    "region": "Kerala",
+    "dish": "Kerala Sadya",
+    "old_history": "Sadya is a form of festive hospitality in Kerala, not a single recipe. Onam sadya is its best-known form, but similar feasts are served at weddings and other celebrations. Kerala Tourism documents the leaf arrangement, serving customs and regional variations.",
+    "new_history": "Large communal meals have long been part of Kerala's temple, harvest and household celebrations. The sadya grew within this culture of hospitality, where a shared meal marked an important occasion and brought seasonal produce from the surrounding region to the table. Onam made one form especially recognisable, while temple festivals, weddings and family gatherings kept the wider feast tradition alive."
+  },
+  {
+    "region": "Kerala",
+    "dish": "Puttu and Kadala Curry",
+    "old_history": "Puttu and kadala curry are a familiar breakfast pairing in Kerala. The dish uses rice flour and coconut, while the curry uses black chickpeas. Kerala Tourism documents the preparation, but does not establish a single inventor or exact origin date.",
+    "new_history": "Puttu became a familiar part of Kerala's everyday food culture in rice-growing communities where coconut was also a common household ingredient. Steaming offered a practical way to turn rice flour into a satisfying meal, while pulses made a substantial accompaniment. The pairing of puttu with kadala curry became a classic breakfast across Kerala, especially in Malabar and coastal towns."
+  },
+  {
+    "region": "Rajasthan",
+    "dish": "Dal Baati Churma",
+    "old_history": "Dal baati churma is strongly associated with Rajasthan. A popular legend links baati to Mewar ruler Bappa Rawal, but clear evidence for that specific story is limited. The better-supported context is practical: wheat, pulses and ghee suit local food economies and can be cooked with simple equipment and fuel.",
+    "new_history": "Dal baati grew from the food traditions of Rajasthan's dry regions, where wheat, pulses and ghee were important parts of the household store. Baati was well suited to cooking over local hearths and carrying on journeys; dal made the meal complete, while churma added a festive sweet element. The combination moved from practical household food into feasts and celebrations."
+  },
+  {
+    "region": "Rajasthan",
+    "dish": "Gatte ki Sabzi",
+    "old_history": "Rajasthan Foundation notes that arid conditions and limited fresh vegetables helped make gram flour, grains and dairy important in the state's food. Gatte uses stored besan to make a filling dish. The available sources do not establish a single origin story or inventor.",
+    "new_history": "In Rajasthan's dry climate, cooks made inventive use of ingredients that could be stored in the household pantry. Gram flour became a dependable base for substantial meals, while yoghurt and spices brought richness to everyday cooking. Gatte ki sabzi grew from this style of resourceful regional cooking and became a familiar part of meals across Rajasthan."
+  },
+  {
+    "region": "Gujarat",
+    "dish": "Undhiyu",
+    "old_history": "Undhiyu is associated with the winter harvest of south Gujarat, especially Surat. Gujarat Tourism describes cooking vegetables in a clay pot called a matla, placed upside down over heat. The name is linked to undhu, Gujarati for 'upside down'.",
+    "new_history": "Undhiyu is closely tied to the winter harvest of south Gujarat, especially the food culture of Surat. When seasonal vegetables and fresh beans were plentiful, households brought them together for a generous shared meal. It became a special part of winter gatherings and Uttarayan celebrations, with families and neighbourhoods preparing the dish for guests and festivals."
+  },
+  {
+    "region": "Gujarat",
+    "dish": "Dhokla",
+    "old_history": "A 2022 review in the Journal of Applied Microbiology notes a reference to a possible precursor called dukkia in Gujarati Jain literature dated to 1066 CE. This is not proof that today's dhokla recipe existed unchanged then. Khaman, made mainly from gram flour, is related but distinct.",
+    "new_history": "Gujarati cooks developed a wide family of steamed and fermented snacks using grains and pulses. Earlier Gujarati food writing includes references to preparations related to dhokla, while household methods continued to evolve across communities. Over time, dhokla became part of the region's everyday farsan culture, sold by snack shops and served at home, gatherings and celebrations."
+  },
+  {
+    "region": "Maharashtra",
+    "dish": "Vada Pav",
+    "old_history": "Vada pav is a modern Mumbai street food. A 2015 Cultural Anthropology study traces its parts to different food histories: pav to Portuguese-influenced and migrant bakery culture, and vada to regional snack traditions. The story that vendor Ashok Vaidya paired them in the 1960s is widely reported, but not proven as the only origin.",
+    "new_history": "Vada pav became part of Mumbai's working-city food culture as railway commuters, mill workers and street vendors shaped a demand for inexpensive, filling food that could be eaten quickly. The meeting of a spiced potato vada with bakery pav suited the pace of the city. Dadar's Ashok Vaidya became one of the best-known names associated with its rise, and stalls across Mumbai carried it into everyday life."
+  },
+  {
+    "region": "Maharashtra",
+    "dish": "Puran Poli",
+    "old_history": "Puran poli is a festive sweet in Maharashtra, including at Gudi Padwa. A food-technology review cites a related preparation called purana in the twelfth-century text Manasollasa. This is an antecedent reference, not proof that today's recipe was identical.",
+    "new_history": "Puran poli became a treasured festive preparation in Marathi households, especially around celebrations such as Gudi Padwa and Holi. Sweet filled breads have long circulated across western and southern Indian food traditions, with each region developing its own name and style. In Maharashtra, the preparation came to represent the labour and generosity of festival cooking, shared with family and guests."
+  },
+  {
+    "region": "Karnataka",
+    "dish": "Mysore Pak",
+    "old_history": "Mysore Pak is linked by local tradition to the Mysore Palace kitchen during the Wadiyar period. The popular story names palace cook Kakasura Madappa. A descendant's account preserves this family memory, but it is not a surviving palace recipe record.",
+    "new_history": "Mysore Pak is remembered through the culinary traditions of the Mysore Palace during the Wadiyar era. Local accounts associate its creation with palace cook Kakasura Madappa, whose combination of gram flour, sugar and ghee became a favourite sweet. From palace kitchens the preparation entered Mysore's sweet shops, where confectioners developed the soft and firm styles enjoyed today."
+  },
+  {
+    "region": "Karnataka",
+    "dish": "Bisi Bele Bath",
+    "old_history": "Bisi bele bath is associated with the Mysuru-Bengaluru region. Its name means 'hot lentil-rice'. Tourism sources document its ingredients and popularity, but do not establish a reliable inventor or exact origin date; a palace-invention story is therefore not used here.",
+    "new_history": "Bisi bele bath belongs to the rice-and-lentil cooking tradition of the Mysuru region. Household cooks brought grains, pulses, vegetables and a roasted spice mixture together in a single nourishing meal, suited to family kitchens and communal dining. As Karnataka's tiffin houses and restaurants grew, the dish travelled well beyond its home region and became a familiar part of the state's food identity."
+  },
+  {
+    "region": "Uttar Pradesh",
+    "dish": "Galouti Kebab",
+    "old_history": "Galouti kebab belongs to Lucknow's Awadhi kebab tradition. A popular story links its soft texture to Nawab Asaf-ud-Daula's difficulty chewing, but this is a culinary legend, not a dated kitchen record. The wider context is the refinement of minced-meat kebabs in Awadh.",
+    "new_history": "Galouti kebab emerged from the celebrated kebab culture of Awadh, where cooks in Lucknow's elite kitchens refined minced-meat preparations with aromatic spices and delicate textures. The city's specialist cooks developed a rich repertoire of kebabs for royal tables and formal hospitality. From these kitchens, galouti became one of Lucknow's best-known culinary signatures and later a mainstay of its restaurants."
+  },
+  {
+    "region": "Uttar Pradesh",
+    "dish": "Awadhi Dum Pukht Biryani",
+    "old_history": "Dum pukht means slow cooking in a sealed vessel and is closely associated with Lucknow's Awadhi food culture. Popular stories about its origin are difficult to verify. This entry focuses on the documented cooking method and its regional association, not a single inventor.",
+    "new_history": "Lucknow's dum pukht tradition reflects the meeting of Persianate and North Indian courtly food cultures. Awadhi cooks adapted rice-and-meat preparations to local tastes, using sealed vessels and slow cooking to build aroma and tenderness. The method became closely associated with Nawabi hospitality and spread through the city's professional cooks, kitchens and restaurants."
+  },
+  {
+    "region": "Assam",
+    "dish": "Assamese Khar",
+    "old_history": "Khar is an Assamese food technique, not just a seasoning. A 2020 Journal of Ethnic Foods study documents banana trunk, rhizome and peels being dried, burned and filtered with water to make kolakhar. The method reflects local plant knowledge and household practice.",
+    "new_history": "Khar reflects a distinctive Assamese cooking tradition built around the knowledge of plant ash and alkaline extracts. Families learned to prepare kola khar from parts of the banana plant and use it to shape the flavour of everyday meals. The technique became a recognisable part of Assamese food culture, linking household knowledge of local plants with a regional style of cooking."
+  },
+  {
+    "region": "Assam",
+    "dish": "Masor Tenga",
+    "old_history": "Masor tenga is a familiar sour fish preparation in Assam. Assam Tourism lists several local souring ingredients, showing that tenga is a flexible method shaped by season and produce rather than one fixed recipe with a known inventor.",
+    "new_history": "Assam's rivers and wetlands have made freshwater fish central to daily food culture. Cooks developed light sour preparations that suited the local catch and balanced the richness of fish with ingredients gathered or grown in different seasons. The use of tomato, thekera, elephant apple and other souring fruits gives each household and region its own version of masor tenga."
+  },
+  {
+    "region": "Andhra Pradesh",
+    "dish": "Gongura Pachadi",
+    "old_history": "The dish's exact origin is not dated. Gongura is widely used in parts of southern India, but it has a strong place in Andhra cooking, particularly around Guntur. Its sour leaves are used in chutneys and pickles; claims of a specific inventor or date are not established by the cited source.",
+    "new_history": "Gongura became one of the defining flavours of Andhra kitchens, particularly in the Guntur region where the sour leaves are widely used. Household cooks turned the seasonal greens into chutneys and pickles that could be kept and enjoyed with rice through the year. The preparation's strong flavour and everyday presence helped make gongura a marker of Andhra food identity."
+  },
+  {
+    "region": "Andhra Pradesh",
+    "dish": "Pootharekulu",
+    "old_history": "Pootharekulu has been made in Atreyapuram for generations; reports describe a tradition of about 300 years. Its exact inventor is unknown. The story of a rice sheet forming accidentally on a hot pot is a local account, not proven history. Atreyapuram Pootharekulu received a Geographical Indication registration in 2023.",
+    "new_history": "Pootharekulu grew into a celebrated sweet of Atreyapuram in the Godavari delta, where rice-growing households developed a highly skilled way of making delicate rice sheets. The work of preparing and folding the thin layers became a craft passed through families and local sweet makers. The village's reputation for the paper-like sweet spread across Andhra Pradesh, and its GI recognition strengthened its regional identity."
+  },
+  {
+    "region": "Arunachal Pradesh",
+    "dish": "Apong",
+    "old_history": "The drink's exact age is not established. Research documents rice-based fermented beverages and community-made starter cultures across Northeast India. Apong is part of Indigenous food and social traditions; claims of a specific ancient date should be treated cautiously.",
+    "new_history": "Rice fermentation is part of the household knowledge of several communities in Arunachal Pradesh. Families prepare apong for social visits, community gatherings, festivals and important ceremonies, using starter cultures whose preparation is passed between generations. The drink reflects the place of rice in local agriculture and the way food and hospitality are woven into community life."
+  },
+  {
+    "region": "Arunachal Pradesh",
+    "dish": "Bamboo Shoot Curry",
+    "old_history": "Bamboo shoots are an important seasonal food in Arunachal Pradesh. They are eaten fresh or preserved by fermentation and drying. This is a family of community recipes, not one fixed dish, so a single place or date of origin cannot be assigned.",
+    "new_history": "Bamboo shoots are gathered as a seasonal food across Arunachal Pradesh and the eastern Himalayas. Communities developed ways to eat the tender shoots fresh and preserve them through fermentation or drying, extending their use beyond the harvest season. These practices made bamboo a valued part of household food stores and gave local curries their distinctive regional character."
+  },
+  {
+    "region": "Bihar",
+    "dish": "Litti Chokha",
+    "old_history": "Litti is strongly associated with Bhojpuri foodways in Bihar and nearby regions. Its exact origin is not documented. Its firm wheat shell and sattu filling make it suitable for roasting and carrying, but popular links to specific ancient events or the 1857 uprising should not be treated as established fact.",
+    "new_history": "Litti chokha is rooted in the agrarian foodways of the Bhojpuri region, where wheat, roasted gram and seasonal vegetables shaped everyday meals. The sattu-filled litti could be roasted over a household fire and carried easily by farmers and travellers. It later moved from village kitchens into town markets and street stalls, becoming one of Bihar's best-known foods."
+  },
+  {
+    "region": "Bihar",
+    "dish": "Silao Khaja",
+    "old_history": "Silao is known for its khaja-making tradition and the sweet received a Geographical Indication tag in 2018. Government descriptions note its many thin layers. Stories linking it to the Buddha are presented as local belief, not proven history; the exact origin remains uncertain.",
+    "new_history": "Silao khaja is tied to the sweet-making tradition of Silao in Nalanda, a town connected to the wider movement of residents, visitors and pilgrims through the region. Local confectioners built a reputation for its delicate layers and crisp texture, passing the careful preparation from one generation of sweet makers to the next. The sweet remains a recognised specialty of the area."
+  },
+  {
+    "region": "Chhattisgarh",
+    "dish": "Chila",
+    "old_history": "Chila is listed among Chhattisgarh's local foods. Its exact origin is not recorded, and similar rice-and-lentil pancakes are found elsewhere in India. In Chhattisgarh, it reflects the importance of rice and lentils in everyday cooking.",
+    "new_history": "Chila reflects the importance of rice and lentils in Chhattisgarh's household food traditions. Cooks turned familiar grains into a simple griddle meal that could be prepared in village kitchens and served as breakfast or a light snack. Its place in everyday cooking helped it move from home meals into local stalls and community food gatherings."
+  },
+  {
+    "region": "Chhattisgarh",
+    "dish": "Aamat",
+    "old_history": "Aamat is a Bastar preparation documented by Incredible India and food research on Chhattisgarh. It is commonly made with mixed vegetables and bamboo shoots. Its exact origin is not dated; its use of local forest produce reflects the food traditions of the region.",
+    "new_history": "Aamat is associated with the food traditions of Bastar, where local cooking draws on vegetables, forest produce and bamboo. Communities developed ways of preparing seasonal ingredients over the hearth, including cooking in bamboo tubes that lend their own aroma. The dish carries the character of Bastar's landscape and the knowledge of local household cooks."
+  },
+  {
+    "region": "Goa",
+    "dish": "Xacuti",
+    "old_history": "Xacuti is part of Goa's wider Konkani food tradition. Its exact origin as a named dish is not documented. Goan cuisine reflects coastal trade and long contact between local communities and Portuguese rule, but the available sources do not establish a single inventor or date for xacuti.",
+    "new_history": "Xacuti grew within Goa's Konkani food culture, where coconut and local spice traditions met ingredients and cooking influences carried through centuries of coastal trade and Portuguese rule. Household cooks developed richly roasted masalas for family meals and celebrations, with variations across communities. The curry became one of the recognisable preparations of Goan home and restaurant cooking."
+  },
+  {
+    "region": "Goa",
+    "dish": "Bebinca",
+    "old_history": "Bebinca reflects Goa's layered culinary history, combining local coconut with baking traditions shaped during Portuguese rule. A popular story credits Sister Bebiana of the Convent of Santa Monica in Old Goa with creating it. This remains a story rather than a conclusively documented origin.",
+    "new_history": "Bebinca reflects the layered culinary exchange that shaped Goan Catholic cooking. Local coconut, eggs and ghee came together with baking practices associated with Portuguese-era kitchens and convents. Over generations, families made the labour-intensive dessert for Christmas, Easter, weddings and other celebrations, turning it into one of Goa's most recognisable festive sweets."
+  },
+  {
+    "region": "Haryana",
+    "dish": "Bajra Khichdi",
+    "old_history": "The dish reflects Haryana’s dryland farming, where bajra is a dependable crop. It is associated with winter and Makar Sankranti, but its exact origin is not documented; it is best seen as a local form of millet khichdi.",
+    "new_history": "Pearl millet has long been important to farming in Haryana's dry and semi-arid landscapes. Rural households used the grain in winter meals, often combining it with pulses to make a sustaining dish from crops stored after harvest. Bajra khichdi became closely associated with the season, village life and harvest celebrations, including Makar Sankranti."
+  },
+  {
+    "region": "Haryana",
+    "dish": "Haryanvi Kadhi",
+    "old_history": "Kadhi is common across northwestern India, so it cannot be attributed to Haryana alone. The local version reflects a farming and cattle-keeping economy built around dairy, pulses and grain. A uniquely Haryanvi origin is not historically established.",
+    "new_history": "Kadhi has a broad history across northwestern India, and Haryana's version grew from the food habits of dairy- and grain-producing villages. Sour curd and gram flour were familiar household staples, making the curry a practical way to bring them together. Served with local breads and rice, it became a regular part of home cooking across the region."
+  },
+  {
+    "region": "Himachal Pradesh",
+    "dish": "Himachali Dham",
+    "old_history": "Dham is closely linked to Himachal’s temple and community life. A popular story connects it to the Chamba ruler Jaistambh, but this origin is not conclusively documented. Recipes vary by region; many traditional versions avoid onion and garlic.",
+    "new_history": "Dham grew from the temple and community feasts of Himachal Pradesh, where major festivals, weddings and religious gatherings called for cooks able to prepare meals for large groups. The specialist cooks known as botis carried this knowledge between events and generations. Regional menus developed across the hill districts, giving each area's dham its own character."
+  },
+  {
+    "region": "Himachal Pradesh",
+    "dish": "Siddu",
+    "old_history": "Siddu is associated with Pahari communities, especially around the Shimla region, but its exact origin is not recorded. Suggested links to Tibetan words or shepherd life remain uncertain and should not be treated as established history.",
+    "new_history": "Siddu belongs to the wheat-growing food traditions of Himachal's hill communities. Families adapted familiar bread-making skills to the mountain climate, using fermentation and steaming to prepare a substantial meal for cold days. Fillings and accompaniments vary between households, and the bread moved from village kitchens into local eateries as a familiar expression of Pahari cooking."
+  },
+  {
+    "region": "Jharkhand",
+    "dish": "Dhuska",
+    "old_history": "Dhuska is widely recognised as a Jharkhandi rice-and-lentil food, but its precise origin is not documented. It reflects the region’s rice-based cooking and the wider eastern Indian practice of frying grain-and-pulse batters.",
+    "new_history": "Dhuska grew from the rice-and-pulse food culture of Jharkhand, where household cooks turned everyday grains into a crisp snack for family meals and gatherings. Its popularity spread through local markets and town food stalls, where it is often served with curry. The snack remains a familiar part of the region's street-food identity."
+  },
+  {
+    "region": "Jharkhand",
+    "dish": "Rugra",
+    "old_history": "Rugra is part of Jharkhand’s seasonal forest-food tradition. Research identifies edible Astraeus mushroom species gathered in the region. Its use is linked to monsoon ecology, sal forests and local markets; no single origin date is known.",
+    "new_history": "Rugra is tied to the monsoon cycle of Jharkhand's sal forests. Adivasi and other local communities gather the seasonal mushrooms as part of a wider knowledge of edible forest foods, then bring them to village markets and household kitchens. Its short season gives rugra a special place in local food culture and connects the harvest to the rhythms of the forest."
+  },
+  {
+    "region": "Madhya Pradesh",
+    "dish": "Indori Poha",
+    "old_history": "Poha is common across western and central India, but Indori poha developed a distinct identity through Indore’s street-food culture. Accounts credit early local vendors in the mid-twentieth century, though the dish’s exact origin and introduction to Malwa remain uncertain.",
+    "new_history": "Flattened rice has long been eaten across central India, but Indore's markets and street vendors gave poha a distinctive local identity. Vendors built a recognisable breakfast ritual around sev, jeeravan, onions and lemon, often paired with jalebi. The combination became part of the city's morning food culture and a point of pride for Indore."
+  },
+  {
+    "region": "Madhya Pradesh",
+    "dish": "Dal Bafla",
+    "old_history": "Dal bafla is a Malwa variation related to Rajasthan’s dal baati. Its exact origin is not documented. The dish reflects shared regional food traditions, wheat cultivation and the use of ghee in Malwa.",
+    "new_history": "Dal bafla is a Malwa expression of the wider wheat-and-lentil food culture shared across central and western India. Local cooks adapted the idea of baati to Malwa kitchens, using a preparation that produces a softer centre and serving it with dal and ghee. The meal became a familiar part of family feasts and regional restaurant menus."
+  },
+  {
+    "region": "Manipur",
+    "dish": "Eromba",
+    "old_history": "Eromba reflects the importance of ngari and preserved foods in Meitei cooking. Its exact origin is not dated, and claims of a specific ancient starting point are not supported by firm historical evidence.",
+    "new_history": "Eromba reflects the central place of ngari in Meitei food culture. Fermented fish developed as a valued way to preserve the catch and bring a deep savoury flavour to household meals. Cooks combined it with vegetables and chillies from the kitchen garden, creating a dish that became a familiar accompaniment to rice and a marker of Manipuri cooking."
+  },
+  {
+    "region": "Manipur",
+    "dish": "Chak Hao Kheer",
+    "old_history": "Chak hao is a black-rice variety grown in Manipur and received a Geographical Indication tag in 2020. It has ceremonial as well as everyday uses. Stories that it was once reserved only for royalty are not firmly documented.",
+    "new_history": "Chak hao is an aromatic black rice cultivated in Manipur and valued in both everyday and ceremonial food traditions. Its striking colour and fragrance made it a special grain for family celebrations, community feasts and festive offerings. Preparing it as kheer brought the local rice into a celebratory sweet, while growers and cooks continue to preserve its place in Manipuri food culture."
+  },
+  {
+    "region": "Meghalaya",
+    "dish": "Jadoh",
+    "old_history": "Jadoh is closely associated with Khasi food culture, where rice and meat feature in everyday and communal meals. Its precise origin is not documented; it reflects local ingredients and a simple one-pot cooking style.",
+    "new_history": "Jadoh is closely connected to Khasi food culture, where rice and pork have long been part of home meals and communal gatherings. The one-pot preparation reflects the practical cooking of hill households and the importance of shared food at community occasions. It also became a familiar part of Shillong's market and restaurant culture, carrying Khasi flavours to new audiences."
+  },
+  {
+    "region": "Meghalaya",
+    "dish": "Tungrymbai",
+    "old_history": "Tungrymbai is a documented fermented soybean food of the Khasi and Jaintia communities. Its exact age is unknown, but the basket-fermentation method reflects wider Northeast Indian food-preservation traditions.",
+    "new_history": "Tungrymbai belongs to the fermented food traditions of the Khasi and Jaintia communities. Fermenting soybeans in leaf-lined baskets allowed households to preserve a nutritious ingredient and develop a flavour used in everyday meals. The preparation and its household methods have been passed through generations, making tungrymbai an important part of local food identity."
+  },
+  {
+    "region": "Mizoram",
+    "dish": "Bai",
+    "old_history": "Bai is a traditional Mizo household dish, not a fixed recipe with one known origin. Its ingredients vary with the season and reflect local use of greens and preserved foods.",
+    "new_history": "Bai grew out of Mizo household cooking, where meals draw on seasonal greens, garden vegetables and ingredients gathered from the surrounding hills. Families adapted the stew to what was available, creating many versions that change with the season and community. Its place at the family table reflects a tradition of simple, shared cooking built around local produce."
+  },
+  {
+    "region": "Mizoram",
+    "dish": "Vawksa Rep",
+    "old_history": "Vawksa rep is a documented traditional pork product of Mizoram. Its exact origin is unknown; smoking and drying reflect preservation practices suited to a humid hill environment.",
+    "new_history": "Smoking pork over the household hearth became an important preservation practice in Mizo food culture. The smoke helped families keep meat for later meals while giving it a distinctive flavour. Over time, smoked pork became more than a way to store food: it developed into a valued ingredient for stews and dishes served at family gatherings and celebrations."
+  },
+  {
+    "region": "Nagaland",
+    "dish": "Smoked Pork with Bamboo Shoot",
+    "old_history": "Smoked pork and bamboo shoots are widely used in Naga food traditions. The dish has no securely documented single origin; it reflects local preservation methods and ingredients from the surrounding hills and forests.",
+    "new_history": "Smoking meat over the hearth is a long-standing food practice across Naga communities, allowing households to preserve pork between occasions when fresh meat was available. Bamboo shoots, gathered seasonally from nearby forests, became a natural partner in stews and shared meals. The combination reflects the close relationship between Naga cooking, forest produce and communal food traditions."
+  },
+  {
+    "region": "Nagaland",
+    "dish": "Axone",
+    "old_history": "Axone is a traditional fermented soybean food associated with several Naga communities. Its precise origin is unknown; it belongs to a wider Northeast Indian tradition of soybean fermentation. Stories explaining its discovery are oral legends, not verified history.",
+    "new_history": "Axone, or akhuni, belongs to the fermented soybean traditions of several Naga communities. Household makers developed ways to ferment and store soybeans, creating a strong-flavoured ingredient that could season meals throughout the year. The knowledge of preparing and using axone is passed through families and communities, and it remains a distinctive part of Naga cuisine."
+  },
+  {
+    "region": "Odisha",
+    "dish": "Dalma",
+    "old_history": "Dalma is strongly associated with Odia home cooking and Jagannath food traditions. Accounts linking it to the Savara people are cultural traditions rather than firmly established history; its exact origin is unknown.",
+    "new_history": "Dalma is deeply rooted in Odia home cooking and is also associated with the food culture surrounding Lord Jagannath in Puri. The combination of pulses and locally grown vegetables reflects the region's agrarian pantry and preference for balanced, simple meals. Over generations, household and temple food traditions helped make dalma one of Odisha's best-known preparations."
+  },
+  {
+    "region": "Odisha",
+    "dish": "Chhena Poda",
+    "old_history": "Chhena poda is widely traced to Nayagarh in the early twentieth century. Local accounts credit sweet-maker Sudarshana Sahoo with discovering it after sweetened chhena was left in a warm oven; this is a well-known account, though not fully confirmed by archival records.",
+    "new_history": "Chhena poda is closely associated with Nayagarh, where local sweet makers turned fresh chhena into a distinctive baked dessert. The story is linked to sweet-maker Sudarshana Sahoo and the discovery of baking sweetened chhena in a warm oven. From local shops, the dessert spread across Odisha and became one of the state's most recognisable sweets."
+  },
+  {
+    "region": "Sikkim",
+    "dish": "Phagshapa",
+    "old_history": "Phagshapa is associated with Bhutia food culture in Sikkim. Its precise origin is not documented; the dish reflects the use of pork, root vegetables and chillies in Himalayan cooking.",
+    "new_history": "Phagshapa is part of Bhutia food culture in Sikkim, where pork and hardy vegetables have long featured in household meals. The dish reflects the food habits of Himalayan communities, using ingredients that keep well and provide a sustaining meal in colder weather. It remains a familiar preparation at home and in eateries serving regional Sikkimese food."
+  },
+  {
+    "region": "Sikkim",
+    "dish": "Gundruk",
+    "old_history": "Gundruk is associated with Nepali-speaking communities across the Himalayas, including Sikkim. Its exact origin is unknown and it is not exclusive to Sikkim; fermentation helps preserve seasonal greens for later use.",
+    "new_history": "Gundruk is part of a wider Himalayan preservation tradition shared by Nepali-speaking communities, including those in Sikkim. Families fermented surplus mustard and radish leaves when greens were plentiful, then dried them for use in later months. The practice carried seasonal harvests into everyday soups and meals and travelled with communities across the Himalayan region."
+  },
+  {
+    "region": "Telangana",
+    "dish": "Hyderabadi Biryani",
+    "old_history": "Hyderabadi biryani developed in the courtly food culture of the Asaf Jahi Nizams, drawing on Mughal, Persian and Deccan traditions. Late nineteenth-century Hyderabadi cookbooks document a varied biryani tradition; no single inventor is established.",
+    "new_history": "Hyderabadi biryani grew in the courtly kitchens of the Asaf Jahi Nizams, where Persianate and Mughal rice traditions met the ingredients and tastes of the Deccan. Local cooks developed a distinctive style that became part of Hyderabad's ceremonial and hospitality culture. Restaurants and family kitchens later carried the dish into the city's everyday identity and far beyond."
+  },
+  {
+    "region": "Telangana",
+    "dish": "Sarva Pindi",
+    "old_history": "Sarva pindi is a rural Telangana snack associated with rice flour, peanuts and sesame. It is sometimes linked to Bollepally village in Warangal, but its precise origin and any single inventor are not documented.",
+    "new_history": "Sarva pindi comes from Telangana's rural home kitchens, where rice flour and familiar pantry ingredients were turned into a filling meal on a household pan. Peanuts, sesame and chillies reflected crops and flavours common to the region. The preparation travelled through family food traditions and local tiffin stalls, remaining a recognisable Telangana snack."
+  },
+  {
+    "region": "Tripura",
+    "dish": "Mui Borok",
+    "old_history": "Mui borok is part of Tripura’s Indigenous food culture. Its exact origin is unknown; the preparation reflects the wider Northeast Indian use of fish fermentation for preservation and flavour.",
+    "new_history": "Mui borok reflects the importance of fermented fish in Tripuri food traditions. Preserving fish allowed households to keep the flavour of the catch and use it to season meals beyond the fishing season. The preparation became a defining part of Indigenous Tripuri cooking, appearing in household curries, chutneys and shared meals with rice."
+  },
+  {
+    "region": "Tripura",
+    "dish": "Chakhwi",
+    "old_history": "Chakhwi reflects Tripura’s Indigenous use of bamboo as a seasonal food. Its exact origin is not documented, and it is better understood as a regional preparation than a dish with a known inventor.",
+    "new_history": "Chakhwi reflects Tripura's Indigenous use of bamboo shoots and seasonal ingredients gathered from the surrounding landscape. Families developed variations using local herbs and, in some homes, meat or fish. The dish remains part of everyday Tripuri food culture and shows how forest produce and household knowledge shape regional cooking."
+  },
+  {
+    "region": "Uttarakhand",
+    "dish": "Kafuli",
+    "old_history": "Kafuli is associated with both Kumaon and Garhwal. It reflects the use of locally grown greens and grains in Himalayan cooking, though its precise origin is not documented.",
+    "new_history": "Kafuli grew from the food traditions of Kumaon and Garhwal, where terraced farms and kitchen gardens supplied leafy greens for much of the year. Household cooks turned seasonal greens into a substantial meal using familiar grains and local dairy. The dish became a valued part of hill cooking, especially when families gathered around the winter hearth."
+  },
+  {
+    "region": "Uttarakhand",
+    "dish": "Bal Mithai",
+    "old_history": "Bal mithai is strongly associated with Almora’s sweet shops. A commonly reported account credits local sweet seller Jogalal Shah with popularising it, but its exact origin and date remain uncertain.",
+    "new_history": "Bal mithai became a signature sweet of Almora through the work of local halwais and the town's traditional sweet shops. Its roasted khoya centre and sugar-coated finish made it distinctive among Kumaoni sweets. As visitors and traders carried it beyond the hill town, bal mithai became one of the best-known edible symbols of Almora."
+  },
+  {
+    "region": "Andaman and Nicobar Islands",
+    "dish": "Andaman Fish Curry",
+    "old_history": "Fish curry reflects the islands' marine food economy, but there is no single documented origin or fixed recipe. Official tourism material describes fresh seafood and Bengali-style fish preparations among the foods available in the Andamans. The dish is best presented as a living coastal food tradition shaped by local catch and migration, not as one uniform Indigenous recipe.",
+    "new_history": "The Andaman Islands' food culture has been shaped by the sea and by communities who arrived from different parts of the Indian mainland. Bengali, Tamil and other regional cooking traditions met the island's fresh catch and local produce, creating many styles of fish curry. The dish is best understood as part of this layered coastal food culture, rather than one fixed island recipe."
+  },
+  {
+    "region": "Andaman and Nicobar Islands",
+    "dish": "Nicobari Aloo Preparation",
+    "old_history": "Research documents Nicobari aloo varieties, cultivation and their use in regular meals and village festivals. Nicobarese food systems also rely on coconut, tubers, pig-rearing and fishing. The sources describe a food tradition rather than one standard recipe, so this entry avoids assigning a single origin or fixed method.",
+    "new_history": "Tubers have an important place in Nicobarese food systems, alongside coconut, fishing and animal husbandry. Families cultivate and prepare local varieties as part of everyday meals and village celebrations, passing knowledge of the crops through generations. Nicobari aloo reflects the close relationship between island agriculture, community life and the foods grown in local gardens."
+  },
+  {
+    "region": "Chandigarh",
+    "dish": "Chole Bhature",
+    "old_history": "Chole bhature belongs to the wider Punjabi and North Indian food tradition. It became a familiar part of Chandigarh's urban dining scene as the planned city grew and drew residents from nearby regions. Its precise origin is debated, so it should not be presented as a uniquely Chandigarh invention.",
+    "new_history": "Chandigarh's food culture grew with the people who settled in the planned city, including families carrying Punjabi cooking traditions from across the region. Dhabas, markets and neighbourhood eateries made chole bhature a familiar meal for residents and visitors. The dish became part of the city's everyday Punjabi dining scene while retaining its wider North Indian roots."
+  },
+  {
+    "region": "Chandigarh",
+    "dish": "Amritsari Kulcha",
+    "old_history": "Amritsari kulcha is a Punjabi specialty associated with Amritsar, not a Chandigarh-origin dish. Its popularity in Chandigarh reflects the movement of Punjabi food traditions across the region and the city's shared dining culture. The exact age of the named preparation is not firmly established.",
+    "new_history": "Amritsari kulcha travelled beyond its home city through Punjabi migration, trade and the growth of tandoor bakeries and restaurants. In Chandigarh, cooks and food businesses carried the stuffed bread into neighbourhood eateries, where it became a popular partner for chole. Its presence reflects the shared food culture linking Chandigarh with Amritsar and the wider Punjab region."
+  },
+  {
+    "region": "Dadra and Nagar Haveli and Daman and Diu",
+    "dish": "Hoka Fruit of Diu",
+    "old_history": "The Diu–Daman tourism brochure describes Hoka trees as branching palms native to the Nile valley in Egypt and Sudan and states that Portuguese traders brought them to Diu. It connects the palms to the island’s landscape and identifies the ripe fruit as a local food. The brochure does not give an exact introduction date or identify a particular trader.",
+    "new_history": "The Hoka palm became part of Diu's landscape through the maritime connections of the Portuguese period, when traders brought the tree from the African region. Over time it adapted to the island environment and its fruit entered local food life, sold by vendors and enjoyed by residents. The palm now forms a distinctive part of Diu's coastal identity."
+  },
+  {
+    "region": "Dadra and Nagar Haveli and Daman and Diu",
+    "dish": "Daman Jetty Roll",
+    "old_history": "Incredible India describes Jetty Roll as a Daman speciality and a local version of the kathi kebab roll, reporting that it was brought to the region by a Bengali cook and later adapted to local tastes. NITI Aayog also lists it as a Daman street-food favourite, describing spiced seafood or meat rolled in soft bread. The available sources do not identify a precise date or a single named inventor, and fillings vary.",
+    "new_history": "Daman's port and fishing culture helped shape a street food that adapted the roll format to local tastes. Accounts connect the preparation with a Bengali cook who brought the idea of a kathi-style roll and used fillings suited to Daman, including seafood. Local vendors carried the variation into the town's casual food scene around markets and the jetty."
+  },
+  {
+    "region": "Delhi",
+    "dish": "Butter Chicken",
+    "old_history": "Butter chicken emerged in the mid-twentieth-century Punjabi restaurant world linked to Moti Mahal in Daryaganj. The exact inventor remains disputed between families connected with the restaurant, and some accounts trace the story to pre-Partition Peshawar. Delhi Tourism places its emergence at Moti Mahal in the 1950s; the competing claims should remain visible rather than be presented as settled fact.",
+    "new_history": "Butter chicken is closely associated with the Punjabi restaurant culture that took root in post-Partition Delhi. At Moti Mahal in Daryaganj, cooks built on the city's tandoor tradition by serving cooked chicken in a rich tomato-and-butter gravy. The dish travelled through restaurant kitchens across India and became one of Delhi's most recognised contributions to popular dining."
+  },
+  {
+    "region": "Delhi",
+    "dish": "Old Delhi Chaat",
+    "old_history": "Chaat is deeply associated with Old Delhi's market streets, especially Chandni Chowk. Delhi Tourism describes combinations of potato, crisp fried bread, dahi bhalla, gram and tangy-salty spices. Its exact origin is uncertain; popular stories connecting it to a particular Mughal ruler are not firmly documented.",
+    "new_history": "Chaat grew with the busy market culture of Old Delhi, where vendors served quick, flavourful food to shoppers, traders and passers-by. Chandni Chowk's food lanes brought together fried snacks, pulses, potatoes, yoghurt and chutneys in countless combinations. Generations of street sellers developed local specialties, making chaat part of the everyday rhythm of the old city."
+  },
+  {
+    "region": "Jammu and Kashmir",
+    "dish": "Rogan Josh",
+    "old_history": "Rogan josh is a recognised part of Kashmiri cuisine and is served in Wazwan, the multi-course feast prepared for weddings and other gatherings. Its history is often linked to Persian and Central Asian influences, but a precise date or single inventor is not established. Regional and community versions should not be collapsed into one standard recipe.",
+    "new_history": "Rogan josh reflects the layers of influence that shaped Kashmiri cooking, including Persian and Central Asian culinary connections adapted to local ingredients. Kashmiri cooks made the lamb preparation part of the elaborate Wazwan tradition, where dishes are served as a carefully arranged communal feast. Distinct Pandit and Muslim styles continue to give the dish regional depth."
+  },
+  {
+    "region": "Jammu and Kashmir",
+    "dish": "Kashmiri Kahwa",
+    "old_history": "Kahwa is associated with Kashmiri hospitality and is served at weddings, festivals and religious gatherings. Its use of green tea, saffron, nuts and spices reflects the region's agricultural and trading connections. The exact date of its arrival in Kashmir is uncertain, so claims of a precise origin should be avoided.",
+    "new_history": "Kahwa belongs to Kashmir's long history of exchange with the wider Himalayan and Central Asian world, where tea and fragrant spices moved along trade routes. In Kashmiri homes, green tea was combined with ingredients such as saffron, cardamom and almonds, becoming a drink of hospitality for guests, weddings and winter gatherings."
+  },
+  {
+    "region": "Ladakh",
+    "dish": "Skyu",
+    "old_history": "Skyu is identified in educational documentation on Leh-Ladakh as a specifically Ladakhi dish. Its dough-based preparation and use of root vegetables reflect local grain and garden produce, while its dense, warming form suits the high-altitude climate. A precise date or inventor is not documented.",
+    "new_history": "Skyu grew within the food traditions of Ladakhi farming communities, where barley and wheat, root vegetables and stored produce shaped meals through the cold season. One-pot dishes suited household hearths and the demands of life in high-altitude villages. Skyu remains part of home cooking and reflects the region's reliance on local grains and garden crops."
+  },
+  {
+    "region": "Ladakh",
+    "dish": "Gur Gur Cha (Butter Tea)",
+    "old_history": "Salted butter tea is a long-standing drink across Tibetan Himalayan communities and is central to Ladakhi hospitality. It uses local dairy and provides a warming, energy-rich drink in a cold, high-altitude environment. It is shared across the wider Himalayan region, so it should not be described as exclusive to Ladakh.",
+    "new_history": "Salted butter tea is part of the shared Tibetan Himalayan food culture that connects Ladakh with communities across the plateau. Tea, salt and local dairy came together in a drink suited to cold weather, travel and high-altitude life. In Ladakhi homes and monasteries, serving gur gur cha became an expression of hospitality and welcome."
+  },
+  {
+    "region": "Lakshadweep",
+    "dish": "Mus Kavaab",
+    "old_history": "Incredible India identifies mus kavaab as a Minicoy speciality and describes its tuna-and-spice preparation. The dish reflects the island's strong tuna fishery and cultural connections across the Maldives region. Its exact date of origin is not documented.",
+    "new_history": "Mus kavaab reflects Minicoy's close maritime and cultural connections with the Maldives. Fishing, especially tuna fishing, has long shaped the island's work and food traditions, while shared seafaring links brought related tastes and cooking ideas across the sea. The preparation became a distinctive part of Minicoy's household cuisine and island hospitality."
+  },
+  {
+    "region": "Lakshadweep",
+    "dish": "Maas Podichathu",
+    "old_history": "Maas podichathu is listed by Incredible India among Lakshadweep's traditional foods and uses dried tuna with coconut and aromatics. Its ingredients reflect the importance of fish preservation and coconut in the island food system. The exact origin of the named preparation is not securely dated.",
+    "new_history": "Drying tuna has been an important way for Lakshadweep fishing communities to preserve a valuable catch beyond the day it is landed. Dried fish could be stored and used when fresh supplies were limited, then combined with coconut and household aromatics. Maas podichathu grew from this practical island food tradition and remains a familiar accompaniment in local meals."
+  },
+  {
+    "region": "Puducherry",
+    "dish": "Roll Roti",
+    "old_history": "Sahapedia documents roll roti as a bread made by Tamil bakers for households in colonial Puducherry. Wood-fired bakeries supplied French and Creole homes, and the bread was also eaten by local workers. The story complicates the idea that Puducherry cuisine is simply French: local cooks and Tamil tastes shaped these exchanges.",
+    "new_history": "Roll roti reflects the everyday food exchange of colonial Puducherry, where Tamil bakers supplied bread to French and Creole households and to local workers. Wood-fired bakeries became part of the town's neighbourhood life, blending local baking skills with changing tastes. The bread remains a reminder of how Tamil cooks shaped the food culture of the former French settlement."
+  },
+  {
+    "region": "Puducherry",
+    "dish": "Vettu Sambar",
+    "old_history": "Sahapedia records vettu sambar through a household account and places it within the everyday Tamil foodways of Puducherry. The dish is valued for its simplicity and affordability. This is a documented living food practice, not a recipe with a known inventor or precise date of origin.",
+    "new_history": "Vettu sambar belongs to the everyday Tamil food traditions of Puducherry, where household cooks made filling meals from familiar pantry ingredients. Its place in family kitchens reflects a style of practical home cooking that continued alongside the bakery and restaurant cultures shaped by the town's colonial history. The preparation survives through household variation and shared local memory."
+  }
+]

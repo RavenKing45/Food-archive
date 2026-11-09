@@ -254,6 +254,87 @@
       border-radius: 2px;
     }
 
+    /* Explore Dropdown (disclosure) */
+    .nav-dropdown {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .nav-dropdown-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 0;
+      position: relative;
+      font: inherit;
+      letter-spacing: inherit;
+      color: rgba(250, 243, 232, 0.82);
+      white-space: nowrap;
+      transition: color var(--trans-fast);
+    }
+    .nav-dropdown-toggle::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 1.5px;
+      background: var(--gold-light);
+      transition: width var(--trans-fast);
+    }
+    .nav-dropdown-toggle:hover,
+    .nav-dropdown.open .nav-dropdown-toggle { color: #ffffff; }
+    .nav-dropdown-toggle:hover::after,
+    .nav-dropdown.open .nav-dropdown-toggle::after { width: 100%; }
+    .nav-dropdown-toggle:focus-visible {
+      outline: 2px solid var(--gold-light);
+      outline-offset: 4px;
+      border-radius: 2px;
+    }
+    .nav-caret {
+      width: 7px;
+      height: 7px;
+      border-right: 1.5px solid currentColor;
+      border-bottom: 1.5px solid currentColor;
+      transform: rotate(45deg);
+      transition: transform var(--trans-fast);
+    }
+    .nav-dropdown.open .nav-caret { transform: rotate(-135deg); }
+
+    .nav-dropdown-menu {
+      position: absolute;
+      top: calc(100% + 14px);
+      left: 0;
+      z-index: 220;
+      min-width: 208px;
+      display: flex;
+      flex-direction: column;
+      padding: 8px 0;
+      background: var(--maroon-deep);
+      border: 1px solid var(--line-brass);
+      box-shadow: 0 20px 44px rgba(15, 4, 3, 0.52);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-6px);
+      transition: opacity var(--trans-fast), transform var(--trans-fast), visibility 0s linear 180ms;
+    }
+    .nav-dropdown.open .nav-dropdown-menu {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+      transition: opacity var(--trans-fast), transform var(--trans-fast), visibility 0s linear 0s;
+    }
+    .nav-dropdown-menu a {
+      width: 100%;
+      padding: 11px 22px;
+      font-size: 17px;
+    }
+    .nav-dropdown-menu a::after { display: none; }
+    .nav-dropdown-menu a:hover {
+      color: #ffffff;
+      background: rgba(217, 182, 121, 0.12);
+    }
+
     /* Mobile Navigation Hamburger */
     .nav-toggle {
       display: none;
@@ -1400,6 +1481,36 @@
       .main-nav.open { display: flex; }
       .main-nav a { padding: 13px 0; width: 100%; border-bottom: 1px solid rgba(217, 182, 121, 0.15); }
       .main-nav a:last-child { border-bottom: 0; }
+
+      /* Explore dropdown folds into the drawer */
+      .nav-dropdown { display: block; width: 100%; }
+      .nav-dropdown-toggle {
+        width: 100%;
+        padding: 13px 0;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(217, 182, 121, 0.15);
+      }
+      .nav-dropdown-menu {
+        position: static;
+        min-width: 0;
+        width: 100%;
+        padding: 0;
+        border: 0;
+        box-shadow: none;
+        background: rgba(0, 0, 0, 0.16);
+        opacity: 1;
+        transform: none;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height var(--trans-fast), visibility 0s linear 180ms;
+      }
+      .nav-dropdown.open .nav-dropdown-menu {
+        max-height: 200px;
+        transition: max-height var(--trans-fast), visibility 0s linear 0s;
+      }
+      .nav-dropdown-menu a { padding: 12px 0 12px 20px; border-bottom: 1px solid rgba(217, 182, 121, 0.1); }
+      .nav-dropdown-menu a:last-child { border-bottom: 0; }
+      .nav-dropdown-menu a:hover { background: transparent; }
     }
     @media (max-width: 880px) {
       /* Unwrap the fixed three-per-row grouping so cards reflow evenly: a row of
@@ -1542,9 +1653,16 @@
 
       <!-- Primary Navigation -->
       <nav class="main-nav" id="main-nav" aria-label="Primary archive navigation">
-        <a class="active" href="#top">Exhibition</a>
-        <a href="#stories">Food Stories</a>
-        <a href="#states">Regional Atlas</a>
+        <div class="nav-dropdown" id="nav-explore">
+          <button class="nav-dropdown-toggle" id="nav-explore-toggle" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="nav-explore-menu">
+            <span>Explore</span>
+            <span class="nav-caret" aria-hidden="true"></span>
+          </button>
+          <div class="nav-dropdown-menu" id="nav-explore-menu">
+            <a href="#stories">Food Stories</a>
+            <a href="#states">Regional Atlas</a>
+          </div>
+        </div>
         <a href="#about">About Archive</a>
       </nav>
     </div>
@@ -1992,6 +2110,38 @@
         scrollArchiveTo(target);
       });
     });
+
+    // ── Explore Dropdown (click to open, click-outside to close) ────
+    const explore = document.getElementById("nav-explore");
+    const exploreToggle = document.getElementById("nav-explore-toggle");
+    if (explore && exploreToggle) {
+      const exploreMenuLinks = explore.querySelectorAll(".nav-dropdown-menu a");
+      const setExploreOpen = open => {
+        explore.classList.toggle("open", open);
+        exploreToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      };
+      exploreToggle.addEventListener("click", e => {
+        e.stopPropagation();
+        setExploreOpen(!explore.classList.contains("open"));
+      });
+      document.addEventListener("click", e => {
+        if (!explore.contains(e.target)) setExploreOpen(false);
+      });
+      exploreToggle.addEventListener("keydown", e => {
+        if (e.key === "ArrowDown") {
+          e.preventDefault();
+          setExploreOpen(true);
+          if (exploreMenuLinks[0]) exploreMenuLinks[0].focus();
+        }
+      });
+      explore.addEventListener("keydown", e => {
+        if (e.key === "Escape" && explore.classList.contains("open")) {
+          setExploreOpen(false);
+          exploreToggle.focus();
+        }
+      });
+      exploreMenuLinks.forEach(link => link.addEventListener("click", () => setExploreOpen(false)));
+    }
 
     // ── Mobile Navigation Drawer ───────────────────────────────────
     const navToggle = document.getElementById("nav-toggle");

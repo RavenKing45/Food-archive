@@ -588,22 +588,18 @@ STATE_PAGE_EXTENSION = r"""
   .dish-sources ol { margin: 0; padding-left: 20px; color: var(--sp-muted); font: 12px/1.72 var(--sp-body); }
   .dish-sources li { margin-bottom: 8px; }
 
-  /* Page end */
+  /* Page end — regional navigation row. Reuses the Food Stories reader-nav
+     classes (.story-reader-footer-nav / .reader-nav-btn) so button styling,
+     spacing, borders and hover behaviour match that navigation exactly. */
   .state-page-end {
-    display: flex; justify-content: space-between; gap: 16px; align-items: center;
-    padding: 22px clamp(24px, 4vw, 64px); color: #ede4d5;
-    background: var(--sp-maroon-deep);
-    border-top: 2px solid var(--sp-line-brass);
-    font: italic 18px var(--sp-serif);
+    width: min(1480px, 100%);
+    margin: 0 auto;
+    padding: 0 clamp(14px, 2.5vw, 36px) clamp(36px, 5vw, 64px);
   }
-  .state-page-end button {
-    border: 1px solid var(--sp-line-brass); background: var(--sp-paper-card);
-    border-radius: 4px; padding: 8px 18px; color: var(--sp-maroon-deep);
-    font: 700 16px var(--sp-serif); cursor: pointer;
-    transition: background 180ms var(--sp-ease-out), transform 180ms var(--sp-ease-out);
-  }
-  .state-page-end button:hover { background: #f7ede0; transform: translateY(-1px); }
-  .state-page-end button:active { transform: scale(var(--sp-btn-scale)); }
+  .state-page-end .story-reader-footer-nav { margin-top: 44px; }
+  /* `.state-page-root button { font: inherit }` out-specifies `.reader-nav-btn`,
+     so restate the reader-nav typography for buttons inside the archive page. */
+  .state-page-end .reader-nav-btn { font-family: var(--serif); font-size: 18px; font-weight: 700; }
 
   /* State card interaction (from main page) */
   .state-card[data-has-archive="true"] { cursor: pointer; }
@@ -630,7 +626,6 @@ STATE_PAGE_EXTENSION = r"""
     .dish-spread { padding: 20px 12px 28px; }
     .dish-main-layout { grid-template-columns: 1fr; }
     .dish-lower-grid { grid-template-columns: 1fr; }
-    .state-page-end { flex-direction: column; text-align: center; }
     .state-spread-heading { font-size: 15px; }
   }
   @media(prefers-reduced-motion:reduce) {
@@ -676,6 +671,25 @@ STATE_PAGE_EXTENSION = r"""
   function slugifyState(value) {
     return String(value).toLowerCase().replace(/&/g,"and").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
   }
+  // Navigation sequence = the existing regional catalogue order (the homepage's
+  // alphabetical region list), limited to regions that have an archive page.
+  // Falls back to the dataset's own key order if that list is unavailable.
+  const archiveRegionOrder = (function () {
+    const source = (typeof allStates !== "undefined" && Array.isArray(allStates))
+      ? allStates
+      : Object.keys(archiveStatePages);
+    const seen = Object.create(null);
+    const order = [];
+    source.forEach(function (entry) {
+      const slug = archiveStatePages[entry] ? entry : slugifyState(entry);
+      if (archiveStatePages[slug] && !seen[slug]) { seen[slug] = true; order.push(slug); }
+    });
+    Object.keys(archiveStatePages).forEach(function (slug) {
+      if (!seen[slug]) { seen[slug] = true; order.push(slug); }
+    });
+    return order;
+  })();
+  let activeRegionSlug = null;
   function scrollArchiveViewToTop() {
     try { window.scrollTo(0, 0); } catch (_) {}
     try { document.documentElement.scrollTop = 0; } catch (_) {}
@@ -692,6 +706,25 @@ STATE_PAGE_EXTENSION = r"""
     });
     window.setTimeout(scrollArchiveViewToTop, 120);
     window.setTimeout(scrollArchiveViewToTop, 300);
+  }
+  // Scroll only this embedded document to a target section (same document-scoped
+  // approach as scrollArchiveViewToTop; keeps the Streamlit host page in place).
+  function archiveScrollToTarget(target) {
+    if (!target) return;
+    try {
+      const margin = parseFloat(window.getComputedStyle(target).scrollMarginTop) || 0;
+      const top = Math.max(0, target.getBoundingClientRect().top + (window.pageYOffset || 0) - margin);
+      window.scrollTo(0, top);
+    } catch (_) {}
+  }
+  function scheduleArchiveScrollTo(target) {
+    archiveScrollToTarget(target);
+    requestAnimationFrame(function () {
+      archiveScrollToTarget(target);
+      requestAnimationFrame(function () { archiveScrollToTarget(target); });
+    });
+    window.setTimeout(function () { archiveScrollToTarget(target); }, 120);
+    window.setTimeout(function () { archiveScrollToTarget(target); }, 300);
   }
   function linkList(sources) {
     return (sources || []).map(function (source) {
@@ -779,6 +812,10 @@ STATE_PAGE_EXTENSION = r"""
     const bannerStyle = stateImage ? 'style="background-image:url(' + stateImage + ')"' : "";
     const stateDishes = Array.isArray(state.dishes) ? state.dishes : [];
     if (!stateDishes.length) return false;
+    const regionIndex = archiveRegionOrder.indexOf(slug);
+    const hasPrevRegion = regionIndex > 0;
+    const hasNextRegion = regionIndex >= 0 && regionIndex < archiveRegionOrder.length - 1;
+    activeRegionSlug = slug;
     let activeDishIndex = 0;
     const dishButtons = stateDishes.map(function (dish, index) {
       return '<button type="button" class="dish-choice-button" role="tab" data-select-dish="' + index + '" aria-selected="' + (index === 0 ? 'true' : 'false') + '" aria-controls="active-dish-content">' +
@@ -810,7 +847,13 @@ STATE_PAGE_EXTENSION = r"""
           '</section>' +
         '</div>' +
       '</div>' +
-      '<footer class="state-page-end"><span>A living record of ' + escapeArchiveText(state.name) + ' food heritage</span></footer>';
+      '<footer class="state-page-end">' +
+        '<nav class="story-reader-footer-nav" aria-label="Regional archive navigation">' +
+          '<button type="button" class="reader-nav-btn" data-region-nav="prev"' + (hasPrevRegion ? '' : ' style="visibility:hidden"') + '>← Previous Region</button>' +
+          '<button type="button" class="reader-nav-btn" data-region-nav="catalogue">Return to Regional Catalogue</button>' +
+          '<button type="button" class="reader-nav-btn" data-region-nav="next"' + (hasNextRegion ? '' : ' style="visibility:hidden"') + '>Next Region →</button>' +
+        '</nav>' +
+      '</footer>';
 
     const dishContent = root.querySelector("#active-dish-content");
     function activateDish(index) {
@@ -834,11 +877,17 @@ STATE_PAGE_EXTENSION = r"""
     } catch (e) {}
     return true;
   }
-  function closeStatePage(updateHistory) {
+  function closeStatePage(updateHistory, scrollTarget) {
     root.style.display = "none";
     root.innerHTML = "";
     originalSections.forEach(function (section) { section.style.display = ""; });
-    scheduleArchiveTopReset();
+    // Default (floating Back to regions) resets to the top; the catalogue button
+    // passes the regional catalogue section so it lands back on the atlas.
+    if (scrollTarget) {
+      scheduleArchiveScrollTo(scrollTarget);
+    } else {
+      scheduleArchiveTopReset();
+    }
     if (updateHistory !== false) {
       try {
         if (location.hash.startsWith("#region/")) {
@@ -906,6 +955,22 @@ STATE_PAGE_EXTENSION = r"""
           });
           content.innerHTML = renderDish(stateData.dishes[chosenIndex], chosenIndex, stateData);
         }
+      }
+      return;
+    }
+    const regionNav = event.target.closest("[data-region-nav]");
+    if (regionNav) {
+      const direction = regionNav.dataset.regionNav;
+      if (direction === "catalogue") {
+        closeStatePage(true, document.getElementById("states"));
+        return;
+      }
+      const currentIndex = archiveRegionOrder.indexOf(activeRegionSlug);
+      if (currentIndex < 0) return;
+      if (direction === "prev" && currentIndex > 0) {
+        renderState(archiveRegionOrder[currentIndex - 1]);
+      } else if (direction === "next" && currentIndex < archiveRegionOrder.length - 1) {
+        renderState(archiveRegionOrder[currentIndex + 1]);
       }
       return;
     }
