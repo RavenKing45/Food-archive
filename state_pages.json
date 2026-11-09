@@ -575,7 +575,20 @@
         "history": "Gujarati cooks developed a wide family of steamed and fermented snacks using grains and pulses. Earlier Gujarati food writing includes references to preparations related to dhokla, while household methods continued to evolve across communities. Over time, dhokla became part of the region's everyday farsan culture, sold by snack shops and served at home, gatherings and celebrations.",
         "imageHint": "Look for catalogued Gujarati Jain manuscripts mentioning dukkia, early farsan shops or traditional steaming vessels. Cite the repository and folio for manuscripts.",
         "imageQuery": "Gujarati Jain manuscript dukkia 1066 dhokla traditional steaming historical",
-        "sources": [],
+        "sources": [
+          {
+            "title": "Ethno-microbiology of ethnic Indian fermented foods and alcoholic beverages",
+            "publisher": "Journal of Applied Microbiology, Wiley (2022)",
+            "url": "https://enviromicro-journals.onlinelibrary.wiley.com/doi/full/10.1111/jam.15382",
+            "note": "Discusses Dhokla as a traditional fermented Gujarati food, its batter preparation, fermentation and microorganisms. Also discusses the historical reference to dukkia in Gujarati Jain literature."
+          },
+          {
+            "title": "Divya Bharat — A Window to the Soul of India",
+            "publisher": "NITI Aayog",
+            "url": "https://www.niti.gov.in/node/2250",
+            "note": "Page 163 describes Dhokla, its preparation using fermented chickpea batter, steaming method, texture and flavour."
+          }
+        ],
         "classification": {
           "recordType": "Snack / street food",
           "foodForm": "Steamed savoury batter cake",
@@ -1945,7 +1958,20 @@
         "history": "Jadoh is closely connected to Khasi food culture, where rice and pork have long been part of home meals and communal gatherings. The one-pot preparation reflects the practical cooking of hill households and the importance of shared food at community occasions. It also became a familiar part of Shillong's market and restaurant culture, carrying Khasi flavours to new audiences.",
         "imageHint": "Historical image slot: seek dated photographs of Khasi households, markets, rice fields or community feasts. Credit the archive, photographer, place and date.",
         "imageQuery": "Khasi Jadoh Meghalaya traditional food historical photograph",
-        "sources": [],
+        "sources": [
+          {
+            "title": "Meat-based ethnic delicacies of Meghalaya state in Eastern Himalaya: preparation methods and significance",
+            "publisher": "Journal of Ethnic Foods (2018)",
+            "url": "https://agris.fao.org/search/en/providers/122436/records/6759750ac7a957febdf75975",
+            "note": "Research survey documenting Jadoh's preparation methods, consumption patterns and cultural significance among Meghalaya's communities."
+          },
+          {
+            "title": "Culinary Heritage",
+            "publisher": "Meghalaya Tourism",
+            "url": "https://www.meghalayatourism.in/explore/about-meghalaya/culinary-heritage/",
+            "note": "Specifically identifies Jadoh as a Khasi rice-and-pork preparation and describes its traditional accompaniments."
+          }
+        ],
         "oralNarrative": null,
         "classification": {
           "recordType": "Prepared dish",
@@ -2162,7 +2188,20 @@
         "history": "Axone, or akhuni, belongs to the fermented soybean traditions of several Naga communities. Household makers developed ways to ferment and store soybeans, creating a strong-flavoured ingredient that could season meals throughout the year. The knowledge of preparing and using axone is passed through families and communities, and it remains a distinctive part of Naga cuisine.",
         "imageHint": "Historical image slot: seek dated photographs of Naga households, soybean fermentation, leaf-lined baskets or axone markets. Credit the archive, photographer, place and date.",
         "imageQuery": "Axone akhuni fermented soybean Nagaland traditional preparation",
-        "sources": [],
+        "sources": [
+          {
+            "title": "Some fermented foods and beverages of Nagaland, India",
+            "publisher": "International Journal of Food and Fermentation Technology (2014)",
+            "url": "https://indianjournals.com/article/ijfft-4-2-002",
+            "note": "Documents traditional fermented foods of Nagaland, including Axone/Akhone, and discusses preparation techniques and characteristics."
+          },
+          {
+            "title": "Axone, an ethnic probiotic containing food, reduces age of sexual maturity and increases poultry production",
+            "publisher": "Probiotics and Antimicrobial Proteins (2014)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24801640/",
+            "note": "Specifically studies Axone as a traditional homemade fermented soybean food of Nagaland and examines its microbial characteristics."
+          }
+        ],
         "oralNarrative": null,
         "classification": {
           "recordType": "Fermented / preserved food",
@@ -2873,7 +2912,20 @@
         "history": "The Hoka palm became part of Diu's landscape through the maritime connections of the Portuguese period, when traders brought the tree from the African region. Over time it adapted to the island environment and its fruit entered local food life, sold by vendors and enjoyed by residents. The palm now forms a distinctive part of Diu's coastal identity.",
         "imageHint": "Use an identified photograph of the Hoka palm or its ripe fruit in Diu. Record the location, date, photographer and archive; do not substitute a generic palm-fruit photograph without confirming the subject.",
         "imageQuery": "Diu Hoka fruit deep red ripe fruit branching Hoka palm",
-        "sources": []
+        "sources": [
+          {
+            "title": "The Hidden Gems of Daman and Diu",
+            "publisher": "Incredible India, Ministry of Tourism",
+            "url": "https://www.incredibleindia.gov.in/en/dadra-and-nagar-haveli-and-daman-and-diu/diu/the-hidden-gems-of-daman-and-diu",
+            "note": "Specifically discusses Hoka trees around Nagoa Beach, their edible fruit, local consumption and the commonly reported Portuguese introduction."
+          },
+          {
+            "title": "The Indian Plant Red Data Book-I",
+            "publisher": "Botanical Survey of India (1984), page 30",
+            "url": "https://bsi.gov.in/uploads/documents/Public_Information/publication/books/miscellaneous/The%20Indian%20Plant%20Red%20Data%20Book-I.pdf",
+            "note": "Describes Hyphaene dichotoma, its western Indian coastal distribution and characteristics of its fibrous fruit."
+          }
+        ]
       },
       {
         "slug": "daman-jetty-roll",
