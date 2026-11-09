@@ -1,0 +1,64 @@
+{
+ "url": "http://localhost:8501/",
+ "views": {
+  "desktop": {
+   "width": 1440,
+   "height": 900,
+   "navH": 0,
+   "scrollHeight": 900,
+   "screens": 1,
+   "sections": [
+    {
+     "n": 1,
+     "tag": "div",
+     "id": "",
+     "cls": "stMainBlockContainer block-container st-emotion-cache-lhe5w4",
+     "top": 0,
+     "h": 900,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-01-a.jpg",
+       "scrollY": 0
+      }
+     ]
+    }
+   ],
+   "consoleErrors": []
+  },
+  "mobile": {
+   "width": 390,
+   "height": 844,
+   "navH": 0,
+   "scrollHeight": 844,
+   "screens": 1,
+   "sections": [
+    {
+     "n": 1,
+     "tag": "div",
+     "id": "",
+     "cls": "stMainBlockContainer block-container st-emotion-cache-lhe5w4",
+     "top": 0,
+     "h": 900,
+     "hScreens": 1.07,
+     "offGrid": 56,
+     "tiles": [
+      {
+       "file": "mobile-sec-01-a.jpg",
+       "scrollY": 0
+      },
+      {
+       "file": "mobile-sec-01-b.jpg",
+       "scrollY": 0,
+       "cutTop": 56,
+       "height": 788
+      }
+     ]
+    }
+   ],
+   "consoleErrors": []
+  }
+ },
+ "at": "2026-11-08T20:34:17.959Z"
+}
